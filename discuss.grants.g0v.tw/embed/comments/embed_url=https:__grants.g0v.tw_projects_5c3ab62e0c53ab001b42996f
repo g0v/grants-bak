@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>大河小溪全民齊督工 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-2187'>
+      <a title="January 15, 2019  1:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2201'>
+      <a title="January 15, 2019  2:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>去年有一個荒野野溪調查小組的提案「<a href="https://grants.g0v.tw/projects/5a61ab3b85bb0e001bb313fc" rel="nofollow noopener">野溪怎麼了?</a>」，可以考慮去尋求合作的可能性。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2217'>
+      <a title="January 15, 2019  7:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/polaris' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/polaris/45/506_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/polaris' target="_blank" class=''>polaris</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>謝謝您的建議！<br>
+目前初步跟其中一位專員聯繫上了，後續合作方式可能需要花一些時間討論：）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2314'>
+      <a title="January 28, 2019 12:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>提供參考：</p>
+<p>「河溪圳排工程資訊蒐集」初步構想<br>
+<a href="https://g0v.hackpad.tw/xxAowvCx0if" class="onebox" target="_blank" rel="nofollow noopener">https://g0v.hackpad.tw/xxAowvCx0if</a></p>
+<p>手邊有的工程案件資料丟上 Google My Map<br>
+地圖網址：<a href="https://bit.ly/2IRCVxR" rel="nofollow noopener">https://bit.ly/2IRCVxR</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2324'>
+      <a title="February 11, 2019  8:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/6">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>目前也有針對「標案資料」能否作為開放資料釋出的探討<br>
+<a href="https://g0v.hackmd.io/3SfsTv4dT06CNF7O-TWclg" class="onebox" target="_blank" rel="nofollow noopener">https://g0v.hackmd.io/3SfsTv4dT06CNF7O-TWclg</a></p>
+
+            <a data-link-to-post="2325" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/908/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2325'>
+      <a title="February 11, 2019  9:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/7">Feb &#39;19</a>
+        <a data-link-to-post="2324" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/908/6">▶ classicdesign053</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>此專案也是將標案資料案名「分詞」，將文字轉化成金額，倒沒有特別進行地理空間定位<br>
+<a href="https://chiahua.shinyapps.io/1367/" class="onebox" target="_blank" rel="nofollow noopener">https://chiahua.shinyapps.io/1367/</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/4fb703fa2a32ccd2cd36ef433df2add9593bf18c.JPG" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/4fb703fa2a32ccd2cd36ef433df2add9593bf18c" title="777.JPG"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/4fb703fa2a32ccd2cd36ef433df2add9593bf18c_1_306x500.JPG" alt="777" width="306" height="500"></a></div>
+
+      </div>
+    </article>
+    <article class='post' id='post-2403'>
+      <a title="January  9, 2020  9:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/8">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>(我非專案成員，僅協助補充相關連結供網友瀏覽參考)</p>
+<p>大河小溪全民齊督工 網站<br>
+<a href="https://river-watcher.bambooculture.tw/" class="onebox" target="_blank" rel="nofollow noopener">https://river-watcher.bambooculture.tw/</a></p>
+<p>20191116 新聞：願景工程加碼贊助g0v獎助金 助民眾監督河流工程愛環境<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://udn.com/static/img/favicon.ico" class="site-icon" width="16" height="16">
+      <a href="https://udn.com/news/story/7266/4169478" target="_blank" rel="nofollow noopener">聯合新聞網</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:67/44;"><img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2019/11/16/realtime/7076349.jpg&amp;s=Y&amp;x=0&amp;y=0&amp;sw=1279&amp;sh=854&amp;exp=3600" class="thumbnail"></div>
+
+<h3><a href="https://udn.com/news/story/7266/4169478" target="_blank" rel="nofollow noopener">願景工程加碼贊助g0v獎助金 助民眾監督河流工程愛環境 | 聯合新聞網</a></h3>
+
+<p>2019g0v「公民科技創新獎助金」今下午於華山文創中心揭曉，今年度獲獎者分別是透過開源、科技力量，協助改善政府勘災效率...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/908/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

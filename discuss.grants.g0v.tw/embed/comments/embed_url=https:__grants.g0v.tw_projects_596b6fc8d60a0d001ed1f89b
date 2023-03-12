@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>PUSH! - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>1 個回覆</span>
+</header>
+
+    <article class='post' id='post-1150'>
+      <a title="July 17, 2017  3:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/push/478/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/rachel/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank" class='new-user'>Rachel</a>
+        </h3>
+        <p>hi 很同意臉書社群散亂很難管理協尋資訊。但想請問為什麼要開發成 App 呢？一般使用者下載 app 的成本很高，如果沒有平時就裝著 app，發現疑似走失的寵物才要下載會很麻煩，使用者也沒有太大的動機每天會點開走失協尋 app。有沒有可能跟現有的寵物社群 app 合作？或是以網站＋extension 的形式，統整幫你發到臉書社團跟協尋進度。使用者只要在行動版網站上傳照片即可。不是說不能做 app，而是想知道做 app 比較好的地方，以及有沒有考慮過其他形式。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/push/478/2">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>#選舉金流百科 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-2130'>
+      <a title="January 13, 2019  4:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>您好，“展示”連結的文件需要權限才能看</p>
+
+            <a data-link-to-post="2233" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/892/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2186'>
+      <a title="January 15, 2019  1:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2227'>
+      <a title="January 15, 2019 10:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi 我覺得這個計畫很有意義，尤其是把標案納入非常重要。以下有幾個小問題：</p>
+<ol>
+<li>
+<p>可行性<br>
+將公投帳戶資金來源數位化等工作，依靠群眾協作非常依靠人氣，政治獻金第二次數位化的人氣就沒有那麼高了。需要想一下如果沒有那麽多人協作時要怎麼辦，可能無法一口氣把縣市長、縣市議員和公投的資料都數位化，建議可以從比較能夠吸引人氣的切入，另外地方政治的經費來源意義，需要跟熟知當地政商關係之團體或個人合作。</p>
+</li>
+<li>
+</li>
+</ol>
+<p>純粹分享一個馬來西亞的開源工具 prototype，是可以讓你撈 API 然後簡單的畫人物與公司之間的關係圖。雖然我覺得你們想的視覺化應該是更厲害的視覺化。<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://sinarproject.org/++theme++plonetheme.spot/ico/favicon.png" class="site-icon" width="16" height="16">
+      <a href="https://sinarproject.org/transparency/telus" target="_blank" rel="nofollow noopener">Sinar Project</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:128/37;"><img src="https://sinarproject.org/@@site-logo/logo.png" class="thumbnail"></div>
+
+<h3><a href="https://sinarproject.org/transparency/telus" target="_blank" rel="nofollow noopener">Telus</a></h3>
+
+<p>Matching Politically Exposed Persons, Beneficial Ownership and Procurement Contracts using Open Data Standards</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+            <a data-link-to-post="2277" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/892/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2233'>
+      <a title="January 15, 2019 11:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/5">Jan &#39;19</a>
+        <a data-link-to-post="2130" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/892/2">▶ twgodhand</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tty791002/45/520_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank" class=''>tty791002</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>謝謝您提醒，已經修改權限，資訊會陸續補完，感激！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2277'>
+      <a title="January 17, 2019  9:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/6">Jan &#39;19</a>
+        <a data-link-to-post="2227" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/892/4">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tty791002/45/520_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank" class=''>tty791002</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>哈囉，謝謝您的提問，抱歉回復時間稍晚；</p>
+<p>關於可行性的部分，在2014年在G0V前輩的發起《開放政治獻金》引起社會上許多的關注，也直接促成政治獻金的修法，關於專案涉及的金流可以簡單分成公投、政治獻金兩塊，由於前面提到的政獻修法後，其實在資料的取得難易度上有很大的改變，未來專案的進行上，並不會使用大量的人力來切豆腐，以現行的方案，將有足夠能量將資料帶出監院，並數位化。</p>
+<p>金流團隊也在修法前後各跑幾趟監察院，嘗試調閱立法委員的政獻詳目，簡單清整之後的資料：<a href="https://tinyurl.com/y7hmu759" rel="nofollow noopener">https://tinyurl.com/y7hmu759</a> ；另外公投的部份，也有致電到中選會詢問資料的公告日，目前為投票日+75天，會刊登在行政院的公報上，格式：<a href="https://tinyurl.com/y92yax47" rel="nofollow noopener">https://tinyurl.com/y92yax47</a> 也就是說資源的分配上，可以聚焦在資料的交互比對(各候選人間、公投領銜人間、標案關聯、收支比較等等)。</p>
+<p>但您給得建議非常受用，讓我們思考到公眾的關注度有其極限，我們在未來得開發上，也會調整方從"吸引人的政治人物專戶、公投議題"優先上架，以及向1.台南新芽協會、2.高雄市公民監督公僕聯盟、3.桃園在地聯盟、4.台中好民文化行動、5.新北在地深蹲協會，等團體請益，並諮詢金流來源與其代表意義。最後也謝謝提供Sinar Project的專案prototype，我們將會拿作為視覺化的重要參考。</p>
+<p>如果有我回答不周的地方，也麻煩再次提問，謝謝。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2363'>
+      <a title="July  3, 2019  9:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/7">Jul &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tty791002/45/520_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tty791002' target="_blank" class=''>tty791002</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>請提供本計劃的示意圖或介面設計草圖（請以連結方式提供圖片）：<a href="https://othvz6.axshare.com/#p=home" rel="nofollow noopener">https://othvz6.axshare.com/#p=home</a> (更新)</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2404'>
+      <a title="January  9, 2020  9:09am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/8">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>(我非專案成員，僅協助補充相關連結供網友瀏覽參考)</p>
+<p>金流百科 網站<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://g0v-money-flow.github.io/icons/icon-48x48.png?v=9b09c0f2cf99942c120866d4f67e836a" class="site-icon" width="16" height="16">
+      <a href="https://g0v-money-flow.github.io/" target="_blank" rel="nofollow noopener">g0v-money-flow.github.io</a>
+  </header>
+  <article class="onebox-body">
+    
+
+<h3><a href="https://g0v-money-flow.github.io/" target="_blank" rel="nofollow noopener">首頁 | 金流百科</a></h3>
+
+<p>將全面公開政治獻金、公投募款專戶金流，並與政府標案連結、視覺化，除了清楚的刻畫權力分配外，也利用簡單易理解的圖像，檢視各公職候選人、公投領銜人間的資源差距。</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>專題文章：選舉公報沒說的秘密！「金流百科」用數據美圖揭政壇錢脈、人脈<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://futurecity.cw.com.tw/discuss.grants.g0v.tw/assets/images/favicon.ico" class="site-icon" width="" height="">
+      <a href="https://futurecity.cw.com.tw/article/1132" target="_blank" rel="nofollow noopener">未來城市@天下</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201912/article-5dfafcf10bc41.jpg" class="thumbnail" width="" height="">
+
+<h3><a href="https://futurecity.cw.com.tw/article/1132" target="_blank" rel="nofollow noopener">選舉公報沒說的秘密！「金流百科」用數據美圖揭政壇錢脈、人脈｜g0v獎助金獲獎專案6 - 未來城市@天下</a></h3>
+
+<p>依法收錢，謝謝指教？「金流百科」要讓金權政治無所遁形！</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/892/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

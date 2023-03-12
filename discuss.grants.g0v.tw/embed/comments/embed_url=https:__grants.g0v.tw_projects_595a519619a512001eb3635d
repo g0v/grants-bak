@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>國家考試考古神器 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/2">繼續討論</a>
+  <span class='replies'>10 個回覆</span>
+</header>
+
+    <article class='post' id='post-1022'>
+      <a title="July  8, 2017  5:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/thumbsup.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"> 會是個實用的工具。 是否有個目標 6個月後資料庫內要完成多少筆考古題？期待你的 示意圖或介面設計草圖。</p>
+
+            <a data-link-to-post="1033" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1033'>
+      <a title="July 10, 2017  1:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/3">Jul &#39;17</a>
+        <a data-link-to-post="1022" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p>謝謝你~<br>
+本來我們的目標也是想說用「幾筆考古題」，但是後來我們考量到真實的使用量比較能評估幫助的人數，不過我想兩個都能加到目標內做為評估依據啦~<br>
+圖的部分會盡快&gt;&lt;</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1062'>
+      <a title="July 15, 2017 12:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>請問收集整理好的考古題，會以清理後乾淨的格式做成開放資料集釋出給大家使用嗎？</p>
+
+            <a data-link-to-post="1082" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1082'>
+      <a title="July 15, 2017  4:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/5">Jul &#39;17</a>
+        <a data-link-to-post="1062" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/4">▶ ronnywang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p><a class="mention" href="/u/ronnywang">@ronnywang</a> 肯定會的<br>
+現在網路上的格式太雜，不適合二次開發，我們有一個目標也是要解決這個問題。<br>
+（有更PPT上來了，稍晚見諒，裡面有提到這部分）<br>
+謝謝</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1167'>
+      <a title="July 18, 2017  3:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我想請問一下 <a class="mention" href="/u/shadowwolf">@Shadowwolf</a> ，這個專案會不會強化社會上背誦題庫以應付考試的方式？</p>
+<p>考試原先是希望能檢定出這個人對議題或相關領域的掌握程度，這會不會導致大家背誦題庫、競逐分數，而忘記要掌握該領域應有的知識，或甚至進一步導致擁有該領域實務經驗，卻沒有背誦過題庫的人反而遭到淘汰的狀況？</p>
+
+            <a data-link-to-post="1186" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1186'>
+      <a title="July 19, 2017  4:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/7">Jul &#39;17</a>
+        <a data-link-to-post="1167" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p><a class="mention" href="/u/billy3321">@billy3321</a><br>
+我覺得這是不同的兩個問題，<br>
+如您所說，背誦題庫以應付考試之方法有效，僅發生於「考題全來自題庫」，如汽機車駕照這種。<br>
+但是汽機車駕照大多數題目在於交通法規，背誦知曉有這條法規，其實就有達到意義。<br>
+另，其他的證照考試，題目基本上不會重複，故「只背誦題目答案」是無效的，也就是說，提供方便的考古題平台，並不會讓大家國考都開始背題目，因為老實說並無成效。<br>
+簡單來說，Cougar Bot是為了方便題庫的統一、取得及應用，並不代表未來題目都來自於題庫，大概也沒辦法讓大家做到背背題庫就有分的狀況。</p>
+<p>回到我們提案的本質，考前練習以往題目是一直是個主流方式，目前基本上無法改變，但是現有操作方法卻有待改進，也難以將資料加以變化應用。所以我們計畫會先讓題目資料庫統一規格並開源，讓更多人能開發相關應用，之後要做到「領域知識熟悉」等練習方式，也不是太難（EX: 標籤內寫入領域編號，採相同編號選題）。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1283'>
+      <a title="July 25, 2017  7:13am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/9">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/0102030405jacky' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/0102030405jacky/45/316_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/0102030405jacky' target="_blank" class='new-user'>0102030405jacky</a>
+        </h3>
+        <p>(我剛剛用另一個帳號，現在改回這個sor)<br>
+哈囉，我也有類似的看法<br>
+其實原本是想做醫生國考的知識圖譜<br>
+但是既然你都這樣提了，我覺得你的點子夠大!!</p>
+<p>我目前自己做有遇到以下問題(以醫生國考為例)<br>
+第一、全部都是pdf檔，因此需要先轉換成csv, json…這是第一個問題<br>
+我自己用python轉檔時，發現以某一年為界線，「某年」之後的格式很好轉，「某年」之前的格式會變成CAD_code，因此曲要找密碼表(不難找)。而在更舊之前的檔案是圖片。我好奇的是，對於這麼多不同格式的檔案，你會希望透過遊戲的方式讓大家幫忙key，還是做通用程式暴力轉換</p>
+<p>第二、我也是看上了messenger，因為可以玩家PK，但是我不清楚後端的資料庫是如何串聯，我這幾天也在找，但是不是很確定</p>
+
+            <a data-link-to-post="1310" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1310'>
+      <a title="July 25, 2017 11:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/10">Jul &#39;17</a>
+        <a data-link-to-post="1283" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/9">▶ 0102030405jacky</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p>Hi <a class="mention" href="/u/0102030405jacky">@0102030405jacky</a><br>
+謝謝你的提醒<br>
+我們還是會寫個通用程式，把現有資料處理好，基本上還不太困難，圖片可能會用現行的OCR(google，adobe等等)處理一次再跑。<br>
+細節調整部分，諸如圖片對應、錯字等，可能還是要仰賴社群的力量(我們也有幾個同學願意幫忙)。<br>
+仰賴社群的部分會給予回饋，可能是禮卷或是其他獎品。</p>
+<blockquote>
+<blockquote>
+<p>您提到的Pk是個不錯的idea呢，後續有機會或許能一起討論合作?</p>
+</blockquote>
+</blockquote>
+
+            <a data-link-to-post="1313" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/10">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1313'>
+      <a title="July 25, 2017 12:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/11">Jul &#39;17</a>
+        <a data-link-to-post="1310" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/10">▶ Shadowwolf</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/0102030405jacky' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/0102030405jacky/45/316_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/0102030405jacky' target="_blank" class='new-user'>0102030405jacky</a>
+        </h3>
+        <p>我很希望憶起合作(我有在fb上密你了)<br>
+對於通用程式的部分我很贊同，但我認為人工介入刪修還是會有很大一部份<br>
+不過看到資金分配其實就算解決一半了，哈哈<br>
+另外<br>
+我對於完整考題資料庫的分析也很有興趣<br>
+我們可以切字之後玩 network analysis<br>
+做一些可能對考試或是準備出題方向有意義的keyword-connection<br>
+也可以based on users’ 答案做分析…不過你似乎都包刮了，加油囉</p>
+
+            <a data-link-to-post="1355" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/401/11">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1355'>
+      <a title="July 25, 2017  5:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/12">Jul &#39;17</a>
+        <a data-link-to-post="1313" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/401/11">▶ 0102030405jacky</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p><a class="mention" href="/u/0102030405jacky">@0102030405jacky</a><br>
+謝謝你<br>
+我們是希望把考古題的資源先統一格式整合起來給大家用<br>
+後續有更先進的應用，當然很需要各方的協助。<br>
+您說的很多東西都可以是未來的發展方向<br>
+一起來努力~</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/401/12">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>功德無量打卡機 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1746'>
+      <a title="January 23, 2018  3:16am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>【可行性】<br>
+很有趣的提案，已立刻在facebook上試用，操作簡單友善，「查看我的打卡記錄」還能方便使用者立刻計算加班費。但還是有幾個問題想追問：</p>
+<ol>
+<li>要如何確保打卡時勞動者正在工作？</li>
+<li>這份打卡資料，如何讓勞方採信、具有法律效力？</li>
+<li>為什麼使用者會願意把資料存放在功德無量打卡機上？你們預計把個人資料儲存多久？</li>
+</ol>
+
+            <a data-link-to-post="1810" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/729/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1777'>
+      <a title="January 23, 2018  3:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好：<br>
+【影響力】<br>
+因影響力在評審評選標準中，因有一些排班勞工工作環境無聯外網路、禁帶手機等，想請問此類勞工是否無法利用此專案進行有效打卡，如上成立，可否列出此類無法利用此案的勞工人數，以利評審們判斷影響力。</p>
+
+            <a data-link-to-post="1811" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/729/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1810'>
+      <a title="January 24, 2018  4:34pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/4">Jan &#39;18</a>
+        <a data-link-to-post="1746" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/729/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/barry800414/45/154_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank" class=''>barry800414</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Silvashih 妳好！謝謝你的提問！</p>
+<ol>
+<li>
+<p>針對這個問題，我認為要先看使用者使用這個打卡機的目的為何：<br>
+1.1. 如果是單純想要自己計算加班費，不作為爭取加班費的用途。那就沒有必要證明他自己是否真的在上班。<br>
+1.2. 如果是要作為真實的打卡記錄，利用勞動檢舉或其他法律途徑去爭取加班費。我們會在未來開發「蒐證模式」，在每一次的打卡十分鐘內，使用者必須上傳自己的 GPS 位置，並且上傳至少一張能證明自己正在上班的照片（e.g. 電腦螢幕截圖、拍攝公司時鐘），下班也是，而下班要上傳與今日工作成果有關的照片。這樣的做法可以增加打卡資訊的可信度。</p>
+<p>另外我想說的是，其實在公司的打卡機打卡，也不能證明勞工就真的在工作。先撇開很多公司打卡時間可以被人工調整、或者是很多勞工被迫打卡下班後繼續做。即使是在雇主的監督下，勞工想偷懶還是可以偷懶。<br>
+這一個工具是協助勞工蒐集證據，但勞工如果自己不好好蒐集、甚至造假，那勞工自己就應該負起責任。我們只能盡可能做到引導、與可能的驗證。</p>
+</li>
+<li>
+<p>“如何讓勞方採信” 這個問題我有一點不太懂，不曉得可不可以說得多一點？<br>
+“法律效力” 的部分，我有跟政府勞檢單位的人簡單請教過。必須承認目前勞檢員仍然主要看公司製備的工時紀錄，其他的證據只能說越多越好，每個都是看個案處理。<br>
+我認為，這是需要做體制上的衝撞，身邊還是有多朋友，公司打卡系統根本自動調整時間（到不是加班時間的工時），或是打卡下班後繼續留下來工作。我不覺得公司的工時紀錄有比較可信。</p>
+</li>
+<li>
+<p>我想是憑我們整個團隊所經營出來的公信力，我們一直以來的服務，都是為了勞工、求職者而做，包含各種工作資訊的分享、勞權懶人包、勞動議題的討論。<br>
+只要我們還有資金可以租機器，資料會永久儲存下去。</p>
+</li>
+</ol>
+
+            <a data-link-to-post="1824" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/729/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1811'>
+      <a title="January 24, 2018  4:39pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/barry800414/45/154_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank" class=''>barry800414</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <aside class="quote group-2018-reviewers" data-post="3" data-topic="729" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>因有一些排班勞工工作環境無聯外網路、禁帶手機等，想請問此類勞工是否無法利用此專案進行有效打卡，如上成立，可否列出此類無法利用此案的勞工人數，以利評審們判斷影響力。</p>
+</blockquote>
+</aside>
+<p><a href="http://twly.tw" rel="nofollow noopener">twly.tw</a> 你好，謝謝你的提問</p>
+<p>你說的沒有錯，如果工作場域上，沒有辦法連上網路以及 Facebook 網站，就無法使用此服務。<br>
+我們有思考過開發手機應用程式，開啟 GPS （無須網路）自動記錄勞工位置，作為勞工工作的證據，但這不在這一次的提案內容之中。因為團隊目前還沒有能開發 iOS, Android app 的工程師，用 React Native 也不確定能不能自動背景紀錄位置。有能力的話，我們會想做。但必須承認手機 ＡＰＰ 無法放入此提案中，因為無法保證六個月內做得到。<br>
+關於這樣人數的統計，我們會在努力尋找，估計出一個數字。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1824'>
+      <a title="January 25, 2018  3:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/6">Jan &#39;18</a>
+        <a data-link-to-post="1810" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/729/4">▶ barry800414</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>勞方採信 ==&gt;其實就是問未來是否有法律效力 XD。謝謝您的完整回覆！</p>
+
+            <a data-link-to-post="1934" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/729/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1842'>
+      <a title="January 26, 2018  4:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>請問這個系統若是忘記打卡，該怎麼辦？有沒有設計機制提醒使用者要記得打卡呢？謝謝。</p>
+
+            <a data-link-to-post="1933" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/729/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1933'>
+      <a title="January 31, 2018  6:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/8">Jan &#39;18</a>
+        <a data-link-to-post="1842" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/729/7">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/barry800414/45/154_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank" class=''>barry800414</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/billy3321">@billy3321</a> 雨蒼你好，謝謝你的提問</p>
+<p>有的，讓使用者設定打卡提醒的功能（例如：設定每週一到週五早上八點，主動提醒使用者打卡），我們已經開發完成，本週就會上線！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1934'>
+      <a title="January 31, 2018  6:21am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/9">Jan &#39;18</a>
+        <a data-link-to-post="1824" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/729/6">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/barry800414/45/154_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/barry800414' target="_blank" class=''>barry800414</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/silvashih">@silvashih</a><br>
+我們認為要讓勞方採信，最有效的方法，就是與政府勞檢單位合作，取得官方的認證。（勞動部認證這個的工具可行的概念）<br>
+不過這件事坦白說不容易，需要持續地與官方溝通，才有可能做到。</p>
+<p>可以先做的是，找到幾個使用者，真的願意如實紀錄上下班的出勤狀況，並實際進行檢舉。<br>
+實際上去看檢舉後，政府勞檢部門的反應，認為可採信或不可採信。<br>
+若採信，就可以作為正面的案例去宣傳。若不採信，找出不願採信的原因，嘗試去修正那個問題。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/729/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

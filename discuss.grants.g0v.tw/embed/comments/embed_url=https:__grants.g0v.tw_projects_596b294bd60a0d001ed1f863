@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>放心吃，食在安心 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1339'>
+      <a title="July 25, 2017  3:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/467/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Charlie' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/charlie/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Charlie' target="_blank" class='new-user'>Charlie</a>
+        </h3>
+        <p>想請問政府已經有哪些開放資料是有關食物產銷履歷的呢？或是標章驗證？然後提案中有提到圖像辨識食材的功能，但是在規劃開發的時候好像沒有規劃圖量辨識的功能，目前市面上應該沒有食材圖像直接掃進去就準確辨識的服務可串接，但我不是專家，希望你可以補充！然後在食譜的部分，有想過可以跟<a href="https://icook.tw/" rel="nofollow noopener"> iCook 愛料理</a>合作嗎？</p>
+
+            <a data-link-to-post="1514" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/467/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1342'>
+      <a title="July 25, 2017  3:24pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/467/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mimi78198/45/276_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank" class=''>mimi78198</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>想請提供「開放式資料庫」目前資料庫的連結？另外想請問圖像辨識是針對標章、條碼還是食材？（如果是食材有點難想像）如果上述問題是針對標章和條碼，那麼像是傳統市場的食材您未來有打算怎麼處理呢？謝謝～</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1361'>
+      <a title="July 26, 2017  1:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/467/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>因為選定主題是「開放資料」，但在【請說明本專案會產出的開源軟體套件或開放授權文件】之中並無提及任何開放資料，請問是否缺漏了呢？</p>
+<p>想請問什麼是「虛擬介接站台」？什麼是「介接資料庫標準資料交換元件」？</p>
+<p>另外，也想請問「運用影像拍攝、產品種類查詢等條件查詢」這個重要功能在技術上計畫如何實作？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1514'>
+      <a title="July 29, 2017 12:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/467/5">Jul &#39;17</a>
+        <a data-link-to-post="1339" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/467/2">▶ Charlie</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/morganchang100' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/morganchang100/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/morganchang100' target="_blank" class=''>morganchang100</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/charlie">@Charlie</a> &amp; <a class="mention" href="/u/mimi78198">@mimi78198</a>  <a class="mention" href="/u/chihaoyo">@chihaoyo</a> 感謝播冗指導提問</p>
+<p>本團隊已完成初步彙編，相關政府已公開資訊網站如下表列</p>
+<ol>
+<li>產銷履歷追蹤碼標準：<a href="http://taft.coa.gov.tw/" rel="nofollow noopener">http://taft.coa.gov.tw/</a>  <a href="http://geocyber.org/blog/?p=1047%E3%80%82" rel="nofollow noopener">http://geocyber.org/blog/?p=1047。</a>
+</li>
+<li>有機農產品資料庫：<a href="http://www.afa.gov.tw/organicAgriculture.aspx?CatID=235" rel="nofollow noopener">http://www.afa.gov.tw/organicAgriculture.aspx?CatID=235</a>
+</li>
+<li>優良農業資料庫：<a href="http://www.cas.org.tw/cas%E7%94%A2%E5%93%81%E6%9F%A5%E8%A9%A2?MaterialNO=&amp;CompanyName=&amp;ProductNO=&amp;EmblemID=&amp;PType_NO=" rel="nofollow noopener">http://www.cas.org.tw/cas產品查詢?MaterialNO=&amp;CompanyName=&amp;ProductNO=&amp;EmblemID=&amp;PType_NO=</a>
+</li>
+<li>吉園圃資料庫：<a href="http://gap.afa.gov.tw/classresult/" rel="nofollow noopener">http://gap.afa.gov.tw/classresult/</a>
+</li>
+<li>生產溯源資料庫：<a href="http://qrc.afa.gov.tw/ProducerSearch" rel="nofollow noopener">http://qrc.afa.gov.tw/ProducerSearch</a>
+</li>
+</ol>
+<p>圖像辨識系統為本團隊影像辨識團隊負責開發，目前預計將進行任一單一食材透過手機拍照，上傳至本團隊雲端平台進行影像識別分析，暫定規劃將透過形體、顏色與食材特徵，進行比對，我們會建立初步食材特徵資料庫，未來並將透過母體查詢資料筆數越多，比對精準度將逐步提升。<br>
+初步作業流程，拍照上傳，系統辨別後，回傳可能相對應食材(初步規劃為3-5種)，用戶進行選擇可能較接近食材，系統進行紀錄(同時建構學習比對資料庫)，未來系統將逐步因母體學習足量，其精準度將逐步提升。</p>
+<p>我們預計使用作業方式，不進行標章驗證，標章驗證在QRcode掃描僅可於超市等具有外包裝商品進行驗證，本團隊希望透過新的方式，運用影像辨識後，結合具有4章1Q認證的產地資訊，讓消費者透過螢幕顯示，了解那些產地商品是有經過認證，未來將可結合網路通路等，將有經政府認證的產地溯源產品，整合銷售至府。</p>
+<p>電子食譜目前在提案階段中，我們已經確認玄奘大學團隊將提供機能食材電子食譜，若有機會拜訪，未來將與iCook或其他平台資訊整合。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/467/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

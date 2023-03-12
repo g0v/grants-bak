@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>影音的逐字稿整理系統 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-338'>
+      <a title="January 22, 2017  5:20pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>可以更清楚地描述一下你的系統功能嗎？</p>
+<p>或者說明一下現有工具上的不足，例如 youtube 可以放影片跟字幕，也有不少網站能幫忙整理字幕檔。</p>
+<p>逐字稿的部分，也有 <a href="http://sayit.mysociety.org/" rel="nofollow noopener">sayit</a> 可以使用。</p>
+<p>如果 sayit 符合需求，是不是就只是把資料整理上去就可以了？或是要建置一個基於 sayit 的完整系統？</p>
+
+            <a data-link-to-post="661" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/95/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-369'>
+      <a title="January 25, 2017  8:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/michael_li/45/123_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank" class='new-user'>Michael_LI</a>
+        </h3>
+        <p>感謝 LY 的發問<br>
+sayit 我知道，唐鳳很愛用；<br>
+目前設計師跟軟體工程師正在著手把 DEMO 頁面設計出來，也正在實驗測試哪一種方案最好。（也就是技術定案晚些日子才會出來）</p>
+<p>至於 youtube 上字幕功能，我們初步實驗，非常難以「共筆」（跟 hackpad 比），這是目前生產字幕的工作流程，以及網站設計結構因素，我們目前還是頃向，影片頁面+文字稿頁面，各自一頁，然後畫面各分一半各自顯示。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-373'>
+      <a title="January 26, 2017  2:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ihcaoe/45/69_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank" class=''>ihcaoe</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>唐鳳有在他的<a href="https://wiselike.com/audrey-tang/questions/non-printable-188" rel="nofollow noopener">wiselike</a>提到<code>Watson Speech to Text</code>、<code>Trint</code>、<code>CastingWords</code>…<br>
+其中<code>Trint</code>的介面可以參考看看</p>
+
+            <a data-link-to-post="517" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/95/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-517'>
+      <a title="February  1, 2017  7:25pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/5">Feb &#39;17</a>
+        <a data-link-to-post="373" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/95/4">▶ ihcaoe</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/michael_li/45/123_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank" class='new-user'>Michael_LI</a>
+        </h3>
+        <p>謝謝，數天前有看到了，我想還是回報一下好了，總覺得沒回人訊息怪怪的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-661'>
+      <a title="February  5, 2017 12:42pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/6">Feb &#39;17</a>
+        <a data-link-to-post="338" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/95/2">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/michael_li/45/123_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank" class='new-user'>Michael_LI</a>
+        </h3>
+        <p>再回應一次，那個、重點絕對不是「影片上字幕」，而是「影片中有人說了話（指明了什麼事情）」，我們人類可以很容易「查到」，核心重點是「查詢」不是「打字」，目前弄「協作打字」只是「手段」 因為科技限制緣故，只能用文字進行資料庫交叉查詢運作。</p>
+<p>舉例來說（最理想的情況）<br>
+１ 問電腦程式：我聽說有人在公聽會講同性戀是蟑螂，這是怎麼一回事？<br>
+２ 電腦就把說這句話的影片調出來，撥放發言人上台的時間段落。</p>
+<p>（未來有得到良好的自動化打字工具，苦差事交給機器去做，我們只要檢查校稿就好了。）</p>
+
+            <a data-link-to-post="665" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/95/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-665'>
+      <a title="February  5, 2017  3:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/7">Feb &#39;17</a>
+        <a data-link-to-post="661" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/95/6">▶ Michael_LI</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>謝謝你的回應，但是按照技術上的可行性，要完成你的最理想狀況，專案給予的時間顯然不足。</p>
+<p>我的建議是，就最小可行性的方案是統整大家的逐字稿 (hackpad)，利用 sayit 連結影片片段。<br>
+hackpad to sayit 這部分的工具有了(至少最早的版本就是我貢獻的)，雖然未盡完善，但是可用。<br>
+應該可以變成第一階段的驗收方向，並且可以做為驗證想法的雛形產品。</p>
+
+            <a data-link-to-post="674" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/95/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-674'>
+      <a title="February  5, 2017  5:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/8">Feb &#39;17</a>
+        <a data-link-to-post="665" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/95/7">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/michael_li/45/123_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Michael_LI' target="_blank" class='new-user'>Michael_LI</a>
+        </h3>
+        <ol>
+<li>
+</li>
+</ol>
+<p>是的，能達到最理想，將是很多年以後的事情了，本計劃在本次（只有半年）只能達到堪用的程度，團隊成員都有此共識。</p>
+<ol start="2">
+<li>
+</li>
+</ol>
+<p>你的建議不錯，本人也有此打算。</p>
+<p>例如這個就可以，來改善原本的生產程序，以及加工方法。</p>
+<p>CfA | Clay Shirky：嘗試、批評、B 計畫 [中文字幕]<br>
+（<a href="https://www.youtube.com/watch?v=_YPR-jGaV78" rel="nofollow noopener">影片</a>）（<a href="https://www.youtube.com/watch?v=_YPR-jGaV78" rel="nofollow noopener">共筆逐字稿</a>）</p>
+<p>另、去年我跟公視《有話好說》節目製作人合作，弄了３次節目逐字稿也是要納入整理。<br>
+（１）<a href="https://g0v.hackpad.com/i6HIdclOcpe" rel="nofollow noopener">https://g0v.hackpad.com/i6HIdclOcpe</a><br>
+（２）<a href="https://g0v.hackpad.com/dpWKhwPl9i9" rel="nofollow noopener">https://g0v.hackpad.com/dpWKhwPl9i9</a><br>
+（３）<a href="https://g0v.hackpad.com/FS5lHU57Zq2" rel="nofollow noopener">https://g0v.hackpad.com/FS5lHU57Zq2</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/95/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

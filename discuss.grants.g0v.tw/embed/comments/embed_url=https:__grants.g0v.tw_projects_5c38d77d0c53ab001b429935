@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>立委法律提案觀察室 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-2214'>
+      <a title="January 15, 2019  7:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/895/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>本提案是作為將<a href="https://npl.ly.gov.tw/" rel="nofollow noopener">立法院國會圖書館</a>的資料，以個別立委為單位，進行再整理，以及資料呈現。</p>
+<ol>
+<li>
+<p>事實上立法院國會圖書館，已有針對個別立委進行相關統計：立委問政專輯 - (任選一個子項目) - (點選任一立委) - 問政統計，裡面即有法律提案、會議發言、臨時提案、委員質詢、委員影音的統計圓餅圖，以及詳細資料列表。本提案在資料爬梳的差異化項目，僅剩下人際關係分析？</p>
+</li>
+<li>
+<p>實務上在立法院，有很多提案僅是立委或黨團跟提，再略修改部分條文內容，以表立場。儘管「直接去看這些提案內容資料很枯燥乏味，也不好讀」，但這些細節也很難從提案的量化指標上呈現，而值得進一步報導來呈現出個別立委的真正立場（而不僅僅是看立委提了那些案）。這方面是否考慮過，與相關媒體或公民團體合作？</p>
+</li>
+<li>
+<p>本提案的工作重心應會在資料的爬梳與統計。但期中與期末的工作里程碑，卻僅描述網站開發進度。建議將資料整理的時程規劃，列入期中與期末的工作里程碑。</p>
+</li>
+</ol>
+
+            <a data-link-to-post="2229" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/895/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2229'>
+      <a title="January 15, 2019 10:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/895/3">Jan &#39;19</a>
+        <a data-link-to-post="2214" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/895/2">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/buttom.hsu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/buttom.hsu/45/508_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/buttom.hsu' target="_blank" class=''>buttom.hsu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>1.國會圖書館的在單一立委的部分，是針對整體做立委統計。但例如「一讀」有哪些分類的法案分佈？每個法案從一讀到三讀歷經多久時間？這些是看不出來的。所以無從得知立委修法經歷的時間與最後「三讀」的法案有哪些。這個站希望可以針對這些細節做出相關交叉比對的圖表。</p>
+<p>2.以前做沃草議題實驗室時就是試圖希望把法案細節用圖表的方式處理，當時確實也找過NGO合作，不過這需要的人力非常吃重，當時網站上線花了一年的時間，以1.5個研究員的人力，只做了9個新議題，大概包含了60個以上的立委提案。</p>
+<p>這次提的這個專案希望可以就現有的資料，看能否透過交叉比對產出圖表的方式看是否可以呈現出更多細節。我也承認量化指標可以呈現的絕對比直接看法案細節作比較來的更有限，只是兩者在人力需求上差異很大。由於2020年1月是立委選舉，這一年我也希望可以用自己能找到的人試圖達成一些目的，所以才會提出這個在這個時間內可以達到一定目標的專案。</p>
+<p>3.好的，由於資料整理的重點會著重在「圖表設計」上，這個過程有可能會衍生出一些目前還沒想到的圖表，而爬梳資料部分會寫爬蟲做分析，這部分已補上，感謝提醒。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/895/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Bento Box Reward 減少垃圾餐具的解決方案 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-325'>
+      <a title="January 22, 2017  2:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>這個提暗中很重要的部份是店家願意配合，所以在達成的里程碑中，是否可以更明確的定義短、中、長期預計找到多少店家？  #可行性</p>
+
+            <a data-link-to-post="347" class="post-replies button" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-347'>
+      <a title="January 23, 2017  2:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/3">Jan &#39;17</a>
+        <a data-link-to-post="325" class="in-reply-to" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/2">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/euleramon/45/118_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank" class=''>euleramon</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>hcchien感謝你的提醒！這點的確很重要，我是本篇的提案人，原本是用github帳號登入進來發表提案，也想回覆您的建議，但系統說我的帳號有問題，可能是當初github帳號沒有將email設為public所致，我甚致連email都不能修改，它說我undefined，晚點我會留言給系統管理員請他修正問題。所以這裡我用google帳號登入進來了，以下給您的回覆：</p>
+<ul>
+<li>技術部分
+<ul>
+<li>[短期]三個月內先用人工方式與10家店家訪談，搜集操作流程上的需求及問題，並做改善。</li>
+<li>[中、長期]同時建立一個網站平台，採共創模式，開放民眾共同wiki的方式編輯店家資訊，並獎勵民眾協助店家加入我們的行列，獎勵的方式就是透過贈送"環保點數"。</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-498'>
+      <a title="February  1, 2017  1:25am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kcwu/45/149_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank" class=''>kcwu</a>
+        </h3>
+        <p>請問你設計的機制中「換成現金或是參加抽獎」是向誰兌換, 經費來源?</p>
+
+            <a data-link-to-post="501" class="post-replies button" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-501'>
+      <a title="February  1, 2017  2:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/5">Feb &#39;17</a>
+        <a data-link-to-post="498" class="in-reply-to" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/4">▶ kcwu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/euleramon/45/118_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank" class=''>euleramon</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>kcwu你好,<br>
+現金或抽獎的經費來源，目前是希望透過行銷人員向政院環保署、公益組織或贊助商尋求贊助，成立基金，草創初期經費一定是不易累積，但可先累積虛擬的"環保點數"，等時機成熟，募到足夠經費，才會開始實施兌換。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-565'>
+      <a title="February  3, 2017  2:43am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twofishsman' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twofishsman/45/156_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twofishsman' target="_blank" class='new-user'>twofishsman</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>換個角度 會不會推動餐具付費比較有可行性？  個人覺得獎勵的動力遠遠小於從口袋拿出那兩三元。</p>
+
+            <a data-link-to-post="574" class="post-replies button" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-574'>
+      <a title="February  3, 2017  4:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/7">Feb &#39;17</a>
+        <a data-link-to-post="565" class="in-reply-to" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/6">▶ twofishsman</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/euleramon/45/118_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank" class=''>euleramon</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>這想法不錯！實際上應該也比較有效。</p>
+<p>只是一開始導入這個怕店家會被民眾翻白眼，讓店家放棄，<br>
+當然如果政府頒佈法令限制店家，民眾就沒有任何藉口，所以常常環保的維護，國家政策影響很大，這也是為何日本跟台灣的環保觀念差這麼多。</p>
+<p>以上是提外話，在政府還沒有行動之前，民間團體還是有改變的機會，這方向或許可以取代或是整合原來的作法，我再想想看，目前先備分這想法起來。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/bento-box-reward/172/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

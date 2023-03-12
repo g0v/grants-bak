@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>臺語媠聲 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-204'>
+      <a title="January 12, 2017  3:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/leo424y' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/leo424y/45/48_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/leo424y' target="_blank" class=''>leo424y</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝您在萌典相關專案的熱情貢獻，我要向大家推薦您的後續之作！！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-209'>
+      <a title="January 13, 2017  7:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tonytonyjan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tonytonyjan/45/63_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tonytonyjan' target="_blank" class='new-user'>tonytonyjan</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>看你不懈努力在為台語做努力，覺得十分感動。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-689'>
+      <a title="February  6, 2017  3:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好，不曉得50萬元的預算打算如何分配和規劃呢？</p>
+
+            <a data-link-to-post="725" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/111/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-725'>
+      <a title="February  7, 2017  3:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/5">Feb &#39;17</a>
+        <a data-link-to-post="689" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/111/4">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ihcaoe/45/69_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank" class=''>ihcaoe</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝提醒，這是我們的規劃：</p>
+<h1>§ 預計六個月內將花多少小時作這件事？需要多少經費？（30 萬到 50 萬）</h1>
+<ul>
+<li>需50萬</li>
+<li>稅金5萬</li>
+<li>
+<code>兩個工程師*每天8小時*每週3天*26週</code>=1248小時，寫扣兼整理語料
+<ul>
+<li><a href="https://github.com/sih4sing5hong5" rel="nofollow noopener">薛丞宏</a></li>
+<li><a href="https://github.com/a8568730" rel="nofollow noopener">蔡文莉</a></li>
+<li>30萬</li>
+</ul>
+</li>
+<li>發音人王秀容老師（ 教育部閩南語辭典發音人），60小時，5萬</li>
+<li>語料協助整理，iTaigi編輯們，總時數300小時，10萬</li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-873'>
+      <a title="February 10, 2017  2:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>不知 speech synthesis 是否可以導入如 Google DeepMind 團隊的 WaveNet 所用的 DNN-based generative model?</p>
+<p>[1] <a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/" rel="nofollow noopener">https://deepmind.com/blog/wavenet-generative-model-raw-audio/</a></p>
+
+            <a data-link-to-post="932" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/111/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-932'>
+      <a title="February 13, 2017 12:39pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/7">Feb &#39;17</a>
+        <a data-link-to-post="873" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/111/6">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ihcaoe/45/69_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ihcaoe' target="_blank" class=''>ihcaoe</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>這看起來很酷，音質上應該可以改善不少<br>
+現在合成的聲音還滿不自然的</p>
+<p>不過到時需要試用看看  <code>WaveNet</code> ，<br>
+目前秀蓉老師的全部聲音大概10多個小時<br>
+不確定這樣的聲音數量，訓練出的模型會不會比HTS的parametric-based的還好</p>
+<p>我把 <code>WaveNet</code> 註記里程碑 <code>在語音合成debug機制</code><br>
+現在合成的瓶頸是 <code>語料</code> 和 <code>音韻規則</code><br>
+等 <code>語料</code> 和 <code>音韻規則</code> 先補好，再來研究 <code>Wavenet</code></p>
+<p>PS：試聽他們的Concatenative，感覺也沒有很認真train XDD</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/111/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

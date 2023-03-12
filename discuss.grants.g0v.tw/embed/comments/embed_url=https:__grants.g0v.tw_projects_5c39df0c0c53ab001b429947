@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Translate 4 Taiwan - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-2206'>
+      <a title="January 15, 2019  3:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/902/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>
+<p>預計將如何挑選合適的「相關研究公開論文」？</p>
+</li>
+<li>
+<p>標的是研究論文，導致翻譯難度也較高。從過去協作翻譯的經驗，要如何掌控翻譯品質？專案提及「有機制讓真正專業的譯者進行校對」，但事實上校對並不比翻譯輕鬆，一開始就交由專業譯者也可能更有效率。預計如何拿捏此一過程？</p>
+</li>
+<li>
+<p>由於研究論文內容通常較生硬，因此翻譯成果的推廣或簡化整理，與全文翻譯工作本身，兩者同等重要。建議可以再強化與一般媒體、YouTuber 或 Podcast 主動串聯合作的計畫。</p>
+</li>
+</ol>
+<p>非常期待這個專案能有所成。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2303'>
+      <a title="January 22, 2019  5:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/902/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <blockquote>
+<p>預計將如何挑選合適的「相關研究公開論文」？</p>
+</blockquote>
+<p>目前選擇方式是找知名度高、有代表性的相關論文，比如第一篇論文是史丹佛大學胡佛研究所（Hoover Institution），由知名政治學者Larry Diaamond主編的<a href="https://www.hoover.org/research/chinese-influence-american-interests-promoting-constructive-vigilance" rel="nofollow noopener">Report of the Working Group on Chinese Influence Activities in the United States</a>，之後挑選的可能是假新聞，或是新型態戰爭的論文。</p>
+<blockquote>
+<p>標的是研究論文，導致翻譯難度也較高。從過去協作翻譯的經驗，要如何掌控翻譯品質？專案提及「有機制讓真正專業的譯者進行校對」，但事實上校對並不比翻譯輕鬆，一開始就交由專業譯者也可能更有效率。預計如何拿捏此一過程？</p>
+</blockquote>
+<p>在眾人一起協作翻譯論文之後，我們會有政治學的專業夥伴蕭育和與陳方隅進行把關，若有需要可能就會拿部分經費委託專業譯者處理。</p>
+<blockquote>
+<p>由於研究論文內容通常較生硬，因此翻譯成果的推廣或簡化整理，與全文翻譯工作本身，兩者同等重要。建議可以再強化與一般媒體、YouTuber 或 Podcast 主動串聯合作的計畫。</p>
+</blockquote>
+<p>目前確實有朋友在做類似的工作，我們需要先看翻譯成果為何，再來才是看有沒有朋友願意拿這些成果去利用。感謝建議。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/902/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

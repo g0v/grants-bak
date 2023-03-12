@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>模型驅動救災資源規劃混搭網頁服務 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/2">繼續討論</a>
+  <span class='replies'>15 個回覆</span>
+</header>
+
+    <article class='post' id='post-395'>
+      <a title="January 26, 2017  2:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，有些問題想請教您，以下提問也請適度補充於提案中。</p>
+<ul>
+<li>這跟直接使用 Google maps 的差異為何？</li>
+<li>請詳述「模型」</li>
+<li>請說明使用的「AI 演算法」</li>
+<li>請說明 GFT/GM</li>
+<li>「你預計用什麼方式解決此問題？」此節文字雖多，但不是很好理解到底要用什麼方法解決此問題，建議可以重新整理此節。</li>
+<li>提到既有專案時（如 Quantum Framework）建議於文後留下參考連結</li>
+<li>請詳述 6.1 「code gen」要產生什麼程式碼</li>
+</ul>
+
+            <a data-link-to-post="907" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/201/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-407'>
+      <a title="January 26, 2017  6:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>這是一個偉大的專案 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/tada.png?v=5" title=":tada:" class="emoji" alt=":tada:"></p>
+<p>台灣的消防車調派是以縣市的消防局為單位，是否在專案開發前先找某個縣市的消防局做需求訪談？了解目前的調派流程？又或者是否已經有類似的系統？</p>
+<p>如果施工完成消防局並不採用，就很可惜了！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-443'>
+      <a title="January 29, 2017  2:34pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/jackey8646988' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/jackey8646988/45/140_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/jackey8646988' target="_blank" class='new-user'>jackey8646988</a>
+        </h3>
+        <p>目前台北、新北而言，火災案件派遣通常是以3個車組為基本，行經路線就會有3個模組，若是以google路況為基礎，需建立3方向的路徑，另外以現場消防栓分怖情形，會有不同的車組部署，目前最好或最需要的是火災地點的周遭路幅寬度（影響部署情形）與現場建築物的相關資訊（甚至是各層樓的平面圖BIM)，加油，這構想相當棒。</p>
+
+            <a data-link-to-post="676" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/201/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-444'>
+      <a title="January 29, 2017  4:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/5">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p>您好，請提供 <code>科技部自由軟體專案計畫、「2016第21屆全國大專校院資訊應用服務創新競賽」桃園開放資料創新應用組佳作</code> 相關專案內容說明或連結，謝謝！</p>
+
+            <a data-link-to-post="675" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/201/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-520'>
+      <a title="February  2, 2017 12:54am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/timothy/45/155_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank" class=''>Timothy</a>
+        </h3>
+        <p>各縣市消防局指揮中心對於災害地點標定、水源佈建位置，大多都已有類似GIS應用googlemap嵌入系統，只要接獲派遣的地址明確，基於消防分隊是轄區制，理論上非菜鳥的學長對於轄區都蠻熟的，支援單位出勤前依派遣系統的地點標定跟既有輔助工具使用(台灣通用電子地圖…等，外勤分隊如何抵達災害現場的路線規劃不太會是個問題。<br>
+需要補足的，真的誠如樓上@jackey8646988大所說的，是影響進場動線與戰力部屬的周邊路幅寬度、建築物高度概況等資訊，而救災成敗的關鍵通常在於第一梯次抵達的車輛停放與戰力部屬。管見以為，就您現有規劃，對各縣市消防局實際幫助可能不大，倒是如果能結合交通管制方面(行車路線路口偵測救災車輛位置預先自動變換紅綠燈、語音或燈光管制通知其他用路人…等)，對於出勤時道路行車安全與救災效率會頗有助益。</p>
+<p>敝人為消防局基層幕僚，建議供參，謝謝！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-673'>
+      <a title="February  5, 2017  4:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/7">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Timothy 你好:</p>
+<p>感謝您的為提問及意見，本計畫起始動機為整合政府現有開放資料如消防資源及即時路況，提供消防派遣單位及受災區民眾，可以協調資源及協同連動，這也包括路人可以讓路或協助移開路障等，我是不知出勤前依派遣系統的地點標定跟既有輔助工具是否考慮即時路況，不知可否介紹消防派遣單位人員給我認識?我相信祂們的意見一定有幫助。當然您的意見也很寶貴。</p>
+<p>經過聯繫台中這邊當地的消防派遣單位，經過討論，發現派遣單位在指派火災就近消防局派出消防車後，需倚靠一行動手機來找尋有足夠水壓之消防栓進行救災，並未有依即時路況及路寬指派行進路徑，若可以將這些資訊事先就考慮加以計算，並將結果做為指派依據即時送給消防車駕駛，應可加快救災速度及效率。</p>
+<p>要動態改變路燈號誌以便利救災車輛之進行可能涉及較大的工程，可列為未來延伸計畫進行。</p>
+
+            <a data-link-to-post="825" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/201/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-675'>
+      <a title="February  5, 2017  5:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/8">Feb &#39;17</a>
+        <a data-link-to-post="444" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/201/5">▶ clkao</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>clkao你好:</p>
+<p>本實驗室曾主持多年 科技部自由軟體專案計畫，及其他科技部產學開放計畫，惟並無網址紀錄專案內容，計畫名稱如下:<br>
+1.智慧穿戴裝置於大規模節電模<br>
+式之應用(105-2221-E-029-<br>
+019-)<br>
+2.以鏈結開放資料為基礎之模型<br>
+驅動混搭服務開發(105-2634-<br>
+E-029-002-)<br>
+3.智慧穿戴應用之快速開發平台<br>
+建置(105-2622-E-029-001-<br>
+CC2)<br>
+4.以效能模型為基礎之行動軟體<br>
+快速跨平台開發框架建置<br>
+(103-2221-E-029-022-)<br>
+5.多模式智慧生活感測應用快速<br>
+開發平台建置(102-2218-E-<br>
+029-004-)<br>
+但桃園開放資料創新應用組佳作軟體已釋放於github，網址如下:<br>
+<a href="https://github.com/jim60105%E3%80%82" class="onebox" target="_blank" rel="nofollow noopener">https://github.com/jim60105。</a><br>
+成品展示網頁如下:<br>
+</p><p><a href="https://www.youtube.com/watch?v=-V9UV2rrtbw">https://www.youtube.com/watch?v=-V9UV2rrtbw</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-676'>
+      <a title="February  5, 2017  5:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/9">Feb &#39;17</a>
+        <a data-link-to-post="443" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/201/4">▶ jackey8646988</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>jackey你好:</p>
+<p>當然火災地點的周遭路幅寬度（影響部署情形）與現場建築物的相關資訊（甚至是各層樓的平面圖BIM)，甚為重要，但其實從消防局到火災地點的路況也很重要，若能避開堵塞點，進行最佳消防資源配置及路徑規劃，對整體救災效益應有幫助。當然在規劃路徑時，若能考慮火災地點的周遭路幅寬度（影響部署情形）與現場建築物的相關資訊更有幫助。我們會盡量考慮。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-755'>
+      <a title="February  7, 2017  7:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/10">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，可以請您補充過去相關計畫的連結嗎？另外，提醒回覆追問的內容要修改至原始提案。</p>
+
+            <a data-link-to-post="906" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/201/10">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-825'>
+      <a title="February  8, 2017  4:23pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/11">Feb &#39;17</a>
+        <a data-link-to-post="673" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/201/7">▶ shihc</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/timothy/45/155_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank" class=''>Timothy</a>
+        </h3>
+        <p>提案人 您好：</p>
+<p>派遣機制所涉及的層面很廣，基於消防機關為地方自治，各縣市政府消防局皆有自己的救災救護指揮中心，在您著手開發建置系統前，建議您先針對所在地消防局救災救護指揮中心，瞭解現行各縣市消防局的派遣機制與運作。敝人推薦新北市、臺北市、高雄市等直轄市消防機關為您可以參考的對象，請您直接致電各消防局或實地參訪，我相信消防機關會熱情接待與提供意見交流的，這對您的專案應該頗有助益。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-875'>
+      <a title="February 10, 2017  2:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/12">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，之前提問的問題似乎還沒有回覆與補充入提案中，請記得在期限內補充相關資料喔！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-905'>
+      <a title="February 12, 2017  2:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/13">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>YuTin Liu 你好:</p>
+<p>我會找相關部門的人請教。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-906'>
+      <a title="February 12, 2017  2:46pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/14">Feb &#39;17</a>
+        <a data-link-to-post="755" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/201/10">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>您好:</p>
+<p>已在專案內容中加入過去執行計畫細節及參考資料。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-907'>
+      <a title="February 12, 2017  3:04pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/15">Feb &#39;17</a>
+        <a data-link-to-post="395" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/201/2">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shihc/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shihc' target="_blank" class=''>shihc</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>回覆如下:</p>
+<p>這跟直接使用 Google maps 的差異為何？<br>
+Ans:我們使用Google map API，將政府開放資料在Google map上呈現，使用者可以看到最佳派遣路徑及救災規劃結果。<br>
+請詳述「模型」<br>
+Ans:所謂模型指的是軟體元件，以SysML中之物件呈現救災指揮互動系統中之互動關係。<br>
+請說明使用的「AI 演算法」<br>
+Ans:AI演算法包含了最短路徑演篹法如Dijkstra A*等。<br>
+請說明 GFT/GM<br>
+Ans:GFTGM表示Google Fusion Table/Google Map之縮寫。<br>
+「你預計用什麼方式解決此問題？」此節文字雖多，但不是很好理解到底要用什麼方法解決此問題，建議可以重新整理此節。<br>
+Ans:此部分表達了如何設計一可客製化軟體框架之程序，本計畫並非只單獨產出一種的Google map應用，而是允許使用者依自己需求進行消防介面客製的工作。我再試試用簡單語言描述。<br>
+提到既有專案時（如 Quantum Framework）建議於文後留下參考連結<br>
+Ans:OK。<br>
+請詳述 6.1 「code gen」要產生什麼程式碼<br>
+Ans:code gen為Quantum Framework之特色，可以預先嵌入Google mapAPI，並自動合成主從系統之Java Script。</p>
+<p>我這邊可以看到github內容哦。<br>
+桃園開放資料競賽源碼，請看原網址之/map資料夾。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-910'>
+      <a title="February 12, 2017  4:42pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/16">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>另外兩件事提醒：</p>
+<ol>
+<li>
+<a href="https://github.com/jim60105" rel="nofollow noopener">https://github.com/jim60105</a> 連結多了一個句點「。」，無法正確連結</li>
+<li>
+<a href="https://github.com/jim60105" rel="nofollow noopener">https://github.com/jim60105</a> 包含 25 個 repositroy，是指全部的專案都是「桃園開放資料創新應用組佳作軟體」嗎？若不是的話建議列出具體是哪幾個 repositories。</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/201/16">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

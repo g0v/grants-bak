@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>公民地圖 - 環境污染自動追蹤報導頻道 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1637'>
+      <a title="January 18, 2018 10:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/fromtop.nomanachen/45/401_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank" class=''>fromtop.nomanachen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>公民地圖 - 台灣環境污染全紀錄<br>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/spreadsheets/d/1XkR75dR7exZUHQ6ScXs--eEf5Frs_tPaELKbBMhg4pM/edit?usp=sharing" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/spreadsheets/d/1XkR75dR7exZUHQ6ScXs--eEf5Frs_tPaELKbBMhg4pM/edit?usp=sharing" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-sheets-logo"></span></a>
+
+<h3><a href="https://docs.google.com/spreadsheets/d/1XkR75dR7exZUHQ6ScXs--eEf5Frs_tPaELKbBMhg4pM/edit?usp=sharing" target="_blank" rel="nofollow noopener">公民地圖 - 台灣環境污染全紀錄</a></h3>
+
+<p>工作表1
+
+ 補充說明：, 為事件下更多關鍵字， 幫助我們找到對應的資料, 哪裡方便找得到這些資料, 如果你有想要調查的地方歡迎與我們聯絡以便雙方洽談
+ 編號, 標籤一、 名稱, 標籤二、 補充說明, 標籤三、 推薦引用來源, 推薦人聯絡方式
+ 1, 台灣環境污染- 基隆市中山區 協和火力發電廠,《 我們的島： 臺灣三十年環境變遷全紀錄》, http:// www. books. com. tw/ products/ 0010774302
+ 2, 台灣環境污染- 新北市石門區 核一廠, 維基百科...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>請大家一起來共襄盛舉，挖掘出更多環境污染事件！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1704'>
+      <a title="January 21, 2018  4:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，我是本次的提問人 Yuren Ju，本提案內容豐富，非常不錯。敝人任職於軟體產業，將透過軟體工程師的角度提出問題與建議。</p>
+<ol>
+<li>switube 就目前網站上的資料來看，並沒有提供 API 供介接，有計畫要如何與其自動化的整合嗎？</li>
+<li>在「這是一個現有的計畫嗎？若是，請說明是否為開源及提供網址」一節提到 <a href="https://docs.google.com/spreadsheets/d/1XkR75dR7exZUHQ6ScXs--eEf5Frs_tPaELKbBMhg4pM/edit#gid=0" rel="nofollow noopener">公民地圖 - 台灣環境污染全紀錄</a> 這份試算表，其中已經列出許多汙染紀錄的名稱。如果除了此試算表以外還有更多累績的調查資料建議也放入試算表或另開一份文件，並且在提案書連結到此文件。</li>
+<li>於「打算如何讓社群參與以及回饋意見？」一節有提到將會有評論功能，由於評論處通常容易流於情緒發洩以及人身攻擊的地方，有什麼計畫可以將這些評論引導或組織成更有建設性的發言嗎？</li>
+<li>本題目為「自動追蹤報導頻道」，但工作分配中同時有工程師（自動的部分）與編輯（手動的部分），同時使用者也可以貢獻評論，建議在「你預計用什麼方式解決此問題？」一節中說明編輯在本專案中如何參與，來讓評審瞭解本專案的自動化程度，以及需要編輯參與的部分為何。</li>
+</ol>
+
+            <a data-link-to-post="1731" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/668/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1731'>
+      <a title="January 22, 2018  8:58am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/4">Jan &#39;18</a>
+        <a data-link-to-post="1704" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/668/3">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/fromtop.nomanachen/45/401_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank" class=''>fromtop.nomanachen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Yuren Ju 你好：</p>
+<p>謝謝你的提問與建議！<br>
+針對你所提問的四個問題回覆如下：<br>
+1.公民地圖- 環境污染自動追蹤報導頻道 這個計畫預計希望可以產出一個地圖App，讓大家可以隨時<br>
+關心身邊的在地環境訊息，並且可以隨時上傳影音資料更新最新污染狀況。<br>
+在整合方面，先從「透明足跡計畫」網站上的環境地圖以及自行在Google上運用關鍵字搜尋所確認<br>
+的污染事件，再運用Google Search(地標定位) 和 Google Map(地標資訊) 標注污染事件，接著運用<br>
+SwiTube 的功能將環境相關的影片由 YouTube 指向到 SwiTube 特定頻道，最後再指向到本計畫的<br>
+地圖App上。<br>
+SwiTube 從 YouTube API 過濾檢索結果，本計畫再從 SwiTube API中剔除相關度低的影片，最後<br>
+指向到地圖App上呈現給全民查閱。<br>
+至於能自動化到什麼地步要看該地標的資訊量夠不夠，具公信力的媒體來源和上傳者的標籤完不完<br>
+整，最後是編輯和工程師如何找尋規格建立安全的SOP。<br>
+畢竟污染訊息對於公部門和該企業來說是一個負面消息，沒有充足的人工校正直接公布是挺危險<br>
+的。<br>
+這是我個人的提案計畫，基於 SwiTube 提供的免費應用，並不希望讓 SwiTube 承擔這樣的保證或<br>
+未來可能的訴訟。</p>
+<p>2.目前在這份試算表上所列的是預計串接的環境污染事件紀錄，在這裡會保持更新，所累計可信的環<br>
+境影音標籤資料會再請工程師朋友找適合的格式匯出，並且附上連結。</p>
+<p>3.單純的評論的確是沒辦法改變事實的，在評論引導或是建設性發言方面，能做的是留言排序和地標<br>
+性加權留言功能。<br>
+關於留言排序：<br>
+降低排序參數：過度情緒發洩、20字以下留言<br>
+提高排序參數：提供相關影音、提供相關照片<br>
+如果技術可行的話，由拍攝的GPS位置與污染事件的距離來確認可信度，如果會員資料充足的話，<br>
+把在地人的留言排序提高。<br>
+當然這些引導都是需要嘗試才知道下場會怎樣，適度的引導是引導，過度的引導是限制，我這裡能<br>
+做的是盡可能公開這些規則建立版規，邀請版主進駐，引導建設性發言，維護討論品質。</p>
+<p>4.我並不是軟體工程師，我盡可能的用我理解的方式來作說明：<br>
+自動化方面主要是可能相關的影片匯入<br>
+編輯方面主要是不相關的影片和可疑的影片排除<br>
+兼任編輯主要是校正是否有漏網之魚的影片<br>
+使用者的回饋包含評論和資料上傳<br>
+這些參數最後都會歸納成影片本身的”加權指數”、影片來源和使用者的”信任指數”，能多自動化就看<br>
+最後選擇的嚴格篩選和普通篩選的平衡。<br>
+我個人是認為選擇普通篩選，再藉由編輯和使用者的回饋排除錯誤資訊。<br>
+SwiTube 的創辦人 Herb Su 是建議採取嚴格篩選，先開一個子版做定期新影片更新推薦，再由編輯<br>
+和使用者投票後上架到公版頻道和地標頁。<br>
+我是希望可以有一個軟體工程師專門著墨關於環保/污染/檢舉資訊的篩選嘗試，而不是單純的套<br>
+SwiTube 通用的那幾種篩選模式。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1760'>
+      <a title="January 23, 2018  1:34pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>【可行性】期末「建立至少300個污染單位自動追蹤報導頻道」的意思是說這個專案要能彙整至少300個關於環境污染的YouTube頻道的影片及相關資訊嗎？不知道提案人是否能列出一些已知的環境污染YouTube頻道？</p>
+
+            <a data-link-to-post="1808" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/668/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1808'>
+      <a title="January 24, 2018  3:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/6">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/fromtop.nomanachen/45/401_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank" class=''>fromtop.nomanachen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>chihaoyo 你好：</p>
+<p>謝謝你的提問！<br>
+針對你所提問的問題回覆如下：<br>
+我是先去YouTube蒐集所有相關的新聞頻道，再去解析新聞頻道的每一部影片，從中過濾、整理和篩選出和環境污染相關的新聞影片製作成主題頻道。</p>
+<p>以下提供兩個檔案給大家參考：<br>
+YouTube新聞頻道<br>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/spreadsheets/d/1tSLF5iXDY33rqFQ6sgBFoFWMXwVsRRcYqKhcNPRLinc/edit?usp=sharing" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/spreadsheets/d/1tSLF5iXDY33rqFQ6sgBFoFWMXwVsRRcYqKhcNPRLinc/edit?usp=sharing" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-sheets-logo"></span></a>
+
+<h3><a href="https://docs.google.com/spreadsheets/d/1tSLF5iXDY33rqFQ6sgBFoFWMXwVsRRcYqKhcNPRLinc/edit?usp=sharing" target="_blank" rel="nofollow noopener">YouTube新聞頻道</a></h3>
+
+<p>工作表1
+
+ 自動更新1, The News Lens 關鍵評論網, Nomana, 1306, https:// www. youtube. com/ channel/ UC4bokYuSrVGpI6_WYv7Gdbw
+ 自動更新2, 風傳媒, Nomana, 821, https:// www. youtube. com/ channel/ UCwWXGnvVmi-6Sfx2wf8S8tQ
+ 自動更新7, Taiwan Bar, Nomana, 136, https:// www....</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>解析YouTube新聞頻道影片<br>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/spreadsheets/d/1XTwRnIYe-NhhR8tDxyqw_FRjmvcTvQ1pbBaklOhY-Nw/edit?usp=sharing" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/spreadsheets/d/1XTwRnIYe-NhhR8tDxyqw_FRjmvcTvQ1pbBaklOhY-Nw/edit?usp=sharing" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-sheets-logo"></span></a>
+
+<h3><a href="https://docs.google.com/spreadsheets/d/1XTwRnIYe-NhhR8tDxyqw_FRjmvcTvQ1pbBaklOhY-Nw/edit?usp=sharing" target="_blank" rel="nofollow noopener">解析YouTube新聞頻道影片</a></h3>
+
+<p>工作表1
+
+ stid, title, atdate, dimension, definition, lengths, region_stint, description, publishedat, duration, ucid, uctitle, view_count, like_count, dislike_count
+_ TSgi9WsoaQ, David Aaronovitch:‘ The Brexit generation is dying out’- Viewsnight,...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>以下是我過濾、整理和篩選出關於環境污染相關的新聞影片所製作成的主題頻道，提供給大家參考：<br>
+知識分享 》 公民議題 》公民地圖：環境汙染<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="https://www.switube.com/WebYoutube/ChannelList.php?lang=TW&amp;mtype=E&amp;atype=EC&amp;itype=12&amp;ltype=L&amp;smid" target="_blank" rel="nofollow noopener">SwiTube</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:116/87;"><img src="https://i.ytimg.com/vi/6igXinfWWUs/hqdefault.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.switube.com/WebYoutube/ChannelList.php?lang=TW&amp;mtype=E&amp;atype=EC&amp;itype=12&amp;ltype=L&amp;smid" target="_blank" rel="nofollow noopener">SwiTube - 公民議題 - 公民地圖 : 環境汙染</a></h3>
+
+<p>SwiTube - Mapping the Digital World Together</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1870'>
+      <a title="January 26, 2018  2:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>這個計畫有一些讓公民貢獻的部分存在，而各位剛好是新聞團隊，可能在公民貢獻與新聞之間，需要建立一些查證的機制。</p>
+<p>另外，此專案為揭露許多廠商的汙染，建議可能要有法律諮詢的窗口，以免遇到法律方面的糾紛喔！</p>
+
+            <a data-link-to-post="1890" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/668/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1890'>
+      <a title="January 28, 2018  4:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/8">Jan &#39;18</a>
+        <a data-link-to-post="1870" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/668/7">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/fromtop.nomanachen/45/401_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/fromtop.nomanachen' target="_blank" class=''>fromtop.nomanachen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>billy3321 你好：</p>
+<p>謝謝提醒！<br>
+法律方面的糾紛真的會容易陷入泥澇，我會找獨立媒體的前輩們請教關於如何建立法律方面的防護網，當然，也會試著建立一些查證機制，避免錯誤爆料的新聞。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1904'>
+      <a title="January 29, 2018  7:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/9">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請注意資料是否齊全，以利後續評選流程：</p>
+<p>建議補充說明團隊成員曾參與過的專案，若有 github 帳號也請提供。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/668/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

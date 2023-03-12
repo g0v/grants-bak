@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Hiking Plan Taiwan (Itinerary) - 登山計畫。台灣（行程部份） - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1730'>
+      <a title="January 22, 2018  8:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/699/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihchun/45/14_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank" class=''>chihchun</a>
+        </h3>
+        <p>若是玉山、雪霸等知名百岳都已經是大眾路線，幾乎都是樣板行程，路線規劃最多是增添一兩天的狀態。不妨考慮利用現有 OpenStreetMap 路線資料庫加上 Open Source routing engine 來做路線規劃[1]，並可協助調整 OpenStreetMap 中百岳路線標籤 (OSM Tags) 與路線選擇優先權重。</p>
+<p>[1] 以 OpenStreetMap 圖資 規劃登山行程, 以 OpenRouteService 為例子 - <a href="https://www.youtube.com/watch?v=balReGUp9gY" rel="nofollow noopener">https://www.youtube.com/watch?v=balReGUp9gY</a></p>
+
+            <a data-link-to-post="1742" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/699/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1742'>
+      <a title="January 22, 2018  4:55pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/699/3">Jan &#39;18</a>
+        <a data-link-to-post="1730" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/699/2">▶ chihchun</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/joshuayes' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/joshuayes/45/428_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/joshuayes' target="_blank" class=''>joshuayes</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>嗯嗯，OpenRouteService 這樣的 routing engine 確實是滿好用的，但好不好或說該如何利用他製作出一個可以 collaborate 的工具我還要再想想看。另外還有一點是，目前的方向暫時是想傾向於，做一個好調整的樣板行程，多過於做一個具彈性的路線規劃的工具這樣，因為後者比較傾向提供領隊或主揪一個更好用的工具，而前者則是希望能讓帶隊者更容易地帶著隊員一起使用這樣，算是有一點想要 target 在不同的 user 身上。</p>
+<p>謝謝你的建議！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1803'>
+      <a title="January 24, 2018 12:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/699/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>延續 <a class="mention" href="/u/chihchun">@chihchun</a> 之前的建議, 是否可以考慮將利用現有資源將大眾路線優先建立樣板行程</li>
+<li>目前網站雛形上似乎還沒有協作的功能, 不知對於協作功能如何實現能否更進一步說明?</li>
+</ol>
+
+            <a data-link-to-post="1889" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/699/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1889'>
+      <a title="January 27, 2018  9:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/699/5">Jan &#39;18</a>
+        <a data-link-to-post="1803" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/699/4">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/joshuayes' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/joshuayes/45/428_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/joshuayes' target="_blank" class=''>joshuayes</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <ol>
+<li>
+<p>嗯嗯，關於利用現有資源建立大眾路線的樣板行程這點，我有在 “請說明你如何讓目標用戶知道這個服務並完成其第一次使用，以及在他有需求時願意再來用這個服務？” 裡寫到相關的計劃 “製作常見登山行程範本計畫，並做好 SEO（搜尋引擎最佳化），透過搜尋引擎吸引對該行程有興趣的網友到網站上試用。”，而在利用現有資源這點上預計是會使用 OSM 和各政府機關提供的登山資訊。我會再把這部分詳細點地補充進提案的 “你預計用什麼方式解決此問題？” 部分，這樣提案應該會比較完整，謝謝！</p>
+</li>
+<li>
+<p>是的，網站上目前還沒有協作功能，而在這次計劃裡預計實作出的協作功能有 1) 新增、刪除隊員 2) 可共同調整行程中的地點、時間，這兩個部分，實作方法目前還在考慮要使用 Google 的 Firebase 還是在現有的 Backend 上加上 <a href="http://Socket.IO" rel="nofollow noopener">Socket.IO</a> 這樣。</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/699/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>街區產生器 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2179'>
+      <a title="January 14, 2019  5:26pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/915/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>本提案旨在將實務經驗數位化公開，那麼自建軟體之目的與必要性為何？預計要產出的軟體是網站嗎？</p>
+
+            <a data-link-to-post="2251" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/915/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2189'>
+      <a title="January 15, 2019  1:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/915/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>請問內容或者格式是否還有待調整？若需修改內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+            <a data-link-to-post="2253" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/915/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2251'>
+      <a title="January 15, 2019  5:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/915/4">Jan &#39;19</a>
+        <a data-link-to-post="2179" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/915/2">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Yanyiyi' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yanyiyi/45/510_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Yanyiyi' target="_blank" class=''>Yanyiyi</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>因為街區各式的紀錄資料複雜，在本專案 期待公開/典藏的有草稿、紀錄、我們解讀每個補助案的過程<br>
+為了能夠更加明確的釐清複雜的討論讓大家可以看到；<br>
+同時也是讓使用者如果好奇哪個街區上的東西，可以查詢該東西知道該東西背後的補助故事（或者相關的公開資料）。<br>
+所以我們這個專案思索用自建系統來處理至些訊息，預計以網站呈現。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2253'>
+      <a title="January 15, 2019  5:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/915/5">Jan &#39;19</a>
+        <a data-link-to-post="2189" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/915/3">▶ bess</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Yanyiyi' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yanyiyi/45/510_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Yanyiyi' target="_blank" class=''>Yanyiyi</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>謝謝 <a class="mention" href="/u/bess">@bess</a> 的提醒，相關訊息已經於指定時間內補充完畢！</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/915/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

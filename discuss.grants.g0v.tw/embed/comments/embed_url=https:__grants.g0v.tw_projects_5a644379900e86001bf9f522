@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>全台汙水防治看這邊 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-1791'>
+      <a title="January 24, 2018  3:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>【差異性】<br>
+團隊已經有新竹縣的實務經驗，相信有機會能擴大到其他縣市，謝謝提案！還有幾個問題想追問：</p>
+<ol>
+<li>請問提案與環保署的「<a href="https://wq.epa.gov.tw/Code/?Languages=tw" rel="nofollow noopener">全國環境水質監測網</a>」的差別是？污水dashboard多了哪些資料？（希望能補充到提案裡）</li>
+</ol>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/2">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1792'>
+      <a title="January 24, 2018  3:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>【建議修改】</p>
+<ol start="2">
+<li>
+<p>從提案來看，這個視覺化儀表版的使用者可能會區分為政府部門跟一般使用者（包括環團）。不曉得兩者的user flow在網站上會是一致嗎？</p>
+</li>
+<li>
+<p>預算除了人力費用，從提案來看，應該還有伺服器費用、交通等行政雜費，建議列清楚。</p>
+</li>
+</ol>
+
+            <a data-link-to-post="1796" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/720/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1795'>
+      <a title="January 24, 2018  9:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/4">Jan &#39;18</a>
+        <a data-link-to-post="1791" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/720/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winston0106/45/433_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank" class=''>winston0106</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>可以請您參考 我們的prototype<br>
+環保署的水質監測網 和我們視覺化呈現的差距極大</p>
+<ol>
+<li>點選出來是表單，數據趨勢需要的部分並沒有儀表化<br>
+2.我們有地理圖資整合，未來甚至是可以提供熱區分析的資料基礎</li>
+</ol>
+<p>這些都是沒有的<br>
+3. 我們在雛形開發基本上也已經整合完裁罰資料</p>
+<ol start="4">
+<li>我們預計完成的是prototype，目前以POWER BI 做線上發布成本最低<br>
+50萬的額度完成資料整合，以及資料清洗，還有基本分析已經是極限<br>
+要做網站其實沒必要，而且這樣的費用也不夠。因為最大的挑戰是資料整合<br>
+光是列管編號，和地理圖資整合就是大工程。 這些吃的都是 Human Power</li>
+</ol>
+<p>另外補充一下 目前環團拿到的 也幾乎都是open data<br>
+除了空氣盒子因為Sensor的設計未必跟GOLD Stander 的方法是一致的以外<br>
+理論上相關的資訊都是從環保署的open data來<br>
+主要的問題還是來自於 檢測儀器的費用和成本貴到天邊<br>
+這些是環團沒辦法負擔的費用。 無論是氣相質譜儀，LC-Mass 還有其他得類似的貴重儀器都沒有<br>
+當然就更無法有標準實驗室。</p>
+<p>另外我們其實針對新竹縣的環境數值做過初步的分析<br>
+其實環保署提供的數據，是相當真實而可以做參考的</p>
+<p>至於環團關心的其他數據 非環保署的數據 品質如何 那就是另一件事情<br>
+另外一個可以看的事情，是一些分析指標<br>
+分析指標的定義好壞，無關原始data的品質，那些資料也不必要成為分析一定要採納的數值<br>
+相關的細節非常的多，有機會歡迎一起來討論</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1796'>
+      <a title="January 24, 2018  9:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/5">Jan &#39;18</a>
+        <a data-link-to-post="1792" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/720/3">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winston0106/45/433_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank" class=''>winston0106</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>我們透過Power BI做線上發布 其實沒有伺服器費用<br>
+另外，資料拿的是open data 沒有公私部門看的東西不一樣<br>
+這些我們跟新竹縣環保局合作的過程都確認過了<br>
+環保署的資料其實品質是相對高的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1797'>
+      <a title="January 24, 2018  9:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/6">Jan &#39;18</a>
+        <a data-link-to-post="1791" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/720/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winston0106/45/433_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank" class=''>winston0106</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>最後 關於資料多了哪些東西? 可以請您看一下我們專案已經放上線的雛型</p>
+<p>您可以看到光是地理圖資的整合就是全國環境水質監測網做不到的事情<br>
+環保署的open data 只是一盤菜端出來給大家有興趣看看下載<br>
+但是真正要 “儀表化” 要視覺可快速做決策判斷的介面是不夠的</p>
+<p>以水質監測網的資料呈現方式，是複雜，而且想分析的時候 如長條圖 折線圖 圓餅圖<br>
+甚至是可以讓你針對不同流域 年分 自己點選。這些功能也是全部都沒有<br>
+有興趣可以看一下我們已經初步完成的雛型<br>
+提案的內容都有附連結喔^^ cheers</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1806'>
+      <a title="January 24, 2018  2:25pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>謝謝詳盡的回覆！</p>
+<p>【建議修改】</p>
+<ol>
+<li>
+<p>明白資料整合與分析不易，但由於提案開頭寫到「五秒鐘看懂你家附近的水資源是怎樣被治理的」，一開始以為是有使用介面友善的完整網頁。假如提案只是要完成視覺化儀表板的"prototype"，會建議您在專案主旨中補充。</p>
+</li>
+<li>
+<p>「本專案是否有非開源元件？<br>
+目前沒有，但是資料的管制編號，屬於政府內部資訊是否可以公開相關的資料，我們需要和地方政府溝通，但是相關汙染源的資訊呈現，是可以公開，未來可公開的資料範圍，要依據政府相關法令來進行。」 --&gt; 除了有以上的不確定性之外，不曉得還有其他預計開源的元件嗎？（根據規則，提案必須開放原始碼。專案如使用到其他套件或是參與獎助金前就有的成果則不用）</p>
+</li>
+</ol>
+
+            <a data-link-to-post="1835" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/720/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1835'>
+      <a title="January 26, 2018  1:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/8">Jan &#39;18</a>
+        <a data-link-to-post="1806" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/720/7">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winston0106/45/433_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/winston0106' target="_blank" class=''>winston0106</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝您的建議 確實在專案的說明上，應該修改說明。但是在功能上，透過power BI做線上發布<br>
+其實已經也算是查詢網站的功能，應該透過簡單的免費網頁以類似部落格的方式提供大家檢索，效果應該就有一定的程度了。如果獲獎有機會來完成，中間我們有機會的話，應該是可以做得更多。主要必須回歸團隊的狀況來做調整</p>
+<p>另外關於污染的訊息和公開，這個部分都是已經揭露的事項。但是管制編號的看法和各縣市政府關於"管制編號"的資料，不一定屬於可開放的範圍，因為會涉及個資的部分，會比較困難。但是關於法規要求的，民眾關心的，基本上不會有疑慮。按照我們做完新竹縣的部分來看，其實對民眾來說，在其應該知道的範圍，已經足夠。 其他細節的部分，或者不預期會發生的事故如果有狀況，我們無法承諾這些東西公開是適合的。是否揭露，我們以環保署已經開放的資料範圍作為揭露和資訊視覺化，這些拿出來做專案就完全可以，以上說明</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/720/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

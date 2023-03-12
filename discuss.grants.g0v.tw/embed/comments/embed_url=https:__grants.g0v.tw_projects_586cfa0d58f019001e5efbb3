@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>LEFTrader - 剩食交易 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/2">繼續討論</a>
+  <span class='replies'>10 個回覆</span>
+</header>
+
+    <article class='post' id='post-52'>
+      <a title="January  5, 2017  2:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>剩食交易對於食物生產過剩的台灣 相當實用 個人淺見給您參考：<br>
+對象若以弱勢族群為優先，使其可以較低價方式滿足馬斯洛五層次理論中的生理需求，或許更能符合"社會公平正義"中適當調和利益與分配的概念</p>
+
+            <a data-link-to-post="54" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-54'>
+      <a title="January  5, 2017  3:21am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/3">Jan &#39;17</a>
+        <a data-link-to-post="52" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/2">▶ 111</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolf/45/147_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank" class=''>Wolf</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><strong>111</strong>，謝謝您的建議。<br>
+我們覺得其實賣不掉的剩食，如果依照時間把價格降低，<br>
+一旦到了平衡點(弱勢族群覺得能夠輕鬆負擔)，那交易應該還是會成功的。<br>
+如此商家不至於完全失去利益，弱勢族群也能獲得所需，<br>
+這應該有符合您所提的「適當調和利益與分配」。</p>
+
+            <a data-link-to-post="424" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-146'>
+      <a title="January  8, 2017  2:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>「設計隨時效遞減之計價模式」這概念非常棒!!!<br>
+建議專案工作里程碑不要一次規劃太大, 建議 3個月要有個可運行的MVP, 6個月有個 alpha/beta 上線.<br>
+在3月前先找個體商戶做一些前期訪談 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"> 加油.</p>
+
+            <a data-link-to-post="159" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-159'>
+      <a title="January  9, 2017  6:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/5">Jan &#39;17</a>
+        <a data-link-to-post="146" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/4">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolf/45/147_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank" class=''>Wolf</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝YuTin_Liu的建議和肯定:grinning:<br>
+我們會再修正一下時程，以求把更完善的成品呈現出來。<br>
+關於訪談部分，我們有在詢問相關合作目標的意見，這些資料除了是此idea發想的起源之一外，還能提供我們設計上的參考，所以我們也很重視這個方面。<br>
+再次謝謝您的指導！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-388'>
+      <a title="January 26, 2017  1:01pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/claire18412/45/126_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank" class=''>claire18412</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，這個點子很棒！不過想請問若不幸有購買者因食用標示過期的食物而出現問題時，法律責任的歸屬為何？<br>
+畢竟若產生法律糾紛，剩食交易也會受到影響~</p>
+<p>加油！</p>
+
+            <a data-link-to-post="392" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-392'>
+      <a title="January 26, 2017  1:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/8">Jan &#39;17</a>
+        <a data-link-to-post="388" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/6">▶ claire18412</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolf/45/147_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank" class=''>Wolf</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/claire18412">@claire18412</a> 謝謝您的鼓勵，<br>
+有鑑於"剩食"互惠都會牽涉到過期問題，不論是一般的冰箱、交換…等，<br>
+所以這部分有賴後續結合食品檢驗的部分下去營運，並且會向現行國外過期品超市學習相關處理方式。</p>
+<p>然而，我們的平台希望是透過特有的即時計價方式，<strong>盡量在「過期前」<strong>將食物分配給需要的人，而非等到過期了才開始分送。<br>
+並且，有許多的蔬果，基本上</strong>「不會有過期疑慮，只是賣相不佳」</strong>，這個平台也能減少這種產品的浪費。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-424'>
+      <a title="January 27, 2017  2:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/9">Jan &#39;17</a>
+        <a data-link-to-post="54" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/3">▶ Wolf</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bonnielovesmile' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bonnielovesmile/45/124_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bonnielovesmile' target="_blank" class='new-user'>bonnielovesmile</a>
+        </h3>
+        <p>提供一些想法給您參考:<br>
+其實商家原本過剩的食物可能會直接捨棄，若善用過剩的食物回饋於社會，既可讓要捨棄的食物更有價值，同時又贏得社會好名聲; 而需要食物的特定族群(經濟能力不足或是無法自足)就可以同時裹腹，兩者也是互利，而這種互利更有助於好的社會循環。</p>
+
+            <a data-link-to-post="464" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-464'>
+      <a title="January 31, 2017  4:45am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/10">Jan &#39;17</a>
+        <a data-link-to-post="424" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/9">▶ bonnielovesmile</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolf/45/147_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank" class=''>Wolf</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/bonnielovesmile">@bonnielovesmile</a><br>
+是的，謝謝您的提議。<br>
+這個平台雖然是基於一個特殊的商業模式，<br>
+但是我們還是有考量到真的經濟能力完全不足的需求方。<br>
+所以在媒合部分，我們就是著重於社會福利的促進。<br>
+(感謝您關注，後續會將細節補上)<br>
+<img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+            <a data-link-to-post="660" class="post-replies button" href="/discuss.grants.g0v.tw/t/leftrader/39/10">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-660'>
+      <a title="February  5, 2017 11:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/11">Feb &#39;17</a>
+        <a data-link-to-post="464" class="in-reply-to" href="/discuss.grants.g0v.tw/t/leftrader/39/10">▶ Wolf</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>Hi, 規劃寫得很完整，不過驗收卻寫得比較保守。<br>
+是否一開始不要考慮金流，而是第一個階段就做 LBS 媒合為主，能夠發布即期食品，能夠根據地點媒合。可以先以台北市幾個區先做起？<br>
+剩食似乎也有分類，例如超商便當，或者是生鮮蔬果，可能一開始先挑超商便當做主要目標？<br>
+感覺對於 MVP 的部分太像一般線上商城，應該著重剩食上架跟剩食交易為主，然後影像辨識和金流應該放在後續階段。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-693'>
+      <a title="February  6, 2017  5:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/12">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolf/45/147_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Wolf' target="_blank" class=''>Wolf</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/yhsiang">@yhsiang</a> 好的感謝您的提醒<br>
+我們思考後，決定初期金流先以面交付款為主，<br>
+重點則是放在地點媒合、商品上架細節(設定、分類等)和合作購物等，<br>
+由於考慮台北使用者較多，合作店家示範集散點本來就是以台北為主(問卷也是以台北商家為主)，也會先在台北市試行物流。<br>
+驗收部分會再修改。</p>
+<p>剩食部分因為主要還是讓普通用戶都能參與，所以只是粗分有包裝(EX: 超商便當、麵包、飲料等等)、無包裝(蔬果、糕點)，會在後續依狀況優化細節。</p>
+<p>雖然說這個平台簡單來說的確是商城，不過這個平台較為著重的還是在"計價方式"，因為若以普通商城考量，這種計價模式不會有太大利益，反觀剩食因為大家本來不預期有多餘利益，若能給予適當誘因，則能引起大眾回響，增強意識。</p>
+<p>後期若能結合食檢、法規，讓過期品也能安全上架，則更能凸顯本平台不同之處，這都是我們要努力發展的方向。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/leftrader/39/12">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

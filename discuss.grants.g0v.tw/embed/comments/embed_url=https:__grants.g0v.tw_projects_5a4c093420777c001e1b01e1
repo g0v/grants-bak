@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>都市計畫委員會會議記錄資料庫 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1737'>
+      <a title="January 22, 2018  2:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/660/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>不確定目前會議記錄的 PDF 內容，但要如何確保 PDF -&gt; txt 的完全自動化呢？</p>
+
+            <a data-link-to-post="1743" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/660/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1743'>
+      <a title="January 22, 2018  7:42pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/660/3">Jan &#39;18</a>
+        <a data-link-to-post="1737" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/660/2">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monaludao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monaludao/45/405_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monaludao' target="_blank" class=''>monaludao</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>謝謝 <a class="mention" href="/u/hcchien">@hcchien</a> 的提問，</p>
+<p>這個專案是以 php 開發，因此可以利用虛擬主機 cpanel 中排程功能，讓程式自動運行，目前的設定是每天一次，如果要密集輸入新資料時，可以調整設定提高運行頻率。如果未來必須加入其他程式語言時，會再另外思考怎麼納入現有的自動排程中。</p>
+<p>至於程式演算的細節，說明如下：</p>
+<ul>
+<li>pdf -&gt; txt 部分，是利用開源的套件 smalot/pdfparser 處理</li>
+<li>至於 txt -&gt; json 部分，由於會議紀錄的段落大多是類似的，所以目前是由程式找出段落的標題 (給定對應的 key)，再將該段落內容存入 value 中</li>
+<li>最後再依 json 中的 key，insert/update 至 MySQL 的對應欄位中</li>
+</ul>
+<p>希望以上回答有回應到你的問題，相關說明也會修改至提案表或是說明簡報中。</p>
+
+            <a data-link-to-post="1846" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/660/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1846'>
+      <a title="January 26, 2018  5:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/660/4">Jan &#39;18</a>
+        <a data-link-to-post="1743" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/660/3">▶ monaludao</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>請問是否有考慮把輸出的會議記錄匯入至<a href="http://sayit.mysociety.org/" rel="nofollow noopener">sayit</a>呢？</p>
+<p>另外，會議記錄以外，會議還會有許多附件，請問這些會議資料也會收錄嗎？</p>
+
+            <a data-link-to-post="1862" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/660/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1862'>
+      <a title="January 26, 2018 10:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/660/5">Jan &#39;18</a>
+        <a data-link-to-post="1846" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/660/4">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monaludao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monaludao/45/405_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monaludao' target="_blank" class=''>monaludao</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝 <a class="mention" href="/u/billy3321">@billy3321</a> 的提問，</p>
+<p>先前在某次大松時 <a class="mention" href="/u/clkao">@clkao</a> 也有提過相同的建議，所以有去研究一下 <a href="http://sayit.mysociety.org/" rel="nofollow noopener">sayit</a>。不過就我的理解，它是用來存放「<strong>發言</strong>」的文字抄本，所以每句話會有對應的發言人、發言時間、發言順序。</p>
+<p>但目前的都委會會議紀錄，幾乎是以「<strong>總結重點</strong>」的方式紀錄，<strong>不會將在場的委員所有發言都記錄下來，而是條列式的把決議寫下</strong>。唯一例外的是台北市都市計畫委員會，從這屆委會員開始，會將各委員的發言摘要下來，列入會議記錄中，可以看這個例子：<a href="http://commission.urbancode.tw/minutes/TPE-O-682-1/cases/0R5AY4" rel="nofollow noopener">北門三井倉庫用地變更案的會議紀錄</a>，目前是在 MySQL 中新增一個欄位來儲存，這個部分的確可以思考是不是把內容倒入 sayit 之中。但目前我想先以把全國的會議紀錄處理好為目標，所以將之列入 [ <strong>計畫結束後未來可能進一步的發展？</strong> ] 這個項目。</p>
+<p>對於附件的建議，初步搜尋下來，在一些有提供會議資料的縣市（如<a href="http://www.tupc.gov.taipei/lp.asp?ctNode=81111&amp;CtUnit=43284&amp;BaseDSD=132&amp;mp=120021" rel="nofollow noopener">臺北市</a>），可以在各審議案的頁面提供相關的連結，預計以臺北市先試作 [ <strong>列入期中目標</strong> ]，未來再慢慢將其他縣市的資源串進來。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/660/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

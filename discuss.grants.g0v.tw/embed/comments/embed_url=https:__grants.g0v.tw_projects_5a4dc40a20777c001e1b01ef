@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>國會調查兵團 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-1783'>
+      <a title="January 24, 2018  1:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/663/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/bowing_man.png?v=5" title=":bowing_man:" class="emoji" alt=":bowing_man:"> 對於專案的公民影響力值得肯定，</p>
+<p>但「影片持續累積，至少產出 25 支以上的立委質詢影片」… 50 支以上… 100 支以上… 多數公民依然只是觀眾，依然需要大量的人力成本在做影片剪輯。<br>
+是否有考慮製作教學「如何 下載 vod =&gt; 剪輯 vod =&gt; 對 vod 做視覺加強」的影片，來擴大公民參與的可能？</p>
+<p>另，開頭提到的「原因是我們壓根不知道立委應該做什麼。我們這個年代的公民教育是失敗的，我們沒有深刻的理解立委的職權是什麼，也因此投票都只憑感覺」，認同以上看法，但就此論點，剪輯 vod 似乎只解決回顧上一屆，公民們似乎還是「不知道立委應該做什麼」 ＠＠？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1844'>
+      <a title="January 26, 2018  4:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/663/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/click.empower/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank" class=''>click.empower</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>您好，謝謝您的提問，兩個問題的回覆如下</p>
+<blockquote>
+<p>1.多數公民依然只是觀眾，依然需要大量的人力成本在做影片剪輯。是否有考慮製作教學「如何 下載 vod =&gt; 剪輯 vod =&gt; 對 vod 做視覺加強」的影片，來擴大公民參與的可能？</p>
+</blockquote>
+<p>這要從為什麼我們要自行剪影片說起。以國會調查兵團從2014年9月到現在這幾年的經驗，其實監督國會最難的，不在於下載ivod，也不在於剪輯ivod，甚至不在於對ivod的視覺加強。而是如何在觀看的過程中，找出可以批判的打點。</p>
+<p>因為國會質詢的內容很長，而大多數的內容其實都非常的無聊。這過程就好比在河裡掏金，大部分的時間投入看起來都是「無意義的消耗」，而「剪影片」只是最後呈現的結果，但最辛苦也最難養成的的其實是前面的盯場與抓打點。兵團由於長期投入在此，因此已經逐漸培養出「如何快速抓打點」的能力，但對一般沒有長期盯場習慣的觀眾來說，他們有很大的機會是看了一段ivod，只覺得內容很無聊，或只覺得立委講得很爛，但講不出能夠批判的觀點跟角度。</p>
+<p>可是監督要有力，要讓立委感覺到「痛」，批判的觀點跟角度勢必需要被明確的點出來。而對於大部分的公民來說，一個人一天的時間有限，他們願意一天撥個10~30分鐘觀看一段精華點到重點的ivod影片，幾乎就已經是他們能夠參與的最大值了。</p>
+<p>您的提議出發點非常的好，但就實際公民的生活來說，他們有家庭要顧，有自己的工作要顧，有自己的生活要過。這麼多的事情在彼此「爭奪」一天的時間分配，時間有限這件事，是很殘酷的。他們願意長期當觀眾，就已經是願意開始公民參與的第一步。我們的信念是，前進不怕緩慢，碎步前進，小步前進，只要有前進就是進步。如果尚未培養公民監督的觀點，單純從所謂影片製作的角度下手，其實對公民來說只是無謂的時間消耗。下載影片製作影片這種偏「技術性」但並非會讓立委感到痛的事，兵團來做就好了。讓更多人可以在最短時間內看到有切入點的監督影片並在過程培養監督觀點，會比鼓勵他們自行下載ivod跟剪影片還要更重要。</p>
+<p>當然國會調查兵團的網站之所以會做成質詢回報平台，出發點確實也是希望公民可以自行下載影片剪輯影片上傳後回報，能夠做到這樣的公民，想當然在參與監督立委的力道上是更深化的。但也正因兵團一路走到現在，理解在這件事情發生所需要有的前提，是要先「培養出監督的觀點」，培養觀點比會剪影片重要，而培養觀點需要先看大量有觀點的影片，在這過程中長出自己的觀點，所以這也是為什麼我們必須得自己看跟剪影片，用這個方式培養觀眾監督習慣的原因。</p>
+<blockquote>
+<p>2.剪輯 vod 似乎只解決回顧上一屆，公民們似乎還是「不知道立委應該做什麼」 ＠＠？</p>
+</blockquote>
+<p>我們目前都是跟著立委開會盯場，呈現「當下」的國會現況，所以並不是只解決「回顧上一屆」，我們的監督都是很即時的。而公民只要願意每天觀看，自然能夠在那個過程培養出「一個好立委應該做什麼？怎樣的表現才能算好立委」的觀點。我們不是要像學校一樣直接灌輸公民去知道「立委應該做什麼」，而是希望透過讓更多人養成直接看立委質詢的習慣，自己培養出屬於自己監督立委的能力。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/663/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>See Food - (看見食物、一同惜福) 剩食計畫 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-394'>
+      <a title="January 26, 2017  2:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/see-food/202/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，有些問題想要請教，以下這些提問，也請適度補充在提案中。</p>
+<h2>聯盟業者多久需要更新一次剩食資訊以及會如何更新？</h2>
+<p>更新這些資訊其實會增加業者的操作負擔，而也不是所有業者都是科技使用者，所以更新頻率與更新的介面都頗為重要。</p>
+<h2>初期會在什麼範圍執行此專案？</h2>
+<p>本專案跟業者的合作是成功要件，業者數量增加後團隊的負擔也會變重，想請教一下初期會不會限制執行範圍來確保團隊可以負擔這樣的工作量</p>
+<h2>營運所需要的人力有多少？</h2>
+<p>同上營運此服務需要客戶支援的成本，想請你以範例的形式補充營運此服務需要的人力成本。比如說支援十間商店所需要的人力以及數量擴大之後，人力上的規劃為何（或是更多）。</p>
+<h2>目前有什麼角色的人準備參與這個計畫？</h2>
+<p>目前看起來於提案中有配置的人力為「工程設計、美術設計」想請你補充人力配置，比如說是一個程式設計師與一個美術設計師等。</p>
+<h2>提案人本身會執行哪方面的工作？</h2>
+<p>也想了解提案人會在此專案執行哪方面的工作，如統籌管理、實際撰寫程式、流程設計或是視覺設計等。</p>
+
+            <a data-link-to-post="549" class="post-replies button" href="/discuss.grants.g0v.tw/t/see-food/202/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-406'>
+      <a title="January 26, 2017  5:49pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/see-food/202/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好!!! 對於團隊願意 執行「設計前考察、市場測試考察及調適」的工作表示肯定 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+<p>可否向您詢問 此放報告 是否願意以 CC by 的方式釋出？</p>
+<p>溫馨提醒 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/raised_hands.png?v=5" title=":raised_hands:" class="emoji" alt=":raised_hands:"> 活動辦法「開源（開放原始碼）是指將成果用開放授權的方式公開出來，讓其他人可以直接使用、改作、加入協作或發展出更新的版本。好處是過程透明、更容易協作，成果共享。」</p>
+
+            <a data-link-to-post="550" class="post-replies button" href="/discuss.grants.g0v.tw/t/see-food/202/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-549'>
+      <a title="February  2, 2017  8:43am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/see-food/202/4">Feb &#39;17</a>
+        <a data-link-to-post="394" class="in-reply-to" href="/discuss.grants.g0v.tw/t/see-food/202/2">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/doglove2099' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/doglove2099/45/129_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/doglove2099' target="_blank" class='new-user'>doglove2099</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><strong>1. 聯盟業者多久需要更新一次剩食資訊以及會如何更新？</strong></p>
+<p>根據eMarket 2015調查，台灣使用智慧型手機人口佔總人口的73.4%。擁有智慧型裝置的人口應該很多，所以會以教學使用APP及建立剩食處理的新態度方面著手。<br>
+食材供應者與使用者皆可時時更新資料，APP操作步驟會簡化，也會製作操作介紹。</p>
+<p>例如:<br>
+供應者 : 上傳圖片，食材類別選取，定價(or贈與)，取貨時間<br>
+接受者: 搜尋住家附近，選擇提供商家，選取欲購買(or 贈送)商品，確認取貨時間，依照取貨時間前去。</p>
+<p>雙方可以互相評價 (一星到五星)，以供下次交易參考。</p>
+<p><strong>2. 初期會在什麼範圍執行此專案？</strong></p>
+<p>註冊SeeFood APP會員主要是由User自行建檔，而團隊維護後台資料，並負責疑難雜症解答、教學。<br>
+推動步驟會以地方優先，地區里長配合以達到點擴散，並尋找最簡化的模式。</p>
+<p><strong>3. 營運所需要的人力有多少？</strong></p>
+<p>我們提供的解決方案是建立平台的概念，有效媒合是此方案的重點，因此人力是不需要增多的。<br>
+建立動力制度才是我們的核心，只要動力制度完善讓店家得到他想要的 [義美豆漿現象]<br>
+首次建構、溝通需要較龐大人力，所以初期我們鎖定以 [里]為單位，結合[里]資源可以大幅減少人力。<br>
+會先從就近的里長開始推廣，里長對於掌握鄰里間需要幫助的家庭，比我們都要了解。而維護百間商店的服務人員只需一人即可。(無償提供的店家)</p>
+<p><strong>4. 目前有什麼角色的人準備參與這個計畫？</strong></p>
+<p>全端工程師 x2<br>
+美術設計 x1<br>
+企劃人員 x1</p>
+<p><strong>5. 提案人本身會執行哪方面的工作？</strong><br>
+提案人負責統籌管理以及廣告行銷部分。</p>
+<hr>
+<p>謝謝您的協助，也會將資料補進原提案中</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-550'>
+      <a title="February  2, 2017  8:45am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/see-food/202/5">Feb &#39;17</a>
+        <a data-link-to-post="406" class="in-reply-to" href="/discuss.grants.g0v.tw/t/see-food/202/3">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/doglove2099' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/doglove2099/45/129_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/doglove2099' target="_blank" class='new-user'>doglove2099</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>是的~謝謝提醒，相關資料及程式皆可以公開。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/see-food/202/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

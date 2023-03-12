@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣開源義肢計劃 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/2">繼續討論</a>
+  <span class='replies'>12 個回覆</span>
+</header>
+
+    <article class='post' id='post-2041'>
+      <a title="January  2, 2019  2:31pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>歡迎大家對"台灣開源義肢計劃“提出問題交流</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2172'>
+      <a title="January 14, 2019  4:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi，這個計畫實在是非常完整和紮實，包括專案開放授權和社群參與都非常完整，團隊也非常有經驗和多元，令人期待。</p>
+<p>只是想要更了解想要拿 g0v 獎助金所開發的 4D 開源義肢，要如何做到適應環境變化？想知道這方面更多的細節與嘗試的方向。</p>
+
+            <a data-link-to-post="2232" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/853/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2223'>
+      <a title="January 15, 2019  8:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Creative Commons License 並不是針對程式碼而設計的授權 (參考：<a href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software" rel="nofollow noopener">Can I apply a Creative Commons license to software?</a>)。</p>
+<p>依據 <a href="https://docs.google.com/document/d/1zqPkVmuBab4tbEyPHr4u-lE6mnayRkq51EO3igIq5Mc/edit?usp=sharing" rel="nofollow noopener">2019 g0v 公民科技創新獎助金申請實施細則</a>，程式碼部分要請更換為「符合 <a href="https://opensource.org/licenses" rel="nofollow noopener">OSI</a> 認可之授權」。</p>
+
+            <a data-link-to-post="2231" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/853/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2231'>
+      <a title="January 15, 2019 11:19am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/5">Jan &#39;19</a>
+        <a data-link-to-post="2223" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/853/4">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Hi, denkeni, 真感蝦，我已經修改為“符合 OSI 認可之授權”</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2232'>
+      <a title="January 15, 2019 11:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/6">Jan &#39;19</a>
+        <a data-link-to-post="2172" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/853/3">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Hi, ael, 感謝您的回應<br>
+目前我們正在試同一軟性材質，透過列印的參數調整，有不同的硬度表現，我們也正在研究軟硬料混印的3D列印機構設計，並利用材料的成型特性，讓材質有某種程度的記憶效應，可以減少義肢手指組件，另外我們還在發想利用軟料和機構過死點的設計，讓義肢手腕可以在小角度具有彈性，但在需要大角度彎曲時可以固定角度，讓義肢應用更人性化。<br>
+以上都是初階的4D Print，有新的應用出現，國內的線材廠商才會開發其他功能性的線材，像是溫感變色等線材</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2326'>
+      <a title="February 11, 2019  3:55pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/7">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：1.請具體說明，因意外或先天肢體受損的民眾，有無此提案，在費用、方便性與實際使用義肢的差異？（已同步更新於提案內容）</p>
+<p>就一般傳統義肢而言，義肢承筒（與殘肢接觸的結構）造價一般都超過6萬元，再加上安裝於承筒前段的義手，其價格已超出政府補助的金額，且政府補助並非每年都有，對於發育中的兒童或青少年需求者而言，每年都需更換義肢承筒將會是不小的負擔。<br>
+此計劃透過3D數位製造的方式，不但需求者擁有自己義肢的所有3D模型檔案，更可以透過3D列印機自行製作義肢組件，可以大幅降低義肢的使用成本與去中心化的目標。依目前TGH最複雜的電子義肢手成本估算，第一次製作因需購買所需的電子零件，故成本約在4萬內（最高成本），日後僅需進行部份零件維修更新，只需花費材料費（500g/1000元）和3D列印機使用費用(於創客空間租借 100元/小時） 義肢設計可依個人需求客製化，不管是電動義肢或是純機構驅動都可適用於目前TGH所設計的TGH MAO，唯有需求者自身參與設計，並了解如何維修義肢，這樣才是適合需求的義肢。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2327'>
+      <a title="February 11, 2019  3:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/8">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：2.貴團隊已是良善運作團隊，也已具備豐富基礎，應當也具成熟商業模式，請說明有無此筆獎助金對貴團隊有何差別？（已同步更新於提案內容）</p>
+<p>台灣的義肢市場並不大，義肢產業跨入門檻高，加上傳統的義肢製程很注重模具製作經驗，因此管銷成本很難讓國內業者有餘力投入新技術的研發。 另外，義肢的維修和零組件掌握於義肢廠商，具有高度的壟斷性，這對於整個國內義肢經濟循環和最終的使用者都不是好事。TGH認為健康的義肢經濟活動應轉型為眅售服務和設計為主，而硬體製造為輔，開放更多選項給消費者。 雖然TGH所設計的義肢具備商品化的能力，但我們並不是以營利並和義肢公司競爭為目的，而是希望台灣整個義肢業界能使用TGH所研發的開源資料，在此基礎更精進研發更好更適合台灣人的電子義肢，因使用TGH的研發能量，故能有一定程度的降低研發成本，將這麼省下的成本回饋給義肢使用者，達到三贏(開源技術使產業昇級、義肢公司降低研發成本、義肢以合理的售價販售給消費者） 因TGH並不是從義肢需求者營利需要自籌經費，每年團員都會承接其他案子來支付TGH的義肢開發，所以g0v公民科技創新獎助金對於TGH來說是不可或缺的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2328'>
+      <a title="February 11, 2019  3:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/9">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：3.請說明國外是否有類似開源義肢計畫，或是此計畫對其他國家義肢製作可能扮演的角色（已同步更新於提案內容）</p>
+<p>發源於美國的E-nable(<a href="http://e-nable.org/" rel="nofollow noopener">http://e-nable.org/</a>)是3D列印開源義肢的開創先河，目前已為全球化的組織，設計簡單且有完整製作和組裝教學，由於造型陽春所以大部份僅適用於兒童。<br>
+目前美國Unlimited Tomorrow最初也是從事開源義肢，後因受到注目而接受投資成立公司，並於2018年完成160萬美元的群眾募資計劃，又於2019年1月再度達成60萬美金的100 Tomorrow群眾募資計劃，並於CES2019展出 英國Open Bionics是目前仍有開源且又商業化的義肢公司，於2019/1/15完成590萬美元的募資計劃（<a href="https://goo.gl/LxYNtm/%EF%BC%89" rel="nofollow noopener">https://goo.gl/LxYNtm/）</a> ，並已開始進行兒童的人體試驗。<br>
+TGH台灣神手開源義肢是目前台灣開源電子義肢的社群，於2018年10月份我們也成造幫助越南一位12歲的小需求者，義肢是相當在地化的產物，需配合當地的資源和環境進行設計，故這位小需求者的義肢我們採用非動力的純機構驅動設計（<a href="https://goo.gl/6Vdxer/%EF%BC%89" rel="nofollow noopener">https://goo.gl/6Vdxer/）</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2329'>
+      <a title="February 11, 2019  4:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/10">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：4.能否有醫學系特別是外科復健科專業人士進入團隊（已同步更新於提案內容）</p>
+<p>目前TGH與明德醫療輔具是合作夥伴，並與高雄醫學院復健科有交流和台北榮總身障重健中心3D列印中心有進行過IRB計劃，但在醫院的編制中，3D列印義肢要列為醫材仍有適法性的問題（義肢製作單位需有工廠登記證），故參與IRB計劃的物理治療師和復健科醫師都是利用自己的假期時間進行評估，這樣並非永續的方式，但只要3D列印義肢無法進入醫療體系， 醫療人員就只能做公德了。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2330'>
+      <a title="February 11, 2019  4:01pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/11">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：5.請具體說明，兒童在成長過程中，可從此計畫獲得什麼’樣的協助？如何能自行3D列印義肢，相關技術醫療以及資金門檻如何克服</p>
+<p>兒童因為發育而得每年都需更換義肢，而主要是更換和患部接觸的內承筒，目前TGH正在研究3D列印完成後可再塑型的內承筒和通用性高的內、外承筒模組化設計，讓義肢需求者在家人或朋友的幫忙下也可以自行調整內承筒。<br>
+TGH推行的M3D流程中，有一項是將設計好的3D檔案上傳雲端，若需求者有意願學習3D printer的使用方式，TGH將會推薦購買的機型和教導如何使用，若需求者無意願學習3D printer，那TGH會協助調查居住縣市的Maker Space所使用的3D printer機型，並協助轉檔成適合的g-code，讓需求者可以自行前往附近的Maker Space製作自己的義肢組件，若上述的方式都無法達成，TGH的合作夥伴明德醫療輔具可提供符合藥事法的代印服務</p>
+<p>若是需求者自行購買3D Printer製作義肢，其費用依購買機型的不同而有所不同，一般大約在3萬元台幤左右，而3D列印線材1Kg約500元台幤<br>
+若是需求者在Maker Space租借機器印製義肢零件，一般租借費用約為150元每小時<br>
+若是代印服務會依所需的轉檔和材料費進行收費<br>
+總體來說，使用數位製造的義肢在取得相關零組件的成本遠低於一般義肢，TGH希望國內的義肢廠商能由販售硬體轉型為提供服務為主的商業模式。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2331'>
+      <a title="February 11, 2019  4:02pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/12">Feb &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>評審委員提問：6.希望能有更多的說明，成員如何能做到在八個月期間以空餘時間，以四萬成本做出 150 萬元的進口五指可動義肢？</p>
+<p>目前TGH所執行的專案中TGH_V2.5和TGH_MAO_0.8都是開源的電子義肢，而TGH_V2.5是五指可獨立動作的義肢，TGH_MAO_0.8為五指聯動的低本電子義肢，由於TGH_MAO_0.8是採用通用設計，可以輕易的改為五指獨立動作，也可以改為非電力的義肢，而TGH將利用此獎助金進化TGH_MAO_0.8，TGH欲導入手機app人機介面設計和訓練義肢的操控性，讓義肢更適合台灣的環境使用。</p>
+<p>TGH_V2.5的相關影片請參考<br>
+</p><p><a href="https://www.youtube.com/watch?v=iwEHHJZqyMQ">https://www.youtube.com/watch?v=iwEHHJZqyMQ</a></p>
+<p>TGH_MAO_0.8的相關影片請參考<br>
+</p><p><a href="https://www.youtube.com/watch?v=GgE1HhDRmUw">https://www.youtube.com/watch?v=GgE1HhDRmUw</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2402'>
+      <a title="January  9, 2020  9:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/13">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>(我非專案成員，僅協助補充相關連結供網友瀏覽參考)</p>
+<p>臺灣神手 開源義肢 網站<br>
+<a href="https://sites.google.com/view/twgodhand/%E9%96%8B%E6%BA%90-open-source/download?authuser=0" class="onebox" target="_blank" rel="nofollow noopener">https://sites.google.com/view/twgodhand/開源-open-source/download?authuser=0</a></p>
+<p>專案成果分享 影片<br>
+</p><p><a href="https://www.youtube.com/watch?v=9R2lpxajjHQ">https://www.youtube.com/watch?v=9R2lpxajjHQ</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/853/13">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

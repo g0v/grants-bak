@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>風狂逼近 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1290'>
+      <a title="July 25, 2017  9:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>目前已有<a href="http://www.typhoon2000.ph/multi/?name=NORU" rel="nofollow noopener">颱風路徑預測比較</a>，其來源也與您所列的七個來源一樣，可能要再評估是否有重工的必要，或是您有其他的目標或著眼點？</li>
+<li>是否可由歷史資料推估您欲抓取的七個資料來源有多大程度的差異，讓評審們可得知此專案可能的影響力。</li>
+<li>如果七個來源資料有一定程度的差異，此專案如何協助一般民眾判讀？</li>
+<li>會提前多少時間做出路徑預測？</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1479'>
+      <a title="July 28, 2017  8:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lorie/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank" class=''>lorie</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝 <a class="mention" href="/u/twly.tw">@twly.tw</a> 的提問，<br>
+以下將回覆 <a class="mention" href="/u/twly.tw">@twly.tw</a> 所提出來的問題，</p>
+<ol>
+<li>目前已有颱風路徑預測比較，其來源也與您所列的七個來源一樣，可能要再評估是否有重工的必要，或是您有其他的目標或著眼點？<br>
+針對颱風路徑這個項目，我們希望提供的網頁服務有：<br>
+(1.) 中文化介面（並不是每位台灣居民都習慣閱讀非中文介面）<br>
+(2.) 各國對同一颱風路徑預測的比較（同一時間，不同國家預測）<br>
+(3.) 同一國家對同一颱風路徑預測的比較（同一國家在不同時間點對颱風路徑的預測）<br>
+針對(2),(3)兩點的附加說明，我們希望可以藉由本專案帶給台灣民眾知道，颱風不僅僅影響是否放假，更因為時間變化，附近的整個大氣環境、風場的變化，導致颱風路徑（預測）變化，以及因為整個環境會影響颱風所帶來的災情，譬如未來希望再加入預測雨量等等預報值。<br>
+所以，我們認為Typhoon2000雖然已有各國路徑的比較，但在時間序列的比較上，以及未來希望加值的服務，我們希望可藉由本專案，帶給台灣民眾（或甚至是臨近國家的民眾）更簡易的操作介面，更容易比較的介面，以及更多氣候相關的小知識。</li>
+<li>是否可由歷史資料推估您欲抓取的七個資料來源有多大程度的差異，讓評審們可得知此專案可能的影響力。<br>
+如前項所述，本專案會設計一個時間軸，使用者可藉由拖曳時間軸來觀察與比較各國在個時間點對颱風路徑預報的差異。</li>
+<li>如果七個來源資料有一定程度的差異，此專案如何協助一般民眾判讀？<br>
+本專案與其他路徑預測比較網站不一樣的地方，即是提供一方便之互動地圖介面，利用這方便的地圖互動操作，例如可以直接 zoom in 至台灣附近，讓民眾直接從地圖上感受各國預測資訊之差異，並進而強化民眾自身的判讀能力，而這樣的差異即是本專案希望強調的一個重點，只依循單一預報資料去投注防災應變是非常危險的；本專案並不會為民眾提供任何判讀之結果，而是希望利用具吸引力的工具，幫忙民眾去學習資料判讀之能力。</li>
+<li>會提前多少時間做出路徑預測？<br>
+本專案設定為每五分鐘檢查各國是否發出預報路徑資料，所抓取得訊息，也會即時轉換成圖像反映在網頁上。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1481'>
+      <a title="July 28, 2017  9:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>謝謝回覆<br>
+關於第二點和第四點可能我的問題寫得不夠清楚：</p>
+<ul>
+<li>第二點的意思是，可否統計過往七個來源資料的差異（例如標準差），或以歷史預測資料和真實路徑資料做比較，以免七個資料來源如果差異極小，或是某些來源在某些地區特別不準，那再做比較也較無利用價值。</li>
+<li>第四點的意思是，希望知道路徑預報會提前多少時間發布，例如天氣預報也有未來一天、三天、一周等分別。</li>
+</ul>
+<p>另外建議提供您提到的 Leaflet plugin 貴團隊的 github 帳號，或是貴公司過去在此題目上做過的專案，以利評審們評估貴公司的執行力。</p>
+
+            <a data-link-to-post="1483" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/433/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1483'>
+      <a title="July 28, 2017  9:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/5">Jul &#39;17</a>
+        <a data-link-to-post="1481" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/433/4">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lorie/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank" class=''>lorie</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/twly.tw">@twly.tw</a><br>
+＊＊第二點：<br>
+您提到的統計資料聽起來比較像是資料校驗，但因為颱風這個議題其實有許多想要傳達給一般民眾的訊息， 可能無法在本階段完成，我們第一個階段主要是希望可以先將訊息釋放給一般民眾，未來對於資料統計、校驗、以及其他增加小常識的部分，會再陸續增加。</p>
+<p>＊＊第四點：<br>
+依現階段取得的各國路徑預報來看，各國發布的路徑預報時間皆不一致，譬如台灣目前的颱風路徑預報為未來120小時，在這個專案上，我們會抓取所有各國提前發佈的時間，如台灣是發布未來120小時，那麼地圖上就會顯示120小時的預報路徑，假設日本是發布未來72小時，那麼地圖上也就會顯示是72小時的路徑預報。</p>
+<p>＊＊github連結：<a href="https://github.com/cloudybay" rel="nofollow noopener">https://github.com/cloudybay</a></p>
+<p>＊＊經歷：<br>
+本團隊近年皆致力於協助氣象相關單位建置操作平台，將數據圖像化。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1534'>
+      <a title="August  1, 2017  4:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/6">Aug &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lorie/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/lorie' target="_blank" class=''>lorie</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝  <a class="mention" href="/u/twly.tw">@twly.tw</a>  的提問，<br>
+以下將回覆  <a class="mention" href="/u/twly.tw">@twly.tw</a>  所提出來的問題，</p>
+<ol>
+<li>目前已有颱風路徑預測比較，其來源也與您所列的七個來源一樣，可能要再評估是否有重工的必要，或是您有其他的目標或著眼點？<br>
+針對颱風路徑這個項目，我們希望提供的網頁服務有：<br>
+(1.)    中文化介面（並不是每位台灣居民都習慣閱讀非中文介面）<br>
+(2.)   各國對同一颱風路徑預測的比較（同一時間，不同國家預測）<br>
+(3.)    同一國家對同一颱風路徑預測的比較（同一國家在不同時間點對颱風路徑的預測）<br>
+針對(2),(3)兩點的附加說明，我們希望可以藉由本專案帶給台灣民眾知道，颱風不僅僅影響是否放假，更因為時間變化，附近的整個大氣環境、風場的變化，導致颱風路徑（預測）變化，以及因為整個環境會影響颱風所帶來的災情，譬如未來希望再加入預測雨量等等預報值。<br>
+所以，我們認為Typhoon2000雖然已有各國路徑的比較，但在時間序列的比較上，以及未來希望加值的服務，我們希望可藉由本專案，帶給台灣民眾（或甚至是臨近國家的民眾）更簡易的操作介面，更容易比較的介面，以及更多氣候相關的小知識。</li>
+<li>是否可由歷史資料推估您欲抓取的七個資料來源有多大程度的差異，讓評審們可得知此專案可能的影響力。<br>
+如前項所述，本專案會設計一個時間軸，使用者可藉由拖曳時間軸來觀察與比較各國在個時間點對颱風路徑預報的差異。</li>
+<li>如果七個來源資料有一定程度的差異，此專案如何協助一般民眾判讀？<br>
+本專案與其他路徑預測比較網站不一樣的地方，即是提供一方便之互動地圖介面，利用這方便的地圖互動操作，例如可以直接 zoom in 至台灣附近，讓民眾直接從地圖上感受各國預測資訊之差異，並進而強化民眾自身的判讀能力，而這樣的差異即是本專案希望強調的一個重點，只依循單一預報資料去投注防災應變是非常危險的；本專案並不會為民眾提供任何判讀之結果，而是希望利用具吸引力的工具，幫忙民眾去學習資料判讀之能力。</li>
+<li>會提前多少時間做出路徑預測？<br>
+本專案設定為每五分鐘檢查各國是否發出預報路徑資料，所抓取得訊息，也會即時轉換成圖像反映在網頁上。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1478'>
+      <a title="July 28, 2017  7:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/7">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi，感謝您這麼詳盡的回答提問人的問題，但似乎新開了一個 topic，並不會顯示在原提案下方。</p>
+<p>建議您至以下網址直接回覆，才會顯示在原始提案下方喔！<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="/discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/203e1f320987a503a00e3ffc7f4c65d85db34c7b.png" class="site-icon" width="128" height="128">
+      <a href="/discuss.grants.g0v.tw/t/topic/433" target="_blank" rel="nofollow noopener">g0v 公民科技創新獎助金</a>
+  </header>
+  <article class="onebox-body">
+    <img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c4e27f691e6af93fc306297d65a388aedadc1732.png" class="thumbnail onebox-avatar" width="128" height="128">
+
+<h3><a href="/discuss.grants.g0v.tw/t/topic/433" target="_blank" rel="nofollow noopener">風狂逼近</a></h3>
+
+<p>https://grants.g0v.tw/projects/5968323ec293de001ef0bd97           這是一個已從原 https://grants.g0v.tw/projects/5968323ec293de001ef0bd97 中分離的主題</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/433/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

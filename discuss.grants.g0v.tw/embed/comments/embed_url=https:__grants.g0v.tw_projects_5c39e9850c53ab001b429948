@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>城市步行性（Urban Walkability）評估工具 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-2168'>
+      <a title="January 14, 2019  3:57pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我覺得這個想法超酷的！</p>
+<p>在 #可行性 的部分，我覺得的確可以從某個街區開始，跟在地的導覽團體、社區組織、在地店家、議員等合作，他們收集資料後也能夠跟里長、議員反應，最終目標是可以一邊玩 Pokemon Go 一邊回報？（誤）</p>
+<p>但我打不開你的設計圖連結，不知道別人有沒有遇到一樣的困難。在看不到圖的狀況下，我會想要進一步知道使用者主要需要回報的東西會有哪些，又要怎麼讓政府的人很方便清楚看到哪邊的步行區有什麼樣的問題。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2178'>
+      <a title="January 14, 2019  5:24pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zoeychen116' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zoeychen116/45/502_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zoeychen116' target="_blank" class=''>zoeychen116</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>謝謝你的認同！連結並非設計圖，而是此專案的設計思考五階段預計要執行的項目。在初步的構想中，使用者主要需要回報特定問題（指標）的滿意度，並針對環境debug的部份可以上傳照片、文字與定位，同社群的人可以針對這個 bug，進行認定等等。以上是手機App的部份功能，這些搜集而來的數據和資料，可以做成開放的資料視覺化（儀表板）以及各地區的排行榜，政府也可以透過儀表板和排行榜清楚的看到各地區的 walkability。</p>
+<p>Walk Watcher 步行守望者（watcher 一詞概念來自電影，亦是一語雙關），每個行人都可以是英雄，是工具裡遊戲機制的基本概念。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2205'>
+      <a title="January 15, 2019  3:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我也喜歡這個概念。不過建議應該提早決定「Walkability (步行性評估指標)」的定義，因為這會直接影響如何收集數據。</p>
+<p>開發出好用的遊戲化 App 是非常非常大的工程，並不見得要採取此一途徑來搜集數據。譬如去年的專案「<a href="https://grants.g0v.tw/projects/5a646055900e86001bf9f526" rel="nofollow noopener">台灣路更平</a>」，就與計程車和公務機關做策略合作（參考<a href="https://youtu.be/XytVEntZk_8?t=41m32s" rel="nofollow noopener">成果發表段落</a>）收集了大量數據。可以發想看看，有沒有其他搜集 Walkability 數據的可行方案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2207'>
+      <a title="January 15, 2019  5:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zoeychen116' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zoeychen116/45/502_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zoeychen116' target="_blank" class=''>zoeychen116</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>謝謝您的建議，連結展示是我的研究架構，在這裡或許我應該以 prototype 為目標，先列出初步具體的指標清單，並先繪出大致的操作流程示意圖。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2301'>
+      <a title="January 21, 2019 10:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/6">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sharyuan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sharyuan/45/525_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sharyuan' target="_blank" class='new-user'>sharyuan</a>
+        </h3>
+        <p>覺得超酷！認同walkability可能要有更細的定義（像是方便輪椅或身障人士走的路之類的），我滿有興趣！有回覆您email囉～</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/903/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

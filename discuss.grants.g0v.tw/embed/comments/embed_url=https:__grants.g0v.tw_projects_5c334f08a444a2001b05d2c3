@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>空汙對策 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-2076'>
+      <a title="January  8, 2019 12:58pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/873/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twgodhand/45/478_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twgodhand' target="_blank" class=''>twgodhand</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>空污的動畫現在就有喔，像是“紫豹在那裡“還有中研院和LASS合作的網頁https://data.lass-net.org/grafana/d/gT2ir9Kik/idw-taiwan?orgId=1</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2122'>
+      <a title="January 12, 2019  2:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/873/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，感謝您的提案！</p>
+<p>[差異性]<br>
+正如 <a class="mention" href="/u/twgodhand">@twgodhand</a> 所述，建議相安提供您的專案與下面這兩者的不同唷！</p>
+<ul>
+<li>紫豹在哪裡：<a href="https://purbao.lass-net.org/" rel="nofollow noopener">https://purbao.lass-net.org/</a>
+</li>
+<li>中研院 &amp; LASS：<a href="https://data.lass-net.org/grafana/d/gT2ir9Kik/idw-taiwan?orgId=1" rel="nofollow noopener">https://data.lass-net.org/grafana/d/gT2ir9Kik/idw-taiwan?orgId=1</a>
+</li>
+</ul>
+
+            <a data-link-to-post="2185" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/873/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2185'>
+      <a title="January 15, 2019  1:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/873/4">Jan &#39;19</a>
+        <a data-link-to-post="2122" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/873/3">▶ johnsonliang7</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/873/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

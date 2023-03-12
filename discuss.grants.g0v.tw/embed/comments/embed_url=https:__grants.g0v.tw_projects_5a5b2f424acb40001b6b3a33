@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>MyPhrase - 我的詞句庫 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1762'>
+      <a title="January 23, 2018  1:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/683/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>【可行性】可以請提案人再把手機上的使用情境描述得更詳細一點嗎？包括在不同作業系統環境中如何做到「筆記」的功能。</p>
+
+            <a data-link-to-post="1831" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/683/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1831'>
+      <a title="January 25, 2018  1:19pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/683/3">Jan &#39;18</a>
+        <a data-link-to-post="1762" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/683/2">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/euleramon/45/118_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank" class=''>euleramon</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/chihaoyo">@chihaoyo</a> 感謝你的提問，抱歉有點晚回覆，我想補充在使用情境的部分，但因為字數超過500字不能再多加，因此補充如下：<br>
+<br>
+* 手機標記：阿福在等公車時，透過我們的手機App看國外新聞，MyPhrase內建的瀏覽器可以直接做畫線標注生詞，App同時自動記錄所包含的句子，並帶有字典查詢功能，生詞與句子一樣會記錄到資料庫供日後使用Flash Card快速復習。</p>
+<p>不像電腦的Chrome、Firefox、Edge有支援擴充套件，因為手機上主流的瀏覽器沒有，目前想到的方法只能自己做簡單的瀏覽器來標注生詞同時分析出所包含的句子一起做記錄。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1907'>
+      <a title="January 29, 2018  8:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/683/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請注意資料是否齊全，以利後續評選流程：</p>
+<p>建議補充說明團隊成員曾參與過的專案，若有 github 連結也可附上。</p>
+
+            <a data-link-to-post="1930" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/683/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1930'>
+      <a title="January 30, 2018  3:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/683/5">Jan &#39;18</a>
+        <a data-link-to-post="1907" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/683/4">▶ bess</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/euleramon/45/118_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/euleramon' target="_blank" class=''>euleramon</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/bess">@bess</a> 謝謝提醒，目前開源的專案大致已補上，只剩非開源的項目。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/683/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

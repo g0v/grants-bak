@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>2018 議員投票指南 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-305'>
+      <a title="January 21, 2017  8:45am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>可以提供一下 2014 議員投票指南的瀏覽相關數據圖，或是當時有什麼使用者意見回饋，是打算在這次版本中加強的？</p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/2">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-313'>
+      <a title="January 21, 2017  1:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/3">Jan &#39;17</a>
+        <a data-link-to-post="305" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/34/2">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p><a href="https://goo.gl/kPCH6b" rel="nofollow noopener">議員投票指南 20141101-20141130 GA</a><br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/db70d3b8e2684fc8f90181ba8d0893070c056bf4.jpg" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/db70d3b8e2684fc8f90181ba8d0893070c056bf4" title="2014 councils ga.jpg"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/db70d3b8e2684fc8f90181ba8d0893070c056bf4_1_689x309.jpg" width="689" height="309"></a></div>
+
+      </div>
+    </article>
+    <article class='post' id='post-315'>
+      <a title="January 21, 2017  1:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/4">Jan &#39;17</a>
+        <a data-link-to-post="305" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/34/2">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>參照 <a href="http://councils.g0v.tw/candidates/2014/#comment-1687828594" rel="nofollow noopener">網友留言</a>、<a href="http://councils.g0v.tw/#comment-1709753348" rel="nofollow noopener">候選人留言</a> 等，新增編輯介面給候選人，初期不限身分登入發表，2018 選前登記後親自確認身分是否確為候選人。</p>
+
+            <a data-link-to-post="318" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/34/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-318'>
+      <a title="January 21, 2017  1:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/5">Jan &#39;17</a>
+        <a data-link-to-post="315" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/34/4">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>按照市長給問的經驗，議員的候選人這麼多，要親自拜訪跟教學使用會蠻辛苦的。</p>
+
+            <a data-link-to-post="320" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/34/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-320'>
+      <a title="January 21, 2017  2:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/6">Jan &#39;17</a>
+        <a data-link-to-post="318" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/34/5">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>應該無法親自拜訪，應會利用登入帳號的 email 請候選人進行某機制確認，例如傳身分證影本註明限議員投票指南身分確認用，詳細可能會再和律師和中選會討論更好的辦法。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-323'>
+      <a title="January 21, 2017  6:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hatefuck' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hatefuck/45/112_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hatefuck' target="_blank" class='new-user'>hatefuck</a>
+        </h3>
+        <p>說真的，上次選舉沒看這個我連立委、議員叫啥名字都不知道<br>
+一般我很不喜歡個資在平台間連來連去的，但這傢伙幫助太大了，只好乖乖登入回覆</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-971'>
+      <a title="March 20, 2017  8:59am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/8">Mar &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/claire18412/45/126_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank" class=''>claire18412</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>嗨~您好，以下是0306評選會議當天評審給的建議，Kick- off 當天有給您一份，再將內容附上，供您之後參考 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p>評審建議：</p>
+<blockquote>
+<ol>
+<li>在參選新人方面，因無客觀事實追蹤，有可能出現政見畫大餅的現象，難以檢驗。此平台提供曝光度讓大家看到訊息是好事，但不一定會促進政治多元參與，或可在新人欄位設立可客觀追蹤的資訊，比如新人的資歷或在公共參與裡比較重要的事蹟，讓選民在政見之外也能了解新人實際做過的事。關於此欄位是要開放民眾協作？作者自填？還有待考慮。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>主動請候選人來填資料的話會滿辛苦的，可考慮搭配其他手法促進候選人的使用率。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>可以考慮如何增加可看性，讓民眾了解知道這些資訊的重要性，讓整合這些豐富資訊的努力可被民眾看見及使用。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>有可能做到承諾與捐款的連結？例如候選人承諾地方可做到的事情，若真的完成，選民就願意在下次競選時捐多少錢出去，此舉或許可讓現任或心參選的人帶起議題討論。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>行銷推廣也很重要，既然你拿到grant，可以考慮是否找行銷專業的人，推廣到議員的競選總部，也讓此平台的價值被更多人看到。</li>
+</ol>
+</blockquote>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/34/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

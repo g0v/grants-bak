@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>阿龜誌—農務紀錄好幫手 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/2">繼續討論</a>
+  <span class='replies'>22 個回覆</span>
+</header>
+
+    <article class='post' id='post-1300'>
+      <a title="July 25, 2017 10:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>是否可以多說明一下，農民真正的需求是什麼，以及這個技術如何滿足農民的需求？是否會有過高的技術門檻需要農民學習並自力維護？</p>
+
+            <a data-link-to-post="1381" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/458/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1343'>
+      <a title="July 25, 2017  3:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ting751117' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ting751117/45/319_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ting751117' target="_blank" class='new-user'>ting751117</a>
+        </h3>
+        <p>我覺得這個想法很好，而且有具體的科學資料來呈現關注的議題與問題。將紀錄方式簡化是未來能推動的好方法，不過我也會想知道那些農民會對這類的方式感到好奇並且嘗試。目前新一代的新農夫，學習力強也願意在賺錢與環境之間找平衡，或許是可以嘗試的對象。若具體能增加或提升農務的效率，可能其他的農夫也會想去嘗試。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1346'>
+      <a title="July 25, 2017  3:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/constancevic' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/constancevic/45/322_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/constancevic' target="_blank" class='new-user'>constancevic</a>
+        </h3>
+        <p>這樣的計畫若真的能成功，一定可以帶來農民們很大的幫助，也可以讓農民們省下更多的力氣，完成更多的夢想。在這樣的大數據時代裡，若農業沒有跟上這樣的潮流，將會越來越辛苦，所以我覺得有這樣的計畫來幫助更多的農民，真的很值得推廣，加油！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1350'>
+      <a title="July 25, 2017  3:51pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/leolovero' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/leolovero/45/324_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/leolovero' target="_blank" class='new-user'>leolovero</a>
+        </h3>
+        <p>我來自花蓮，看到這項技術的可能性，對於農人的幫助是莫大的！<br>
+但實際在未來的執行細節的部分，可能可以先透過與小農實際的合作，逐漸發展為一個成熟的產品！<br>
+加油！謝謝你們有這份為了他人持續努力的心！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1356'>
+      <a title="July 25, 2017  5:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sallys88332' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sallys88332/45/325_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sallys88332' target="_blank" class='new-user'>sallys88332</a>
+        </h3>
+        <p>好棒的提案!<br>
+不過我有小小問題:<br>
+提案中有提到蔬果行情的資訊，蔬果行情起伏大，經銷商收購價與中盤商價格等等也都不盡相同，或許也是可以思考要怎麼彙整資訊~<br>
+還有病蟲害資訊的提供，這個不知道農委會是否會願意提供相關資料@@?</p>
+<p>阿龜團隊加油~</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1358'>
+      <a title="July 25, 2017 10:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/7">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blue8909' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blue8909/45/165_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blue8909' target="_blank" class='new-user'>blue8909</a>
+        </h3>
+        <p>哇嗚 感覺是非常有意義的一個計畫耶<br>
+可以幫助到農民我覺得很好<br>
+請加油 充滿期待~</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1360'>
+      <a title="July 25, 2017 11:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/8">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/andy90389' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/andy90389/45/326_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/andy90389' target="_blank" class='new-user'>andy90389</a>
+        </h3>
+        <p>台灣小農非常需要類似的資訊來協助，希望你們可以執行這個計畫～</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1381'>
+      <a title="July 26, 2017  4:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/9">Jul &#39;17</a>
+        <a data-link-to-post="1300" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/458/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/billy3321">@billy3321</a>: 感謝您的提問，先從農民最簡單的兩項需求開始說起，一是「田間操作的農務決策/自動化設施」，他們進行田間作業時，普遍都期望能有一些科技技術來協助他們在田間作業時更省工，以及提升產量，阿龜微氣候天眼通的目標就是在這個上面；第二個部分是「如何可以增加銷售管道/銷售量」，這個也是普遍農民期望，但這不是他們所擅長的部分，阿龜誌的終端就是期望藉由田間的資料科學技術串聯至前端小農銷售平台，來幫助有機作物銷售時，也能追溯到農夫的田間操作歷程，強化小農自有品牌。</p>
+<p>前面都是大方針，比較細部的需求就是農民通常都會做所謂的農務紀錄/栽培紀錄，過往是使用紙筆和自己看得懂的規則方式來做紀錄，以紀錄自己的經驗作為來年耕種的參考依據。目前我國農業政府單位有推出幾套類似田間管理的工具，然而在KPI的設定下，會變成比較是以管理層面的角度出發作為設計的，對政府和地主有利，小農卻不見得適用，傳統生產履歷難操作，農夫輸入資料也沒有感受有什麼反饋。</p>
+<p>因此阿龜的團隊還是會以農民在地的需求出發去做設計，希望透過APP和幾個簡易的操作步驟就可以完成紀錄，使他們在從事長期田間紀錄工作時，有個較好的科技工具可以使用，而且可以再結合到微氣候工具，希望平台至少可以顯示耕地天氣，未來能根據耕種作物對病蟲害警訊推播。另是否能對採收時機做提醒，農友也可以將履歷分享到社群網路給消費者參考。這個工具的主要操作對象是小農/青農，當然也會為了讓老農使用好上手而再做一些簡化的設計。</p>
+<p>在過去半年，我們團隊針對田間紀錄的部分，花了幾個月的時間，蒐集農耕項目，初步已把紀錄欄位正規化，來符合後續分析的規格，也投入了實驗中，來做田間紀錄初步的驗證和修改參考。可是目前是用google sheet來做實驗記錄，仍缺乏一個好的紀錄工具，因此一個好的資料蒐集工具先有，是很重要的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1382'>
+      <a title="July 26, 2017  4:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/10">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/ting751117">@ting751117</a>: 感謝您的回覆，我們盡力打造好的農務科技工具，來幫助新一代的農夫能夠做得更好。目前我們的對象設定在青小農，除了透過參與式驗證找尋願意嘗試的農夫外，也會跟農企業進行合作實驗，請他們配合使用與紀錄，先願意使用，再習慣使用。紀錄類型的工具，短時間內看似都是苦工，而且也難以回饋，所以先從好用簡單的介面設計下手，讓進入的痛苦指數不高，甚至是有趣的使用體驗。然後數據累積長期的話，就可以回饋給農民自身更多的決策建議。</p>
+<p><a class="mention" href="/u/constancevic">@constancevic</a>: 感謝您的回覆，這陣子跟國際間的接觸和蒐集到一些國內外的情報資訊，我們在農業大數據這塊就是走的特別被動而且緩慢。台灣的地形地貌很適合這類的研究發展，而且說實在的台灣不是不能做，只是更缺乏一些有心的人，逐步地把資訊科技跟農業之間的距離拉近。雖然說不容易，但我們會加油的。</p>
+<p><a class="mention" href="/u/leolovero">@leolovero</a>: 謝謝，我們依然是會與在地農民的合作出發，一起來打造適合他們使用的工具。這個過程是漫長的，所以也會需要有更多的支持與投入。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1384'>
+      <a title="July 26, 2017  4:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/11">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/felicific1221' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/felicific1221/45/328_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/felicific1221' target="_blank" class='new-user'>felicific1221</a>
+        </h3>
+        <p>覺得這個計畫很棒！利用科技與農業的結合，讓農友可以更省時、便利，過去都用紙本記錄，現在有了阿龜誌，在紀錄跟分析會來的更有效率！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1386'>
+      <a title="July 26, 2017  4:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/12">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/louise19910211' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/louise19910211/45/329_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/louise19910211' target="_blank" class='new-user'>louise19910211</a>
+        </h3>
+        <p>希望這個從過去和農民接觸經驗中萌生的專能夠成真！用科技幫農友更有效率地紀錄農務資料</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1388'>
+      <a title="July 26, 2017  5:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/13">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/sallys88332">@sallys88332</a>: 蔬果行情的開放資料屬調查批發價格，與現實的價格資訊仍有落差，而且缺乏驗證，如果政府可以開放數位型的消費零售端的發票資料，那對銷售端會更有幫助。但在這種事情還沒發生之前，阿龜誌的完成，提了可以提供農務紀錄外，事實上也可以提供農民們製作採收交易的相關紀錄，來讓整個過程資料更加完整。</p>
+<p>病蟲害的資訊，這個恐怕就得詢問農委會了。病蟲害的決策模型是身為資料科學研究者的我非常想做的事情，他必須做非常多的專業/田間知識考究與資料正規化，然後再跟微氣候數據結合，如果這塊未來可以跟專家、政府單位或是學術單位合作的話，把對的人和資源集結起來發展，再跟阿龜工具們結合，我覺得好像我的心願就可以滿足了。</p>
+<p>謝謝你的支持，阿龜團隊會加油的～</p>
+<p><a class="mention" href="/u/blue8909">@blue8909</a>: 感謝你的支持，我們會加油的。公民科技我想就是希望能夠透過科技的力量去幫助到需要幫助的產業和人。</p>
+<p><a class="mention" href="/u/andy90389">@andy90389</a>: 謝謝你，我們也希望可以長期持續發展農業科技的項目，台灣願意投入在這塊的人真的不多，大家看到賺不到錢就興趣缺缺，然而看到問題解決問題才是工程師本色，我們團隊是執行力相當高的一個團隊，希望透過開源專案，找到對的人加入，讓農業科技應用的前進速度可以更快一些。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1389'>
+      <a title="July 26, 2017  5:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/14">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/felicific1221">@felicific1221</a>: 其實在真正進入到田間前，其實對田間紀錄的感受沒有這麼深，後來看到我們團隊的農夫，都用非常專業的繪測在進行紙筆紀錄時，再加上這次的實驗請他花了非常多時間在做田間紀錄，才驚覺像這類資料紀錄的蒐集工具應該要先發展，只有農友更省時便利了，才有後面所謂的大數據分析世界發生。 再次謝謝你的肯定。</p>
+<p><a class="mention" href="/u/louise19910211">@louise19910211</a>: 真的，我看很多擁有強大技術的人，想做農業科技上做點事情，但卻常不得其門而入，甚至用錯方法解決問題，這是很可惜的。也因此才有阿龜團隊跟OPEN HACK FARM農業的開源科技社群誕生，不管怎模說，我們都希望能透過自己的雙手，從跟農民接觸的經驗中，去發掘問題，解決問題。阿龜誌，就是用科技幫農友更有效率地紀錄農務資料的一項工具。 謝謝你，我們會加油的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1393'>
+      <a title="July 26, 2017  5:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/15">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/micoteacher1127' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/micoteacher1127/45/320_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/micoteacher1127' target="_blank" class='new-user'>micoteacher1127</a>
+        </h3>
+        <p>覺得這個設計好酷！農業是個非常重要的領域…運用科技來協助農業上的困擾，真的是太令人開薰了。</p>
+
+            <a data-link-to-post="1507" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/458/15">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1395'>
+      <a title="July 26, 2017  5:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/16">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/alice26332001' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/alice26332001/45/331_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/alice26332001' target="_blank" class='new-user'>alice26332001</a>
+        </h3>
+        <p>從沒想過現在最夯的大數據可以跟農業結合，<br>
+覺得這樣的連結很有意義。<br>
+請一定要繼續</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1400'>
+      <a title="July 26, 2017  6:51am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/17">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hat60112' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hat60112/45/335_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hat60112' target="_blank" class='new-user'>hat60112</a>
+        </h3>
+        <p>在這食物會越來越短缺，且天氣越來越糟的時代，農業與天氣相關的監測實驗變得格外重要，而此團隊做的正是如此的研究，非常有意義！農務紀錄也因這個團隊的研究變得簡單且減輕負擔，希望他們的研究可以繼續進行！加油！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1402'>
+      <a title="July 26, 2017  6:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/18">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/guonan1025' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/guonan1025/45/332_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/guonan1025' target="_blank" class='new-user'>guonan1025</a>
+        </h3>
+        <p>很有意義的計畫，阿龜精神就像台灣農民的台灣牛精神，一步一腳印為台灣農業盡一份進步的力量，尤其台灣走精緻化農業，一定十分需要，但農民易用性真的是一個挑戰，台灣有你們為這塊土地努力真好，阿龜加油！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1418'>
+      <a title="July 26, 2017  8:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/19">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/poetypoety' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poetypoety/45/337_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/poetypoety' target="_blank" class='new-user'>poetypoety</a>
+        </h3>
+        <p>很有趣的一個企劃，希望這樣的企劃能讓台灣的農耕環境愈來愈好。<br>
+另外好奇想問一個小問題，這樣的數據結果將來是否有可能可以跟傳統節氣等相關議題有一個比對或修正？例如目前我們對節氣的認知，是以中原地區為主的歸納分析結果，再加上時間已久，其實可能已經有差異，如果能有一些修正或調整，或許可以形成專屬於台灣區域的節氣與農作文化？</p>
+
+            <a data-link-to-post="1508" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/458/19">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1432'>
+      <a title="July 26, 2017  3:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/20">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/semits25' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/semits25/45/341_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/semits25' target="_blank" class='new-user'>semits25</a>
+        </h3>
+        <p>您好，<br>
+因為台灣的氣候真的很不穩定，並且地勢變化大，因此有這樣的企劃能夠幫助農民更快了解並且記錄<br>
+當地的氣候，協助栽培管理的決策，另外，這樣的設施我覺得更適合應用於溫室的栽培管理上面，因為<br>
+溫室的氣候真的和氣象報告上的數值很不相同啊! 也需要更多經驗值來輔助管理，有這樣的系統紀錄，能夠更科學化的進行溫室栽培。加油加油!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1434'>
+      <a title="July 26, 2017  3:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/21">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/achielyce' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/achielyce/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/achielyce' target="_blank" class='new-user'>achielyce</a>
+        </h3>
+        <p>台灣小農需要阿龜～希望此專案可以順利完成！<br>
+一定推薦給在務農的長輩，這正是他們需要的，阿龜加油！！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1507'>
+      <a title="July 28, 2017  2:57pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/22">Jul &#39;17</a>
+        <a data-link-to-post="1393" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/458/15">▶ micoteacher1127</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/micoteacher1127">@micoteacher1127</a> 感謝你的肯定與支持， 農業科技需要更多的沒有人</p>
+<p><a class="mention" href="/u/alice26332001">@alice26332001</a> 我最大的目標是希望把整個農業微氣候的架構規格做起來，先能產生分析可用的資料，我自己也玩，然後公開讓更多的資料科學家可以投入，如此希望可以把科技跟農業更加拉近。</p>
+<p><a class="mention" href="/u/hat60112">@hat60112</a> 謝謝，農務紀錄看似瑣碎微小但長期而言卻十分重要，我們的加入也是希望能讓整件事情透過科技的力量，變得更簡單易用一些，為了這個我們團隊有幾晚為了介面設計戰了好久～XD 希望這次的計畫能順利申請通過。</p>
+<p><a class="mention" href="/u/guonan1025">@guonan1025</a> 謝謝你的支持，真的「農民易用性」從以前到現在一直都是挑戰，在這上面撞牆退縮和退出的不少，我們會堅持下去的：）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1508'>
+      <a title="July 28, 2017  3:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/23">Jul &#39;17</a>
+        <a data-link-to-post="1418" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/458/19">▶ poetypoety</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/poetypoety">@poetypoety</a> 這個就是微氣候資料科學本身想做的事情了，節氣跟農民曆似乎越來越難以參考，經驗豐富的農夫或許可以自然察覺氣象變化，來決定栽種作物，但不是所有人都有這種能力，大多數的農夫還是得靠農民曆和氣象資訊來決定。<br>
+阿龜誌完成後，如果可以配合微氣候的工具開始做長期數據的蒐集，我覺得是有機會可以透過數據，來編寫屬於台灣的栽種農民曆的，值得嘗試。哎啊，心中鬥志有點燃燒起來了～</p>
+<p><a class="mention" href="/u/semits25">@semits25</a> 溫室也是可以使用阿龜誌進行紀錄的，來協助栽培管理的決策，滿好的～ 希望這次能夠有機會把阿龜誌完成。</p>
+<p><a class="mention" href="/u/achielyce">@achielyce</a> 感謝你的支持，謝謝。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/458/23">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

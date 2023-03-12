@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>公(民)公(投)不頭痛 APP - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2119'>
+      <a title="January 12, 2019 12:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/900/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stu88364' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stu88364/45/496_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stu88364' target="_blank" class=''>stu88364</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>有人可以救命嗎?我圖放不上去~</p>
+
+            <a data-link-to-post="2150" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/900/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2150'>
+      <a title="January 13, 2019  3:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/900/3">Jan &#39;19</a>
+        <a data-link-to-post="2119" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/900/2">▶ stu88364</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Realize' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/realize/45/499_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Realize' target="_blank" class=''>Realize</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>可能是檔案太大，或是要正方形？我縮到100k左右的正方形png可以上傳。</p>
+
+            <a data-link-to-post="2157" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/900/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2157'>
+      <a title="January 14, 2019  5:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/900/4">Jan &#39;19</a>
+        <a data-link-to-post="2150" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/900/3">▶ Realize</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stu88364' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stu88364/45/496_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stu88364' target="_blank" class=''>stu88364</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>非常感謝~我成功了~</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2208'>
+      <a title="January 15, 2019  5:16am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/900/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>本年度專案執行期間，很可能不會進行公投，如何驗證專案的成效？但既然本質上是鼓勵關注公眾議題，對這方面可以有更多著墨。</p>
+<p>此外，要如何鼓勵「公投發起人」使用此平台宣傳？在這一題「如何讓目標用戶知道這個服務並完成其第一次使用」缺乏這部分的論述。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/900/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>守寫字平台API - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-1316'>
+      <a title="July 25, 2017  1:29pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/api/454/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>好像跟 <a href="http://www.justwrite.tw/" rel="nofollow noopener">http://www.justwrite.tw/</a> 很相近，不過這個專案感覺比較偏向商業專案，從提案內容有點難看出跟開放資料及社會參與的直接關聯，是否能在這部份再更多些說明？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1524'>
+      <a title="July 29, 2017  3:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/api/454/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zxaustin' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zxaustin/45/353_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zxaustin' target="_blank" class=''>zxaustin</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝您的發問，在這邊針對問題做回應</p>
+<p>平台的開放資料與社會參與，舉一個簡單的例子來說的話，有點像雲端相簿的感覺。<br>
+現在每個人都很習慣平常使用手機或數位相機拍照，作為自己的生活記錄並上傳到自己的雲端相簿中，同時也很習慣能夠在網路上的各種服務中直接取得這些相片做使用。例如在點點印的服務中製作成實體相片書；或各種論壇等大頭照之類。守寫字平台會作為一個出發點，讓每個人的"字跡"也像照片一樣，成為可以使用在網路上的各種服務中的個人資產。</p>
+<p>可以用自己的字寫EMAIL、永遠記錄保存親人的字跡或用自己寫的字賺些外快，擁有個人字體的便利性是大多數人沒想像過的，透過這些益處，吸引全體人民都能一起建立、分享與使用自己的字體，而這些手寫資料除了透過OAuth機制與第三方開發者串接以外，也會在使用者的同意下開放給學術研究使用，相信在對人的潛意識、醫學上的疾病偵測或數位典藏上的手寫文字辨識提供很好的實驗參考數據。</p>
+<p>的確守寫字平台的功能看起來跟Justwrite的服務相當接近，但是Justwrite的服務屬於銀貨兩訖的販售服務，客戶將費用與寫好的文字交給Justwrite後，Justwrite使用這些資料將字體製作完成後交回給客戶，也就是原作者。原作者可以在單機裝置中安裝這些字體或給予他人使用，但因為一般大眾不具有修改字體檔的能力，所以無法更新、維護字體，也無法將字體使用在網路上。守寫字平台的服務能夠彌補這段差距，讓字體成為每個人自己經營的資產，也能夠給予各種網路服務開發者更多的發揮與想像。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/api/454/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>SAVE - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1224'>
+      <a title="July 21, 2017  8:45am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/save/415/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <blockquote>
+<p>在超商方面目前並沒有任何針對即期品的優惠活動</p>
+</blockquote>
+<p>事實上現在超商也都有即期品折價的做法了，可能要請你們多研究一下現在的狀況喔。</p>
+<p>請問為什麼是用 app 來解決這個剩食的問題？如果大家不會安裝超商/量販的 app，那怎麼會有誘因來安裝這個 app 呢？另外一問，有 marvelapp 設計稿很棒，不過為什麼註冊要生日跟性別啊？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1231'>
+      <a title="July 21, 2017  3:25pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/save/415/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hellohellou31' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hellohellou31/45/298_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hellohellou31' target="_blank" class=''>hellohellou31</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Hi hlb</p>
+<p>內文<br>
+"目前台灣連鎖量販店、超市都會在即期品到期前在特定時間下折扣來增加銷售的誘因，但是客戶群有限造成還是有許多的食物存留，並因此連帶影響後續廚餘處理造成企業一筆額外的開銷， 而在超商方面目前並沒有任何針對即期品的優惠活動，主要可能原因為造成消費者只願意購買特惠的商品。"</p>
+<p>目前台灣只有量販店、超市有針對即期品下折扣，因為量販店、超市的食品類有效期限較長，客群所需較不一樣，大致分為注重新鮮以及美觀的客群和在意價錢的客群，以至於優惠即期品與原價商品客群不互相衝突。<br>
+相較於量販店以及超市，超商像是7-11,全家，食物有效期限大部分都不超過一天，所以超商不會採取即期品下殺折扣的方式。<br>
+而就我們所知超商是沒有在做即期品折扣優惠，不過我們還是會再一次確認，感謝提醒。</p>
+<p>另外，App只是眾多方法之一，因為我們認為在這人手一機的時代，以APP作為平台更能深入消費者的生活。<br>
+此外，並不是所有的量販店、超市、超商的APP都做的不好，其中有幾間企業的APP其實做的非常成功，而SAVE是整合各大商家的優惠訊息進而依照消費者的習慣來做推播，對於消費者應該會是一個很大的誘因。<br>
+註冊生日跟性別是因為會整理出消費者的數據提供給企業。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1336'>
+      <a title="July 25, 2017  2:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/save/415/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p><a class="mention" href="/u/hellohellou31">@hellohellou31</a> 可以 google 一下 “超商 即期品” 就會看到一些今年的新聞喔。</p>
+<p>另外問題不是量販店、超市、超商的 app 做得好不好，而是人們越來越少為了特定目的安裝 app 了。如果目標在台灣族群，也許 Facebook / Line 的附加應用(bot?)/行銷方式更有機會被使用到。</p>
+<p>另外也好奇預期能跟指標量販店/超商/超市合作的原因。</p>
+
+            <a data-link-to-post="1458" class="post-replies button" href="/discuss.grants.g0v.tw/t/save/415/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1458'>
+      <a title="July 27, 2017  4:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/save/415/5">Jul &#39;17</a>
+        <a data-link-to-post="1336" class="in-reply-to" href="/discuss.grants.g0v.tw/t/save/415/4">▶ hlb</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hellohellou31' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hellohellou31/45/298_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hellohellou31' target="_blank" class=''>hellohellou31</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>首先，你提到的案例有超商對即期品做優惠，但是根據我們所查到的資料，有這類型服務的超商占總比例非常的少，而我們的APP其中的一個理念是要藉著所有消費者的力量來達到食物不浪費的目的，如果只有單一店家我們認為這並不足以來解決剩食問題。<br>
+此外，我們也有提到在未來我們也會使用各大socal media 來配合行銷我們的APP，而關於人們越來越少為了特定目的安裝 app ，就我們的看法而言，因為有特定的需求才會尋找特定的APP來解決問題 像是想搭計程車-Uber 短期租屋-AirBnB 找飯店-trivago，所以我們也是抱持著將來消費者想要得到優惠就會聯想到我們APP的理念。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/save/415/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

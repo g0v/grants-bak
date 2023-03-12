@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>開放治理經驗平台 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2161'>
+      <a title="January 14, 2019  2:43pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/907/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi 我覺得這個案子非常好，我們很需要公部門經驗的傳承和分享讓更多人知道。這邊有幾個問題想要問：</p>
+<ol>
+<li>
+<p>[可行性][影響力] 這邊想要請問主要會從哪個方面的公部門去做訪談呢？因為目前預計是訪問六位，想要知道主要訪談哪些領域？個人認為可以先集中火力針對某個業務或是單位去做訪談。</p>
+</li>
+<li>
+<p>[可利用性] 目前的做法是集中在兩個人身上去做訪問，想要請問有什麼方法可以讓大家一起提問、擬定提綱與選定受訪者，讓更多人可以加入一起採訪與協作呢？不然只有兩個人訪問會很累。</p>
+</li>
+</ol>
+<p>【建議修改】<br>
+目前專案授權只寫了程式碼會開源，但本計畫主要產出其實是訪問內容，建議訪問內容可以用創用 CC 開源出來。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2202'>
+      <a title="January 15, 2019  2:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/907/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>幫忙補充一下，根據 g0v 公民科技創新獎助金申請實施細則：「文字、圖像等內容使用必須符合 Free Culture Works 定義」，我解讀是專案產出內容就必須是允許商用的創用 CC 授權。</p>
+<p>此外，既然主要產出是訪談內容與社群經營，就不見得需要自架 Wordpress 平台，可以考慮 Medium 這類部落格平台，而將專案的心力完全專注於訪談產製與行銷合作。</p>
+
+            <a data-link-to-post="2243" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/907/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2243'>
+      <a title="January 15, 2019  3:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/907/4">Jan &#39;19</a>
+        <a data-link-to-post="2202" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/907/3">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wuchangkang1125' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wuchangkang1125/45/514_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wuchangkang1125' target="_blank" class=''>wuchangkang1125</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝兩位建議 , 我會補上創用CC</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2283'>
+      <a title="January 18, 2019  1:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/907/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>正好看到一則內容，也提到希望建立政策經驗傳承交流的工具<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://talk.pdis.nat.gov.tw/images/default-favicon.ico" class="site-icon" width="16" height="16">
+      <a href="https://talk.pdis.nat.gov.tw/t/join-gov-tw/770/10" target="_blank" rel="nofollow noopener">PDIS 公開討論區</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/200/574_1.png" class="thumbnail onebox-avatar" width="60" height="60">
+
+<h3><a href="https://talk.pdis.nat.gov.tw/t/join-gov-tw/770/10" target="_blank" rel="nofollow noopener">關於 join.gov.tw 的疑問</a></h3>
+
+<p>功能在於做為政府施政的參考。  新的資通訊技術推出時，前一代的工具並不因此自動消失，每個機關的進線系統（首長信箱、民代陳情、各系統意見論壇、粉絲團留言、公聽、說明會）若未整合，也容易造成重複的紙上作業。這會需要和各機關的研考（綜規）合作，一起整合現有的各系統。  由於個別祕書、替代役的經驗較難傳遞，所以才會參考 OGP 的經驗，做出初步規劃： https://youtu.be/6us3g7Nsu-Q?t=21m12s ...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/907/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Hackstory 協作時間軸 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1295'>
+      <a title="July 25, 2017 10:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/hackstory/474/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>通常公共審議最大的問題並不是協助釐清的技術，而是背後的政治折衝、利益衝突，有沒有好的工具可以處理這些問題呢？</p>
+
+            <a data-link-to-post="1504" class="post-replies button" href="/discuss.grants.g0v.tw/t/hackstory/474/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1371'>
+      <a title="July 26, 2017  2:33am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/hackstory/474/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mimi78198/45/276_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank" class=''>mimi78198</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>一件事情通常有不同角度的看法，當各方同一時間的詮釋發生衝突矛盾，該怎麼解決？誰來決定最後留下來的詮釋？謝謝～</p>
+
+            <a data-link-to-post="1505" class="post-replies button" href="/discuss.grants.g0v.tw/t/hackstory/474/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1504'>
+      <a title="July 28, 2017 10:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/hackstory/474/4">Jul &#39;17</a>
+        <a data-link-to-post="1295" class="in-reply-to" href="/discuss.grants.g0v.tw/t/hackstory/474/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/night17x' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/night17x/45/211_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/night17x' target="_blank" class=''>night17x</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝雨蒼的提問：</p>
+<p>身為政治工作者，我十分認同「背後的政治折衝、利益衝突」是最大的問題，這也是為何我想要先進行資訊釐清，避免討論層次卡關在事實認知與資訊落差這頭，更能夠專注去討論背後的價值與利益衝突，也是相關討論應有的前置作業。</p>
+<p>至於有什麼工具能夠處理政治立場之間的折衝、不同利益的衝突？我過去在綠色和平工作時，會透過一套Power Analysis的工具分析，首先我們在白板上先畫出一個倒T，橫軸為對於某議題的立場，直軸為影響力的大小。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/136c38739bccfc7e3961f61be95c519ac04deb7f.png" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/136c38739bccfc7e3961f61be95c519ac04deb7f" title="pa_01.png"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/136c38739bccfc7e3961f61be95c519ac04deb7f_1_690x473.png" width="690" height="473"></a></div>
+<p>然後拿便利貼寫上在該議題上相關的角色、人物、團體、機構等等，依據其立場與影響力貼在象限的不同位置，然後與會者同步討論、修正。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c8ff4e4d32638e96e1dcb15463cf0402a21d66eb.png" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/c8ff4e4d32638e96e1dcb15463cf0402a21d66eb" title="pp02.png"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/c8ff4e4d32638e96e1dcb15463cf0402a21d66eb_1_690x473.png" width="690" height="473"></a></div>
+<p>進一步根據不同角色的利害關係，制定相關的對應行動。將議題發展做定位。（圖有點簡略，請多包涵）</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/d07ac52f1ff0315a7b55595f8d3c5da3ffd4c811.png" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/d07ac52f1ff0315a7b55595f8d3c5da3ffd4c811" title="pp03.png"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/d07ac52f1ff0315a7b55595f8d3c5da3ffd4c811_1_690x473.png" width="690" height="473"></a></div>
+<p>我還沒想到這套工具是否適合數位化的操作，但也許是未來可以發展的項目。本提案還是會先聚焦在更為基本的資訊整理階段。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1505'>
+      <a title="July 28, 2017 10:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/hackstory/474/5">Jul &#39;17</a>
+        <a data-link-to-post="1371" class="in-reply-to" href="/discuss.grants.g0v.tw/t/hackstory/474/3">▶ mimi78198</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/night17x' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/night17x/45/211_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/night17x' target="_blank" class=''>night17x</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝mimi的提問：</p>
+<p>不同的詮釋與意見，就是我們希望建立評論功能的主要原因，讓針對同一事件的不同的詮釋，能夠在同時呈現出來。上呈現。理想上我們希望對於事件的描述，盡量維持事實本身，維持價值中立（value-free）的狀態，這部份也會設計資料來源的欄位，透過援引相關佐證來強化資料的可信度。不同評論意見，我傾向於讓並列呈現（這部份有思考過加入類似臉書的like或Google+的+1功能，在意見眾多的時候，可以優先顯示較受支持的意見）。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/hackstory/474/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

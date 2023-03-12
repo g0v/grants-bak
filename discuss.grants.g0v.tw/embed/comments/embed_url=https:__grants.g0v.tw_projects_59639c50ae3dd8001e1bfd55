@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>選課小幫手 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1327'>
+      <a title="July 25, 2017  2:06pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/422/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>寫了好多爬蟲感覺好厲害啊！不過提案內容裡面有些連結都失效了，還請提案人修理一下？</p>
+<p>另外，如果這個專案已經接受企業（采葳國際資訊股份有限公司）支持，為何來申請公民科技獎助金？好奇這個專案跟「公民科技」以及「新媒體」這個選定主題的關係？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1357'>
+      <a title="July 25, 2017  5:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/422/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>
+<p>目前有<a href="https://fouryears.azurewebsites.net/" rel="nofollow noopener">肆 ‧ 年</a>已將北大、東吳、台大、交大、成大課程資訊統整，也有對課程深、涼、甜評價機制和評論、提問系統，可參考或尋求合作。</p>
+</li>
+<li>
+<p>如您所說的期中、期末里程碑</p>
+</li>
+</ol>
+<blockquote>
+<p>擴張學校數量，希望能擴到中部所有大學<br>
+擴充中部大學的課程心得<br>
+期望能與中部大學教授合作，將上課錄影上傳到平台當作open course<br>
+期望擴張到1/2的台灣大學</p>
+</blockquote>
+<p>建議詳列欲加入的大學，例如是否包含公立、私立、科大、空大或甚至軍警護理等專科學校，以利評審判斷影響力及後續評鑑。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1451'>
+      <a title="July 27, 2017  7:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/422/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/davidtnfsh/45/261_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank" class=''>davidtnfsh</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/chihaoyo">@chihaoyo</a> 您好，感謝您的提問<br>
+剛剛已經修正連結，感謝您的提醒</p>
+<ol>
+<li>關於 <code>接受企業（采葳國際資訊股份有限公司）支持</code>  是我們表達不夠清楚<br>
+目前並沒有接受任何企業的支持<br>
+該公司是系上的系友<br>
+因為業務包含大學校務系統<br>
+所以未來會與他們連繫<br>
+希望能藉由該公司的通路<br>
+將 <code>選課小幫手</code> 的網站宣傳到其他學校<br>
+<code>但是目前還未與該公司討論，不知可不可行。也沒有任何金錢上的往來，請您放心，只是一種宣傳管道，已將此段描述，更新到未來計劃</code>
+</li>
+<li>我們把領域改成 <code>開放資料</code> 了，感謝您的提醒<br>
+因為我們是將學校課程資料透過爬蟲做課表、心得、實習等應用<br>
+所以也許開放資料比較適合</li>
+<li>課程心得、選課資訊、實習、職缺等等，都是大學生會遇到的需求<br>
+覺得透過自己實作自己需要的工具<br>
+並且將資訊公開給大家使用應該算是 <code>公民科技</code><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="http://i.imgur.com/UCWQUEF.png" title="UCWQUEF.png" rel="nofollow noopener"><img src="http://i.imgur.com/UCWQUEF.png" alt="課程心得" width="690" height="425"></a></div>
+<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="http://i.imgur.com/I9hxuCZ.png" title="I9hxuCZ.png" rel="nofollow noopener"><img src="http://i.imgur.com/I9hxuCZ.png" alt="課程心得" width="690" height="432"></a></div>
+</li>
+</ol>
+<p><a class="mention" href="/u/chihaoyo">@chihaoyo</a> 感謝您的提問<br>
+想請問這樣的回復是否清楚<br>
+以及是否符合 <code>公民科技</code> 、<code>開放資料</code> 的定義<br>
+我們會儘快改進</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1453'>
+      <a title="July 27, 2017  8:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/422/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/davidtnfsh/45/261_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank" class=''>davidtnfsh</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/twly.tw">@twly.tw</a> 您好，感謝您的提問</p>
+<ol>
+<li>目前 <code>肆 ‧ 年</code>  的同學已經加入我們團隊<br>
+期望能建立更完整的系統</li>
+<li>已經補上預擴張的學校，感謝您的提醒</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/422/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

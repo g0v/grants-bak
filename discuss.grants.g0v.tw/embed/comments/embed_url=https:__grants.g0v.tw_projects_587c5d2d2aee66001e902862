@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>OSMitM (OpenStreetMap in-the Middle) - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-308'>
+      <a title="January 21, 2017  8:54am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>因為有許多待補的部分，目前只想到，不考慮延伸 SHEETHUB 或重用？而是打算重新建置一個嗎？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-508'>
+      <a title="February  1, 2017 11:07am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/pomin5/45/76_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank" class=''>pomin5</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>經過一輪討論，目前是覺得先專注整合好各家地址轉經緯度服務就好了。可能只會以 API 來處理台灣地址格式，用一些開放資料來協助處理模糊搜尋，再 pass 給 TGOS 與 OSM Nominatim 定位。</p>
+<p>後續可能會追加一些開放資料平台如 CKAN、DKAN 的擴充套件來方便利用這個 API。SheetHub 也在考慮之列，不過這部份因為還沒有 open source，要看原開發者的願意。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-743'>
+      <a title="February  7, 2017  6:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>提醒您在 2/13 之前補齊個人頁面的資料，讓評審更認識你。文中待補的部分也需在 2/13 以前完成。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-902'>
+      <a title="February 12, 2017  8:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/pomin5/45/76_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank" class=''>pomin5</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝提醒，已經補齊個人頁面的資料與同意書了。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-924'>
+      <a title="February 13, 2017  6:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/pomin5/45/76_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/pomin5' target="_blank" class=''>pomin5</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>終於完成提案細節！感謝 g0v 與各社群的回應與追問，最後的定案與初始提案有幾個主要差異：</p>
+<ul>
+<li>希望建起這樣的管道：dataset on <a href="http://data.gov.tw" rel="nofollow noopener">data.gov.tw</a> — (自動) —&gt; OpenRefine + 其它轉格式 script — (自動) —&gt; Tasking Manager。這樣 mapper 就可以從 Tasking Manager 上領取小範圍的匯入用資料，可以分工把資料整進去。</li>
+<li>自動從 open data portal 抓 dataset 丟進 Tasking Manager，所以對於管理 dataset 的人，理論上就不用再多學習一套系統。</li>
+<li>地址轉經緯度服務原型，希望能找出更好的處理台灣地址定位的辦法。</li>
+</ul>
+<p>這整個計劃最終是希望把政府開放資料匯入 OSM 的工作盡量自動化，不能自動化的部份也至少是可以協作的。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/osmitm-openstreetmap-in-the-middle/133/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

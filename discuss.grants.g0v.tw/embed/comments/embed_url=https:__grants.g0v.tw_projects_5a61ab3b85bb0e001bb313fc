@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>野溪怎麼了? - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1677'>
+      <a title="January 21, 2018  3:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/charlieworld2008/45/219_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank" class=''>charlieworld2008</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>有兩個 「<a href="https://grants.g0v.tw/projects/5a55f6eb4acb40001b6b3a03" rel="nofollow noopener">野溪怎麼了？</a>」的專案，這個是否為重複上傳的專案？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1685'>
+      <a title="January 21, 2018  9:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bftoad/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank" class=''>bftoad</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>是重複上傳，已回覆Bess請求協助</p>
+
+            <a data-link-to-post="1756" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/694/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1756'>
+      <a title="January 23, 2018  6:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/4">Jan &#39;18</a>
+        <a data-link-to-post="1685" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/694/3">▶ bftoad</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p><a class="mention" href="/u/charlieworld2008">@charlieworld2008</a> <a class="mention" href="/u/bftoad">@bftoad</a> 已經關閉重複的專案，後續請以此篇為主，謝謝。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1784'>
+      <a title="January 24, 2018  1:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/man_technologist.png?v=5" title=":man_technologist:" class="emoji" alt=":man_technologist:"> 對於此專案充滿了期待，</p>
+<p>似乎是一個網站？<br>
+『1．地圖樣貌功能呈現 基礎功能建置： 歷年影觀變化趨勢圖 最新消息 會員管理 問與答-如何操作、常見問題 網站地圖 2．調查資料可鍵入』太抽象了，未來驗收可能會有困難。</p>
+<p>但至今尚未看到網站的 wireframe 或 user flow 實在有點難想像。</p>
+<p>【建議修改】補充 wireframe 或 user flow ，並優先考量最小可運行方案</p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/5">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1830'>
+      <a title="January 25, 2018  8:59am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/6">Jan &#39;18</a>
+        <a data-link-to-post="1784" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/694/5">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bftoad/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank" class=''>bftoad</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>謝謝您的建議，我來努力；<br>
+修改後再請您看看^^</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1927'>
+      <a title="January 29, 2018  2:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/7">Jan &#39;18</a>
+        <a data-link-to-post="1784" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/694/5">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bftoad/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bftoad' target="_blank" class=''>bftoad</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>您好，我已進行修改，並新增構想介面與計畫簡介，請您給予指導，謝謝您。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/694/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

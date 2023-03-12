@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>【派藥神器Agri Talk】找資材。Agri Talk - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-2101'>
+      <a title="January 11, 2019  3:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/884/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/a2993697/45/431_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank" class=''>a2993697</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>不好意思，沒有農業經驗，覺得能讓青農有有效的投入地方農業，真的是非常重要的事，一個問題提出討論。</p>
+<p>農業作為數月一個輪廻的產業，要使用什麼藥資訊蒐集情境，感覺應該是數天的事不會是數分鐘的事，我猜測，若我是青農，應該會更重視資訊的正確性，畢境葯用下去就是很久的事，直接打電話多問幾位友善農業的前輩會是更直觀的情境嗎?</p>
+<p>但因為我並沒有農業相關經驗，如果有三個前提，則上述討論就不在此限<br>
+1這個資訊的取得有一定的即時性需求(今天出現害蟲就要立刻施用?)，<br>
+2資料龐雜，需要反覆查詢，那降件單次取得資料成本的聊天機器人就很重要<br>
+3資料從防檢局出來，如果是經常性的以月甚至以周為單位的更新，前輩也未必了解，那這樣用爬蟲定期的抓資料，似乎對於整個農業從業人員的培力也很有幫助</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2212'>
+      <a title="January 15, 2019  7:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/884/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/agritechtaiwan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/agritechtaiwan/45/505_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/agritechtaiwan' target="_blank" class=''>agritechtaiwan</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好，我是提案發起人阿柴，幾個問題我一併回覆，也歡迎各位一起來討論。</p>
+<p>1.打電話給友善農業的前輩討論會是實際的情境嗎？<br>
+答: 會，也不會。如果是已經有人脈的青農(通常是農二代或是有地方勢力二代)通常可以找到「巷子內」的專家。但返鄉務農、家中長輩已經離農很久的青年、甚至是跨域從農的朋友們，沒有辦法找人解決問題。但大家會「google」，也會優先以政府資源找資料，所以「優化政府農業開放資料」有其必要性。</p>
+<p>2.農要取得是否有即時性需求？<br>
+答：是的，想像你家廚房出現了100隻蟑螂，想防除卻不知道要買哪一隻殺蟲劑，一定是衝到大賣場立刻買號稱最有效的殺蟲劑，對吧！農藥也是一樣，而派藥神器最強大的功能，透過FB私訊能知道需要買哪一隻藥，也可知道農藥是不是「有農藥登記證」的合法農藥，對於願意守法的農友來說是很方便的工具。</p>
+<p>3.以聊天機器人取代重複搜尋資料的手續，是簡單又成本低的「變形資料庫」的策略，我們不再需要建立更多的平台(網頁)或是APP，能更容易進行業務推廣。</p>
+<p>4.防檢局的資料已經做到「格式化資料庫」的品質，但防檢局對農作物的定義和農糧署、改良場、甚至農試所等都不一樣，畢竟公家機關對資料的「定義」的歧異度也許來自於各學門的切入點不相同，很難要求資訊人員「統一」，所以只能從民間自己做起。</p>
+<p>我們由衷希望能找到經費繼續支持派藥神器，至少能將大宗作物的蟲害用藥資訊整理完畢，讓派藥神器能造福更多有需要的朋友。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/884/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

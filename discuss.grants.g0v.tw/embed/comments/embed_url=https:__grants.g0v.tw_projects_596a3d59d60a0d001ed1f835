@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>國家、區域、城市．公共建設選址平台 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-1254'>
+      <a title="July 23, 2017  1:59am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/453/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ntuloser' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ntuloser/45/308_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ntuloser' target="_blank" class='new-user'>ntuloser</a>
+        </h3>
+        <p>你好：</p>
+<ol>
+<li>我覺得這個專案非常的有意義。許多都市計畫、區域計畫在撰寫時，會請外包的顧問規劃公司。公司會有所有政府相關的資料，並以此建立相關的模型，推估出適合公共建設的地址與相關規劃。但同時，也會有因為利益分配或其他理由，而已經有了最終的公共建設決定，再由顧問公司產生論述與數據去支持的情況。而大眾因為沒有數據，也沒有模型或相關的知識，只能憑著自己的感覺覺得這樣好像不大對。若是能夠將公開的資訊匯集，並在此上加上一些簡單的模型。不論是支持或是反對一些公共建設時，當將更有利於討論。</li>
+<li>但於此同時，延伸的問題就是，關於這個地圖資料互動式平台的資料要從何得來，還有會採用哪些資料可以再更仔細的敘述一下嗎？比如說土地分區使用，都市計畫，區域計畫，國土計畫的這些資料是否都會牽涉其中，其中許多資料又是只有pdf檔或是文字的形式又要如何處理。簡單說，公共建設牽涉到的不只是人口的組成，而是與原本土地的使用，氣候相對應的資料比如水文，都有相關。希望你可以再多一點敘述。</li>
+<li>介面設計草圖 的連結似乎失效了？</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1260'>
+      <a title="July 24, 2017  3:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/453/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>草圖連結失效 +1 ，都市計畫、地籍等相關圖資目前都需要付費購買才能夠使用，並沒有開放資料，也許可以描述如何取得這些關鍵資料？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1351'>
+      <a title="July 25, 2017  3:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/453/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ltsn0625' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ltsn0625/45/323_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ltsn0625' target="_blank" class='new-user'>ltsn0625</a>
+        </h3>
+        <p>本專案擬從「戶籍人口分布」、「交通不便性」、「經濟與社會弱勢」等三個維度來規劃公共建設的選址。個人非常肯定團隊的立意，有幾個問題想進一步請教：</p>
+<ol>
+<li>
+<p>本專案想談的公共建設，有哪些類型呢？不同類型的公共建設，考量的維度可能會不同。譬如，體育館、博物館、焚化爐的選址，思考的點可能就不一樣。除了這三個維度之外，還有沒可能有其他維度？</p>
+</li>
+<li>
+<p>就「戶籍人口分布」這個維度來說，「實際居住人口分布」會不會更實在？以台北市來說，實際居住的人口數，可能就超過戶籍人口的數量。反之，有些偏鄉地區的實際人口數，可能低於戶籍人口數。但公共建設的使用，不該排除實際居住在此地、但戶籍在別處的民眾。</p>
+</li>
+<li>
+<p>「交通不便性」、「經濟與社會弱勢」這兩個維度，不知有沒有操作性定義、評斷標準？弱勢又要如何加權？如果沒有好的標準，最後仍可能流於各說各話。</p>
+</li>
+<li>
+<p>最後，公共建設的選址，有可能排除政治嗎？本提案主張弱勢加權，不也是反映一種政治價值嗎？</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/453/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

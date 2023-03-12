@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>五村食物雲 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-408'>
+      <a title="January 26, 2017  6:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>看來 提案人 在供應端與採購端的媒合經驗是豐富的 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+<p>但有件事情讓我非常驚訝!!! 看樣子專案要做一個類似微型的媒合平台？（有可能我理解錯誤）<br>
+<code>第三個月：Android、iOS雙系統APP上架</code> 是否已與工程團隊討論，上架時會有哪些功能？</p>
+<p>另 剩食供貨端 在刊登資訊時，對供貨端是個時間成本，有什麼誘因能夠驅使供貨端刊登呢？</p>
+<p>感謝 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+            <a data-link-to-post="414" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/198/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-414'>
+      <a title="January 27, 2017  1:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/3">Jan &#39;17</a>
+        <a data-link-to-post="408" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/198/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，非常感謝您的提問。<br>
+平台的功能簡單的說就是一個剩餘食物的販售平台。<br>
+確實已經與工程團隊溝通討論，初步擬定了一些功能，例如商品管理、訂單管理、物流、金流(詳如圖示)。</p>
+<p>供貨端初步鎖定農夫市集，目前有與幾個農夫市集負責人溝通過，市集負責人大多願意在市集結束當天彙整剩餘食物資訊統一上傳，一方面簡化作業，一方面避免部分農民資訊能力不足而造成困擾；至於誘因，在平台上剩餘食物是有價販售，價格可由雙方議價決定，減少農民處理的困擾同時也增加收益，市集負責人大多也願意提供這樣的服務來招攬更多農民加入市集。</p>
+<p>不知道這樣的說明是否清楚，謝謝您提供疑問讓我們有機會整理與說明。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/7d55ce62b52a992c6677712f5ffa7f41bf9c5598.png" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/7d55ce62b52a992c6677712f5ffa7f41bf9c5598" title="出清蔬果.png"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/7d55ce62b52a992c6677712f5ffa7f41bf9c5598_1_458x500.png" width="458" height="500"></a></div>
+
+            <a data-link-to-post="415" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/198/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-415'>
+      <a title="January 27, 2017  3:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/4">Jan &#39;17</a>
+        <a data-link-to-post="414" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/198/3">▶ allenyu1789</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝你的回答，說明的非常清楚 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p>小小的建議，架構非常大，建議規劃最小可運行方案作為第三個月的驗收標準。<br>
+「Android、iOS雙系統APP上架」這個標準似乎有點過於抽象，必定空白 App 也是可能上架成功的 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-418'>
+      <a title="January 27, 2017  4:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/5">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>非常好的建議，我的驗收標準確實有點太抽象了，如果以「Android、iOS雙系統APP上架，募集供貨端與採購端使用者，會員系統、商品管理與訂單管理系統完成，初步試營運開始」，這樣呢？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-420'>
+      <a title="January 27, 2017  8:55am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sharefun010407' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sharefun010407/45/50_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sharefun010407' target="_blank" class='new-user'>sharefun010407</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>這個提案讚耶！從原本就有的經驗出發，加上網路的輔助更能如虎添翼。案主所提的案子蠻大的，但也可以造成很大的影響，加油！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-427'>
+      <a title="January 27, 2017  4:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝您的鼓勵，希望能從比較熟悉的部分慢慢擴大影響圈，不知道能不能真的改善這個問題，但至少有人開始做總是好的。</p>
+
+            <a data-link-to-post="828" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/198/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-828'>
+      <a title="February  9, 2017  3:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/8">Feb &#39;17</a>
+        <a data-link-to-post="427" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/198/7">▶ allenyu1789</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>建議第二個月的驗收目標也要寫得清楚，例如系統網站會提供那些資訊。<br>
+然後到這個月為止，已經媒合那些市集跟餐廳。<br>
+感覺前期花很多時間在使用者意見訪談？有辦法在第一個月嘗試一些 MVP 模式嗎？<br>
+就像前面提到，可以用一些既有工具跟人力，作市集和餐廳的媒合。<br>
+不一定要做到 app 才可以達成目標，或者花很多時間訪談使用者意見然後才來做 app。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-830'>
+      <a title="February  9, 2017  3:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/9">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝您的建議，我們會把網站提供的資訊以及媒合的進度也列入驗收目標。<br>
+事實上，使用者意見訪談確實需要不少時間，因此我們目前已經開始進行，希望可以縮短後續期程，<br>
+目前已經收到一些回饋意見，例如有店家願意提前預購格外品減輕農民端的困擾，像這樣預購的功能，我們也會列入修正。希望可以加速期程，也許在APP建置之前能做小規模的媒合測試。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/198/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

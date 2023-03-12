@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>85010 幫我離一離 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-2170'>
+      <a title="January 14, 2019  4:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>期末驗收標準為「協助100位全職媽媽/家庭主婦，在本專案及律師協助下提起離婚訴訟」，好奇這是基於已知個案統計或潛在市場分析，才提出的量化目標嗎？</p>
+
+            <a data-link-to-post="2261" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/922/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2171'>
+      <a title="January 14, 2019  4:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <h3>再利用性</h3>
+<p>想知道專案的程式碼會以什麼授權開源，所做出來的工具能以什麼樣的方式被社群其他人再利用？</p>
+<h3>完成度</h3>
+<p>六大功能裡面如果只能挑三個，你們會優先做哪三個呢？</p>
+<h3>不可取代性</h3>
+<p>也想要知道與離婚診療室的 bot 在產品定位上的差異<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="http://www.elsa-group.legal/webapp/_static/divorce/img/favicon.ico" class="site-icon" width="16" height="16">
+      <a href="http://www.elsa-group.legal/webapp/divorce/process" target="_blank" rel="nofollow noopener">離婚診療室　| 來自 ELSA - 陪你一路探索法律的智能夥伴</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:128/65;"><img src="http://elsa-group.legal/webapp/_static/divorce/img/og_img.png" class="thumbnail"></div>
+
+<h3><a href="http://www.elsa-group.legal/webapp/divorce/process" target="_blank" rel="nofollow noopener">離婚診療室 - 離婚流程　| 來自 ELSA - 陪你一路探索法律的智能夥伴</a></h3>
+
+<p>離婚要經過程序或者手續？我想離婚了，但是不知道怎麼辦理跟登記？離婚一定要找律師嗎？讓ELSA一次幫你搞清楚</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/3">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2193'>
+      <a title="January 15, 2019  2:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/4">Jan &#39;19</a>
+        <a data-link-to-post="2171" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/922/3">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2261'>
+      <a title="January 16, 2019  6:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/5">Jan &#39;19</a>
+        <a data-link-to-post="2170" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/922/2">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wenhuang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wenhuang/45/518_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wenhuang' target="_blank" class=''>wenhuang</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/denkeni">@denkeni</a>, 感謝提問。根據我們對2017年法院判決的分析，總共有3000多件離婚案件。而在實務上提供法律咨詢服務時，我們更發現70%以上的人是無法負擔訴訟費用的。由此可見，實際上需要幫助的家庭主婦非常多。</p>
+<p>100件與其說是一個精確的量化目標，更像是我們給自己訂立的最低標準。若是我們能將系統開發完成，實際降低訴訟成本，或甚至讓部分家庭主婦可以自助離婚，我們相信能夠幫助到的人數會比起這個多得多。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2262'>
+      <a title="January 16, 2019  6:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/6">Jan &#39;19</a>
+        <a data-link-to-post="2171" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/922/3">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wenhuang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wenhuang/45/518_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wenhuang' target="_blank" class=''>wenhuang</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/ael">@ael</a> 感謝提問。</p>
+<p>有關<strong>再利用性</strong>，我們的方案會分兩部分。一部分是讓證據明確的民眾自助離婚的系統，另一部分是降低律師勞力成本的系統。自助離婚的系統將會是開源的，未來我們也期望能透過社群的力量，基於我們系統的基礎，延伸到其他訴訟服務(如：車禍)。讓法律服務更加普及，真正實現「法律之前，人人平等」</p>
+<p>另外有關<strong>完成度</strong>，如果要在所有功能內排priority，自助離婚的系統當然是我們最優先要完成的，因為我們相信這可以幫助到最多的人，並且在再利用性上，也是對社群最有貢獻的。另外，在降低律師成本上，我們會優先完成專案管理系統。因為資訊系統的欠缺，目前單一律師能負責的案件是40~60件(一個案件大概要一年才結案)，這些案件實際並不會花律師太多時間，但更花時間的是在案件之間切換必須重新熟悉案情。如果有良好的專案管理系統，幫助律師更好的在不同案件間切換，我們預期每個律師能同時負責的案件能上升到100件左右，並且提升每個案件代理的品質。</p>
+<p>最後是<strong>不可取代性</strong>, 離婚診療室的bot更像是讓使用者了解離婚相關資訊的工具。而我們專案的目標是提供想要離婚的人一個能夠完成離婚的解決方案，所以我們系統的output將會是能夠提交的訴狀。據我們所知，目前市面上并沒有這樣的產品。我們團隊的產品開發經驗以及法律的行業知識也會是為什麼我們能夠在這個領域上做出比別人更實用的產品的原因。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/922/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

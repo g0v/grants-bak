@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>國會調查兵團 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1315'>
+      <a title="July 25, 2017  1:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>立委有 113 席，而會期中每天都會有新的質詢影片產生。以本專案的期中 KPI 要剪輯出 25 隻以上立委質詢影片，請問有什麼標準可以決定是哪 25 個立委或是議題會被優先剪輯出來嗎？</p>
+
+            <a data-link-to-post="1414" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/429/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1352'>
+      <a title="July 25, 2017  4:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>請問立委的質詢如何實際影響政策制定</li>
+<li>如立委質詢對議題的表現，與其法條修正案或表決時的態度不一（例如質詢一個樣，表決又乖乖服從黨意），該如何避免選民被誤導</li>
+</ol>
+
+            <a data-link-to-post="1425" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/429/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1365'>
+      <a title="July 26, 2017  1:40am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>很喜歡號召眾人監看國會的想法，也很贊同付出者應該得到相對的報酬，所以好奇如果獲得獎助金，分配給參與者的機制是什麼？</p>
+<p>另外也想請問提案人，這個專案產出影片的授權條款為何？</p>
+
+            <a data-link-to-post="1426" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/429/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1414'>
+      <a title="July 26, 2017  8:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/5">Jul &#39;17</a>
+        <a data-link-to-post="1315" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/429/2">▶ ronnywang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/click.empower/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank" class=''>click.empower</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>我們以「議題」作為挑選主軸，但議題的挑選目前沒有統一的標準。<br>
+因為立法院在什麼時間點會出現哪些議題，我們沒辦法事先預測。<br>
+以下提供我們過去曾關注過的主題作為參考。</p>
+<p>兵團長期在關注的主題有：<br>
+1.亞泥礦權延展問題：關聯議題有原住民知情同意權，礦業法<br>
+2.NCAP<br>
+3.食安</p>
+<p>曾經關注過比較多次的主題有<br>
+1.立院議事規則攻防<br>
+2.前瞻計畫<br>
+3.年金改革<br>
+4.勞工勞保<br>
+4.醫療法<br>
+5.公務人員任用<br>
+6.國軍紀律<br>
+7.軍機國造</p>
+<p>其他關注過的主題因為比較零散沒有那麼集中，就不特別列出。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1425'>
+      <a title="July 26, 2017  9:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/6">Jul &#39;17</a>
+        <a data-link-to-post="1352" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/429/3">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/click.empower/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank" class=''>click.empower</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>1.立法院的權責除了立法，也包含監督行政機關。立委質詢的對象為行政單位，因此質詢的部份重點在於「立法權監督行政權」，因此立委質詢影響政策大體上有兩種方式：一種是督促立法規範行政機關權責，一種是要求行政機關在行政裁量權範圍內提出作法。</p>
+<p>但實際影響政策制定其實需要立院與民間的裡應外合。以亞泥議題為例子，立院裡面有專業立委林淑芬針對行政機關的質詢，才凸顯出礦業法與這次亞泥礦權延展的荒謬。但也需要外部NGO例如地球公民長期關注亞泥問題，透過上街頭與立委裡應外合的方式，才能讓礦業法在齊柏林事件後，在這次臨時會被排入審查。</p>
+<p>當時兵團與地球公民的合作，就是協助空戰宣傳的部分。</p>
+<p>2.唯一避免的方式就是同時呈現其質詢的表現，以及表決時的表現，讓選民自行綜合判斷。目前兵團網站有提供影片回報，也有提供立院會議記錄的回報，也是為了彌補這部分</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1426'>
+      <a title="July 26, 2017  9:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/7">Jul &#39;17</a>
+        <a data-link-to-post="1365" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/429/4">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/click.empower/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/click.empower' target="_blank" class=''>click.empower</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>由於作國會調查員（看ivod監督＋剪片＋寫文案）本身有一定的門檻，以至於目前網站上剪片有八成以上的內容都是兵團調查員自行產出，一成五則來自於其他新媒體或電視媒體，只有不到零點五成是網路上其他人自行剪的影片。因此公民協作是比較遠的目標，但我們很清楚這個目標可能要倡議至少五年以上，在整個網站產出的比例分佈上才可能開始有一點改變。</p>
+<p>不然短期內，網站的「參與者」比較多會侷限在資訊分享，其他產出較有限，在這個狀態下，獎金的部分不會分配給其他的參與者，因此沒有分配的機制。獲得的獎金會直接支應目前兵團調查員的全職費用。</p>
+<p>此專案產出的影片(影片上會掛「國會調查兵團」logo)授權條款為CC by，但 <a href="https://cic.tw/" rel="nofollow noopener">https://cic.tw/</a> 網站上被回報的影片，如果屬於上述來自於其他媒體或其他人產出的，則授權方式由他們自行規範，不算在兵團的授權範圍內，所以才沒有特別在提案中列出影片授權條款。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/429/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

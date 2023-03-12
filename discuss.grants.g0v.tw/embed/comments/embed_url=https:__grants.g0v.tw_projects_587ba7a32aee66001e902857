@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>EnviroNet - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/2">繼續討論</a>
+  <span class='replies'>12 個回覆</span>
+</header>
+
+    <article class='post' id='post-240'>
+      <a title="January 16, 2017  4:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感覺很特別之前在也有看過LoRa的新聞<br>
+不過有以下幾點想問:</p>
+<ol>
+<li>環境偵測器裝在車子外，開車的時候測量會準嗎?</li>
+<li>環境異常緊急預警是什麼?</li>
+<li>電力夠嗎?怎麼供電?</li>
+</ol>
+<p>謝謝</p>
+
+            <a data-link-to-post="244" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-244'>
+      <a title="January 16, 2017  6:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/3">Jan &#39;17</a>
+        <a data-link-to-post="240" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/2">▶ 111</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/111">@111</a><br>
+謝謝您的指教</p>
+<ol>
+<li>基本上實測過，時速40KM時準確度仍然很高，且我們在環境資訊收集時，會順便偵測移動情況，進而用演算法下去優化偵測結果(或是很簡單的在&lt;30KM/H時進行判斷也是可行的方法之一)；</li>
+<li>比如說我們的元件會偵測甲烷，若某路上甲烷值異常升高，或可預警天然氣管路有外洩之情形。</li>
+<li>LoRa是一個較省電的物聯網通訊方式，因此整體耗電量預估起來不高，可用車載電源、太陽能、電池等都可以，靈活度較高。</li>
+</ol>
+
+            <a data-link-to-post="528" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-528'>
+      <a title="February  2, 2017  3:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/4">Feb &#39;17</a>
+        <a data-link-to-post="244" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/3">▶ LionRoar</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p><a class="mention" href="/u/lionroar">@LionRoar</a> 您好，由於您註冊的 email 退信，請見私訊修改，謝謝！</p>
+
+            <a data-link-to-post="623" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-623'>
+      <a title="February  4, 2017  3:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/5">Feb &#39;17</a>
+        <a data-link-to-post="528" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/4">▶ clkao</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/clkao">@clkao</a> 謝謝您，已經改正了，多了個tw</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-742'>
+      <a title="February  7, 2017  6:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p><a class="mention" href="/u/lionroar">@LionRoar</a> ，您好，您的過去相關計畫連結只會導到 Google，也許你會希望可以再確認一下。</p>
+
+            <a data-link-to-post="770" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-770'>
+      <a title="February  7, 2017 10:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/8">Feb &#39;17</a>
+        <a data-link-to-post="742" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/6">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/ael">@ael</a> 後來覺得那個不算什麼經驗，只是跟人一起曾經要投的計畫，沒有線上成品，所以就不打算列出來貽笑大方了</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-839'>
+      <a title="February  9, 2017  4:46pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/9">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很不錯的專案喔，請問一下會需要開模之類的費用嗎？或者會應用 3D 列印來製作外殼之類的？<br>
+另外，硬體設計到網頁設計都是你一個人完成嗎？還是有團隊？</p>
+
+            <a data-link-to-post="854" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-854'>
+      <a title="February 10, 2017  1:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/10">Feb &#39;17</a>
+        <a data-link-to-post="839" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/9">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>@yhsiang一開始會用3D列印，一起做的人有我跟交大同學，也會請教教授。<br>
+細節有補在內文了:)</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-872'>
+      <a title="February 10, 2017  1:55pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/11">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>請問貴團隊有懂網路的人嗎, 就我的理解, LoRa 的 network topology 基本上就是 star, 而提案中說到要做成 fully connect mesh, 這聽起來是大工程!</p>
+
+            <a data-link-to-post="887" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/11">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-887'>
+      <a title="February 10, 2017  6:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/12">Feb &#39;17</a>
+        <a data-link-to-post="872" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/11">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/koansin.tan">@koansin.tan</a><br>
+star是LoRaWAN，<br>
+LoRa模塊可透過Broadcast / 定點傳輸實踐fully mesh<br>
+其實沒很難，封包處理好就好，只是LoRa在這種場域就比較適合，<br>
+辛苦一點也是值得的</p>
+
+            <a data-link-to-post="899" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/12">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-899'>
+      <a title="February 11, 2017  6:23pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/13">Feb &#39;17</a>
+        <a data-link-to-post="887" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/12">▶ LionRoar</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tygher/45/216_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank" class='new-user'>Tygher</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/lionroar">@LionRoar</a><br>
+我們是提山難救援的團隊<br>
+請問你們應該也不是用LoRaWAN吧?<br>
+另外網狀網路算法你們要自己另外寫嗎還是有現成的?<br>
+我們會自己寫一個，是否可以互相討論，一起用省一點時間之類。<br>
+另硬體似乎某些部分也能一起產製，節省經費? 畢竟硬體真的燒錢…<br>
+有點趕，若來不及回應沒關係，在此先謝謝您。</p>
+
+            <a data-link-to-post="909" class="post-replies button" href="/discuss.grants.g0v.tw/t/environet/128/13">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-909'>
+      <a title="February 12, 2017  3:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/14">Feb &#39;17</a>
+        <a data-link-to-post="899" class="in-reply-to" href="/discuss.grants.g0v.tw/t/environet/128/13">▶ Tygher</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lionroar/45/177_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/LionRoar' target="_blank" class=''>LionRoar</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/tygher">@Tygher</a>:tiger:我也有看到你們的提案<br>
+我覺得初期是類似的，但是我們這畢竟還是在市區，所以未來是希望有機會能接上整個台北市在架設的LoRaWAN，這樣效能還是會好一些。<img src="//discuss.grants.g0v.tw/images/emoji/twitter/smile_cat.png?v=5" title=":smile_cat:" class="emoji" alt=":smile_cat:"><img src="//discuss.grants.g0v.tw/images/emoji/twitter/smile_cat.png?v=5" title=":smile_cat:" class="emoji" alt=":smile_cat:"> 但是你們在山區可能真的沒辦法。<br>
+我們前期要用的mesh network也是自己寫:earth_asia:，概念好像也差不多，應該是爬到類似的文吧哈哈，如果可以的話我們可以一起改進，現在好像比較少人這麼做，另外不知道我們的晶片一不一樣，可能要看一下因為我有買一些硬體在做了，如果之後統一的話也可以用同一份寫法。<br>
+謝謝你們的提議，一起加油看能不能一起獲選。<img src="//discuss.grants.g0v.tw/images/emoji/twitter/deciduous_tree.png?v=5" title=":deciduous_tree:" class="emoji" alt=":deciduous_tree:"> <img src="//discuss.grants.g0v.tw/images/emoji/twitter/deciduous_tree.png?v=5" title=":deciduous_tree:" class="emoji" alt=":deciduous_tree:"></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/environet/128/14">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

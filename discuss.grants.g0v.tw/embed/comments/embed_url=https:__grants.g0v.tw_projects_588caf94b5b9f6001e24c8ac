@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>選就購代購媒合 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-883'>
+      <a title="February 10, 2017  4:26pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/222/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>目前 honestbee 有做幫你從大買場購買或代收垃圾等服務。<br>
+要代購的東西目前有點不太具體，是希望什麼東西都可以代購嗎？<br>
+如果沒有具體一點，那要怎麼解決商品列表的問題，也就是對方到底要代購什麼東西？<br>
+商品購買者先代墊，是不是出現因為要代墊所以參與者太少？<br>
+有解決方案嗎？例如徵詢代購者先付押金之類的機制。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-944'>
+      <a title="February 13, 2017  6:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/222/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/k2358966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/k2358966/45/227_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/k2358966' target="_blank" class='new-user'>k2358966</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好! 我把問題分成三項來回答：<br>
+一、代購商品種類<br>
+針對我們這個平台，在使用群眾以及默契還沒建立的時候，<br>
+各項的遊戲規則應該要由團隊先行給定，如需修正再慢慢調整。</p>
+<p>針對代購品項問題，最開始會先尋找具有3個特點的店家：<br>
+1.商品標準化程度高<br>
+2.服務時間穩定(需要有一定的涵蓋率)<br>
+3.供貨狀況穩定</p>
+<p>最簡單的例子就是便利商店。<br>
+我們可以與店長接洽，登陸其中數樣商品，成為購買的選項，<br>
+並採用選單式填寫，讓買賣雙方都較不會產生誤會。</p>
+<p>也會另外開放討論，讓用戶提出自己想購買的東西，例如某間便當店人氣很高，<br>
+那只要平台用戶討論出一個標準的溝通方式，也可以上架。</p>
+<p>二、代墊導致參與者過少<br>
+的確會有這個問題，但在理想機制下，服務者及受服務者是互利互惠關係，<br>
+服務者可能會有報酬、受服務者有報答，實際雙方都有得利。<br>
+代墊數目一般不會太大，初期仍希望受服務者能提出適當的報答，促進服務提供者數量。</p>
+<p>三、押金之類的機制<br>
+這是構想之初就有在討論的問題，<br>
+然而牽扯到金流者資本成本較高，營運起來也較有難度和風險。<br>
+團隊討論出兩個方向：<br>
+1、及時支付<br>
+尋求第三方支付，讓委託代購的人馬上付款，那麼代買人只須完成送過去的義務(因為對方付了錢了)，<br>
+如此一來是將交易失敗的風險由委託代購人承擔大部分。<br>
+考量區域較小、用戶特性較接近，交易失敗的可能性較低。<br>
+但第三方支付單位產生的相關手續費會讓沒有收入的平台無法支撐；</p>
+<p>2、尋找到具有公信力的儲值手段<br>
+讓大家把金錢預先存放至平台，如果有受信任的儲值單位更佳(例如悠遊卡)，<br>
+而扣款的時間點就有所不同，可以是受委託人購買時即扣除委託人帳戶餘額，<br>
+或是一直到交易完成時再扣除。</p>
+<p>以上兩點最大的問題是本平台議價力、資本均不足，<br>
+尚無法投入使用，然這是一個可以努力的目標。</p>
+<p>整體而言，<br>
+團隊會致力於服務水準的提高，<br>
+而風險承擔部分，平台是希望相對保障受委託人，<br>
+降低他們承受的風險，初步我們是會詳細紀錄交易委託資訊，<br>
+並在規章中強調守約之重要性，<br>
+糾紛出現時，若有必要權衡，會以受委託人利益為先。<br>
+希望整體營運健全後，相應的保障也可以再升級。</p>
+<p>以上回覆，敬請指教!<br>
+謝謝!</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/222/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

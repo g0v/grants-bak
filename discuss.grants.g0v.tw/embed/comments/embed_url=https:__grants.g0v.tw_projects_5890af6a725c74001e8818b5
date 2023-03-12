@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>政治人物行程探測雷達 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>9 個回覆</span>
+</header>
+
+    <article class='post' id='post-513'>
+      <a title="February  1, 2017  2:20pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，這個專案很有意思也對想追蹤特定政治人物行程的人很有幫助，或許媒體業已經又類似的資訊，可能可以打聽一下他們怎麼知道的。</p>
+<p>想要請你們補充一下關於「可重複使用性 Reusability」的部分，請問這個專案完成後，如果想要進行類似專案的人（比如說別的國家也想用），要怎麼重複使用該專案？</p>
+<p>謝謝。</p>
+
+            <a data-link-to-post="866" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/269/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-516'>
+      <a title="February  1, 2017  2:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kcwu/45/149_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank" class=''>kcwu</a>
+        </h3>
+        <ol>
+<li>
+<p>請問是否可以進一步說明你們計畫的「行程」取得方式為何?</p>
+</li>
+<li>
+<p>若該政治人物不願/無法(譬如太忙)提供行程, 有什麼打算?</p>
+</li>
+</ol>
+
+            <a data-link-to-post="867" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/269/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-561'>
+      <a title="February  2, 2017 11:46pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好!!! 過去的專案製作的很棒 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/muscle.png?v=5" title=":muscle:" class="emoji" alt=":muscle:"></p>
+<p>也許「打算如何讓社群參與以及回饋意見」項目，可以思考一下如何 透過社群力量 來貢獻政治人物的行程？又或者 提供資料讓 社群協助製作 不同模式的視覺呈現？</p>
+<p>另 <a class="mention" href="/u/yurenju">@yurenju</a> 所提的「可重複使用性 Reusability」是一件很重要的事喔 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/raising_hand.png?v=5" title=":raising_hand:" class="emoji" alt=":raising_hand:"> 也許有助於你解決「但後來沒有上線」的問題。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-604'>
+      <a title="February  4, 2017  8:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/login?redirect=/users/profile">https://grants.g0v.tw/login?redirect=/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-608'>
+      <a title="February  4, 2017 10:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>我從提案中讀到的是希望政治人物主動公開行程並自主上傳到網站上, 這聽起來難度很高。我們都希望有個公開透明的國會, 過去公督盟化了很多力氣在做立委評鑑, 評鑑過程中(1)主動蒐集資料(2)請立委主動提供資料, 遇到不少大大小小的問題。不知在執行面是否有方法/策略可以說服民意代表主動作這件事?</p>
+
+            <a data-link-to-post="903" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/269/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-866'>
+      <a title="February 10, 2017  8:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/7">Feb &#39;17</a>
+        <a data-link-to-post="513" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/269/2">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yipingfly/45/217_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank" class='new-user'>yipingfly</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/yurenju">@yurenju</a>  你好，謝謝您的提問 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"><br>
+我們有再繼續修改專案內容，此計畫短期目標是先以立委行程為主，待立委追蹤的行程和評論分析文出來後，這個model建立好，長期規劃希望能擴大到其他政治人物，以及開放資料，供其他人或專案。另，關於您說的媒體業有類似資訊，就我們之前所知媒體的資訊僅供媒體內部使用，一般大眾還是不太會知道。因此目前，我們除了會與立委辦公室合作之外，也已經土法煉鋼的收集很多資訊，以下為連結，給您參考。</p>
+<p>政治人物行程資料</p>
+<ol>
+<li>近期收集（此專案以此表單為主，目前資料為專案成員爬立委FB文章及尋找立法院的相關資訊，逐筆Key資料）：<a href="https://docs.google.com/spreadsheets/d/1oQS-G46LyabluyZu0hKTaJWMlj9OuH3oldzydT6SGvM/edit#gid=0" rel="nofollow noopener">https://docs.google.com/spreadsheets/d/1oQS-G46LyabluyZu0hKTaJWMlj9OuH3oldzydT6SGvM/edit#gid=0</a>
+</li>
+<li>過去半年收集：<a href="https://docs.google.com/spreadsheets/d/1L-6UXHZ_JJD4sTMnbShW637AIfKLSSmikJ_r2iAGbsc/edit#gid=841109221" rel="nofollow noopener">https://docs.google.com/spreadsheets/d/1L-6UXHZ_JJD4sTMnbShW637AIfKLSSmikJ_r2iAGbsc/edit#gid=841109221</a>
+</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-867'>
+      <a title="February 10, 2017  8:25am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/8">Feb &#39;17</a>
+        <a data-link-to-post="516" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/269/3">▶ kcwu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yipingfly/45/217_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank" class='new-user'>yipingfly</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/kcwu">@kcwu</a>  你好，感謝您的提問 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"><br>
+我們有再繼續修改專案內容，關於您問的第一題：行程取得方式，可以參考以下我們已經完成的資料收集。目前資料為專案成員爬立委FB文章及上立法院的相關資訊網站，逐筆Key資料。未來，希望借用專案成員本身有與立委遊說及相關辦講座經驗，前期希望徵得部分立委支持「行程公開透明化」的理念，若有部分立委支持，就可以慢慢擴大到更多立委支持，一步一步實踐此精神。您問的第二題，若立委方面不願意，我們還是會繼續逐筆爬資料完成。</p>
+<p>政治人物行程資料</p>
+<ol>
+<li>近期收集（此專案以此表單為主）：<a href="https://docs.google.com/spreadsheets/d/1oQS-G46LyabluyZu0hKTaJWMlj9OuH3oldzydT6SGvM/edit#gid=0" rel="nofollow noopener">https://docs.google.com/spreadsheets/d/1oQS-G46LyabluyZu0hKTaJWMlj9OuH3oldzydT6SGvM/edit#gid=0</a>
+</li>
+<li>過去半年收集：<a href="https://docs.google.com/spreadsheets/d/1L-6UXHZ_JJD4sTMnbShW637AIfKLSSmikJ_r2iAGbsc/edit#gid=841109221" rel="nofollow noopener">https://docs.google.com/spreadsheets/d/1L-6UXHZ_JJD4sTMnbShW637AIfKLSSmikJ_r2iAGbsc/edit#gid=841109221</a>
+</li>
+</ol>
+<p><a class="mention" href="/u/ipa">@ipa</a> 已經補充提案人相關資訊，感謝提醒：）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-903'>
+      <a title="February 12, 2017 12:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/9">Feb &#39;17</a>
+        <a data-link-to-post="608" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/269/6">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yipingfly/45/217_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yipingfly' target="_blank" class='new-user'>yipingfly</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/koansin.tan">@koansin.tan</a> 你好，謝謝您的提問 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"><br>
+關於如何吸引政治人物主要有三個誘因和執行方式：</p>
+<ol>
+<li>預告他們的行程給民眾：由於我們其中一個呈現方式會做像是calendar的樣式，能讓政治人物用一個頁面分享在FB，公告行程給民眾。可參考我們的demo：<a href="http://poli-radar.relab.cc/" rel="nofollow noopener">http://poli-radar.relab.cc/</a>，網址進去後點右排熱門立委，選擇其中一位立委，進去後會有「委員行事曆」，可供委員分享在FB。</li>
+<li>資料圖表直接套進去：我們會給政治人物簡易的圖表和項目，他們只要匯入excel表即可完成操作。</li>
+<li>匯出「政治人物政績表」：政績表類似「政治人物問政報告書」，以半年一會期，匯出簡易版施政報告書，提供政治人物在網路上向選民證明政績，並以此為誘因，遊說立委自發參與，主動提供行程資料。這點可以參考黃國昌的施政報告書。參考：<a href="https://www.facebook.com/kcfor2016/photos/a.449677955214451.1073741827.449664581882455/630136990501879/?type=1&amp;theater" rel="nofollow noopener">https://www.facebook.com/kcfor2016/photos/a.449677955214451.1073741827.449664581882455/630136990501879/?type=1&amp;theater</a><a href="http://poli-radar.relab.cc/" rel="nofollow noopener">http://poli-radar.relab.cc/</a>
+</li>
+</ol>
+<p><a class="mention" href="/u/yutin_liu">@YuTin_Liu</a> 你好，謝謝您的提問 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<ol>
+<li>透過社群力量來貢獻政治人物行程：<br>
+如上述讓社群參與以及回饋意見的方式，包含民眾可以在每篇行程上留言回饋及分享、每兩個月舉辦小松，分享及蒐集回饋、會將不同進度的成果在社群的社團、聊天室分享，徵求意見…等，我們也在思考後續行銷活動可以有一些有趣的與民眾互動的方式，鼓勵他們提供行程，例如「捕捉野生政治人物」（(EX拍照上傳功能）。</li>
+<li>提供資料讓社群協助製作不同的視覺呈現：<br>
+我們已在開源會產出的開源軟體套件或開放授權文件補充了資訊。另，SOSreader與Re-lab也會定期製作相關視覺化呈現的專題。</li>
+<li>可重複使用性 Reusability：<br>
+在開源部分，我們已經補充資訊在「產出的開源軟體套件或開放授權文件」此題。提案內容所列出的軟體套件都開源釋出，並附帶相關文件，可以讓其它地區較容易採用。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1104'>
+      <a title="July 16, 2017 11:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/10">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mick761218' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mick761218/45/264_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mick761218' target="_blank" class='new-user'>mick761218</a>
+        </h3>
+        <p>提供可能相關的專案供參考</p>
+<p>Partying for dollars: Mapping five years of political fundraisers 政商聚會交流的地圖化<br>
+介紹網址：<a href="https://sunlightfoundation.com/2013/09/16/partying-for-dollars-mapping-five-years-of-political-fundraisers/" rel="nofollow noopener">https://sunlightfoundation.com/2013/09/16/partying-for-dollars-mapping-five-years-of-political-fundraisers/</a></p>
+<p>資料來源：Sunlight’s Party Time - Upload an Invitation<br>
+網址：<a href="http://politicalpartytime.org/" rel="nofollow noopener">http://politicalpartytime.org/</a><br>
+機制：透過民眾匿名提供政黨與政治人物的活動訊息與邀請函，如宴會、餐會、募款活動資訊…等</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/269/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

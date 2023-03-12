@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>班表小幫手 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1768'>
+      <a title="January 23, 2018  2:30pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好：<br>
+prototype 網址目前404 <a href="https://tw-shift-schedule.firebaseapp.com/-L39efRgitXjWblce-aJ" rel="nofollow noopener">https://tw-shift-schedule.firebaseapp.com/-L39efRgitXjWblce-aJ</a><br>
+再麻煩了</p>
+
+            <a data-link-to-post="1775" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/727/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1775'>
+      <a title="January 23, 2018  2:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/3">Jan &#39;18</a>
+        <a data-link-to-post="1768" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/727/2">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>hi,</p>
+<p>已經修正摟，麻煩再試試看。</p>
+<p>Thanks!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1840'>
+      <a title="January 26, 2018  4:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>勞動法規的一個大問題，是勞動法規修正後，常常會出許多函釋加以解釋，但這些函釋又可能進一步影響班表功能。</p>
+<p>請問後續有規劃滾動式修正的流程，或是由誰進行維護嗎？是否有相關的勞動學者人脈可供諮詢？</p>
+
+            <a data-link-to-post="1845" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/727/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1845'>
+      <a title="January 26, 2018  5:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/5">Jan &#39;18</a>
+        <a data-link-to-post="1840" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/727/4">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>這的確是個問題。</p>
+<p>目前在 g0v slack <span class="hashtag">#labor</span> 頻道有收到來自電資工會的回饋，短期內打算透過與相關工會合作，以取得法律相關的協助。獎助金的使用規劃中也有考慮到這方面的支出。</p>
+<p>長期而言，還是希望能透過建立社群來維持長期維護的能量。已修改提案加上這方面（如：小松、追蹤相關函釋的機制）的規劃。</p>
+<p>感謝提醒！</p>
+
+            <a data-link-to-post="1900" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/727/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1900'>
+      <a title="January 29, 2018  1:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/6">Jan &#39;18</a>
+        <a data-link-to-post="1845" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/727/5">▶ Poga_Po</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsiao-a/45/282_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank" class=''>Hsiao-a</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>請問有沒有結合薪水部分順便檢測資方發的加班費是否合法？<br>
+畢竟加班費的法規頗複雜，很多人加班後也不確定自己應該領到多少？是否會被換成補休等等</p>
+
+            <a data-link-to-post="1902" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/727/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1902'>
+      <a title="January 29, 2018  6:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/7">Jan &#39;18</a>
+        <a data-link-to-post="1900" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/727/6">▶ Hsiao-a</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>的確有這方面的規劃。不過，由於班表本身就已頗複雜，目前打算先確保班表與工時分析的正確性後，再來進型薪資相關的驗證。</p>
+<p>已註記在未來發展中。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/727/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

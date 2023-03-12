@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>臺灣時光機線上地圖 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-1702'>
+      <a title="January 21, 2018  3:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/man_astronaut.png?v=5" title=":man_astronaut:" class="emoji" alt=":man_astronaut:"> <img src="//discuss.grants.g0v.tw/images/emoji/twitter/heart_eyes.png?v=5" title=":heart_eyes:" class="emoji" alt=":heart_eyes:"> 日本時代地址 &lt;-&gt; 現代地號 似乎是一個非常實用的工具。</p>
+<p>這工具只有地圖的呈現方式嗎？是否有簡易的轉換介面，如下：<br>
+<a href="https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130112" class="onebox" target="_blank" rel="nofollow noopener">https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130112</a><br>
+<a href="https://translate.google.com.tw/?hl=zh-TW" class="onebox" target="_blank" rel="nofollow noopener">https://translate.google.com.tw/?hl=zh-TW</a></p>
+<p>又或者是否有 javascript package 方便讓其他開發者引用呢？</p>
+<p>另有個部分想要請教一下，專案的考量：<br>
+日治地址 -&gt; 現代地號轉換器 =&gt; 理解<br>
+日治地址 -&gt; GPS座標轉換器 =&gt; 理解<br>
+現代地號 -&gt; GPS座標轉換器 &lt;= 目前沒有類似的工具？又或者此專案有使用的必要性？</p>
+<p>除了 GoogleMap 外，是否有考慮過 Mapbox OpenStreetMap 相對 open 的 map ？</p>
+<p>Thanks.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1708'>
+      <a title="January 21, 2018  5:15pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/prince' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/prince/45/416_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/prince' target="_blank" class=''>prince</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝提問～</p>
+<p>目前規劃的三個模組<br>
+1.日治地址-&gt;現代地號轉換器<br>
+2.現代地號-&gt;GPS座標轉換器<br>
+3.日治地址-&gt;GPS座標轉換器 (其實就是1+2，也是最終的目的，有了GPS座標就能在地圖上呈現)</p>
+<p>1和2官方有現成的，1的部份叫「新舊地建號轉換」，由各縣市自行管轄(名稱可能不一)，有些有opendata、有些有提供網頁給你轉換。但所謂的舊地建號並不直接等同日本時代地番號，要略作轉換(需文史知識介入)<br>
+2.的部份官方呈現的網站叫「地籍圖資網路便民系統」，可以給「現代的地號」查得GPS座標<br>
+但不管1或2，設計都是要人直接去操作，很難直接用程式來引用。本案就是想解決這樣的問題，並搭配動員人力來把日本時代留存的各種地址資訊建檔加以應用。<br>
+當然若開發完成，會開放api給需要的人來call，也會開放簡易查詢介面。</p>
+<p>暫訂採用Google map只是之前已有開發相關ap的經驗，若OpenStreetMap也可利用最好。在這案子中採用哪一種地圖平台並非最關鍵的部份，最關鍵的是官方建地號相關資料的處理、以及日本時代地址資訊的建置。</p>
+
+            <a data-link-to-post="1780" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/708/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1780'>
+      <a title="January 23, 2018  3:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>NY Building Inspector<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="http://buildinginspector.nypl.org/" target="_blank" rel="nofollow noopener">buildinginspector.nypl.org</a>
+  </header>
+  <article class="onebox-body">
+    <img src="http://buildinginspector.nypl.org/discuss.grants.g0v.tw/assets/card-0819e9c1a620e21fb57ef5352b0053ab.jpg" class="thumbnail" width="" height="">
+
+<h3><a href="http://buildinginspector.nypl.org/" target="_blank" rel="nofollow noopener">Building Inspector - Kill Time. Make History.</a></h3>
+
+<p>Help unlock New York City's past by identifying buildings and other details on beautiful old maps.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>堡圖數化構想<br>
+<a href="https://g0v.hackpad.tw/JiiX9ImyZJ8" class="onebox" target="_blank" rel="nofollow noopener">https://g0v.hackpad.tw/JiiX9ImyZJ8</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1781'>
+      <a title="January 23, 2018  4:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>提案中有提到地址, 二戰後不少地方的地址都有過變化, 因為連街道名稱都會變, 以台南市為例, 博愛路變北門路, 我開始唸台南一中的時候地址是四維街一號, 後來變民族路一段一號, 這有資料可以處理嗎? 我的問題是, 如果放進地址, 那時間軸不是只有日治和二戰後兩段, 不知是不是在處理範圍。</p>
+
+            <a data-link-to-post="1805" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/708/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1805'>
+      <a title="January 24, 2018  1:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/6">Jan &#39;18</a>
+        <a data-link-to-post="1781" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/708/5">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/prince' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/prince/45/416_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/prince' target="_blank" class=''>prince</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>地號和地址是不一樣的東西。<br>
+戰後原始的地號源自於日本時代的地番號(當時的地址)，之後有改過(所以需要新舊轉換)。<br>
+至於二戰後地址的變化，目前內政部僅有1998年8月1日後的資料，臺南一中地址由四維街一號變民族路應該是1990左右(印象中是我入學左右的事，是的我也是一中校友)，目前似沒有簡單的方法可以查得。<br>
+在有限資源下，本計畫先專注在處理日本時代地址資訊，但資料結構上會保留擴充的彈性。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1847'>
+      <a title="January 26, 2018  5:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ssweetcoww' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ssweetcoww/45/327_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ssweetcoww' target="_blank" class='new-user'>ssweetcoww</a>
+        </h3>
+        <p>日本時代的地址和地籍資料是否有差異?</p>
+<p>目前日本時代的地址或是地籍政府或是任何單位有完整或是部分的資料庫嗎?</p>
+<p>目前各地方政府的新舊地號轉換應該只能轉土地總登記之後的資料吧? 有回朔到日本時代的資料嗎? 如果沒有的話，最困難的反而應該是日本時代的地籍和土地總登記的地籍之間關係的建立吧?</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1918'>
+      <a title="January 29, 2018 10:51am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/8">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請注意資料是否齊全，以利後續評選流程：</p>
+<ol>
+<li>請更新您的個人資料與履歷，讓評審更了解您的背景：<a href="https://grants.g0v.tw/users/profile">https://grants.g0v.tw/users/profile</a>
+</li>
+<li>建議補充過去執行過的相關專案或開源專案連結，並請自行確認連結是有效的（點進去不會看到 404）。</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/708/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

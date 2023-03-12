@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>企業永續資訊平台 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1092'>
+      <a title="July 16, 2017  6:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/archi1315' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/archi1315/45/274_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/archi1315' target="_blank" class='new-user'>archi1315</a>
+        </h3>
+        <p>中外皆然，多數企業是因應法律規範才出版CSR報告書，再以PDF檔掃描上傳網站交差。若 【企業永續資訊平台】能夠整合企業(尤其是上市櫃企業)CSR報告書中的財務資訊、非財務資訊，以及媒體新聞、政府罰款、社群評論等等訊息於一個平台上，並使之透明化、可比較化，不僅可提供企業更公允的CSR評價標準，更可協助政府與公民監督企業的社會責任作為。樂觀其成，加油!</p>
+
+            <a data-link-to-post="1309" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/435/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1153'>
+      <a title="July 17, 2017  4:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/rachel/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank" class='new-user'>Rachel</a>
+        </h3>
+        <p>HiHi 覺得 CSR 這塊很重要，剛好看到綠盟的另一個提案，覺得未來可以整合起來，企業社會責任外一起檢視公司資料、有無符合勞基法、環境影響、企業交叉持股等：<a href="https://grants.g0v.tw/projects/596c662fd60a0d001ed1f8ea" rel="nofollow noopener">https://grants.g0v.tw/projects/596c662fd60a0d001ed1f8ea</a></p>
+
+            <a data-link-to-post="1308" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/435/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1308'>
+      <a title="July 25, 2017 11:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/4">Jul &#39;17</a>
+        <a data-link-to-post="1153" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/435/3">▶ Rachel</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/danjrary/45/317_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank" class=''>danjrary</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Hi Rachel,</p>
+<p>沒問題，已經關注「台灣企業集團母子公司關係與環境社會責任」這項專案，也相當期待兩個專案的合作或整合！企業集團與子公司資訊的確是非常值得注意的議題，當企業在揭露CSR資訊時，也會要求企業說明資訊揭露的範疇（boundaries），清楚界定出哪些據點與工廠是在報告範圍內，藉以確保資訊揭露的完整性，避免企業將黑心作為轉移到其他子公司，規避資訊揭露的規範。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1309'>
+      <a title="July 25, 2017 11:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/5">Jul &#39;17</a>
+        <a data-link-to-post="1092" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/435/2">▶ archi1315</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/danjrary/45/317_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank" class=''>danjrary</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Hi archi1315</p>
+<p>感謝支持與肯定，將會持續朝向整合所有CSR資訊的平台為發展目標，讓公民可以更全面的檢視台灣企業對社會與環境的影響與作為！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1421'>
+      <a title="July 26, 2017  8:51am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>請問政府是否有規定 CSR 報告中必填的資訊，如有，可否詳列？以助評審們判斷可能影響力。</li>
+<li>企業如果偽造或缺失某些必填資訊，政府是否有相關法令和課責方式？</li>
+<li>是否有可能導致產生類似企業內外帳的狀況，內部一套，對外有另一套以符合法令？</li>
+<li>CSR 報告是否有包含其海外公司對當地所造成的影響？</li>
+<li>除了上述<a href="https://grants.g0v.tw/projects/596c662fd60a0d001ed1f8ea" rel="nofollow noopener">母子公司</a>專案，<a href="https://grants.g0v.tw/projects/59634490ae3dd8001e1bfd28" rel="nofollow noopener">移轉訂價</a>專案在資料處理方法和標的物上都和您的專案有許多相似之處可供參考。</li>
+</ol>
+
+            <a data-link-to-post="1532" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/435/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1532'>
+      <a title="July 29, 2017  5:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/7">Jul &#39;17</a>
+        <a data-link-to-post="1421" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/435/6">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/danjrary/45/317_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/danjrary' target="_blank" class=''>danjrary</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Hi <a href="http://twly.tw" rel="nofollow noopener">twly.tw</a></p>
+<p>感謝提問！相關回覆如下：<br>
+Q1. 請問政府是否有規定 CSR 報告中必填的資訊，如有，可否詳列？以助評審們判斷可能影響力。<br>
+A1. 在政府規定的法規「上市公司編製與申報企業社會責任報告書作業辦法」 中，目前只有強制要求資本額100億元以上之上市櫃企業、金融、化工與食品產業必須編製CSR報告，並要求以下符合事項：</p>
+<p>［第三條］<br>
+上市公司應每年參考全球永續性報告協會（Global Reporting Initiatives ，GRI ）發布之最新版永續性報告指南、行業補充指南及依行業特性參採其他適用之準則編製前一年度之企業社會責任報告書，揭露公司所辨認之經濟、環境及社會重大考量面、管理方針、績效指標及指標之衡量方式，且至少應符合永續性報告指南之核心依循選項。揭露報告書內容對應永續性報告指南之索引，並於索引表註明各揭露項目是否取得第三方確認、確信或保證。</p>
+<p>［第四條］<br>
+一、食品工業及第二條第一項第二款之上市公司，應揭露企業在供應鏈管理暨採購實務、保障顧客健康與安全、產品及服務標示及法規遵循考量面之具體管理方針及績效指標。其績效指標至少應包含下列項目：<br>
+（一）為改善食品衛生、安全與品質，而針對其從業人員、作業場所、設施衛生管理及其品保制度方面進行之評估與改進及所影響之主要產品類別與百分比。<br>
+（二）上市公司應遵循之食品安全衛生管理相關法規，及上市公司違反上述法規之事件類別與次數。<br>
+（三）上市公司採購符合國際認可之產品責任標準者占整體採購之百分比。<br>
+（四）經獨立第三方驗證符合國際認可之食品安全管理系統標準之廠房所生產產品之百分比。<br>
+（五）上市公司對供應商進行稽核之家數及百分比、稽核項目及結果。<br>
+（六）上市公司依法規要求或自願進行產品追溯與追蹤管理之情形及相關產品占所有產品之百分比。<br>
+（七）上市公司依法規要求或自願設置食品安全實驗室之情形、測試項目、測試結果、相關支出及其占營業收入淨額之百分比。</p>
+<p>二、化學工業應揭露企業本身及其供應鏈為降低產品、活動或服務對於環境之負面衝擊，暨為保障員工職業健康與安全，以及利害相關民眾之生命財產安全而採取之具體、有效機制及作為，其至少應包含原料、物料及本身終端產品之製造或運送過程管理、廠區內外事故之緊急應變機制及其績效指標。</p>
+<p>三、金融保險業應加強揭露經濟績效及企業金融商品或服務之環境面與社會面之具體管理方針及績效指標。前述企業金融商品或服務至少應包含放貸、專案融資、共同基金、保險及企業本身投資等。其績效指標至少應包含下列項目：<br>
+（一）在企業金融商品或服務之協議或交易範圍內，鼓勵與關注客戶或其他往來對象遵循金融保險業者對環境面和社會面要求之作業流程，及達到合理條件之情形。<br>
+（二）非擔任主管職務之員工人數、年度員工平均福利費用及與前一年度之差異。</p>
+<p>以上法規所規定必填的資訊，原則上都是引用GRI的指標，所以企業只要依循GRI報告框架來編製CSR報告，即可符合政府要求。<br>
+法規網站：<a href="http://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL075209" rel="nofollow noopener">http://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL075209</a></p>
+<p>Q2. 企業如果偽造或缺失某些必填資訊，政府是否有相關法令和課責方式？<br>
+A2. 將會依據「對有價證券上市公司及境外指數股票型基金上市之境外基金機構資訊申報作業辦法」第三條第一項第三十二款、第六條之規定，上市公司未依「作業辦法」規定之時限申報，或申報內容有錯漏者(包含未依「作業辦法」規定採用 GRI G4 架構)，將處以違約金新台幣 3 萬元，個案情節重大者，得處以伍萬元至壹佰萬元之違約金，並得函知上開公司依限辦理者，每逾一營業日課新台幣壹萬元之違約金，至辦理日為止。經按日處以違約金，仍未依限辦理且個案情節重大者，得依營業細則第四十九條或第五十條規定，對其上市有價證券變更原有交易方法或停止其買賣。</p>
+<p>相關網站：<a href="http://cgc.twse.com.tw/static/20150129/000000004a719af9014b33a309d7003f_%E3%80%8C%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E7%B7%A8%E8%A3%BD%E8%88%87%E7%94%B3%E5%A0%B1%E4%BC%81%E6%A5%AD%E7%A4%BE%E6%9C%83%E8%B2%AC%E4%BB%BB%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%BD%9C%E6%A5%AD%E8%BE%A6%E6%B3%95%E3%80%8D%E5%95%8F%E7%AD%94%E9%9B%86.pdf" rel="nofollow noopener">http://cgc.twse.com.tw/static/20150129/000000004a719af9014b33a309d7003f_「上市公司編製與申報企業社會責任報告書作業辦法」問答集.pdf</a></p>
+<p>Q3. 是否有可能導致產生類似企業內外帳的狀況，內部一套，對外有另一套以符合法令？<br>
+A3.老實說，正是因為在業界看到不少內外帳的狀況，所以才會提出此專案，期望以數位化方式解放CSR報告資訊，讓更多人可以參與監督報告內容。目前的CSR比較偏向封閉生態，外界鮮少了解CSR是什麼，也不知道內部是如何運作，導致企業可以操作的空間很大。至於要如何降低內外帳的狀況，除了要求獨立第三方單位檢視報告內容之外，也需要公民及外部團體持續監督才有可能降低內外帳的狀況，減少表裡不一的黑心企業。</p>
+<p>Q4. CSR 報告是否有包含其海外公司對當地所造成的影響？<br>
+A4. CSR報告是會包括海外公司對當地造成的影響，不過前提是企業所界定的「範疇」要包括海外據點。然而，界定「範疇」大小的決定權在於企業，企業可以自由選擇他要揭露的範圍，這部分沒有受到政府的強制規定，所以企業不一定要將海外公司納入CSR報告範疇中，只要有出CSR報告即可符合法規要求，但是這會導致相當嚴重的問題。</p>
+<p>舉例來說，A公司的總部設立在台灣，屬於研發或業務性質，其營運類型相對單純，對當地並無造成重大的社會或環境衝擊；同時，A公司也在印尼設有製造工廠，並且使用當地童工來降低營運成本。但是A公司可以在CSR報告中，界定揭露的範疇只有台灣地區，並說明「在台灣並未使用童工」。這將會造成外界的誤解，以為A公司的營運都是符合勞工人權，但實際上卻是技巧性規避揭露資訊。</p>
+<p>其實在GRI報告框架中有要求企業「必須列出組織合併財務報表或等同文件中所包含的所有實體」，並說名「是否有在組織合併財務報表或等同文件中的實體未包含在此報告書中」，藉以在CSR報告中，清楚說明報告的範疇，資訊內容包括那些海外公司。雖然企業會明確的寫出範疇，若沒有對公司營運與CSR報告有一定程度的認知，其實難觀察出此等細節但卻重要的資訊。因此，期望透過公民的力量，持續要求企業擴大揭露範疇，更完整的揭露子公司的CSR資訊。</p>
+<p>Q5. 除了上述母子公司專案，移轉訂價專案在資料處理方法和標的物上都和您的專案有許多相似之處可供參考。<br>
+A5. 沒問題，移轉訂價專案在處理年報資訊的方式，的確相當值得學習借鏡，感謝提醒與分享！</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/435/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

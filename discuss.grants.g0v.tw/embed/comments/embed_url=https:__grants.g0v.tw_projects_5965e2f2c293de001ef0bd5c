@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>職涯大數據 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1289'>
+      <a title="July 25, 2017  9:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/428/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>
+<p>此系統的其中一個核心是完整規劃的表單問卷，直接以 google 表單等已有系統做為資料蒐集管道是否可行，或是您有其他的考量或著眼點？</p>
+</li>
+<li>
+<p>如您所說，在你預計用什麼方式解決此問題？ (200 ~ 500 字 ) 中：</p>
+</li>
+</ol>
+<blockquote>
+<p>網站基本上是結合維基百科與社群網站的簡化功能版，主要功能如下：<br>
+(1)模組化的職場經驗分享：透過標準化表格，引導大家有條理地分享自己寶貴的職場經驗。<br>
+(2)圖像式表達再搭配高資訊含量的文字敘述：先透過職業心智圖讓讀者快速抓住重點。後面再以兩頁左右的精簡文字來說明職務工作內容。<br>
+(3)職業版本的控管：由於各行業的工作內容可能隨著時代演進而有所調整，這時就必須透過版本控管讓資料庫的行業內容隨之更新。<br>
+(4)社群及討論區功能：只靠兩頁標準化的說明文字來表達一份職業，可能還是會有不詳盡的地方，這時就必須透過職業討論區來提問，然後引進行業導師及社群功能，讓專業人士來回覆年輕世代的各種疑問。</p>
+</blockquote>
+<ul>
+<li>第一點中，如何用標準化的表格涵蓋眾多的職業別？是否能提供個範例？</li>
+<li>第二點中，如何兼顧高資訊含量以及精簡的文字呈現？</li>
+<li>第三點中，職業的版本控管，該如何得知哪個較新？哪個該進入歷史？</li>
+</ul>
+<p>3 . 如您所說，在為什麼你的方式可以解決此問題？ (200 ~ 500 字 ) 中：</p>
+<blockquote>
+<p>(1)職業種類那麼多，怎麼分類與涵蓋?<br>
+(2)內容品質與製作成本如何取捨?<br>
+(3)如何避免主觀的個人觀點?<br>
+(4)如何提升使用者的探索效率?<br>
+我們的平台結合了維基百科與社群討論區的功能，讓熱心公民們能輕易地分享他們的工作經驗。再透過文字優化與版本控管，以資訊含量高的圖文讓年輕學子能有效率地進行職涯探索，進而解決上述所提到的所有問題。</p>
+</blockquote>
+<ul>
+<li>職業種類眾多的問題，以民眾自願參與的方法，該如何涵蓋到較不使用電腦的職業別？</li>
+<li>續上，有沒有規劃什麼誘因讓民眾參與？</li>
+<li>以民眾自願參與的方法，該怎麼避免主觀的個人觀點？每個人的分享很可能就是他主觀的個人觀點。</li>
+<li>文字優化是否能再詳述，是由系統自動優化？</li>
+</ul>
+<p>4 . 如您所說，在請說明本專案會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）中：</p>
+<blockquote>
+<p>網站建置開發過程所產出的套件都可以開源，讓有需要的個人或團體使用。</p>
+</blockquote>
+<p>此部分建議還是如題目所述，個別條列出來，可能較有利後續評鑑也方便了解整個系統的運作</p>
+
+            <a data-link-to-post="1401" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/428/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1325'>
+      <a title="July 25, 2017  1:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/428/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>根據美國勞動部的一份研究報告〈未來工作—21世紀工作的趨勢與挑戰〉（<a href="https://www.dol.gov/oasam/programs/history/herman/reports/futurework/report.htm" rel="nofollow noopener">Futurework - Trends and Challenges for Work in the 21st Century</a> ）指出，現在學生未來將從事的工作，有65％現在還不存在。針對這些現在不存在的未來工作，有應對方式嗎？</p>
+
+            <a data-link-to-post="1410" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/428/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1401'>
+      <a title="July 26, 2017  6:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/428/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/comickenny' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/comickenny/45/295_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/comickenny' target="_blank" class=''>comickenny</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <aside class="quote group-2017A-reviewers" data-post="2" data-topic="428">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>1.此系統的其中一個核心是完整規劃的表單問卷，直接以 google 表單等已有系統做為資料蒐集管道是否可行，或是您有其他的考量或著眼點？</p>
+</blockquote>
+</aside>
+<p>目前我們蒐集資料(職務說明書)成效較佳的方式有三種: (1)透過email寄送問卷檔案(含範例)給朋友填寫 (2)由協會志工與分享者以訪談問答方式來填寫 (3)透過外包等網站提供酬勞來徵求分享者。在夥伴們熱心協助下，順利收集到100多份問卷。<br>
+您所提到的google表單，我們也有夥伴使用過。基本上，任何可以運用在蒐集資料的工具，我們都不會排斥。感謝您的建議~</p>
+<aside class="quote group-2017A-reviewers" data-post="2" data-topic="428">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>2.如您所說，在你預計用什麼方式解決此問題？ (200 ~ 500 字 ) 中：<br>
+網站基本上是結合維基百科與社群網站的簡化功能版，主要功能如下：<br>
+(1)模組化的職場經驗分享：透過標準化表格，引導大家有條理地分享自己寶貴的職場經驗。<br>
+(2)圖像式表達再搭配高資訊含量的文字敘述：先透過職業心智圖讓讀者快速抓住重點。後面再以兩頁左右的精簡文字來說明職務工作內容。<br>
+(3)職業版本的控管：由於各行業的工作內容可能隨著時代演進而有所調整，這時就必須透過版本控管讓資料庫的行業內容隨之更新。<br>
+(4)社群及討論區功能：只靠兩頁標準化的說明文字來表達一份職業，可能還是會有不詳盡的地方，這時就必須透過職業討論區來提問，然後引進行業導師及社群功能，讓專業人士來回覆年輕世代的各種疑問。</p>
+<p>第一點中，如何用標準化的表格涵蓋眾多的職業別？是否能提供個範例？<br>
+第二點中，如何兼顧高資訊含量以及精簡的文字呈現？<br>
+第三點中，職業的版本控管，該如何得知哪個較新？哪個該進入歷史？</p>
+</blockquote>
+</aside>
+<p>有關第一點: 職務說明書表格經過多位不同行業的分享者填寫使用後，我們根據分享者的反饋意見做了兩次調整(新增了學校修課建議與平均工時)。填寫內容目前分為五大面向，簡述如下:</p>
+<ul>
+<li>職務目的：職業目的是該職務的功能簡介，分享者可以在欄位內簡單說明該職務在公司內扮演什麼角色，以及公司設置該職位的主要目的。</li>
+<li>崗位關係：工作時與上級、同儕、部屬與客戶的工作互動，或是與其他職務人員共同完成的工作項目。</li>
+<li>任職要求：對新鮮人或學生來說，必須具備哪些學經歷或特殊技能才能勝任該職務。另外，對在校學生提供與職務相關的修課建議。</li>
+<li>績效評核：職務的年度工作目標。內容可以包含該職務的工作產出，或是績效評估項目等。同時估計出各個項目的百分比。</li>
+<li>日常工作：上班時的工作內容，再估計出各個項目的工時百分比。</li>
+<li>職涯發展：該職務目前的工時情況及薪資展望，內部升遷地圖與外部轉職機會。</li>
+</ul>
+<p>空白問卷與填寫範例檔案的網址如下:<br>
+<a href="https://drive.google.com/file/d/0B6PghjIKXKStQ05kY3l3eGRpZUU/view?usp=sharing" class="onebox" target="_blank" rel="nofollow noopener">https://drive.google.com/file/d/0B6PghjIKXKStQ05kY3l3eGRpZUU/view?usp=sharing</a><br>
+未來規劃資料庫網站時，我們仍希望維持職務說明書表格項目的彈性(可修改.新增.刪除)，讓職場資料的蒐集能夠隨著時代變遷而調整，來獲得分享者們的寶貴經驗。</p>
+<p>有關第二點: 我們設定的目標情境是，希望使用者可以在10分鐘左右可以將一份職業的職務說明書閱讀完畢，因為長篇大論很容易讓年輕世代望之卻步。所以，一份職務說明書原則上希望在2至3頁螢幕篇幅，把想表達的內容寫出來。這種做法其實跟這次的公民科技比賽裡的某些問答題有些異曲同工，當提案者被限定回答這題的答案必須在200-500字的情況下，提案者的回答內容相信絕對會兼顧“高資訊含量以及精簡的文字呈現”。我們的職務說明書也是類似的做法。</p>
+<p>有關第三點: 職務說明書的版本控管必須仰賴行業導師來執行，在我們職業資料庫網站裡，每份職業必須要至少有一位行業導師來負責公版的內容調整與版本發佈。或許有人會擔心行業導師等於可以隨心所欲就定義一個職業，權限未免過大。但每份職業下方都會有一個討論區，任何人對於職業的版本內容或該職業是否已走入歷史都可以發表意見。行業導師的每一項版本修訂也都可受公評。</p>
+<aside class="quote group-2017A-reviewers" data-post="2" data-topic="428">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>3 . 如您所說，在為什麼你的方式可以解決此問題？ (200 ~ 500 字 ) 中：</p>
+<p>(1)職業種類那麼多，怎麼分類與涵蓋?<br>
+(2)內容品質與製作成本如何取捨?<br>
+(3)如何避免主觀的個人觀點?<br>
+(4)如何提升使用者的探索效率?<br>
+我們的平台結合了維基百科與社群討論區的功能，讓熱心公民們能輕易地分享他們的工作經驗。再透過文字優化與版本控管，以資訊含量高的圖文讓年輕學子能有效率地進行職涯探索，進而解決上述所提到的所有問題。</p>
+<p>職業種類眾多的問題，以民眾自願參與的方法，該如何涵蓋到較不使用電腦的職業別？<br>
+續上，有沒有規劃什麼誘因讓民眾參與？<br>
+以民眾自願參與的方法，該怎麼避免主觀的個人觀點？每個人的分享很可能就是他主觀的個人觀點。<br>
+文字優化是否能再詳述，是由系統自動優化？</p>
+</blockquote>
+</aside>
+<p>有關第一點: 目前我們蒐集職務說明書有三種方式。其中的第二種方式，透過協會志工與分享者直接訪談問答，就可以蒐集到較不使用電腦的職業別。</p>
+<p>有關第二點: 雖然目前協會剛成立，資金也有限。我們還是透過會員募款的方式，希望能提供分享者一些酬勞，來提供民眾參與的誘因。目前是一份問卷控制在300元以下。未來則希望認同這個計畫的人越來越多，熱心的公民主動來這個平台分享是我們的長期目標。</p>
+<p>有關第三點: 目前在避免分享者主觀論述的處理分為兩個面向:</p>
+<ul>
+<li>同一個職業綜合比較多份問卷後，就可以抓出較為主觀的內容論述。</li>
+<li>有些主觀文字在行業導師審查時可以抓出。例如: 某主機板研發工程師分享:「工作很累，無趣且沒有成就感。」我們會追問每週工時、加班情形、工作內容單調無趣的原因。將原本主觀論述轉化成「每週工時60小時，大部分時間都在實驗室內焊烙鐵、Rework板子。」等較為客觀陳述的文字。至於累不累?這種工作有沒有成就感?就讓讀者自己來判斷。</li>
+</ul>
+<p>有關第四點: 文字優化是希望提升文字資訊含量，來強化易讀性及提升閱讀效率。這個部份目前仍仰賴行業導師來完成。</p>
+<aside class="quote group-2017A-reviewers" data-post="2" data-topic="428">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>4 . 如您所說，在請說明本專案會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）中：</p>
+<p>網站建置開發過程所產出的套件都可以開源，讓有需要的個人或團體使用。</p>
+<p>此部分建議還是如題目所述，個別條列出來，可能較有利後續評鑑也方便了解整個系統的運作</p>
+</blockquote>
+</aside>
+<ul>
+<li>防止機器人註冊或灌水的機制: 已開發完成。</li>
+<li>Pie Chart自動產生器: 根據分享者的各項目工時比重，自動產生相對應的Pie Chart。已開發完成。</li>
+<li>Tag自動產生器: 當分享者提及其他職務時，他可能不知道資料庫中有沒有那份職業。所以，我們希望系統能夠自動產生該職務的連結。此功能上尚在開發中。</li>
+</ul>
+<p>基本上，這個計畫是協會團體以公益出發點開始推動的，未來軟體開源的部分也會以最有利大眾資源分享的方式來處理。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1410'>
+      <a title="July 26, 2017  7:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/428/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/comickenny' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/comickenny/45/295_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/comickenny' target="_blank" class=''>comickenny</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <aside class="quote group-2017A-reviewers" data-post="3" data-topic="428" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/40/214_1.png" class="avatar"> billy3321:</div>
+<blockquote>
+<p>根據美國勞動部的一份研究報告〈未來工作—21世紀工作的趨勢與挑戰〉（Futurework - Trends and Challenges for Work in the 21st Century ）指出，現在學生未來將從事的工作，有65％現在還不存在。針對這些現在不存在的未來工作，有應對方式嗎？</p>
+</blockquote>
+</aside>
+<p>「現在不存在的未來工作」隱含了對未來工作的預測與趨勢分析。要進行這類計畫，除了要建立演算法預測平台之外，更重要的是要蒐集到足夠多的職業內容資料庫，才能提升預測的精準度。<br>
+由於目前我們的資源有限，只能投入在現有職業資料庫的建立。然而，即時未來資料庫的職業內容夠多，甚至也有足夠的金錢資源，我們對於未來職業的預測計畫仍會採取保守謹慎的態度，主要原因有兩點:</p>
+<ul>
+<li>剛出現的新職業可能更重要: 與其預測尚未出現的職業，我們寧可把資源放在介紹剛出現的新職業。當全球第一家半導體廠出現時，如果有人即時介紹半導體廠裡的各項職務給台灣社會，有志於相關工作學生或新鮮人絕對來得及搭上半導體業快速成長起飛的列車。</li>
+<li>錯誤的預測會產生嚴重後遺症: 預測未來職業遠比預測下年度GDP的難度要高很多。GDP預測錯誤，發個修正報告將1%上修成2%就沒事了。但未來職業預測錯誤，可能會害很多年輕人的人生走錯方向。</li>
+</ul>
+<p>感謝您的提問~</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/428/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

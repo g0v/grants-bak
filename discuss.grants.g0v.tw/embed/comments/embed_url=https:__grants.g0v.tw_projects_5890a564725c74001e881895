@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>借問一下 - 用問與答嘗試預估農作物的產量趨勢 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-500'>
+      <a title="February  1, 2017  2:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kcwu/45/149_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank" class=''>kcwu</a>
+        </h3>
+        <ol>
+<li>生產者有何誘因想使用這個系統? (尤其是初期很少參與者時, 增加工作量(要回答問題), 但短期看不到效益)</li>
+<li>請問是否有估計過大概要多少生產者參與這個系統, 才能讓預估接近市場真實趨勢?</li>
+<li>萬一有生產者輸入假資料, 是否有辦法避免(或修正)? 譬如我宣稱我的產量超高, 其他人就改種其他東西, 結果最後市場上產量很少只有我有產出, 我就大賺一筆.</li>
+</ol>
+
+            <a data-link-to-post="507" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/266/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-507'>
+      <a title="February  1, 2017 10:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/3">Feb &#39;17</a>
+        <a data-link-to-post="500" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/266/2">▶ kcwu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yyc1217/45/141_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank" class=''>yyc1217</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <ol>
+<li>的確沒有什麼太好的誘因（參加費之類的），但還是有想過幾個：
+<ul>
+<li>著重在青年生產者，對新科技的接受度比較高。</li>
+<li>在可以達到目的的情形下，儘可能減低回答的時間與頻率，或者是選擇最有效的問題；從google map在地嚮導的經驗來看，每次不超過1分鐘。</li>
+<li>將參與者的產品連結放置在網站上、測試結果內以及未來任何公開的投影片。</li>
+</ul>
+</li>
+<li>每種作物的生產者人數不同，以及種植面積也不同，因此很難一概而論需要有多少個生產者參與本計劃。因此會在諮詢過相關專家或是具經驗的生產者後，先挑選兩種作物進行測試，初期當然是希望參與的生產者越多越好，但最終還是以能在統計上與實際產量有明顯的正相關為目標。</li>
+<li>需要不定期的到現場查看進行比對或校正，因此也有在計劃書中列出車馬費等費用。還有需要監看資料，瞭解是否有不正常的情形，例如生長情形不符、種植面積與產量不呈正相關、天氣毫無影響等，但這部份需要有經驗的生產者協助，也是本計劃成功與否的關鍵之一。還有統計學。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-536'>
+      <a title="February  2, 2017  4:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>過往有很多狀況是因為天候不佳而搶收，所以預報上是否還會納入天候因素？</p>
+<p>要讓生產者願意使用的重要因素也許是正確的提供資訊讓他們知道現在全國栽種狀態，讓他們取得資訊以免搶種同樣的作物。所以生產者應該也是最重要的使用者也許才能提昇使用意願</p>
+
+            <a data-link-to-post="895" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/266/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-602'>
+      <a title="February  4, 2017  8:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/login?redirect=/users/profile">https://grants.g0v.tw/login?redirect=/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-610'>
+      <a title="February  4, 2017 11:21am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>我讀到的是: 共同產生出作物的「生長模型」大家都會受益 --&gt; 所以應該會有人來參與 --&gt; 所以可以預測趨勢。</p>
+<p>我的問題是:</p>
+<ol>
+<li>模型需要持續大規模做嗎? 如果要, 是不是考慮導入各種 sensor 比較省事, 如果不要, 那是不是就 gg 了</li>
+<li>農作物的特性其實很多地方會提供資訊, e.g., 農委會底下的農改場, 農會產銷班, 種苗公司</li>
+</ol>
+
+            <a data-link-to-post="897" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/266/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-895'>
+      <a title="February 11, 2017  8:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/7">Feb &#39;17</a>
+        <a data-link-to-post="536" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/266/4">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yyc1217/45/141_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank" class=''>yyc1217</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>因為沒有作物和天氣相關的歷史資料可參考，所以天氣因素暫時不考慮從後端調整，而是會使用問與答的模式，例如：</p>
+<ol>
+<li>氣象局說下禮拜開始有八成的機率會下雨，而且會持續一個禮拜，您有考慮在這幾天採收嗎？</li>
+<li>下禮拜好像有颱風會經過，您會在這禮拜先採收嗎？</li>
+</ol>
+<blockquote>
+<p>若有要在近期採收的話，再進一步詢問採收量（全部或是一半）之類的問題。</p>
+</blockquote>
+
+      </div>
+    </article>
+    <article class='post' id='post-897'>
+      <a title="February 11, 2017  9:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/8">Feb &#39;17</a>
+        <a data-link-to-post="610" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/266/6">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yyc1217/45/141_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yyc1217' target="_blank" class=''>yyc1217</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>受益部份其實最直觀的就是錢了，無論是直接發錢，或是保險費優惠，甚至災難補助時可以多幾百塊之類的，但這些都不是現階段能給得起的，所以只能用其他因素吸引參加者，請參考<a href="/discuss.grants.g0v.tw/t/topic/266/3?u=yyc1217">上方</a>的回答。</p>
+<ol>
+<li>
+<p>我們可以從sensor得到環境資料（溫度、濕度、土壤含氮量等等），但無法確切知道目前作物生長的情形，我有查到水稻已有相關的產量預測軟體，但水稻之外的作物比較少。<br>
+這個專案的想法是用一個可預測的模型，搭配Humans as Sensors的概念，逐步調整目前的預測情形。直覺上應該大部份作物的生長階段都是線性的（例：播種→成長→開花→結果），只是生長速度會因為環境因素影響而有快慢。因此就有點像在黑暗中調整收音機的頻道，從最初開始一路調到最後，並用聲音來判斷是否有調整到特定的頻道。</p>
+</li>
+<li>
+<p>謝謝提供，我的想法是從比較願意接觸新科技的小農團體開始連繫，如果主辦單位能夠媒介當然是最好。<br>
+其實如果可以從這些地方得到可能種植數量那就更好了，因為這個專案的目的是希望能夠掌握目前的作物生長趨勢。<br>
+如果是好種的作物，可能當初給了100個種苗，並且期間內天氣沒有任何激烈的變化，那可以預期之後會有100個單位的產量；但如果是不好種的作物，或是這期間天氣有任何上沖下洗的情形，那可能機無法正確的評估之後的產量了。</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/266/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

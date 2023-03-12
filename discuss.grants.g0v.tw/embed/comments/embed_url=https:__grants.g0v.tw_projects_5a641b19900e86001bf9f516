@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>數位遊牧民族指南 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>9 個回覆</span>
+</header>
+
+    <article class='post' id='post-1813'>
+      <a title="January 25, 2018  2:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>哈囉！我覺得這個主題蠻有趣的，不過還有好多「待補」，提案人要把待補補完嗎？</p>
+
+            <a data-link-to-post="1820" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/718/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1820'>
+      <a title="January 25, 2018  3:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/3">Jan &#39;18</a>
+        <a data-link-to-post="1813" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/718/2">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/alincode/45/440_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank" class=''>alincode</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>會的，因為最近被專案進度追殺，我會盡快把它補完的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1856'>
+      <a title="January 26, 2018  7:40am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mimi78198/45/276_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank" class=''>mimi78198</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>【再用性】</p>
+<p>嗨，很有趣的點子！臉書似乎已經有個關於nomad的<a href="https://www.facebook.com/groups/1424762960937285/" rel="nofollow noopener">臉書社團</a> 或許也是合作的機會之一。<br>
+比較好奇是，該專案與台灣觀光旅遊資訊整合的細節有規劃嗎？初期已經有鎖定哪些商家合作嗎？</p>
+
+            <a data-link-to-post="1871" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/718/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1857'>
+      <a title="January 26, 2018  7:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi，想請教跟這個網站的咖啡廳清單有什麼不同呢？這個清單已經有出 app 了。<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://cafenomad.tw/favicon-32x32.png" class="site-icon" width="16" height="16">
+      <a href="https://cafenomad.tw/" target="_blank" rel="nofollow noopener">cafenomad.tw</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:129/67;"><img src="https://cafenomad.tw/img/taipei-cafe-list.png" class="thumbnail"></div>
+
+<h3><a href="https://cafenomad.tw/" target="_blank" rel="nofollow noopener">Cafe Nomad - 最適合工作的咖啡廳清單：超過1,700間店，由網友們一起整理</a></h3>
+
+<p>Cafe Nomad - 最適合工作的咖啡廳清單：超過1,700間店，由網友們一起整理</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>我個人是期待更多關於 co-working space 、會議室，或是遠距工作所需的除了地點之外的其他資訊。meetup、時間管理、週間好去處等等。也想要問主要程式開發會遇到困難的地方在哪裡。</p>
+
+            <a data-link-to-post="1872" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/718/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1867'>
+      <a title="January 26, 2018  2:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/6">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>這個計畫看起來確實是要服務digital nomad，但想多請教一下，是否有詢問過其他更多的digital nomad，了解他們的需求呢？有可能他們的需求和提案人想的不一定一樣喔！</p>
+
+            <a data-link-to-post="1873" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/718/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1871'>
+      <a title="January 26, 2018  3:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/7">Jan &#39;18</a>
+        <a data-link-to-post="1856" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/718/4">▶ mimi78198</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/alincode/45/440_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank" class=''>alincode</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>恩，我知道這個 FB 社團，也經常 Follow 他們的文章，其實我自己也經營一個小社團叫<a href="https://www.facebook.com/groups/1190343134374259/" rel="nofollow noopener">遠距工作者在台灣</a>，這個專案核心的目標是降低遊牧人生在台灣門檻，會根據食衣住行全方面的考量，初期資料我希望能跟其他現有網站合作，但補足他們不足的部分。初期鎖定合作的商家會是 coworking space，接下來才會是飲食跟住宿方面的店家。</p>
+<ul>
+<li><a href="https://monospace.tw/" rel="nofollow noopener">monospace.tw</a></li>
+<li><a href="http://goodideas-studio.com/" rel="nofollow noopener">好想工作室</a></li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-1872'>
+      <a title="January 26, 2018  4:06pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/8">Jan &#39;18</a>
+        <a data-link-to-post="1857" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/718/5">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/alincode/45/440_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank" class=''>alincode</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>是的，目前初期計劃的接觸的對象，就打算優先以 co-working space 為主。</p>
+<p>Cafe Nomad 是集中在於收集適合工作的咖啡店，但是並不是所有 digital nomad 都是咖啡的愛好者，除此之外，但還是有其他考量，另如會議室、會客空間、快速網路與其他 digital nomad 交流的機會，都會是他們考量之一。</p>
+<p>主要程式開發會遇到困難，因為我本身是八年經驗的開發者，除非是用到深度學習、AI 那種需要比較長時間研究的技術，否則我覺得應該是還好。</p>
+<p>我反而會比較擔心 UI / UX，所以我在積極在找這方面的夥伴。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1873'>
+      <a title="January 26, 2018  5:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/9">Jan &#39;18</a>
+        <a data-link-to-post="1867" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/718/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/alincode/45/440_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/alincode' target="_blank" class=''>alincode</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>恩，我有跟一些 digital nomad 聊過，在去年十一月的時候，也實際去 digital nomads 目前大本營清邁，在那邊遊牧了一陣子，深深的感受到為什麼 digital nomad 的首選會是去清邁，基本上在完全不會泰文的情況，食衣住行完全不會感到障礙，當地人甚至非常習慣 digital nomad 的存在，每家店必備 wifi，隨便進一家店，都有1~3個 digital nomad，我想把那種氛圍引入台灣。</p>
+<p>但並不是要 copy 過來，而是台灣有其他特色，其實也是非常吸引 digital nomad 的，我希望能發揚光大這部分，例如台灣有高密度的工程師，並人羨慕的衝浪海域，便宜的吃到飽網路，熱情和友善的人。</p>
+<p>我實際訪談過後，的確有發現他們的需求，往往跟我們猜想的差距很大。</p>
+<p>例如：</p>
+<ul>
+<li>他們熱愛健身，他們希望哪邊有公眾健身房，哪邊適合健走或跑步。</li>
+<li>他們不喜歡住在青年旅館，他們需要的是一個可短期住宿的家，有小客廳小廚房，能組一些簡單的料理。但老實說，我聽到的當下，真的花了很多時間尋找相關資訊，即時我沒有語言的障礙，有找到能願意短租的住宿地點，在台灣真的非常的困難，但在清邁是有蠻多的月租房的。</li>
+<li>他們找不到好吃的素食店(我想是有的，但是他們就是找不到)</li>
+<li>週末跟朋友在小 Pub 喝兩杯，是每周必做的事，他們非常注重生活品質</li>
+<li>etc…</li>
+</ul>
+<p>當然我覺得，這些意見還是太少。除了國外之外，其實台灣也不少遠距工作者，只是大家並沒有交流(或很少)，我希望能加速這件事。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1919'>
+      <a title="January 29, 2018 11:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/10">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請注意資料是否齊全，以利後續評選流程：</p>
+<p>建議補充更多您的個人資料與履歷，讓評審更了解您與您倡議的主題：<a href="https://grants.g0v.tw/users/profile">https://grants.g0v.tw/users/profile</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/718/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

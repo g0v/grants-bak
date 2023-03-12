@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>媒體信評資料庫（MSCDb） - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-539'>
+      <a title="February  2, 2017  6:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>信用評比跟電影評分似乎是不同機制，因為信用評比有更多客觀的評比方式。所以這個專案希望的是信用評比或是讀者的喜好評比呢？也可能成為讀者立場的評比？</p>
+
+            <a data-link-to-post="552" class="post-replies button" href="/discuss.grants.g0v.tw/t/mscdb/218/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-552'>
+      <a title="February  2, 2017  9:13am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/3">Feb &#39;17</a>
+        <a data-link-to-post="539" class="in-reply-to" href="/discuss.grants.g0v.tw/t/mscdb/218/2">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tonykuoyj' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tonykuoyj/45/167_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tonykuoyj' target="_blank" class='new-user'>tonykuoyj</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感謝！我們更仔細地去檢視了 <a href="http://www.imdb.com/help/show_leaf?votestopfaq" rel="nofollow noopener">IMDb 的評分公式</a>。</p>
+<p>我們希望訓練一個評分模型，參數必須綜合客觀評比與主觀評比，使用類似信評模型的方式為沒有被讀者登錄的新聞評分，模型的客觀參數可能會包含：</p>
+<ul>
+<li>新聞網址是否仍然存在？</li>
+<li>新聞內容的編輯次數？</li>
+<li>作者是否具名？</li>
+<li>… etc.</li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-690'>
+      <a title="February  6, 2017  3:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝提案，有兩個問題想麻煩您補充：</p>
+<ol>
+<li>50萬元預算打算如何分配和利用？</li>
+<li>因為有期中評核制度，不曉得提案的短中長期的規劃分別是？</li>
+</ol>
+<p>另外有個想法，不知道您怎麼看。不管是imdb或moody，都有把標的分門別類（例如喜劇類、劇情等等），不曉得這個信評機制會考慮新聞種類的不同嗎？（例如即時新聞報導、長篇報導等）</p>
+
+            <a data-link-to-post="837" class="post-replies button" href="/discuss.grants.g0v.tw/t/mscdb/218/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-837'>
+      <a title="February  9, 2017  2:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/5">Feb &#39;17</a>
+        <a data-link-to-post="690" class="in-reply-to" href="/discuss.grants.g0v.tw/t/mscdb/218/4">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tonykuoyj' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tonykuoyj/45/167_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tonykuoyj' target="_blank" class='new-user'>tonykuoyj</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感謝您的追問！預算與短中長期規劃已經補充於<a href="https://docs.google.com/presentation/d/1OeMBJrFg_X7WUu5vIq_hfX7BFW3YyOCUAJiDTAI6Y30/edit?usp=sharing" rel="nofollow noopener">投影片</a>中，請您審閱，預算扣除粗估雲端服務成本與行銷費用後，全數規劃用於支援開發團隊。</p>
+<p>回覆您的新聞分類問題，我們團隊討論後認為不同種類的新聞在主觀評分上一定有很大的差距，如果用同一個評分模型來進行預測，確實會產生偏差。但考量初期訓練樣本的數量以及各家媒體對新聞分類的歧異，仍然傾向以一個評分模型對可觸及的新聞做評分預測。隨著訓練樣本數量的累積，我們預計使用<strong>字數</strong>與<strong>情感分析（Sentiment Analysis）</strong>區隔新聞的評分模型，將爭議性高，主觀性強的新聞類型（政治，社會與娛樂相關）和爭議性低，主觀性弱（環境與人文相關）分開預測。</p>
+
+            <a data-link-to-post="860" class="post-replies button" href="/discuss.grants.g0v.tw/t/mscdb/218/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-860'>
+      <a title="February 10, 2017  4:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/6">Feb &#39;17</a>
+        <a data-link-to-post="837" class="in-reply-to" href="/discuss.grants.g0v.tw/t/mscdb/218/5">▶ tonykuoyj</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝回覆，建議提案文字也要跟著更新，方便一般民眾審閱。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/mscdb/218/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

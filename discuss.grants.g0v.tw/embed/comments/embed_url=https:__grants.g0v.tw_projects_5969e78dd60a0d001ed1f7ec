@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>約吧約吧 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1137'>
+      <a title="July 17, 2017  2:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/443/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/oscar3011674' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/oscar3011674/45/277_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/oscar3011674' target="_blank" class='new-user'>oscar3011674</a>
+        </h3>
+        <p>Hi 覺得能夠用興趣交友很棒，想進一步問所謂的舉辦活動是線上還是線下呢？另外想問跟現有的交友工具的差異，以及要如何獲取第一批使用者呢？</p>
+<p>母公司是 Line 的 Band 就曾經灑大錢推廣興趣交友群。當時很大一部分的初期使用者是來自哈韓族，因為韓星在上面有興趣群組。有沒有想過些從哪些興趣社群出發？<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://secure.gravatar.com/blavatar/090b367f304df664122d63d3f55bb9d3?s=32" class="site-icon" width="32" height="32">
+      <a href="https://bandtaiwan.wordpress.com/" target="_blank" rel="nofollow noopener">BAND - 為【團體】而生</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://secure.gravatar.com/blavatar/090b367f304df664122d63d3f55bb9d3?s=200&amp;ts=1514611553" class="thumbnail onebox-avatar" width="200" height="200">
+
+<h3><a href="https://bandtaiwan.wordpress.com/" target="_blank" rel="nofollow noopener">BAND - 為【團體】而生</a></h3>
+
+<p>幫你有效管理團隊、讓你發掘共同興趣的新朋友！</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>聲音交友最近 Goodnight 和 Cheers 都很紅。</p>
+
+            <a data-link-to-post="1162" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/443/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1162'>
+      <a title="July 18, 2017  9:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/443/3">Jul &#39;17</a>
+        <a data-link-to-post="1137" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/443/2">▶ oscar3011674</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/t6820310' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/t6820310/45/284_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/t6820310' target="_blank" class=''>t6820310</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Hello, 謝謝你的回覆。</p>
+<ol>
+<li>
+<p>是線下的活動</p>
+</li>
+<li>
+<p>目前語音訊息的設計是用來讓參加活動的雙方作為溝通活動細節相關的管道，然後盡快出來見面，並非讓雙方在平台上進行聊天。所以並沒有做成像Goodnight或cheer那樣的聲音電話。之後會打算以示意圖的方式表達系統從線上建立活動，到線下見面的流程。</p>
+</li>
+<li>
+<p>跟現有交友工具的差異，這的確是目前尚未在提案中未描述齊全的地方，謝謝你的補充資料。</p>
+</li>
+<li>
+<p>要從哪個興趣社群出發。平台初期打算從日常娛樂相關活動開始。會鼓勵多建立桌遊、密室、電影、唱歌、吃飯、喝酒，這幾類的活動性質。據我的觀察這幾類的活動滿適合第一次見面大家都還不太熟的情況。</p>
+</li>
+<li>
+<p>第一波使用者，目前尚未有明確的想法，謝謝你的提醒，我會再想想。</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1331'>
+      <a title="July 25, 2017  2:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/443/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>因為選擇的主題是「開放資料」，不知道提案人是否能更進一步說明這個專案打算開放的資料集有哪些？又計劃如何讓資料貼近開放資料的規範？</p>
+
+            <a data-link-to-post="1523" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/443/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1523'>
+      <a title="July 29, 2017  2:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/443/5">Jul &#39;17</a>
+        <a data-link-to-post="1331" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/443/4">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/t6820310' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/t6820310/45/284_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/t6820310' target="_blank" class=''>t6820310</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Hello, 謝謝你的回覆</p>
+<ol>
+<li>打算開放的資料集有兩項<br>
+a. 平台使用者推薦的地點清單<br>
+b. 指定經緯度附近的活動清單</li>
+</ol>
+<ul>
+<li>a. 的部分 可以應用於使用者未來自行要舉辦活動的參考資料，資料中會有等級評分與評論等資訊供使用者評估</li>
+</ul>
+<ol start="2">
+<li>規範的部分會開放推薦地點清單中的評分與評論等資訊相關API，讓其他平台在挑選活動地點時可以參考與介接，至於推薦人是誰，目前打算以匿名的方式呈現。</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/443/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

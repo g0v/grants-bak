@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>政府機關回饋平台 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2194'>
+      <a title="January 15, 2019  2:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/923/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2249'>
+      <a title="January 15, 2019  5:03pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/923/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi Eddie,</p>
+<p>感謝您的提案！作為曾經的公行替代役，我也覺得如果有個公開的首長信箱、可以看到別人都投訴什麼以及得到什麼回應，應該會是很有用的。跟現有的 <a href="https://www.popoloproject.com/" rel="nofollow noopener">Popolo spec</a> 結合（機關對應到 Organization、民眾投書或許可以對應到 Motion?），是一個很好的 idea！</p>
+<p>這裡想針對「可行性 ＆ 需求」提一個問題：</p>
+<p>Join 平台的「提點子」是因為機關保證回應，所以民眾願意來提案；機關看到有 5000 基礎門檻，所以也願意 commit 資源來做。<br>
+行政首長信箱回應狀態未知，但有些機關似乎有將此列為考核項目、會有建檔與文號，所以對民眾來說仍然是個管道；而對於沒有此規範的機關，他的非公開性也讓機關比較沒有壓力（可以選擇性回答，不用全都回）。<br>
+我想問的是提案的這個平台，對政府來說沒有強制力，使用者上來的動機也就會比較小（說不定他去 google maps 打個一顆星也開心，至少 google maps 使用者眾）；機關看到沒使用者，也就不想要給任何回應的承諾。要如何解決這種雞生蛋、蛋生雞的需求問題呢？</p>
+<p>另外是「差異性」相關的問題：</p>
+<p>Poplus 有一個（好像停擺了）的專案 <a href="http://writeit.poplus.org/" rel="nofollow noopener">write-it</a>，感覺似乎有點像。請問有重用的可能性嗎？<br>
+也希望知道這個平台跟英國 <a href="https://www.whatdotheyknow.com/" rel="nofollow noopener">WhatDoTheyKnow</a> 的差異。WhatDoTheyKnow 似乎也聲稱政府必須要回應，而且是由志工來運作的，希望可以聽到提案者對此專案的分析，以及其與本專案的異同之處。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2282'>
+      <a title="January 17, 2019  3:04pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/923/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/agameofprivacy' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/agameofprivacy/45/522_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/agameofprivacy' target="_blank" class=''>agameofprivacy</a>
+        </h3>
+        <p>謝謝<a href="https://www.youtube.com/watch?v=YHo06mz-rno" rel="nofollow noopener">夢想已起飛替代役</a>Johnson的提問！</p>
+<p>在這裡先就<strong>差異性</strong>的部分回應:</p>
+<p><strong>WriteIt</strong>: 因為機關通訊錄資料來源未包含email，加上許多機關確實缺少一個對外公開、適用於接受回饋的email，而為了達成計畫中「為每一個機關建立公開回饋平台」的目標，很可惜無法直接使用WriteIt。另外，單以email做為溝通媒介會限制了不少值得探索的可能，好比說提案中所舉「機關標籤」的應用或是「多對一回饋」的例子（民眾提出原始回饋、經過政府內委外人員++、再由政府正職人員回覆）。雖說如此，WriteIt有一個理念是我很欣賞也想學習的：WriteIt 表面上是record creator但也同時非常重視身為record keeper的角色，他們確保在使用情境（訊息寄出與回覆通知）之外的資料應用體驗是非常好的（全文搜索、開源資料架構、簡單可靠的API等）。WriteIt 的功能或許已經因為PopIt跟Wikidata的合作而不再火力全開，但透過WriteIt所產生的資料還是能繼續提供價值。「政府機關回饋平台」也會用同樣的理想將原始資料應用功能的開發同步進行。</p>
+<p><strong>WhatDoTheyKnow (WDTK)</strong>: 這個專案是針對英國資訊自由法案(Freedom of Information act, FOIA)所賦予人民向政府請求資訊之權利所設，以民眾用於申請開放資料為主。其核心功能其實與WriteIt頗類似（訊息寄出與回覆通知），比較特別的是民眾在收到政府回覆後，可以將此通訊標註為成功、部份成功、或是不成功­­，這除了對於分析機關回覆率時有幫助，也對第一次使用WDTK的民眾在找尋上手教材時有幫助，讓民眾以活生生的例子知道如何成功地與特定政府機關開啟對話。WDTK 另一個值得提的地方是它其實是<a href="https://alaveteli.org/" rel="nofollow noopener">Alaveteli</a>專案的源頭—Alaveteli是在WDTK成功後，團隊以WDTK為基礎而為各國FOIA申請程序所做的開源計畫。各國開發者可以自由架設Alaveteli，在導入當地之機關通訊錄後，直接建立與WDTK功能相當的平台。「政府機關回饋平台」其實也可以用相似的方式來為世界各地沒有地方去的回饋找到一個家。</p>
+<p>關於<strong>可行性 &amp; 需求</strong>相關的問題。這個「雞生蛋，蛋生雞」的問題真的是一個挑戰，目前有的三個切入點如下:</p>
+<p><strong>1. 找更多好孵一點的蛋</strong><br>
+如果把「蛋」定義為在平台上的回饋，把「蛋孵出雞」定義為政府給予回覆，而很不幸的五千顆蛋才會有一顆蛋孵出雞，那賣雞的平台該怎麼辦呢？可能可以去找別家賣蛋的，買一些比較便宜又好孵的蛋，就算這些蛋孵出來的雞不會長那麼大、那麼討喜。這個比喻雖然詭異了一點，但要表達的是除了民眾的回饋之外，「政府機關回饋平台」也想要以其「每一個機關都有版」與「匿名發言的可能性」的特性來使多一點在機關內無法參與決策運作的人（替代役男、委外人員、各官階正職公務人員等）把可合法公開的議題、思路、意見與大眾分享。當然，政府不太可能針對這些討論空間高、衝突性高、爭議性高的回饋發表公開意見，但並不代表這些回饋不會對政府產生影響。</p>
+<p><strong>2. 老鷹帶小雞</strong><br>
+先謝謝Johnson分享有關於首長信箱在某些機關列為考核項目的事，以前不知道有這樣的事，於是試著Google考核結果，但尚未找到結果，我會繼續找也會向服役機關內長官請教，相信考核結果數據能讓我們更理解問題。「政府機關回饋平台」提案裡提到的「回饋儀表板及widget」想要滿足的需求可能就是建立一種不同於考核壓力這種被動、逼迫式、換以主動獎勵來鼓勵機關與民眾互動的機制。舉例來說，較重視與民互動的機關，可能在機關首頁內嵌「回饋KPI Widget」來展示部分數據，像是回覆率、或是民眾在平台上與機關互動的整體熱絡度。至於老鷹帶小雞是什麼意思？指的其實是這種正面鼓勵的方式較能使注重與民互動的機關帶動其他比較被動的機關，因為單以考核優良無法鼓勵機關去正面影響其他部會之下機關的。</p>
+<p><strong>3. 買多一點蛋來生雞</strong><br>
+「雞生蛋，蛋生雞」這個問題其實不僅限於「政府機關回饋平台」，很多新的社群網站都曾經面對這個問題，創投(VC)社群大多對於新社群網站在初創時期投入大量資源來讓使用者數量快速成長抱持支持的態度。雖然不是所有growth hacking都是成功的，在平台功能成熟時，我們會謹慎的投入資源來試著讓平台達到臨界質量(critical mass)，這可能也是獎助金計畫能發揮不小影響的地方。現在能想到的幾個買蛋的方式/成長媒介如下：</p>
+<ul>
+<li>與政黨、民意代表、甚至政論節目串連</li>
+<li>與新聞媒體合作以拉近時事討論與主管機關的距離</li>
+<li>在機關出入口、公共場合發傳單，建立知名度讓更多現在就有需要的人知道平台的存在</li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-2307'>
+      <a title="January 26, 2019  1:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/923/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/agameofprivacy' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/agameofprivacy/45/522_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/agameofprivacy' target="_blank" class=''>agameofprivacy</a>
+        </h3>
+        <p>剛剛上傳了新版的mockup：<a href="https://sketch.cloud/s/akeOZ/p/a" rel="nofollow noopener">https://sketch.cloud/s/akeOZ/p/a</a><br>
+還有來不及做完的deck: <a href="https://docs.google.com/presentation/d/1TDJ8IpGYq4cZqIr84F4M31xR8YlogNmHLhG-RFFmdnQ/edit#slide=id.g4e58d88238_0_38" rel="nofollow noopener">https://docs.google.com/presentation/d/1TDJ8IpGYq4cZqIr84F4M31xR8YlogNmHLhG-RFFmdnQ/edit#slide=id.g4e58d88238_0_38</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/923/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>入侵x紅x火蟻 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1323'>
+      <a title="July 25, 2017  1:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>目前看起來網站似乎包山包海想要匯集資訊，但似乎沒有提到紅火蟻防治上的需求。是否可以先說明一下，目前紅火蟻在防治上最需要解決的問題為何，以及這個專案如何解決這個問題？謝謝。</p>
+
+            <a data-link-to-post="1545" class="post-replies button" href="/discuss.grants.g0v.tw/t/x-x/442/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1377'>
+      <a title="July 26, 2017  3:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>專案提出很多文獻，說明防治紅火蟻很重要，但是我看不出來你提出的方法跟原本官方推廣的方式有什麼差異。為什麼你做平台就可以達到教育民眾的效果。</p>
+<p>日本也有在防治紅火蟻入侵，甚至有 youtuber 抓螞蟻變成教導民眾碰到疑似紅火蟻該怎麼辦。</p>
+<p>可能要說明的仔細，例如跟圖文插畫家合作，推出有趣的教學圖文，透過這些在社交平台上散播，好像比做平台簡單而且有效。</p>
+
+            <a data-link-to-post="1543" class="post-replies button" href="/discuss.grants.g0v.tw/t/x-x/442/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1423'>
+      <a title="July 26, 2017  9:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/pedology456' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/pedology456/45/339_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/pedology456' target="_blank" class='new-user'>pedology456</a>
+        </h3>
+        <p>之前有些地方的紅火蟻擴張速度滿快的，或許可以徹底作一些調查，比方說與中興大學土壤環境科學系合作，看看哪些土質以及植被背景是紅火蟻比較容易侵入並且興築蟻窩的，而哪些則正好相反，然後在資料統整系統當中也加入這方面的資訊。這或許對農民(最常有風險接觸到紅火蟻的族群)會是不錯的指南。</p>
+
+            <a data-link-to-post="1544" class="post-replies button" href="/discuss.grants.g0v.tw/t/x-x/442/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1543'>
+      <a title="August  2, 2017  3:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/5">Aug &#39;17</a>
+        <a data-link-to-post="1377" class="in-reply-to" href="/discuss.grants.g0v.tw/t/x-x/442/3">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monster19850408/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank" class=''>monster19850408</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>目前政府並未著重紅火蟻的"網宣"，而由於媒體或網路的宣導教育不足，甚至許多民眾誤以為紅火蟻在台灣已經銷聲匿跡或有錯誤認知[錯誤認知可參考鄉民回文對話[<a href="https://www.ptt.cc/bbs/Gossiping/M.1499919353.A.DE9.html" rel="nofollow noopener">Re: [新聞] 紅火蟻入侵大阪 專家推斷蟻后登陸已久</a>]。本專案會將重心放在國家紅火蟻中心尚未積極著力之處，如圖資分析、預算整理等。</p>
+<p>同時也會參考您後面描述之建議，與圖文插畫家合作以提高觸擊率與影響力，也不排除合作進行網站視覺設計。這部分由於日本受入侵，近月開始重視，也可以看到許多日本插畫家相關的創作[<a href="http://kai-you.net/article/43089" rel="nofollow noopener">「ストップ!! ヒアリくん!」生態と注意点まとめた図解が12万RT めっちゃわかりやすい！</a>]，台灣已經深受危害十餘年卻沒有類似宣傳，[臺北市立大學的相關學生之插畫<a href="https://seedcat.tian.yam.com/posts/71284355" rel="nofollow noopener">[蟲擬人] 入侵紅火蟻</a>]。本專案若能達到效果，可做為政府相關單位後續修正宣導策略之參考。</p>
+<p>而抓螞蟻教導民眾可能並非專家建議之流程。目前桃園新竹新北特定地區民眾已深受其害，若有疑似情形目前建議流程為1.電話通報0800095590(您揪我我救您)；2.火蟻中心派員鑑定；3.權責機關負責後續防治、居家部分則至公所或農會領取防治藥劑。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1544'>
+      <a title="August  2, 2017  4:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/6">Aug &#39;17</a>
+        <a data-link-to-post="1423" class="in-reply-to" href="/discuss.grants.g0v.tw/t/x-x/442/4">▶ pedology456</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monster19850408/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank" class=''>monster19850408</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>地質、植被可於圖資分析時加入參考，但目前危害情形似乎已經無法以傳統地質去做分析(還未經過論文探討或可於之後討論)，看分布可能會與地形高度、氣溫、都市水泥化程度有相關性。</p>
+<p>而筆者短暫的偵查經驗，確實有看到興築蟻丘可能有其偏好而或可產ˋ生統計資料或危險指南，如電箱、停車場樹下、田埂、路邊交界，但可能非絕對或是人為因素干擾(因田間翻土或水淹而往田埂)。而目前紅火蟻中心點位資料會記錄發生的環境，如農田、道路、學校、苗圃、居家等分類，尚未有前述的細節，此部分資料蒐集之需求還需向防檢局或火蟻中心建言。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1545'>
+      <a title="August  2, 2017  5:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/7">Aug &#39;17</a>
+        <a data-link-to-post="1323" class="in-reply-to" href="/discuss.grants.g0v.tw/t/x-x/442/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monster19850408/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank" class=''>monster19850408</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>Glass &amp; Holyoak提出的問題解決模式包括四個重要的步驟，分別是(一)形成問題表徵；(二)嘗試計劃，以尋求答案；(三)重新陳述問題；(四)執行計劃並檢查結果。本計畫若以防治紅火蟻為目標來看，很遺憾地，似乎只還在第一階段資訊的整合與揭露。</p>
+<p>筆者和火蟻中心與防檢局請益過紅火蟻防治目前的核心及需求[<a href="https://docs.google.com/document/d/1m2m5EoLyu3pQwkk70hU91saX35c_nFCwiKMKc2nsafg/edit?usp=sharing" rel="nofollow noopener">非正式之紀錄</a>]，防治經費對政府而言似乎是一大問題，隨著危害面積逐年增加，中央預算卻逐漸減少[<a href="http://www.storm.mg/article/305949" rel="nofollow noopener">紅火蟻蔓延防治預算反剩10分之1 中央準備「棄守」？</a>]，地方政府防治經費卻因縣市財政而有差距，若中央經費消失則可預期苗栗會大爆炸，這也是本計畫將預算及其後續成果效益列入整理之原因[延伸閱讀：<a href="https://www.youtube.com/watch?v=nXD1oDVy6gc" rel="nofollow noopener">桃園縣議會第17屆第10次定期會縣政總質詢（紅火蟻）</a>、<a href="https://www.youtube.com/watch?v=jJvAhyVqIfk" rel="nofollow noopener">16090602-#28案農業局：紅火蟻防治 報告。謝彰文(平鎮/國)、周玉琴(楊梅/國)</a>(註：質詢內容紅火蟻怕水是錯誤的)]。</p>
+<p>另外一項與經費也息息相關的即是人力，火蟻中心角色定位為鑑定，而非常態性偵查，因此第一線的偵查需要靠民眾通報或者特定組織或志工去執行，桃園市今年四月成立紅火蟻防治志工隊在第一線協助巡田、撒藥，減少民眾通報市府需歷經鑑定、投藥、往返奔波 [<a href="https://udn.com/news/story/7324/2391804" rel="nofollow noopener">「自己的地自己顧」 農友自己來</a>]。而考量適材適用，本專案希望應用資訊科技對紅火蟻防治有所幫助，先做到資訊彙整揭露與教育宣導，再從裡面觀察著力點。</p>
+<p>民眾能夠認知紅火蟻之發生，下一步就是通報，因此良好的通報系統是必要的。此部分原先計畫參考<a href="https://roadkill.tw/" rel="nofollow noopener">路殺社</a>模式，但防檢局可能將進行手機通報系統之建置，等之後觀察確認若沒有或者效果不佳可以再由公民科技力量改善。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/x-x/442/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

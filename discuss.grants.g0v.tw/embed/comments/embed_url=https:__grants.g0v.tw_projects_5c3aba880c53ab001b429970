@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>四季民主：一張選票用四年 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2200'>
+      <a title="January 15, 2019  2:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/909/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>本提案提及的概念，包含「公民個人筆記」與「具名公開評鑑」。</p>
+<p>作為個人筆記，使用頻率就不用拉長到以季為單位，而可以隨時隨地記錄。然而以目前的介面成果，看起來還未稱「簡單好用」的目標。在產品介面設計上，預計將如何加強呢？</p>
+<p>作為公開評鑑，僅作質化描述的話，力度就會相當不足，而且限制只能以正面評價，將失去客觀公正的角度。在評鑑的量化指標上，是否思考過如何設計？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2286'>
+      <a title="January 18, 2019  3:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/909/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chinghaolee/45/523_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank" class='new-user'>chinghaolee</a>
+        </h3>
+        <p>可以隨時記錄，只是最多一季一次，因為忙碌的人一季一次還算可接受，如此可讓忙碌的人與不太忙碌的人有同等次數的發言機會。另外四年下來，總共只有16次，才是一個簡短的筆記，選前才可一目了然。</p>
+<p>正面評價是因為現在社會太多負面的批評，也不見進步，正面評價也許可以做些改變。另外，負面評價很容易有惡意的網軍攻擊。如果網站充滿惡意的情緒，良善公民就不願意進來表達意見了。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2294'>
+      <a title="January 20, 2019  2:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/909/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chinghaolee/45/523_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank" class='new-user'>chinghaolee</a>
+        </h3>
+        <p>評鑑的部分，我們會提供一些評鑑資訊。不過，這個計畫主要做縣市長評鑑，公民就生活在縣市長的施政中，從食衣住行就可以感受到施政的用心，如人飲水冷暖自知，所以這個計畫主要還是由公民自己當老闆，以自己評鑑為主。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2295'>
+      <a title="January 20, 2019  2:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/909/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chinghaolee/45/523_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chinghaolee' target="_blank" class='new-user'>chinghaolee</a>
+        </h3>
+        <p>正循環，是這個計劃的精神：執政者做事，人民給鼓勵，執政者更用心做事。目前社會上很多負循環：執政者做事，假新聞與惡意批評滿天飛，執政者發覺用心做事會被遺忘與曲解，不如大家一起撒紅包收買人心。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/909/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

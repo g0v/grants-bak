@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>里長報你知- 自己的社區自己關心 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1695'>
+      <a title="January 21, 2018  1:31pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好：<br>
+【可重複使用性】<br>
+因可重複使用性在評審評選標準中，目前已有的 <a href="https://taiwan.yrpri.org/group/1327" rel="nofollow noopener">Your priority</a> 平台，看似已包含許多此案欲達成的目標，可能可發想以此為基礎如何再利用您的社區營造專業，如有其他有別於已有系統的目標再請幫忙點出，以利評審們判斷，謝謝了。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1779'>
+      <a title="January 23, 2018  3:43pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/findtea.queen/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank" class=''>findtea.queen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>您好，<br>
+如果可能合作的話，可能會傾向與Your Priority結合，協助其社群開發與優化，如果不能的話，會看是否能運用其開放程式碼基礎，再進行其他平台。</p>
+<p>目前 <a href="https://taiwan.yrpri.org/group/1327" rel="nofollow noopener">Your Priority</a>有做出一利用資訊技術協助都市公共事務討論的雛形，<br>
+其登入介面容易，有點子、新聞等功能，有達到以資訊科技協助都市議題討論的動機。 但看起來在技術方面外，經營面需要有更多推廣的力道，與民間團體、社區組織連結。這可能是我的規劃和社區營造背景可以協助的。</p>
+<p>細項看來，目前Your Priority比較是以議題討論（附有地圖介面），而不是以地圖介面為平台底圖的設計，所以還是有一個地理範圍（城市）內，議題被分散的感覺，而不是能從地圖上看到一個社區所含的各種問題。</p>
+<p>Your Priority目前列出的範例是一種議題性的討論，並且有的較為抽象，屬於法規、政策面，較難讓一般民眾在生活中參與介入。(如：“公共預算補助的各種活動應該事前於網站公告行程安排，讓在地民眾都能夠有機會參與”)建議可充分運用網路可行動之優勢，鼓勵使用者提出在生活環境中可觀察到的現象：交通、公衛、鄰里生活問題等，先增加參與者數量，蔚成風氣，再進行深入的討論。</p>
+<p>同時Your Priority較缺乏針對使用者的角色、評分、社群互動機制，鼓勵公民參與，這跟本專案的設計是不太一樣的。</p>
+<p>最後，公共議題是需要被設計、策展的(curated)，讓民眾自由提出看到不限範疇的任何問題固然很好，但平台背後經營還是需要有一方向引導，才能讓起始時，平台呈現出某種焦點，讓大家看出趨勢，這就需要議題的挑選與所在社區、都市議題結合，並評估其提案可行性、議題性、大眾話題性等，因此如果是我來做的話，作為初期使用者的討論方向，如台南，會先定位「綠色交通」、「歷史文化」、「生態永續」等民間目前關心之主題，先收斂再發散，而不會包山包海的包納各種議題。這是平台經營策略的不同。</p>
+<p>以上，謝謝您的建議，期待更多意見參與。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1818'>
+      <a title="January 25, 2018  2:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>【可行性】是否能請提案人再敘述一次，如何「透過開源方式，讓社群的力量來解決社區問題」？</p>
+
+            <a data-link-to-post="1895" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/715/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1843'>
+      <a title="January 26, 2018  4:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>請問這個計畫是否有訪談過里長，了解里長目前的真實需求為何呢？</p>
+
+            <a data-link-to-post="1896" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/715/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1895'>
+      <a title="January 28, 2018  3:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/6">Jan &#39;18</a>
+        <a data-link-to-post="1818" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/715/4">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/findtea.queen/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank" class=''>findtea.queen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>開源方式一方面是以軟體的程式設計來說，目前市長信箱屬於封閉系統，而其他的美食、休閒資訊分享平台屬於商業性，非商業性討論都市、社區議題的公共事務平台，民間較少有誘因開發，所以更要借重社群的力量，透過開放大眾的參與、討論與修改，加速與完善其程式發展。</p>
+<p>第二方面是以內容與運作方式來說，以往透過政府發包調查記錄的資料，多屬一次性的靜態資料，也往往對內封閉，對於瞬息萬變的城市議題，還是要透過群眾的力量，參與成為資訊的提供者，才能確保資訊的即時、公開和透明，和g0v目前在做的一系列開放政府的資訊行動呼應。</p>
+<p>此外，以往在都市議題的解決，是透過聘請專家召開都市設計審議委員會、請交通技師做交通環境影響評估…來決議，但這些專家雖有專業觀點，但往往無法有在地社區的脈絡或生活經驗，對於特定街廓的停車問題、哪塊空地上有棵大樹適合兒童嬉戲，往往還是要透過在地民眾的生活經驗，才能指出。以往的決定權就是過於集中、上位，才會造成許多都市議題討論的無效率，透過資訊平台開放讓在地民眾參與，民間社群將發揮自己的力量協作，減少資訊障礙、促成交流行動，有可能加速民間自行決社區問題。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1896'>
+      <a title="January 28, 2018  3:53pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/7">Jan &#39;18</a>
+        <a data-link-to-post="1843" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/715/5">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/findtea.queen/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank" class=''>findtea.queen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>曾有跟台南市北區里長密切互動，了解到：里長雖受民眾愛戴，也連任多次，但年事甚高，目前連手機行動上網都在練習（剛使用line)，所以對於資訊接收是很弱的。這也讓我們意識到，對於許多民眾來說，里政鄰里事務與他們是脫節的，但偏偏台南傳統社區裡很多里長年齡都偏高，隨著里行政區的合併，幅員增加，以後行政事務的處理，對於如台南地區的高齡里長會越發沈重。而市面上現在也缺乏一套為里長量身打造、好用的資訊平台系統，協助他們處理社區事務。</p>
+<p>但老實來說，其實本專案的「里長報你知」名稱只是一個比較引人注目的標題，讓人們去想自己也可以像里長一樣關心和解決社區事務，人人有機會，真正這套軟體或平台是否要服務里長，為他們量身打造，還是可討論評估一下。</p>
+
+            <a data-link-to-post="1898" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/715/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1898'>
+      <a title="January 29, 2018 12:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/8">Jan &#39;18</a>
+        <a data-link-to-post="1896" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/715/7">▶ findtea.queen</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsiao-a/45/282_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank" class=''>Hsiao-a</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>抱歉有超過修改時間 不過仍有些問題想請教<br>
+請問您想像中的系統是主要瞄準桌機還是手機的使用族群呢？<br>
+像您說的 部分里長年事已高，可能連LINE也不太會用<br>
+那您有怎樣的計畫讓里長能快速上手並願意去回應貴系統所回報的問題呢？</p>
+<p>有些里長可能學了LINE就是極限了，那貴團隊是否會考慮結合LINE bot作為一種介面<br>
+讓里長上手的成本降低呢？</p>
+
+            <a data-link-to-post="1901" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/715/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1901'>
+      <a title="January 29, 2018  5:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/9">Jan &#39;18</a>
+        <a data-link-to-post="1898" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/715/8">▶ Hsiao-a</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/findtea.queen/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/findtea.queen' target="_blank" class=''>findtea.queen</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>主要是瞄準手機使用族群，行動中使用，這樣用地理資訊技術會比較有意義。但是因為不確定app開發是不是比網站成本高很多，或是網站就我來看還是有 介面可以比較完整、輸入訊息可較完整、較能深入的優點，所以還要諮詢、取捨。</p>
+<p>其實里長有一個年齡差的問題，在某些里的確里長是年紀大、較傳統，以面對面人際網絡去服務里民，但也有一些青壯派，或是其實年齡大的里長也有資訊能力很不錯的。如果真的要針對里長開發這套服務，或是把里長當成是重要使用者之一，想像中是先跟青壯派里長訪談，讓他們參與在平台開發功能的使用者意見里，了解他們對於有這樣資訊平台處理里務是否有需求。然後當有些里長開始回應時，比較有系統地透過民政系統，做資訊系的說明（但這樣有比較有合作默契的市府支持），年齡比較大的里長最終可能是有需要請資訊助理，來協助他們銜接 網路 跟 實體生活 這塊。</p>
+<p>對於年紀較大的里長，當然也是要了解他們的資訊程度，知道怎麼樣設計才是for 他們的（從字型、功能、接收訊息到回報機制）。我其實是不知道Line bot，瞭解了一下是比較透過Line作串連其他的平台的智慧入口，都有賴比較有資訊背景的人評估討論，可能喔</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/715/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

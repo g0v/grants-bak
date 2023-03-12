@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>消滅假新聞(其實只能減少啦) - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-306'>
+      <a title="January 21, 2017  8:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/143/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>目前已經有新聞小幫手，你的專案跟新聞小幫手差異的地方在那裡？或者有沒有考慮是做新聞小幫手的延伸或重用呢？</p>
+
+            <a data-link-to-post="523" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/143/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-523'>
+      <a title="February  2, 2017  1:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/143/3">Feb &#39;17</a>
+        <a data-link-to-post="306" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/143/2">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twofishsman' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twofishsman/45/156_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twofishsman' target="_blank" class='new-user'>twofishsman</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/yhsiang">@yhsiang</a><br>
+近期記錄了幾篇假新聞，和觀察近期新聞小幫手或同質的新聞媒體比較 例如風向新聞、新聞地平線。<br>
+發現其實要<br>
+1.找出一篇出自於新聞媒體的資料是想當困難的，專業的假新聞是很難發現的，需要考証大量的相關新聞，當然最好是自已也在這領域。<br>
+2.各自媒體也有自已的看法，所帶領的風向也有差異。<br>
+3.還有一類是數據或說法上有明顯的錯誤。<br>
+4.其實一般民眾不這麼重視資料的正確性。<br>
+5.btw, 新聞小幫手設計的挺好用的。不過成果的假新聞列表幾乎是沒有人協助過濾，手機平台大都用各家媒體的app，小幫手也無力了。</p>
+<p>在原本的規畫上，主線是在尋找假新聞，所以如果計畫成立。<br>
+1.會努力找假新聞分享給小幫手，及協助過濾假新聞列表.<br>
+2.提供專案進行中取得經驗與新聞小幫手合作，或主動推一下git。<br>
+3. 手機方面目前小幫手是沒有開發，在期未專案可以提供一個方案，希望可以提供當日過濾的列表，有進行初步的檢驗，如果民眾有發現也可以即時刪除。</p>
+<p>這幾周實作下來，依新聞從業人員素質及民眾的市場需求下，在台灣要找一個沒有假新聞的主流媒體，是沒有機會的了。也許可以在這段時間，找出一個策略，可以讓重視新聞價值的使用者，得到他每日所需的新聞，才是一個完整的方案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-747'>
+      <a title="February  7, 2017  7:07am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/143/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>可以提供過去專案的 GitHub 連結嗎？</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/143/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

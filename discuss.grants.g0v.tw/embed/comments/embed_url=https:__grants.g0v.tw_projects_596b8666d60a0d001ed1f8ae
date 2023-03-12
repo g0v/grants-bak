@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>病友分享平台 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1151'>
+      <a title="July 17, 2017  3:34pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/rachel/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Rachel' target="_blank" class='new-user'>Rachel</a>
+        </h3>
+        <p>覺得有讓慢性病友可以交流的地方很棒。</p>
+<p>以下是一些我知道的相關專案，希望能幫到你！</p>
+<ol>
+<li>
+<p>可以參考病後人生裡面的一些申請補助的攻略，與慢性病相關的流程。這個網站很棒，但是 2015 年後比較沒有再更新了，覺得可以聯絡站長，看能不能把上面的文件開源後整合到這個平台裡。<a href="http://afterthatday.blogspot.com/" rel="nofollow noopener">http://afterthatday.blogspot.com/</a></p>
+</li>
+<li>
+<p>之前 g0v 的 kiang 有做過藥要看，可以做藥品搜尋：<a href="http://drugs.olc.tw/%EF%BC%8CAPI" rel="nofollow noopener">http://drugs.olc.tw/，API</a> 可以參考 <a href="https://g0v.hackpad.tw/-API-alpha-V9f5Q6QHUyZ%E3%80%82" rel="nofollow noopener">https://g0v.hackpad.tw/-API-alpha-V9f5Q6QHUyZ。</a> Tom 也有盤點過台灣可以查詢藥品外觀的網站：<a href="https://g0v.hackpad.tw/72TVP8zYYfs" rel="nofollow noopener">https://g0v.hackpad.tw/72TVP8zYYfs</a> 。食藥署的藥品資料庫：<a href="http://data.fda.gov.tw/frontsite/data/DataAction.do?method=doDetail&amp;infoId=43" rel="nofollow noopener">http://data.fda.gov.tw/frontsite/data/DataAction.do?method=doDetail&amp;infoId=43</a></p>
+</li>
+<li>
+<p>另外因為有列出要做十個疾病資料庫，想請問會想要從哪幾種慢性病的分享入手呢？</p>
+</li>
+</ol>
+
+            <a data-link-to-post="1164" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/481/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1164'>
+      <a title="July 18, 2017 12:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/3">Jul &#39;17</a>
+        <a data-link-to-post="1151" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/481/2">▶ Rachel</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ivylin215/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank" class=''>ivylin215</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，</p>
+<p>謝謝您的建議，以下為根據您的意見所回覆的訊息：</p>
+<ol>
+<li>
+<p>這個網站的訊息對於對於疾病照護很有用，會將其放入平台規劃中。平台短期將以疾病資料庫、使用者回饋介面為主，接下來會將推薦個人化的照護內容。</p>
+</li>
+<li>
+<p>感謝您的分享，將參考其內容API。</p>
+</li>
+<li>
+<p>第一階段的疾病類別將以精神疾病、免疫疾病、皮膚病、心臟類疾病為主，疾病細節目前正與醫生夥伴討論中，稍候補上。</p>
+</li>
+</ol>
+<p>謝謝</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1263'>
+      <a title="July 24, 2017  3:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>健保署已經有提供健康存摺讓民眾下載自己的用藥資訊，如果可以請病友下載後匯入，會比自己建檔容易許多</p>
+<p>只是這類資訊有點敏感，請問如何避免個人就醫、用藥資訊流出？</p>
+
+            <a data-link-to-post="1399" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/481/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1333'>
+      <a title="July 25, 2017  2:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>因為選定的主題是「開放資料」，所以想請問提案人：在【請說明本專案會產出的開源軟體套件或開放授權文件】之中並沒有提到開放資料，是否缺漏了？</p>
+<p>期中、期末驗收標準中有提到「疾病資料庫」，但請問什麼是「疾病資料庫」？裡面的資料有哪些？又有哪些是目前政府單位、研究機構沒有提供或開放的？</p>
+
+            <a data-link-to-post="1461" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/481/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1334'>
+      <a title="July 25, 2017  2:43pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>您好，</p>
+<p>這是一個有趣的服務。</p>
+<ul>
+<li>建議里程碑除了功能面外，也增加使用人數、用量等客觀的評估因素。因為計畫時程的關係，比起資料庫的數量，也許把幾種資料庫的質量做好更重要也說不定？</li>
+<li>爬蟲取得的資料是否也在開源/開放授權的項目中呢？</li>
+<li>這個平台是否有長期營運的計畫？畢竟獎助金主要都拿來開發，開發完就沒錢啦～ <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:">
+</li>
+</ul>
+
+            <a data-link-to-post="1510" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/481/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1399'>
+      <a title="July 26, 2017  6:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/7">Jul &#39;17</a>
+        <a data-link-to-post="1263" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/481/4">▶ kiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ivylin215/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank" class=''>ivylin215</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>因為與相關專業人士討論安全性問題，所以較慢回復，抱歉。</p>
+<p>首先，非常感謝您的分享，健康存摺的確可讓民眾下載其院內資料，但此平台重點在於院外病友狀態的反饋，並無與健康存摺重複之餘。病友們於平台上可以匿名去個資方式創立帳號進行資料回饋，因此個資部分將會去連結。</p>
+<p>為了保障資料安全，未來網站營運與資料存取將以Google CPlatfrom 為儲存地點，其符合HIPAA compliance （<a href="https://cloud.google.com/security/compliance/hipaa/%EF%BC%89" rel="nofollow noopener">https://cloud.google.com/security/compliance/hipaa/）</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1461'>
+      <a title="July 27, 2017  4:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/8">Jul &#39;17</a>
+        <a data-link-to-post="1333" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/481/5">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ivylin215/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank" class=''>ivylin215</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，</p>
+<p>感謝提問。</p>
+<p>經過內部討論後，因平台為群眾共同參與提供其資料，且考量到病友觀感因素，因此修正了主題為社會參與。平台所收集的資料將彙整以公衛方式提供給病友與研究人員參考。</p>
+<p>疾病資料庫是以疾病為主題所延伸的關係性資料庫，裡面資料包含幾個主要區塊：</p>
+<ol>
+<li>疾病</li>
+<li>藥品</li>
+<li>藥品副作用</li>
+<li>院外回饋資料（治療評估、症狀、生活型態、討論）</li>
+</ol>
+<p>目前衛生福利部食品藥物管理署(TFDA)資料庫內主要包含疾病與相關藥品，但藥品副作用的資料仍未整合。另外平台將建立一個資料庫讓病患做院外自我評估，這部分為政府單位與醫療院所未涵蓋的資料範圍，謝謝。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1510'>
+      <a title="July 28, 2017  3:31pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/9">Jul &#39;17</a>
+        <a data-link-to-post="1334" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/481/6">▶ hlb</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ivylin215/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ivylin215' target="_blank" class=''>ivylin215</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，</p>
+<ol>
+<li>這的確是我們所考量的，我們所涵蓋的資料範圍較廣，會以單一疾病做深為主要方向。</li>
+<li>將會將"參與病患人數"放入評估因素</li>
+<li>爬蟲所取得的醫療相關資訊將會於開放授權項目中</li>
+<li>是的，此平台有營運列入考量中，主要著重於藥物相關研究主題</li>
+</ol>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/481/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

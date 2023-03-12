@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Job - 得失 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-278'>
+      <a title="January 20, 2017 11:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>工作條件搜尋、需求媒和等，似乎已有既有的平台做過了。</p>
+<p>方便解說一下你的方法有何不同，為何可以幫助失業者更快找到工作嗎？</p>
+
+            <a data-link-to-post="280" class="post-replies button" href="/discuss.grants.g0v.tw/t/job/161/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-280'>
+      <a title="January 20, 2017 12:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/3">Jan &#39;17</a>
+        <a data-link-to-post="278" class="in-reply-to" href="/discuss.grants.g0v.tw/t/job/161/2">▶ Poga_Po</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin19/45/106_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank" class='new-user'>yutin19</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝提問！目前一般的人力銀行的媒合主要是勞方與資方的工作配對，本平台除了提供工作條件搜尋、需求媒合，還會自動依求職者的工作需求提供可以培養此工作能力的職訓課程推薦，因此求職者可以有能力應徵經過培訓之後所具備能力的未來工作，此也是政府自辦職訓希望達到的目標。<br>
+另外，廠商也可以透過本平台提供建議希望職訓單位開設哪些班別和課程內容，以符合徵才需求。</p>
+
+            <a data-link-to-post="281" class="post-replies button" href="/discuss.grants.g0v.tw/t/job/161/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-281'>
+      <a title="January 20, 2017  3:02pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/4">Jan &#39;17</a>
+        <a data-link-to-post="280" class="in-reply-to" href="/discuss.grants.g0v.tw/t/job/161/3">▶ yutin19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>有提到政府開放資料的部分，可以附上政府開放資料的連結跟你打算怎麼運用這些資料嗎？</p>
+<p>看前期應該是跟職訓班的資料有關係？</p>
+
+            <a data-link-to-post="297" class="post-replies button" href="/discuss.grants.g0v.tw/t/job/161/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-297'>
+      <a title="January 21, 2017  3:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/5">Jan &#39;17</a>
+        <a data-link-to-post="281" class="in-reply-to" href="/discuss.grants.g0v.tw/t/job/161/4">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin19/45/106_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank" class='new-user'>yutin19</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您的提問，前期主要的規劃的確是與職訓開放資料有關，已與2017/1/11於國發會資料開放平台請求開放相關資料，得到的回覆是將於2017年1月底前將資料置於平台，相關回覆連結如下: <a href="http://data.gov.tw/node/42379%EF%BC%8C%E5%9B%A0%E6%AD%A4%EF%BC%8C%E5%A6%82%E8%B3%87%E6%96%99%E6%AD%A3%E5%BC%8F%E9%96%8B%E6%94%BE%EF%BC%8C%E5%86%8D%E6%A0%B9%E6%93%9A%E9%96%8B%E6%94%BE%E7%9A%84%E5%85%A7%E5%AE%B9%E9%80%B2%E8%A1%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E3%80%82" rel="nofollow noopener">http://data.gov.tw/node/42379，因此，如資料正式開放，再根據開放的內容進行下一步。</a><br>
+運用方式主要是提供1.一般大眾篩選條件查詢職訓課程，2.如加入會員，且身分為求職者，會自動根據會員本身需求職訓課程類別，和希望尋找工作所需具備工作技能，提供職訓課程推薦。如身分為徵才廠商，則會根據徵才項目，提供培養相應技能職訓課程已結訓(尚在待業中)，或即將結訓學員名單。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-585'>
+      <a title="February  3, 2017  8:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p>您好，因 3/6 有改獎助金執行細則，要請您修改提案，加上社群參與與開源元件的說明，謝謝！</p>
+<p>「提案需說明社群如何參與，以及產出的開源元件或文件（請參考<a href="https://hackmd.io/AwQwrAxsBM0KYFoDscCMAzBAWAHCRARqgJzEJjpwQDMAJkmFsXNUA===#%E8%AB%8B%E8%AA%AA%E6%98%8E%E5%B0%88%E6%A1%88%E7%B5%90%E6%9D%9F%E6%99%82%EF%BC%8C%E6%9C%83%E7%94%A2%E5%87%BA%E7%9A%84%E9%96%8B%E6%BA%90%E8%BB%9F%E9%AB%94%E5%A5%97%E4%BB%B6%E6%88%96%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E6%96%87%E4%BB%B6%EF%BC%88%E8%AB%8B%E6%A2%9D%E5%88%97%E5%80%8B%E5%88%A5%E5%85%83%E4%BB%B6%E7%9A%84%E8%BC%B8%E5%85%A5%E8%BC%B8%E5%87%BA%E6%88%96%E5%85%B6%E5%8A%9F%E8%83%BD%EF%BC%89%EF%BC%9F">範例</a>），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。」</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="/discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/203e1f320987a503a00e3ffc7f4c65d85db34c7b.png" class="site-icon" width="128" height="128">
+      <a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">g0v 公民科技創新獎助金</a>
+  </header>
+  <article class="onebox-body">
+    <img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c4e27f691e6af93fc306297d65a388aedadc1732.png" class="thumbnail onebox-avatar" width="128" height="128">
+
+<h3><a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">獎助金實施細則修正 - 決選機制說明：請提案人保留 3/6 時間</a></h3>
+
+<p>提案需說明社群如何參與，以及產出的開源元件或文件（請參考範例），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。 決選入圍機制說明：請各位提案者保留 2017/3/6 全天時間。3/1 入圍決選公布後，入圍者須提供 5 分鐘提案簡介影片，並於 3/6 與評選委員現場問答。 評選審查依據內容說明： 最終版本提案內容 提案者簡歷 「提案追問團」對於提案者針對其提問的回應或內容修改之評估     g0v 公民科技創新獎助金實施細則完整版 v0.3，任何問題歡迎連絡執行團隊：...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+
+      </div>
+    </article>
+    <article class='post' id='post-616'>
+      <a title="February  4, 2017  1:32pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/7">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin19/45/106_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yutin19' target="_blank" class='new-user'>yutin19</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您的提醒，已加上社群參與與開源元件的說明。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/job/161/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

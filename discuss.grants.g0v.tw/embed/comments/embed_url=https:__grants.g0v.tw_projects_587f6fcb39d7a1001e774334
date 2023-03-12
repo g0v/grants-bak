@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>所得稅｜所得總額資料查詢網站 + 視覺化 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-291'>
+      <a title="January 20, 2017  4:08pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>可以寫一下這六個里程碑，那些是分在前期，那些是中期之後嗎？又或者是中期之前，這六個里程碑能夠達到多少的進度？</p>
+<p>或者說你每週 10 小時，時間比例是怎麼分配的呢？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-304'>
+      <a title="January 21, 2017  5:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>之前的作品有看過，很棒，但關於這份提案有幾點想追問：</p>
+<ol>
+<li>這次提案，預計要完成的所得資料是仍然是103年嗎？如果目標之一，是要與記者合作完成報導，有歷史數據可能會使報導更有新聞點。有打算彙整數年的資料嗎？或是，曾經參考過<a href="http://www.econ.sinica.edu.tw/FIA-Data" rel="nofollow noopener">財政資訊中心</a>的數據嗎？</li>
+<li>之前做的是雙北，這次做的是全台嗎？</li>
+<li>預算50萬元打算如何分配和規劃？</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-350'>
+      <a title="January 23, 2017  4:06pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/amoss.claire' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/amoss.claire/45/119_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/amoss.claire' target="_blank" class='new-user'>amoss.claire</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/yhsiang">@yhsiang</a><br>
+比較保守的估計，前期希望完成：民國 88年到 103 年 各村里所得總額的 1. 資料轉檔 2. 轉檔資料整理成資料庫 ，並依據這些資料做基礎的資料探索，看看能不能從資料中發掘一些有趣的現象，所以是 5. 資料視覺化 和 6. 資料新聞專題 的前期準備。<br>
+因此中期 checkpoint 應該是會有轉好的歷年村里所得，開放大家拿去玩，以及初步還未做成專題完成體的資料分析。</p>
+<p><a class="mention" href="/u/silvashih">@silvashih</a></p>
+<ol>
+<li>希望可以把財政資訊中心公布的民國 88 年到 103 年的村里所得總額資料都 a) 轉出來給大家玩 b) 初步資料探索 c) 找到題目會和記者朋友合作專題。</li>
+<li>是的，至少會把全台的資料轉出來，呈現方式還在思考，考量效能可能不會在同一頁面一次呈現全台。</li>
+<li>我自己的想像是： a) 資料庫/視覺化網頁主機費用，尤其是資料庫部分。 b) 如果有勞力密集的資料輸入或整理需求，可能會拿來請時薪工讀生協助部分的工作。 c) 和參與專案的工程師/記者朋友們平分剩下的部分，作為大家全職/兼職投入專案的補貼。</li>
+</ol>
+
+            <a data-link-to-post="355" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/151/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-355'>
+      <a title="January 24, 2017  6:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/5">Jan &#39;17</a>
+        <a data-link-to-post="350" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/151/4">▶ amoss.claire</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝回覆。原本提案文字，建議也要跟著回覆修改，幫助其他人跟評審更理解你的規劃。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-363'>
+      <a title="January 24, 2017  2:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>目前看到的內容，系統部分主要就是查詢部分嗎？<br>
+是否有比較明確的描述查詢系統的內容，例如會有哪些 components？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-405'>
+      <a title="January 26, 2017  5:39pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/amoss.claire' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/amoss.claire/45/119_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/amoss.claire' target="_blank" class='new-user'>amoss.claire</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/hcchien">@hcchien</a></p>
+<p>我目前還沒有太細緻的想像。不過基本上資料有的 attribute 都會做成選單項目，讓使用者可以設定篩選條件，進行查詢。比如說村里所得資料，可以篩選某個地區，或者篩選某個指標落在特定數值範圍的資料。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-587'>
+      <a title="February  3, 2017  8:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/8">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p>您好，因 3/6 有改獎助金執行細則，要請您修改提案，加上社群參與與開源元件的說明，謝謝！</p>
+<p>「提案需說明社群如何參與，以及產出的開源元件或文件（請參考<a href="https://hackmd.io/AwQwrAxsBM0KYFoDscCMAzBAWAHCRARqgJzEJjpwQDMAJkmFsXNUA===#%E8%AB%8B%E8%AA%AA%E6%98%8E%E5%B0%88%E6%A1%88%E7%B5%90%E6%9D%9F%E6%99%82%EF%BC%8C%E6%9C%83%E7%94%A2%E5%87%BA%E7%9A%84%E9%96%8B%E6%BA%90%E8%BB%9F%E9%AB%94%E5%A5%97%E4%BB%B6%E6%88%96%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E6%96%87%E4%BB%B6%EF%BC%88%E8%AB%8B%E6%A2%9D%E5%88%97%E5%80%8B%E5%88%A5%E5%85%83%E4%BB%B6%E7%9A%84%E8%BC%B8%E5%85%A5%E8%BC%B8%E5%87%BA%E6%88%96%E5%85%B6%E5%8A%9F%E8%83%BD%EF%BC%89%EF%BC%9F">範例</a>），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。」</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="/discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/203e1f320987a503a00e3ffc7f4c65d85db34c7b.png" class="site-icon" width="128" height="128">
+      <a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">g0v 公民科技創新獎助金</a>
+  </header>
+  <article class="onebox-body">
+    <img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c4e27f691e6af93fc306297d65a388aedadc1732.png" class="thumbnail onebox-avatar" width="128" height="128">
+
+<h3><a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">獎助金實施細則修正 - 決選機制說明：請提案人保留 3/6 時間</a></h3>
+
+<p>提案需說明社群如何參與，以及產出的開源元件或文件（請參考範例），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。 決選入圍機制說明：請各位提案者保留 2017/3/6 全天時間。3/1 入圍決選公布後，入圍者須提供 5 分鐘提案簡介影片，並於 3/6 與評選委員現場問答。 評選審查依據內容說明： 最終版本提案內容 提案者簡歷 「提案追問團」對於提案者針對其提問的回應或內容修改之評估     g0v 公民科技創新獎助金實施細則完整版 v0.3，任何問題歡迎連絡執行團隊：...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/151/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

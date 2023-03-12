@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "theme.css",
+	"sources": [
+		"theme.scss",
+		"theme_variable.scss",
+		"1/common-embedded_scss-grants-embed.scss"
+	],
+	"sourcesContent": [
+		"@import \"theme_variables\"; @import \"embedded_theme\";",
+		"$primary: #222222 !default;\n$secondary: #ffffff !default;\n$tertiary: #0088cc !default;\n$quaternary: #e45735 !default;\n$header_background: #ffffff !default;\n$header_primary: #333333 !default;\n$highlight: #ffff4d !default;\n$danger: #e45735 !default;\n$success: #009900 !default;\n$love: #fa6c8d !default;\n",
+		"// Theme: grants embed\n// Target: common embedded_scss\n// Last Edited: 2017-01-03 15:14:50 UTC\n\na.in-reply-to {\n    display: none;\n}\n\na.button {\n    min-width: 100px;\n    margin: 0 2px;\n    border-radius: 4px;\n    background: #00b3ae;\n    color: #f3f3f3;\n    text-align: center;\n    padding: 6px 2px;\n    font-weight: normal;\n    font-size: 14px;\n    font-family: 'Roboto','Noto Sans TC';\n}\n"
+	],
+	"names": [],
+	"mappings": "AEIA,AAAA,CAAC,AAAA,YAAY,AAAC,CACV,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,CAAC,AAAA,OAAO,AAAC,CACL,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,KAAK,CACb,aAAa,CAAE,GAAG,CAClB,UAAU,CAAE,OAAO,CACnB,KAAK,CAAE,OAAO,CACd,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,OAAO,CAChB,WAAW,CAAE,MAAM,CACnB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,uBAAuB,CACvC"
+}

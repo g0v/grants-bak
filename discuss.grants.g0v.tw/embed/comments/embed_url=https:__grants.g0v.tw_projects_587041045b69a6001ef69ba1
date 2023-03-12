@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>線上讀書會 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/2">繼續討論</a>
+  <span class='replies'>48 個回覆</span>
+</header>
+
+    <article class='post' id='post-72'>
+      <a title="January  7, 2017  2:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/1114' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/77aa72/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/1114' target="_blank" class=''>1114</a>
+        </h3>
+        <p>「線上日語讀書會」是一個互動的學習園地，對於初學者而言，更是一個提供入門、快樂學習的好處所。</p>
+<p>經由一點一滴的學習累積，不敢開口講日語的同學都能夠放下心結，開始以日語侃侃而談。</p>
+<p>更值得一提的是「線上日語讀書會」更提供了多樣化、多面向的學習管道，從閱讀文章到日語聊天室，一週數天的開課頻率，讓初學者有更多的機會接觸到日語，未來這些初學者都將成為「台日交流」的推手。</p>
+<p>所以希望「線上日語讀書會」能夠永續經營下去。</p>
+
+            <a data-link-to-post="121" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-75'>
+      <a title="January  7, 2017  3:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Yung-Ming_Chiu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yung-ming_chiu/45/260_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Yung-Ming_Chiu' target="_blank" class=''>Yung-Ming_Chiu</a>
+        </h3>
+        <p>線上讀書會從以下幾個切面看，不但解決了參與者的問題，而且是目前各相關社群中唯一這樣做的。</p>
+<ol>
+<li>
+<p>透過網路所舉辦的讀書會，可讓各方參與者不受地域上的限制，也省去主辦方找場地的麻煩。因而更有機會規模化。</p>
+</li>
+<li>
+<p>線上讀書會 採用較輕鬆的方式作實例示範，相較於其它上台演講的課程，有助於學員方便隨時討論更細部的操作。</p>
+</li>
+<li>
+<p>線上讀書會 將每堂課的影音討論都存放在網路上，方便時間無法配合的學員事後補課，也方便覆習課程。</p>
+</li>
+<li>
+<p>目前線上讀書會 從各方面展開，有語言教學、程式教學、觀念教學。期待它能更加茁壯。</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-78'>
+      <a title="January  7, 2017  3:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Chuyi_Huang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chuyi_huang/45/24_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Chuyi_Huang' target="_blank" class=''>Chuyi_Huang</a>
+        </h3>
+        <p>能在這麼短時間累積這麼多內容，以及持續不斷地推廣現今最流行的網頁技術而且種類相當多是非常不容易的。</p>
+<p>分享是社會進步的動力之一，分享也需要堅持與傾聽。希望線上讀書會能夠繼續造福有需要的朋友，也期許成為社會向上提升的動力。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-80'>
+      <a title="January  7, 2017  3:55am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/5">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Tiffany_Chen' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/t/da6949/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Tiffany_Chen' target="_blank" class=''>Tiffany_Chen</a>
+        </h3>
+        <p>「線上日語讀書會」是個非常有助日文學習愛好者的網路互動讀書會.</p>
+<p>透過一周三次的互動讀書會, 引導自然日文口說練習, 文法教學, 正音, 造句練習及日本文化種種,</p>
+<p>駐日義工老師們教學活潑認真,學習者也都認真學習及互動良好, 每次上完課都有意猶未盡的感覺</p>
+<p>上課變得輕鬆有趣, 這樣的日文學習變成興趣學習, 令人期待.</p>
+<p>非常感激有這樣的讀書會社團成立, 希望將來還有英文讀書會, 日劇劇本討論讀書會. 日文童話繪本故事會</p>
+<p>等等…這幾個月來獲益良多, 謝謝主辦者謝謝參與者師生, 希望能持續學習.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-90'>
+      <a title="January  7, 2017  5:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Alice' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/a/779978/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Alice' target="_blank" class=''>Alice</a>
+        </h3>
+        <p>線上讀書會是非常具創意的發想，讓想共同學習成長的大家能有一個交流的平台而不受地點、時間限制，<br>
+即使沒有時間參與互動當下的課程，上完課的影音檔亦有存放網路上，供大家複習<br>
+自己也從中獲益良多，感謝主辦者、老師及大家樂意無私的分享知識，<br>
+支持線上讀書會，期待線上讀書會能夠永久持續下去。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-91'>
+      <a title="January  7, 2017  5:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/1118' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/a88e4f/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/1118' target="_blank" class=''>1118</a>
+        </h3>
+        <p>從去年九月到現在透過 Unity、ChatBot、Docker、Go、Node.JS 等讀書會學習到許多非常實用且相當新穎的技術知識<br>
+在很短的時間內可以透過這些知識去進行發想、創作</p>
+<p>讀書會會長每一週甚至到每一天固定時間，都會安排在業界有相當程度的業師來進行講解、教學<br>
+而且為想要學習的學員無償付出到現在，非常不容易</p>
+<p>希望未來透過這個專案<br>
+讓讀書會可以更長久運作<br>
+並且在將來，包含我自己，所有學員，能夠將所學所長貢獻社會，讓這個社會更加進步！</p>
+<p>再次感謝！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-94'>
+      <a title="January  7, 2017  6:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/8">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/1119' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/dfb087/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/1119' target="_blank" class=''>1119</a>
+        </h3>
+        <p>線上讀書會真的是一個蠻棒的"平台"<br>
+由於是在線上進行交流/教學 有效解決了地域的限制<br>
+若時間無法配合 仍可透過每次結束後 上傳至youtube的VOD學習<br>
+也因為是在線上+講者不厭煩的解說 讓初學者也能夠在線上踴躍發問<br>
+透過各自讀書會的平台 可以更進一步的討論現有技術<br>
+甚至一同攻略新的東西並實作出來(如最近的chatbot讀書會)</p>
+<p>此外 除了程式類讀書會<br>
+現在也多了很多各式各樣的讀書會 如日文 越南語 甚至是rap(!?)<br>
+讓平常的生活又多了更多選項 真的很開心<br>
+也可以藉此認識更多朋友 分享更多知識與經驗</p>
+<p>支持此讀書會計畫可繼續執行 走得更遠:D</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-96'>
+      <a title="January  7, 2017  7:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/9">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11110' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/e19adc/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11110' target="_blank" class=''>11110</a>
+        </h3>
+        <p>線上讀書會，讓知識還有經驗得以達到公開分享的目的。<br>
+可以讓有需求的人，可以更有效率以及花費更少的成本獲得更多的知識。<br>
+是一個非常棒的創舉。<br>
+希望可以申請到經費<br>
+讓線上讀書會走的更遠！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-97'>
+      <a title="January  7, 2017  7:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/10">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/iiimamber-raylee' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/i/67e7ee/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/iiimamber-raylee' target="_blank" class=''>iiimamber-raylee</a>
+        </h3>
+        <p>本身是在職的工程師，在接觸線上讀書會以前時常參與實體的社團來精進自己的能力</p>
+<p>但是受制於上班時間、地點、與天氣等因素，參與這類的實體社團常會耗費大量的精力在學習以外的事物上<br>
+而像線上讀書會這類的平台就相當有效的解決了類似的困擾，現在只要在有網路的地方，我可以在各種情況下選擇接上耳機收聽一場正在進行中且我有興趣的主題，或是去youtube找我錯過的主題來觀看，不同於以往實體社團做的直撥紀錄，本身就是進行在線上的社團能更容易更清晰將課程中的互動紀錄下來</p>
+<p>感謝這個的平台，希望他能走得更遠，並且期許他在未來有更多的主題與活動</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-98'>
+      <a title="January  7, 2017  7:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/11">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Tsai_Pang' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/t/85f322/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Tsai_Pang' target="_blank" class=''>Tsai_Pang</a>
+        </h3>
+        <p>「線上日語讀書會」真的是一個很棒的學習資源,每週定期開課,讓學習不再孤單,線上也有日文老師可以即時指道導,同學間也能互相討論,也讓我們日文初學者有更多機會可以接觸日語.時事,文化…真的非常感謝大大及各位老師的付出!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-101'>
+      <a title="January  7, 2017  7:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/12">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ki_li' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/k/c67d28/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ki_li' target="_blank" class=''>ki_li</a>
+        </h3>
+        <p>在參與這個線上讀書會之前,本身也嘗試過不少線上課程,<br>
+這些線上課程內容豐富,但是有一個一致的缺憾 : 他們大部分都是錄影檔.<br>
+由於這個因素,課程進行中,你無法與講者產生互動,<br>
+對於課程中有疑問的部分,無法立即提出發言且得到回饋.</p>
+<p>而線上讀書會這個專案,提供了另一種選擇.<br>
+由於線上讀書會即時性的運作方式,使得參與者能夠立即地與講者互動,<br>
+這就產生了一個良性的學習環境.</p>
+<p>時到今日,參與這個讀書會已經4個月,<br>
+隨著讀書會的內容越來越豐富,邀請到越來越多的業界前輩,<br>
+運作這個讀書會所需貢獻的心力也隨之增加.</p>
+<p>直到目前,讀書會仍由主辦人耗費其個人資源來運作,<br>
+非常期待這個專案能夠獲得更多的支持,<br>
+讓這個有意義的社群活動長遠的走下去.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-102'>
+      <a title="January  7, 2017  7:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/13">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11111' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/73ab20/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11111' target="_blank" class=''>11111</a>
+        </h3>
+        <pre><code>   平時上班很難有完整的時間到外上課，甚至由於不定時的加班造成傳統型態的讀書會也很難固定參與，同時相關的交流活動也會受地域限制而變的區域化且零散。
+    而能提供這樣一個交流的平台，一來能夠彼此交流各領域的新知，二來也能認識來自各方的同好，除了能讓業界的交流更緊密，也能加強國內整體的技術能力，讀書會內的成員能彼此互助成長，成員在工作上也能夠移植經驗到實務上，對國內整體競爭力的提升絕對有連帶的正向影響！</code></pre>
+
+      </div>
+    </article>
+    <article class='post' id='post-106'>
+      <a title="January  7, 2017  1:19pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/14">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Chien_Chieh_Wang' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/c/ecccb3/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Chien_Chieh_Wang' target="_blank" class=''>Chien_Chieh_Wang</a>
+        </h3>
+        <p>從一開始的線上react.js讀書會到後來的redux,nose,chatbot甚至是日文的讀書會，這些都是社群大家的貢獻和累積，很高興自己也有參與其中！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-108'>
+      <a title="January  7, 2017  1:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/15">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11112' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/1/d78d45/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11112' target="_blank" class=''>11112</a>
+        </h3>
+        <p>感謝有這個讀書會，串連北中南的同好，分享出自己的經驗，互相幫助、成長。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-109'>
+      <a title="January  7, 2017  2:01pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/16">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <ol>
+<li>請問此專案有具體的平台開發計畫嗎？</li>
+<li>過去參與的開源專案是否可提供連結?</li>
+</ol>
+
+            <a data-link-to-post="111" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/16">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-111'>
+      <a title="January  7, 2017  2:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/17">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>1.專案具體來說希望把分散的FB做一個管理(線上讀書會有不同領域),現在很不科學都要每個粉絲團去通知,另外也希望把之前的影片都集中在網站上可以多做一些互動的機制例如QA,現在使用github,其他就如一般官方網站有線上系列讀書會所有的介紹與許願清單</p>
+<p>目前主要都是個人在邀約主講與主持每一場會議,覺得這是一件對的事,也希望讓線上讀書會可以長跑下去.但是考慮到現實生活面 ,剛好有機緣看到Gov公民科技有辦了一個這樣的創新獎金 ,就來試試申請看看</p>
+<ol start="2">
+<li>
+</li>
+</ol>
+<p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://assets-cdn.github.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/onlinereadbook/mini-hackathon/tree/master/mini-project" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars1.githubusercontent.com/u/21374152?s=400&amp;v=4" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/onlinereadbook/mini-hackathon/tree/master/mini-project" target="_blank" rel="nofollow noopener">onlinereadbook/mini-hackathon</a></h3>
+
+<p>mini-hackathon - 線上讀書會-迷你黑客松</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+這邊有一個是用 typescript抓取樂桃票價 與 nightwatch 抓取 虎航票價的爬蟲<br>
+另外一個是<br>
+迷你黑客松 的 livemap</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-114'>
+      <a title="January  7, 2017  3:24pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/18">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mytim2' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mytim2/45/25_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mytim2' target="_blank" class=''>mytim2</a>
+        </h3>
+        <p>很棒的大～平～台～<br>
+讓南部的朋友也能跟北部的工程師交流，<br>
+學到很多不同領域的知識！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-115'>
+      <a title="January  7, 2017  6:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/19">Jan &#39;17</a>
+        <a data-link-to-post="67" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/1">▶ system</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wizenith' target="_blank"><img src='//discuss.grants.g0v.tw/letter_avatar_proxy/v2/letter/w/9f8e36/45.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wizenith' target="_blank" class=''>wizenith</a>
+        </h3>
+        <p>其實我個人一開始是抱持「你的立意真的很好 但是之後的你可能會在推行的過程中感到孤苦」的心思去支持這樣的主辦人：以一人之力去維繫許多不同主題的讀書會，而一半又替他的犧牲感到不捨；其一方面深覺這是一項吃力不討好的事情，並且抱持「理所當然你辦讀書會就不該收費」的心態的人 依我個人的觀察也並非沒有存在過。</p>
+<p>當「線上讀書會」長期被許多人看待成理所當然就應當看作公益性質服務大家時，應當被賦予市場交易的價值就完全被眾人漠視。但是一旦它又進入為了要滿足商業目的及條件方能存活的模式時，經營策略與社會公益之間的必然拉址與考量，也就相對必然地成為左右理念初衷而生的熵。<br>
+然另一方面，我又看到了它的存在真的幫助很多在學習走了許多彎路的人，當然也包括了我自已。</p>
+<p>千言不如一語，若「沒有人想做有些人曾做過的事，但也許沒有人能真正做好它」<br>
+你們不就是打算想找到真正正在成為那位「沒有人」的「一些人」<br>
+並且相信他們未來將會作出過去沒有人會做得更好的事?<br>
+不論估對了、還是估錯了 其實真的很考驗想要帶給大家更好未來的人。<br>
+決定什麼存在是最好的選擇，而什麼卻不是。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-121'>
+      <a title="January  8, 2017  1:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/20">Jan &#39;17</a>
+        <a data-link-to-post="72" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/2">▶ 1114</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/a0933786266' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/a0933786266/45/27_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/a0933786266' target="_blank" class=''>a0933786266</a>
+        </h3>
+        <p>線上讀書會是個很棒的平台，因為提供不同領域上的知識與經驗的分享，讓各地的人能夠透過這個線上聚會學習與學著貢獻自己所長，創造許多價值。</p>
+<p>非常感謝這個社團跟無私出的主辦人與講者，希望這個優質的社團能夠繼續往前走。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-123'>
+      <a title="January  8, 2017  3:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/21">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mygguee' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mygguee/45/28_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mygguee' target="_blank" class=''>mygguee</a>
+        </h3>
+        <p>感謝有這個讀書會，串連北中南的同好，分享出自己的經驗，互相幫助、成長。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-126'>
+      <a title="January  8, 2017  5:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/22">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hjuiling' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hjuiling/45/30_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hjuiling' target="_blank" class=''>hjuiling</a>
+        </h3>
+        <p>The following comment is copied from the comment by Tsia-Pang as she/he has said exactly what I want to say.<br>
+「線上日語讀書會」真的是一個很棒的學習資源,每週定期開課,讓學習不再孤單,線上也有日文老師可以即時指道導,同學間也能互相討論,也讓我們日文初學者有更多機會可以接觸日語.時事,文化…真的非常感謝大大及各位老師的付出!<br>
+Appreciated that Polo San setup this study group and hosting the meetings I believe behind the scene he must have spent lots of time and effort. Also thanks for many people so willing to help beginner like myself.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-130'>
+      <a title="January  8, 2017  8:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/23">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好!!! 線上讀書會是一個很棒的idea.<br>
+不確定我是否有離解錯誤, 是預計要架設一個讀書會網站/平台嗎? 然後彙整所有有關讀書會的資訊.<br>
+是否有明確的 現在運作上遇到的困難 可以說明!?</p>
+<p>最後我想了解, 這個平台/專案 會開源嗎? 或者有 開放課程/知識 以外的公共財產生?</p>
+<p>感謝 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/23">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-133'>
+      <a title="January  8, 2017 11:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/24">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/conan0828' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/conan0828/45/31_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/conan0828' target="_blank" class=''>conan0828</a>
+        </h3>
+        <p><a class="mention" href="/u/wizenith">@wizenith</a>  點出很關鍵的問題  ，  我認為提案人要改變的是觀念經營模式而不是平台問題，但從「線上讀書會」的描述（我沒看過影片內容，有錯誤請跟我說）目前模式是由一人之力邀請有能力教課的講師免費教學並解決學員學習遇到的問題，這模式已經是「教課」而不是讀書會了，知識分享要學習公開沒問題，但即便國外很多大型組織都有在做，要他們發學習證書或幫學員解決疑難雜症是要額外付費的，台灣已有商業團體提供類似的服務，如果今日「線上讀書會」沒有講師免費教學互動解決問題，學員能否有如此熱情在這裡學習？  建議是讀書會想長期經營應該是設法讓想學習的人（不論能力高下）自發性願意分享內容,幫忙安排活動等才對。</p>
+
+            <a data-link-to-post="136" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/24">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-136'>
+      <a title="January  8, 2017 11:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/26">Jan &#39;17</a>
+        <a data-link-to-post="133" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/24">▶ conan0828</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>conan大大這個建議很好 ,希望未來都有人可以幫忙自發性的活動,這也是努力的方向,目前日語,越南語還有angular 讀書會 已經有人自願幫忙邀約主講與發起活動,  這是未來線上讀書會要努力的方向 感謝 conan 大大 的建議與指導 ＾＾</p>
+<p>另外讀書會有分四種型態<br>
+1.主講型態 (邀約)<br>
+2.書本章節認領 (大家輪流導讀)<br>
+3.攻略篇(會找文章,blog,主題一起攻略討論)<br>
+4.番外篇 (有心得要分享的)</p>
+<p>conan 大大也可以來加入讀書會 一起同樂 ＾＾</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-137'>
+      <a title="January  8, 2017 11:58am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/27">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>線上讀書會去年就開跑了上架到youtub 有200多部,每一場都是Open的,能來線上參與的可以即時ＱＡ,有問題也可以帶過來大家幫你想.有各種主題有願望清單也可以與我連絡會盡量安排主講</p>
+<p>影片所在位置:<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" class="site-icon" width="16" height="16">
+      <a href="https://www.youtube.com/user/polo13999/videos" target="_blank" rel="nofollow noopener">YouTube</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://yt3.ggpht.com/s900-nd-c-c0xffffffff-rj-k-no/AK162_5klpQfWfl2d-nl1vSzOQhTS4_VCon4PHiC6A%22" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.youtube.com/user/polo13999/videos" target="_blank" rel="nofollow noopener">線上讀書會</a></h3>
+
+<p>線上讀書會 讓在學習知識的路上不孤單,可以快速攻略並藉由線上會議交談與主題探索發現,原來學習只要找對同好 一切是如此的順暢 https://github.com/onlinereadbook/office</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>目前在製作的網站使用 react 開發 程式碼是open的,但是時間不太夠所以進度慢慢的都是OPEN的歐也歡迎幫忙pr<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://assets-cdn.github.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/onlinereadbook/officewebsite" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars1.githubusercontent.com/u/21374152?s=400&amp;v=4" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/onlinereadbook/officewebsite" target="_blank" rel="nofollow noopener">onlinereadbook/officewebsite</a></h3>
+
+<p>officewebsite - 官方網站協作</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>困難的地方是,所有的主持跟與邀約跟活動安排與通知都是我一個人所以去年推掉許多案子,目前是靠興趣在支撐讀書會原本可能只能在撐幾個月就要去接案子了(現實考量),所以希望可以獲得補助,讓我有些補助可以繼續推這個線上讀書會</p>
+
+            <a data-link-to-post="148" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/27">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-138'>
+      <a title="January  8, 2017 12:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/28">Jan &#39;17</a>
+        <a data-link-to-post="130" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/23">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>網站的部分沒有錯就是會想整合FB與影片的管理 在做一個比較正式的官方網站</p>
+<p>另外不知道 YuTin 大大提到的公共財產是指哪方面 如果是指影片 ,主講人如果不願意開放就會幫忙下架</p>
+
+            <a data-link-to-post="141" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/28">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-141'>
+      <a title="January  8, 2017  1:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/29">Jan &#39;17</a>
+        <a data-link-to-post="138" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/28">▶ 11113</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝回答 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"> (我不是大大 QQ)<br>
+如 <a class="mention" href="/u/conan0828">@conan0828</a> 的提問, 我目前理解到的比較像是 「開放式課程」  (像這會是一種公共財, 是共享的)</p>
+<p>而目前「線上讀書會」的專案. 如果是網站, 會不會比較像是 <a href="http://www.f2e.tw/" rel="nofollow noopener">http://www.f2e.tw/</a> !? (這是我跟一些朋友以前至今持續在經營的前端社群, 上面會把每位講師的影片放.<br>
+遇到的問題與你的狀況很類似 「所有的主持跟與邀約跟活動安排與通知都是我一個人」 與部分朋友的協助.</p>
+<p>這次的「線上讀書會」專案, 是否有什麼計畫可以幫助「未來都有人可以幫忙自發性的活動」？而這樣的計畫/工具/模式, 是否可以複製或應用在其他讀書會/團體?</p>
+
+            <a data-link-to-post="152" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/29">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-144'>
+      <a title="January  8, 2017  1:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/30">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/helloworldsmart2' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/helloworldsmart2/45/34_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/helloworldsmart2' target="_blank" class=''>helloworldsmart2</a>
+        </h3>
+        <p>我是自學學寫程式，去年參與其中線上swift 讀書會，受到主辦人鼓勵分享自己學習主題，儘管我很菜，從此開啟線上共學體驗，每個人都有各自專長都是講師，充滿老鳥帶新兵學習氛圍，讓學習就像打副本一樣大家一起攻略，甚至提供線上黑客松，不再侷限地點，讓城鄉差距的學習資源不再是個議題．</p>
+<p>洪荒之力支持此線上讀書會計畫可繼續執行 走得更遠 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/smiley.png?v=5" title=":smiley:" class="emoji" alt=":smiley:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-148'>
+      <a title="January  8, 2017  3:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/31">Jan &#39;17</a>
+        <a data-link-to-post="137" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/27">▶ 11113</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>除了課程錄影之外，會有可重複利用的產出嗎？單從「官方網站」不太容易理解會做出什麼樣的網站，可能可以列一下會包含的功能？</p>
+
+            <a data-link-to-post="153" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/31">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-152'>
+      <a title="January  9, 2017 12:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/32">Jan &#39;17</a>
+        <a data-link-to-post="141" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/29">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>是的是的跟 YuTin 大辦的f2e讀書會理念跟我一樣的 , 只是因為住在屏東所以再加上"線上"縮短城鄉差距,另外讀書會越來越多元化的,是因為會友提出想學不同的,越來越多元,個人覺得是好事所以能力範圍內也都沒有拒絕,所以會看到一些比較特別的線上讀書會的系列 ,YuTin大也可以想像有10幾個 f2e 都是一個人在張羅的樣子,就是我的困難之處(不過最近有一些讀書會已經萌芽了,會自主開讀書會了,這是我目前想要前進的方向)</p>
+<p>目前有在研究Zoom的Api 希望把zoomapi導入官方網站,這樣的話就可以讓開活動是一件很日常的事情,也可以讓其他讀書會有個脈絡可循,有個SOP 讓未來的其他讀書會/團體上 會更容易上手</p>
+<p>希望有回答道YuTin 大的問題 ^^</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-153'>
+      <a title="January  9, 2017  1:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/33">Jan &#39;17</a>
+        <a data-link-to-post="148" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/31">▶ Poga_Po</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>目前想到的功能</p>
+<p>前端功能<br>
+1.會有導入Chatbot,例如會友可以問說今天有哪些課程,這個月有哪些課程,我想要許願清單,瞭解目前讀書會有哪些系列…等等<br>
+2.以前的影片,會多做一個衍伸,方便每一位看過的朋友提出問題,大家再次討論知識重複利用(QA繼續),或是有更新或是內容有誤的地方大家都可以在做討論<br>
+3.會整理影片類別加上Tag 可以方便找到相關的影片,加強學習相關輪廓<br>
+4.會員登入,可以看到自己上過哪些課程與ＱＡ了哪些東西<br>
+會員功能</p>
+<ul>
+<li>
+<pre><code> a.願望清單
+</code></pre>
+</li>
+<li>
+<pre><code> b.個人QA
+</code></pre>
+</li>
+<li>
+<pre><code> c.興趣活動
+</code></pre>
+</li>
+<li>
+<pre><code> d.輪到自己主講的時候可以有個通知
+</code></pre>
+</li>
+<li>
+<pre><code> e.目前需要認領章節,自願認領
+</code></pre>
+</li>
+</ul>
+<p>5.每一種讀書會的風格都不太一樣,會有每一種的讀書會的介紹,ex.線上日語讀書會有分日常與進階 等等</p>
+<p>6.關於線上讀書會介紹</p>
+<p>7.過往主講的介紹</p>
+<p>另外備註:讀書會不限定是要很厲害的人才可以來主講,而是希望每個人都嘗試來講講看,台下的朋友也會幫忙驗證,講過了才知道自己的問題與觀念正不正去,然後透過大家討論在討論</p>
+<p>後端功能<br>
+1.可以利用ChatBot 透過Botmessage 跟粉絲發送Chat訊息例如通知課程及一些讀書會日常AI<br>
+2.主講者資料建檔<br>
+3.課程時間安排,與活動產生 不過目前知道FB的EVENT好像不能透過API 所以這部分可能還沒辦法串有些還是必須手工<br>
+4.會員管理,透過FB加入<br>
+5.要看的書本的章節與認領管理,時間一日前通知講師<br>
+6.許願清單管理,可以許願想要聽誰說什麼<br>
+7.FB自動化 po文功能<br>
+8.過往影片管理,包含QA管理與Tag設定</p>
+<p>未來有能力的話會再導入zoom api 讓開活動會更容易 (目前研究中 )<br>
+目前想到的有這些,未來也希望有其他更多功能就靠會友們再一起發想了</p>
+<p>如果Poga 大有好建議也歡迎提供給POLO ^^</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-158'>
+      <a title="January  9, 2017  5:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/34">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wolkesau' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wolkesau/45/39_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wolkesau' target="_blank" class=''>wolkesau</a>
+        </h3>
+        <p>如果這個有在運作，累積上千影片檔，每週平均上千使用者參與，都還過不了的話。<br>
+就不知道有什麼能過了！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-164'>
+      <a title="January  9, 2017  1:23pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/35">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/coolinstar' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/coolinstar/45/40_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/coolinstar' target="_blank" class='new-user'>coolinstar</a>
+        </h3>
+        <p>線上讀書會的組織讓使用者的學習得到高速，而且具有良好效果的環境。<br>
+而且透過讀書會的方式，使用者在各自感興趣、專精的領域與人群互動，<br>
+受益良多。自從加入讀書會以來，拓展了不少見聞，也得到不少知識。<br>
+希望組織能夠健康順利發展，謝謝polo的發起。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-167'>
+      <a title="January  9, 2017  2:25pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/36">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/l02162010' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/l02162010/45/42_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/l02162010' target="_blank" class='new-user'>l02162010</a>
+        </h3>
+        <p>非常感謝Polo創辦 <strong>線上讀書會社團</strong>!<br>
+我是個前端初學者，是由另外一位大大帶進來 <strong>線上讀書會</strong> 的<br>
+在就學過程，我並沒有真正學到寫程式這件事情，<br>
+所以在各種學程式的時候，各種鬼打牆，各種碰壁<br>
+找資源時，雖然英文資源很多又更新又特別快速，<br>
+但對英文不好的我超級苦手!<br>
+這社團裡有超多各種高手分享的經驗+教學+心得+幫我們踩過的地雷<br>
+在學習的時候，超EAZY，各種學習曲線UPUP。<br>
+重點是!!大家都是講中文XDD</p>
+<p>還有，看著大大們不斷分享，各種無私奉獻<br>
+都會讓人有一種憧憬想要成為那樣的人，<br>
+也想把技術學到TOP 換自己變成在演講的人</p>
+<p>這好社團必須一直存在，台灣才會更好!!!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-173'>
+      <a title="January 10, 2017  2:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/37">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/topperchi' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/topperchi/45/45_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/topperchi' target="_blank" class='new-user'>topperchi</a>
+        </h3>
+        <p>我個人算是早期的用戶，從最早的JS, HTML到現在已經有docker, git, swift等各種技術、入門到進階的討論，甚至跨足到語言學習的領域。這樣難得不收費的佛心平台，讓大家可以分享所學，達到技術交流的目的，甚至使用者因此入門了一個程式語言。這個專案直到現在辦了近千場線上讀書會，參與人數已逾千人次。我們使用者能做的就是希望這個專案能通過，給主辦人一點回饋，畢竟這是一個非常難得的體驗！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-175'>
+      <a title="January 10, 2017  6:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/38">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/leo424y' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/leo424y/45/48_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/leo424y' target="_blank" class=''>leo424y</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>參與了ReactJS線上讀書會，很受主講的激勵與主辦人的熱情感動，請加油！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-184'>
+      <a title="January 10, 2017  2:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/39">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/huangswtw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/huangswtw/45/52_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/huangswtw' target="_blank" class='new-user'>huangswtw</a>
+        </h3>
+        <p>我是一個輕度視障者，常常因為交通不便或者距離原因，不能參加實體讀書會，偶然看到這個線上讀書會，參與過後也覺得很棒，!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-186'>
+      <a title="January 10, 2017  3:30pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/40">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tsairing' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tsairing/45/54_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tsairing' target="_blank" class='new-user'>tsairing</a>
+        </h3>
+        <p>Unity線上讀書會分享的題目很廣、而且可應用性很高<br>
+單從書籍中取得技術知識時，實作時如果遇到問題或對書中有疑慮回饋往往不是即時的<br>
+但在讀書會中，分享不同的技術知識在了解新知時，同時還可以在社群裡和其他人討論讓自己的認知更完整<br>
+非常希望線上讀書會的活動可以續辦，讓更多的人可以認識這個平台並用來學習有興趣的相關知識</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-189'>
+      <a title="January 11, 2017 12:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/41">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/huang.sinj' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/huang.sinj/45/55_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/huang.sinj' target="_blank" class='new-user'>huang.sinj</a>
+        </h3>
+        <p>非常感謝讀書會，以前因為上班，讓下班沒什麼時間可以去參加一般讀書會學習的，現在線上，只要在有網路的地方，也有機會參加。在參加過幾次關於前端技術相關的讀書會後，講者的一步一步帶著大家從概念到看到想到某個想法時，該如何應用概念再予以實現，使得死版學起來的技術活起來了，讓我也學到思路上的方式，真的是轉個彎就海闊天空，感謝!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-192'>
+      <a title="January 11, 2017  5:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/42">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mars7823482' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mars7823482/45/56_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mars7823482' target="_blank" class='new-user'>mars7823482</a>
+        </h3>
+        <p>很棒的一個平台<br>
+快速交流chatbot技術</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-195'>
+      <a title="January 11, 2017  9:30am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/43">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/eillen32' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/eillen32/45/57_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/eillen32' target="_blank" class='new-user'>eillen32</a>
+        </h3>
+        <p>讀書會好棒！大家有共同的討論話題，互相認識與激勵<br>
+平淡的日子都變得有趣了！<br>
+每週都很期待！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-222'>
+      <a title="January 15, 2017  2:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/44">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/joey3060' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/joey3060/45/67_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/joey3060' target="_blank" class='new-user'>joey3060</a>
+        </h3>
+        <p>這是一個很棒的交流平台，他不同以往的交流模式。<br>
+普通的一般的小聚，都是上對下居多，講完後，在眾人面前才有QA<br>
+也因為普通小聚人數眾多，很多人其實有問題不太敢發問或者沒時間問<br>
+但在線上圖書會這種場合下，你可以隨時跟講者交流<br>
+而且可以講很多更細微的主題，而且更輕鬆。對講者，對聽者都是不錯的平台。<br>
+感謝POLO大的熱心</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-268'>
+      <a title="January 18, 2017  6:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/45">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/rumsgr' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/rumsgr/45/98_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/rumsgr' target="_blank" class='new-user'>rumsgr</a>
+        </h3>
+        <p>「unity線上讀書會」<br>
+unity 資源在台灣不算少，但也不多，而且討論大多都是文字上的交流，很難把問題詮釋完全，對於自學unity的人來說，是一段崎嶇的道路。<br>
+unity 線上讀書會，不但有專業的資源，而且還有許多熱心人士用視訊交流的方式，互助學習，讓這崎嶇的道路抺平了不少，是一個很重要的地方。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-359'>
+      <a title="January 24, 2017  7:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/46">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝提案，有幾個問題想追問：</p>
+<ol>
+<li>根據前面您的回覆，能否更新這份提案，把計畫目的寫的再清楚一點（包括打算建置網站平台，還有相關網站架構規劃）</li>
+<li>這份提案有任何新的嘗試嗎？還是只是補助您現有、已完成的活動形式？</li>
+<li>申請經費50萬預計怎麼分配和使用？</li>
+<li>計畫短中長期目標是？</li>
+</ol>
+
+            <a data-link-to-post="509" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/50/46">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-509'>
+      <a title="February  1, 2017 12:26pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/47">Feb &#39;17</a>
+        <a data-link-to-post="359" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/50/46">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/11113' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/11113/45/292_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/11113' target="_blank" class=''>11113</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>silvashih  大大 您好</p>
+<p>1.計畫 已經更新到 提案中了<br>
+2-1.這是第一次嘗試申請補助,目前是使用fb粉絲團管理 希望未來可以製作網站<br>
+2-2.50萬經費預計 可以20萬製作網頁 30萬作為支撐經營的費用<br>
+3.短期是 讓讀書會更精彩然後有贊助可以支撐這個計畫跑下去,中期 希望可以導入Zoom Api官網 自動化方向,長期是希望可以營運讀書會可以永續經營,讓有意義的事情持續下續</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-736'>
+      <a title="February  7, 2017  6:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/48">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/claire18412/45/126_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank" class=''>claire18412</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>嗨，提醒一下，記得補上過去參與的開源開發計畫之連結補上，讓大家能更認識你喔!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-764'>
+      <a title="February  7, 2017  8:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/49">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>記得到個人頁面補上個人介紹，讓評審更認識你喔</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-974'>
+      <a title="March 28, 2017  3:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/50">Mar &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tranhung121885' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tranhung121885/45/241_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tranhung121885' target="_blank" class='new-user'>tranhung121885</a>
+        </h3>
+        <p>很用心經營的提案人 讀書會的交流品質也很好</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/50/50">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

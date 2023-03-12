@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>好玩不好玩？兒童遊戲行為觀察 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1787'>
+      <a title="January 24, 2018  2:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>相信這是一個對公共事務非常有價值 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/tada.png?v=5" title=":tada:" class="emoji" alt=":tada:"> 的研究 / 觀察，</p>
+<p>請問此專案結束後，是會產生一份研究報告嗎？是否有考慮數位出版？ <img src="//discuss.grants.g0v.tw/images/emoji/twitter/man_technologist.png?v=5" title=":man_technologist:" class="emoji" alt=":man_technologist:"><br>
+而期中的工作里程碑，建議規劃一個 講座 或 論壇 之類的活動，有助於修正研究方法。 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/bowing_man.png?v=5" title=":bowing_man:" class="emoji" alt=":bowing_man:"></p>
+<p>另詢問一下，「預計作為公部門執行相關公共建設於建設完成後，建議應進行使用後評估的說帖，藉此減少公共建設不符合使用者（市民）需求的問題。」為何是建設完後？不是建設前？</p>
+
+            <a data-link-to-post="1812" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/712/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1812'>
+      <a title="January 24, 2018  6:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/3">Jan &#39;18</a>
+        <a data-link-to-post="1787" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/712/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sing0223/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank" class=''>sing0223</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>您好，謝謝實用的意見！</p>
+<p>由於本案觀察人力需求量大，而伴隨觀察資料多，隨後的平台資訊輸入的工作量需求亦大，因此應無書籍編輯人力，暫不考慮數位出版。<br>
+同時，本次為國內第一次進行兒童遊戲場環境行為觀察的初步嘗試，工作重點以嘗試建立分析的模式，作為未來推動政府應針對使用者行為進行分析研究的基礎。嘗試後必須再依靠更多的國外案例對比，或有更多的國內遊戲場分析後，資料才更為完整。因此本案一定會有一份報告，但是否可以作為完整的兒童遊戲行為研究報告則必須有後續的深化。</p>
+<p>我們在六個月期間，從一開始建立研究方法到操作中，皆會邀請國內環境行為研究的專家進行課程講解與互動討論，目前安排四次授課與討論時間；預計期中之前會舉辦兩次，皆是以討論與修正研究方法為主。綜合您的意見，將會將這一點納入期中的工作里程碑中。</p>
+<p>“建設前”的討論通常為參與式討論，著重詢問使用者希望的需求、或不想要的項目、或之間的衝突等。“建設後”的“使用後評估”則是重新審視建設好的空間是否真的可以符合使用者需求、或使用者是不是不喜歡、或使用者是不是有意想不到的使用行為；這類的調查可作為後續相同建設項目，日後設計時的重要參考依據，才可以讓空間越來越好，或不會再犯同樣的錯誤。（比如有些廣場很少人使用，就是出現了設置區位判斷上或設計的問題。）</p>
+<p>希望有回應到您的提問～</p>
+
+            <a data-link-to-post="1868" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/712/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1868'>
+      <a title="January 26, 2018  2:43pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/4">Jan &#39;18</a>
+        <a data-link-to-post="1812" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/712/3">▶ sing0223</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>目前建立研究方法過程中所開的這些會議，是否能提供相關記錄，以及觀察的標準，供大眾參考，或進一步讓大眾可以一起參與呢？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1874'>
+      <a title="January 26, 2018  5:30pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sing0223/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank" class=''>sing0223</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>記錄與觀察標準等絕對會供大眾參考。<br>
+目前尚屬第一階段，故先以使用者與設計師參與，以建立觀察方法與分析方法為主；之後若有機會做第二階段可試著嘗試建立供大眾協助分析的線上平台，擴大大眾參與。<br>
+非常謝謝您的意見。</p>
+
+            <a data-link-to-post="1899" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/712/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1899'>
+      <a title="January 29, 2018 12:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/6">Jan &#39;18</a>
+        <a data-link-to-post="1874" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/712/5">▶ sing0223</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsiao-a/45/282_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank" class=''>Hsiao-a</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有趣的專案！<br>
+有一個問題想請教的是關於這個專案的產出<br>
+看完介紹<br>
+不是很確定這個專案最後是否會產出一個建議書<br>
+給市府相關人員參考去改善你們認為不好玩的遊樂場？</p>
+<p>另外，好不好玩跟是否有特色也有一些關係<br>
+你們是否會考慮進去遊樂場的特色問題<br>
+因為有些遊樂場或許好玩，但跟大部分遊樂場都一樣的話<br>
+孩子的成長環境還是會有點單調</p>
+<p>謝謝！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1906'>
+      <a title="January 29, 2018  7:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sing0223/45/395_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sing0223' target="_blank" class=''>sing0223</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>謝謝提問！</p>
+<p>針對遊戲場選擇上，我們將選擇一處“一般遊具的兒童遊戲場”，然後依據經費狀況希望選擇兩處（或以上）這兩年新改造的“新的遊戲場”，例如2017年新完工的天和公園兒童遊戲場，天和公園兒童遊戲場有高度較高的溜滑梯與攀爬網；還有今年過年前後即將開幕的花博共融兒童遊戲場，這個遊戲場為目前台北面積較大的兒童遊戲場，遊具包括沙坑、共融盪鞦韆、旋轉遊具、攀爬設施等。其觀察場地的選擇，將先列出適合的兒童遊戲場後，再依據在前期討論研究方法的過程中，進行塞選。</p>
+<p>如前所述，這次提案主要是以新完工的兒童遊戲場為主，<br>
+研究新的遊具是否真的好玩？或者有哪一部分的族群都沒有出現在遊戲場上，<br>
+將這些提問藉由觀察分析後，<br>
+才有更多的資訊可以向政府建言遊戲場應該增加的面向，或者哪一種遊具是值得再多設置的。<br>
+這部分會提出在報告書的分析結論中。</p>
+<p>並且這樣的觀察分析研究，可作為日後相關建設完工後的“使用後評估”的重要參考．<br>
+推動重要且重複性質高的公共建設，應該都應推動“使用後評估”，<br>
+才能多多避免無用無效的公共設施。</p>
+<p>謝謝！</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/712/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>iCare愛關心 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-512'>
+      <a title="February  1, 2017  2:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好，兩個問題請教一下，也請適度補充至提案中。</p>
+<h2>問題一</h2>
+<p>在提案中有提到此專案有三個步驟</p>
+<ol>
+<li>每個人主動投訴發生的問題</li>
+<li>通知相關部門前往處理中</li>
+<li>處理完成解決問題</li>
+</ol>
+<p>請問 (2) 跟 (3) 要如何實行呢？比如說 (2) 要如何通知相關部門，是利用電話或 email 通知嗎？會是需要每筆資料由人工通知，或是要用自動化的方法通知，如果要自動化的通知，又該如何實作呢？</p>
+<p>同樣的問題 (3) 通知完成解決問題，如果相關部門用 email 通知了此專案人員問題已解決，是要自動或手動更新，又該如何實作呢？</p>
+<h2>問題二</h2>
+<p>在</p>
+<pre><code class="lang-auto">請說明專案結束時，會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）？
+</code></pre>
+<p>一節，建議補充實際會產生的工作產出，如，會產生一套可以由任何人自行架設的網站套件，可供任何人下載以及架設等。如果有明確會產生的工作成功，可以讓評審更容易的審核。</p>
+
+            <a data-link-to-post="713" class="post-replies button" href="/discuss.grants.g0v.tw/t/icare/271/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-560'>
+      <a title="February  2, 2017 11:32pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>很棒的 idea, 希望專案能夠成為 <strong>向里鄉鎮長、市議員、立委申訴的大平台</strong></p>
+<p>有計劃先找找相關民意代表聊聊嗎？可以聽聽看他們的臺灣經驗, 也許會對於你的系統設計有更大的幫助！ 不知道立委們會不會討厭 FB 粉專 申訴 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"></p>
+<p>也許透民化的平台, 也有助於釐清民意、關說、選民服務的差異 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"></p>
+
+            <a data-link-to-post="727" class="post-replies button" href="/discuss.grants.g0v.tw/t/icare/271/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-607'>
+      <a title="February  4, 2017 10:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>如前面兩位所提到的, 立意良好, 技術上也是可行的, 但如何把問題交到對的民意代表或政府機關手上是個大問題, 不知可否說明可能的作法?</p>
+
+            <a data-link-to-post="728" class="post-replies button" href="/discuss.grants.g0v.tw/t/icare/271/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-713'>
+      <a title="February  6, 2017 12:46pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/8">Feb &#39;17</a>
+        <a data-link-to-post="512" class="in-reply-to" href="/discuss.grants.g0v.tw/t/icare/271/2">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/cooltogreat/45/194_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank" class=''>cooltogreat</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您的提問</p>
+<p>問題一的部分<br>
+2. 通知相關部門前往處理中<br>
+3. 處理完成解決問題<br>
+目前台灣中央和地方政府都有設立許多網路申訴檢舉的管道，也會得到一個自動回覆的受理案號代碼可以去追蹤後續結果。所以一開始iCare會一個一個將這些既有的先串連接起來，讓使用者直接在iCare完成申訴檢舉後，自動將資料傳給對應的政府部門申訴管道，初期會是分門別類建立自動化聯結，來針對不同類型的申訴檢舉，將資料用不同路徑傳遞到既有的政府管道，由iCare統一代表所有檢舉人或是匿名者進行申訴檢舉，然後在iCare在收到回復受理案件編號時，或是政府部門解決問題時，透過email通知iCare時，自動化回傳給檢舉者。</p>
+<p>問題二<br>
+因為本身不是程式專業人員，這幾天會請教專家，在給予修正。</p>
+<p>以上是對您提問的回答，如果有說明不清楚的部分請再度提問，謝謝</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-727'>
+      <a title="February  7, 2017  3:43am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/9">Feb &#39;17</a>
+        <a data-link-to-post="560" class="in-reply-to" href="/discuss.grants.g0v.tw/t/icare/271/3">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/cooltogreat/45/194_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank" class=''>cooltogreat</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您的意見</p>
+<p>申訴案件通知民代是iCare最特別的部分，因為現在台灣民代及少數關心老百姓，大多數是代表特定既得利益族群，保障並且爭取他們利益無限擴張。透過iCare的民代通知功能，讓選區內的公民知道哪一個民代關心公民遇到的問題，哪一個民代完全置之不理，哪一個民代主動關心政府後續處理，哪一個民代提出根治問題的方法，這些民代的回應可以讓公民知道誰是好民代替人民做事，那些民代只關心自己家族或是金主交辦事項，這些數據也可以在iCare裡面查到，回應比例，後續追蹤，協助處理，下一次選舉時，就可以知道誰才是關心當地老百姓生活的好民代，而不會像台灣目前只投票，不監督的殘缺民主參與。<br>
+針對關說iCare也會有相關的設計，讓所有基層政府公務員，在遇到違規事項民代關說時，也可以檢舉申訴民代，確保公務員自己的職責和權力，避免上級施壓吃案或其他舞弊情形，另外未來也會加入每個民代公務預算透明化的資訊，讓底層人民血汗錢繳納的稅金，不會讓民代把預算成為私人費用浪費在裙帶關係酬庸上。</p>
+<p>至於您提到民代會不會討厭FB粉專申訴，iCare是鼓勵民代積極參與選區內老百姓申訴問題的解決，無論是直接協助解決問題，或是關心相關政府單位的處理進度，至於民代不理會iCare的通知也沒關係，iCare上也會顯示出每個民代對於申訴案的參與程度，iCare相信透過這樣的機制，民代不論是主動或是被動都會越來越關心選民的問題，這才是民主社會代議制度的真正價值。<br>
+iCare也會有民代使用頁面，特別認證民代身分和代表人登入系統協助處理申訴，因為FB申訴大多是文字化，除非有機器人協助，否則處理所有文字資訊會花費非常大的時間，歡迎民代將選區申訴相關導像iCare，協助老百姓更有效率處理問題並加以解決。</p>
+<p>以上是您提問部分的回答，謝謝</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-728'>
+      <a title="February  7, 2017  3:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/10">Feb &#39;17</a>
+        <a data-link-to-post="607" class="in-reply-to" href="/discuss.grants.g0v.tw/t/icare/271/4">▶ koansin.tan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/cooltogreat/45/194_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/cooltogreat' target="_blank" class=''>cooltogreat</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好</p>
+<p>聯繫民代的部分，iCare會建立和每個民代連結方式，並且了解得到民代授權可以協助處理的人，考慮到民代可能對於網路使用上有障礙，也會建立得到民代授權代理人制度在iCare開設相關的權限。<br>
+當iCare系統上線正式使用時，也會發布相關訊息給所有民代，鼓勵他們完成iCare民代頁面相關登入設定，這也是一個關心老百姓和選區積極度的展現，當同一選區有民代完成iCare登入設定，我們就會發出通知鄰近區域民代，鼓勵他們盡快完成登入，在各級民代產生類似良性競爭的效果。<br>
+除了iCare系統外，只要接到任何申訴，就會透過蒐集到的民代email，FBmesseger，Line等通訊方式告知民代選區內有人遇到問題，提醒他上iCare系統關心申訴案件內容。</p>
+<p>而政府通報的部分iCare一開始就是先從既有政府各單位線上申訴系統，局長縣市長信箱，去進行連結，未來iCare也會開設台灣政府各級單位專區，讓業務承辦公務員人更容易操作使用。</p>
+<p>以上是對您的提問答覆</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/icare/271/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

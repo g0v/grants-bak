@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>房價天眼通 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1181'>
+      <a title="July 19, 2017  1:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>請說明本專案會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）</li>
+</ol>
+<blockquote>
+<p>Visual studio 2017 community version：程式撰寫工具<br>
+Azure web app storage:：存放網頁空間<br>
+Azure Mssql database：資料庫，用來儲存資料</p>
+</blockquote>
+<ul>
+<li>目前以上三點作為開源軟體套件可能不太足夠，是否有其他程式產出可開源，例如：實價登錄資料的爬蟲、網站的程式碼、地圖呈現的套件等等</li>
+<li>Mssql database 使用價錢頗高，如有其他人欲參與時將提高使用門檻，是否有搭配其他開源資料庫的打算。</li>
+</ul>
+<ol start="2">
+<li>目前市面上的 <a href="https://www.foundi.info/" rel="nofollow noopener">房地資訊站</a>、<a href="https://buy.housefun.com.tw/" rel="nofollow noopener">好房網</a> 等皆有做到視覺化呈現且不需要鍵盤輸入，此專案是否有異於目前市面上產品的目標或著眼點？</li>
+</ol>
+
+            <a data-link-to-post="1188" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/441/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1188'>
+      <a title="July 20, 2017  6:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/3">Jul &#39;17</a>
+        <a data-link-to-post="1181" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/441/2">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tloy1966/45/293_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank" class=''>tloy1966</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好<br>
+感謝提問<br>
+此專案所有使用的爬蟲程式、資料擷取程式、網頁介面程式都可open source<br>
+此外，Mssql database雖然價錢偏高，但是採用月租方式，因此成本勉強可以接受<br>
+另外也考慮到採用MS Asuzre的穩定性與相容性，當然也不排除使用更合適的解決方案</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1253'>
+      <a title="July 23, 2017  1:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ntuloser' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ntuloser/45/308_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ntuloser' target="_blank" class='new-user'>ntuloser</a>
+        </h3>
+        <p>你好，我同樣想問上述第二個問題。因為你還沒回答，就再次提問。<br>
+除了上述的兩個網站以外，還有許多的網站都有類似的提供視覺化的查詢的功能，例如 ：<a href="https://price.591.com.tw" rel="nofollow noopener">591實價登錄地圖</a> ，<a href="http://ezhouse.tw" rel="nofollow noopener">台灣不動產實價登錄地圖</a>。想請問這與目前市面上已有的產品的差異是什麼。對民眾能比市面上公司的網頁提供什更麼實際的幫助？<br>
+這也還不包括app ，目前似乎也蠻多app有類似的功能。</p>
+
+            <a data-link-to-post="1278" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/441/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1278'>
+      <a title="July 25, 2017  3:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/5">Jul &#39;17</a>
+        <a data-link-to-post="1253" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/441/4">▶ ntuloser</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tloy1966/45/293_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank" class=''>tloy1966</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝提問<br>
+以台灣不動產實價登錄地圖為例子<br>
+<a href="https://github.com/tloy1966/rpWebData/blob/master/vs2.png?raw=true" rel="nofollow noopener">台灣不動產地圖</a></p>
+<p>沒錯以上網站都可以讓人搜尋每個街道的房價，找到相關資訊。但是難以建立價格的概念。<br>
+使用者要花費許多時間，看完50間，100間來建立某地區的概念，原因是因為這些資訊是零碎的，零碎的資料給在多都不難以成為立即可應用的資訊，更有可能建立錯誤印象(使用者可能看了3間就覺得這個地區應該就是這樣)，要使用者額外利用時間與努力，才能把資料內化成為自己的資訊。</p>
+<p>我們想給使用者一個整理過、完整的資訊，用圖像化且排序過的方式，在使用時可以一目了然、方便、容易可以吸收資訊，降低資訊不對稱的可能因素，附圖如下。<a href="https://github.com/tloy1966/rpWebData/blob/master/vs8.png?raw=true" rel="nofollow noopener">視覺化圖表</a>，謝謝</p>
+
+            <a data-link-to-post="1279" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/441/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1279'>
+      <a title="July 25, 2017  3:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/6">Jul &#39;17</a>
+        <a data-link-to-post="1278" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/441/5">▶ tloy1966</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tloy1966/45/293_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank" class=''>tloy1966</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a href="https://github.com/tloy1966/rpWebData/blob/master/v4.png?raw=true" rel="nofollow noopener">591實價登錄地圖參考</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1321'>
+      <a title="July 25, 2017  1:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/7">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我想了解一下，這邊資料的可視化是否可以連結到歷年的房產相關政策，或是金融政策作交叉比對呢？或許可以更容易從制度或政策面看到台灣的問題。</p>
+
+            <a data-link-to-post="1484" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/441/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1484'>
+      <a title="July 28, 2017  9:33am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/8">Jul &#39;17</a>
+        <a data-link-to-post="1321" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/441/7">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tloy1966/45/293_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank" class=''>tloy1966</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Hi Billy,</p>
+<p>個人認為可行，細節有許多地方需要再討論<br>
+例如：當一個政策下來，房價的影響是不是即時的<br>
+如何把這些相關政策轉為數據資料</p>
+<p>會建議把這部分的優先程度排後面一點，先把原本的部分做完<br>
+另外我們不熟悉金融政策，需要再找專家來討論，避免做出來的結論有偏誤。</p>
+
+            <a data-link-to-post="1541" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/441/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1541'>
+      <a title="August  2, 2017  7:33am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/9">Aug &#39;17</a>
+        <a data-link-to-post="1484" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/441/8">▶ tloy1966</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tloy1966/45/293_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tloy1966' target="_blank" class=''>tloy1966</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Dears,</p>
+<p>補上相關Github作品，<a href="http://xn--w0tn2nba284mmwf350b.net" rel="nofollow noopener">這是程式是由.net</a> C#寫的<br>
+主要用來擷取內政部所提供的實價登錄資料，然後存到資料庫<br>
+<a href="https://github.com/tloy1966/VisualPrice_Job" rel="nofollow noopener">https://github.com/tloy1966/VisualPrice_Job</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/441/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

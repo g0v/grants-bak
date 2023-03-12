@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Arc en ciel 性別友善職場人資平台 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-2137'>
+      <a title="January 13, 2019 10:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/muyueh/45/497_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank" class='new-user'>muyueh</a>
+        </h3>
+        <aside class="quote no-group" data-post="1" data-topic="839">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/system/40/16_1.png" class="avatar"> system:</div>
+<blockquote>
+<p><a href="https://grants.g0v.tw/projects/5c0e06702d6958001b7c824e" rel="nofollow noopener">https://grants.g0v.tw/projects/5c0e06702d6958001b7c824e</a></p>
+</blockquote>
+</aside>
+<p>我有注意到企劃書內文有幾個地方將彩虹「arc en ciel 」誤植成「arc en ceil」。</p>
+
+            <a data-link-to-post="2158" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/839/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2141'>
+      <a title="January 13, 2019 11:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/muyueh/45/497_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank" class='new-user'>muyueh</a>
+        </h3>
+        <p>依我目前的了解，企劃書的核心在可以打造一個新的求職平台。</p>
+<p><strong>做平台的技術簡單，但要營運起來很貴</strong></p>
+<p>前幾年的時候，yes123 在跟 104 有很激烈競爭的時候， yes123 有很大幅度的打廣告。我記得那時候有看到一個數字，是一個月的廣告預算是 800~900 萬元。我不是評審委員，但假設我自己是評選委員，根據目前 grant 的制度，我會有的疑問：是平台需要長期的開發，在行銷資源，或者是平台開發上。我會覺得幾個月的時間，以及 grant 的資源，平台做出來可能還沒有辦法募集到有興趣的求職者、企業， grant 的執行期間就結束了。</p>
+<p><strong>戰場選擇，LGBT、或職場友善？</strong></p>
+<p>企劃書 QA 裡面有提到為什麼要 LGBT 單獨作為出發點，而不是跟「友善職場」做結合，作者回答中有提到現在職場的女性權益已經相當完善。但這跟我的認知不同：就我自己的感覺，台灣在性別、年齡、外表上都還有諸多問題。包含在履歷上貼照片、面試的問題、同工不同酬。生理假、MeToo、職場性騷擾等問題。職場上假如有 50% 是女性，而女性職場議題現在仍然是苦戰的狀態。或許應該先加入「友善職場」這一個戰場，跟其他議題的盟友一起奮戰。</p>
+<p><strong>什麼是現在最大的問題，是公司、還是個人？是因為有人惡意，還是因為無知？</strong></p>
+<p>我會希望可以了解更多，怎麼樣是一個對 LGBT 友善的公司。怎麼樣會是一個不友善的公司：<br>
+1. 公司刻意歧視 LGBT 族群<br>
+2. 公司沒有歧視 LGBT 族群，但公司裡面有人的行為故意對 LGBT 不友善<br>
+3. 公司沒有歧視 LGBT 族群，但公司裡面有人的行為，因為不知道/不小心/不了解而產生的恐懼對 LGBT 不友善</p>
+<p>我不知道上面三個的比例如何。但搞不好 3. 的解決方法，會跟 1. 很不一樣。<br>
+2. 跟 3. 也會很不一樣，3. 是現在大家只是不知道，或許是讓勞方可以知道怎麼樣適當的提示、教育公司的主管、有一些好的範例、或做法可以幫助勞方分享。2. 若是有人有惡意，而這一種惡意的人很常見的話，那麼或許是讓勞方可以怎麼樣可以保護自己、或應徵的時候有什麼需要注意的。</p>
+<p>另一方面，對 LGBT 的求職者應該也有許多的困擾及挑戰。所以或許從這邊下手也是一個可能的點，比方：「是否應該在職場上出櫃」。、「如何回答不友善的問題」等，或許有一個部落格，可以做類似的資源彙整。</p>
+<p>企劃書一開始有一個案例，案例發生的原因是因為上面的 1.、2.、3.，還是其他的原因。假如有一個新的平台，我不確定是否可以解決案例的問題。</p>
+<p><strong>如何說將企業</strong></p>
+<p>我覺得可能需要增加對企業方面的說服力。雖然我們都覺得 LGBT 是對的事情。但因為我們希望可以跨出同溫層，所以我們應該怎麼樣說服一個唯利是圖的的企業主/主管來說，說我們要特別強調職場友善、或 LGBT 友善？</p>
+<p>假如對方是唯利是圖，這一個計畫要怎麼樣用他們在乎的東西說服他們改變？</p>
+<p>比方一個可能的論述，是因為男女性得決策方式不一樣，所以我記得 HBS 好像有一個研究，是關於男女比例較均衡的董事會，做出來的決策會比只有男性的董事會來的賺錢；不是因為有一個性別比另一個性別好。而是因為看事情的角度不同，而有多種看事情的角度比較賺錢。</p>
+<p>我想要說的是，假如企業只在乎錢；那麼需要有一個可以在錢上面，可以說服企業的方式。</p>
+<p>另一個方式，或許是法遵。也就是這樣子做比較不容易被告（但我不確定這樣子的效果如何）。</p>
+<p>最後一個，是現在台灣上市櫃公司每年財報，常常出現 CSR，我不確定這是不是必要的。但企劃書裡面也有提到認證的想法，所以或許一個方向，是給予企業一個「職場友善」的認證，讓企業可以放在 CSR 的報告之中。</p>
+<p>要這樣子做，應該會需要發展一些具體的衡量方式，讓企業可以量化評估自己是否職場友善。而對 LGBT 友善，也連同其他議題放在同一個衡量中。</p>
+<p><strong>或許可以是做品牌，不做平台</strong></p>
+<p>品牌，雖然不是幾個月可以做完的，但至少是幾個月，一個人（在有 grant 或沒有 grant 的情況下）可以小規模開始：</p>
+<p>品牌有幾個做法，可以是：</p>
+<ol>
+<li>
+<p>開個部落格</p>
+<ul>
+<li>做案例的解析</li>
+<li>幫助大家找到</li>
+<li>遇到歧視、騷擾的時候如何應對</li>
+<li>對曾經有被騷擾的人邀稿</li>
+<li>對人資、主管、有職場智慧的人進行邀稿</li>
+</ul>
+</li>
+<li>
+<p>做認證、授權、友善排行</p>
+<ul>
+<li>找一家大公司、小公司，實際跟公司裡面的人資一起合作，在幾個月的時間，讓公司內部對 LGBT 更友善</li>
+<li>品牌做起來之後，來做一個「職場友善認證」；這一個認證，可以讓上市公司當做 CSR</li>
+<li>跟既有人資平台 104、 yes123 平台合作，獲得認證的公司，可以在 104 上的頁面有一個特別的「徽章」，或一個特別的頁面</li>
+</ul>
+</li>
+<li>
+<p>線下實體活動</p>
+<ul>
+<li>論壇</li>
+<li>體驗騷擾</li>
+<li>騷擾應對</li>
+</ul>
+</li>
+</ol>
+
+            <a data-link-to-post="2197" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/839/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2142'>
+      <a title="January 13, 2019 12:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/muyueh/45/497_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/muyueh' target="_blank" class='new-user'>muyueh</a>
+        </h3>
+        <p>嘿 Casy，</p>
+<p>我原本的希望的反饋或許看起來像是批評，抱歉這是由於我還缺乏智慧。我希望覺得這一個企劃的初衷很重要，而且我希望它可以成功。</p>
+<p>加油。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2156'>
+      <a title="January 13, 2019  4:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hello Casy,</p>
+<p>感謝您的提案！各個方面都非常完整，而且還另付企劃書。我也能想像到，光是平台上有個性別友善企業列表，對於 LGBTI 族群甚至是整個性別運動，都有莫大的助益。希望列表上的企業能越多越好！</p>
+<p>不過作為追問人，這裡還是提出兩點詢問 / 建議：</p>
+<ol>
+<li>
+<strong>期中 / 期末里程評估</strong>：企劃書裡頭記載的平台功能與規格，其 scope 對於獎助金計畫來說太大，況且期中以前僅有規劃，滿難相信在期中到期末的期間可以兼顧實現功能與其他價值的產出（例如企業關係經營等等）。或許縮 MVP scope 並且專注在成功案例（無論是企業方還是求職者方），會是比較合理的方向。</li>
+<li>
+<strong>需求</strong>：提案裡可以清楚得知這樣的平台對 LGBTI+ 的朋友相當有助益，不過相對地企業使用者的使用意願確實有較大困難，如 Casy 在「可能會面臨的困難有哪些」所述。確實，不是只有大型人資平台得以存活，也有像是 <a href="https://www.capsulecorporation.cc/vitamin/56" rel="nofollow noopener">Yourator</a> 或 <a href="https://debut.tw/aboutus" rel="nofollow noopener">Debut</a> 這樣這樣專精於特定領域的人資平台。但是需要注意的是，Yourator 選擇「新創」這個題目耕耘、產出文章與線下活動來培養 candidate 投遞新創所需的 mindset，能解決<strong>新創企業「精準找到符合企業文化的人才」的問題</strong>；Debut 則由現有外包平台延伸出來，有著既存社群與雙方的連結。因此，這兩個平台有著 104 所無法取代的價值在。因此，若要回答「如何提高企業使用者的意願」，從性別友善出發的人資平台，可以解決「何種企業」的「什麼問題」，或許是需要思考的方向。</li>
+</ol>
+<p>以上兩點提問，希望能幫助到團隊 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+            <a data-link-to-post="2198" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/839/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2158'>
+      <a title="January 14, 2019  6:54am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/6">Jan &#39;19</a>
+        <a data-link-to-post="2137" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/839/2">▶ muyueh</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/boistorche/45/490_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank" class=''>boistorche</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝您的指正，已經將企劃書文字予以修正。<img src="//discuss.grants.g0v.tw/images/emoji/twitter/slightly_smiling_face.png?v=5" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2197'>
+      <a title="January 15, 2019  2:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/7">Jan &#39;19</a>
+        <a data-link-to-post="2141" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/839/3">▶ muyueh</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/boistorche/45/490_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank" class=''>boistorche</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Hi muyueh您好，以下連結是我們團隊對於您的提問的回應：<a href="https://drive.google.com/file/d/1oSUpKb9KtAJu4YLFa90EcX66Y4Q8Kjj0/view?usp=sharing" rel="nofollow noopener">回應文件</a><br>
+感謝您的提問與建議。<img src="//discuss.grants.g0v.tw/images/emoji/twitter/slightly_smiling_face.png?v=5" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2198'>
+      <a title="January 15, 2019  2:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/8">Jan &#39;19</a>
+        <a data-link-to-post="2156" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/839/5">▶ johnsonliang7</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/boistorche/45/490_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/boistorche' target="_blank" class=''>boistorche</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Hi，johnsonliang7您好，首先感謝您對於本企劃的關心與肯定。關於您的提問/建議，茲分點項答覆：</p>
+<p><strong>Q：期中/期末里程評估</strong></p>
+<p>一、	感謝您的提醒。由於在企劃書完成後，時間醞釀後陸續做出一些修正，因此在G0V的提案原始內容為早期的版本。經重新檢視，我們團隊重新安排期中與期末里程檢核指標。<br>
+二、	按G0V參與獎助金計畫，獲得獎助金之專案將於2019年3月9日的黑客松暨啟動工作坊開始執行專案，但本企劃之內容誠如您所言，獎助金的執行期間可能無法達成預期的里程檢核指標。因此，在本企劃的執行面上，有部分內容需要與性別平權團體或其他相關之主管機關聯繫與討論，實際上，在提案確定日後即已啟動。換言之，本企劃現在已經進入準備程序。</p>
+<p><strong>Q：從需求的觀點檢視，本企劃著重在解決「何種企業」的「什麼問題」？</strong></p>
+<p>一、	本企劃所欲解決的問題是LGBT+族群創造與提升職場的友善程度。因此，從需求的觀點檢視，我們團隊所提出的解決方案似有足夠誘因。<br>
+二、	但本企劃的另一個參與主體：企業主，經由您的提問，提供一個面向讓我們得以思考如何提升對於企業主的誘因。因此本企劃是解決何種企業的什麼問題，我們團隊作出如下的分析：</p>
+<ol>
+<li>本企劃原則上並沒有特定限定什麼樣形式的企業體。但以企劃所主張的理念而言，平台提供願意呈現職場組成多元化的企業主，一個自我檢視並且可以呈現職場多元化的目標。</li>
+<li>從一般無特定理念的企業主而言，平台可以提供如何在法規遵循範圍內，避免因職場不友善所產生的法律問題。以此觀點，可視為是一種消極的預防措施，提前預防因職場組成的多元呈現而導致後續衍生的法律爭議。<br>
+目前LGBT+族群在職場上願意公開的比例偏低，主因在於擔心職場上會遭受異樣眼光、受到不平等待遇、或受不利處分等(參見：<a href="https://drive.google.com/file/d/123JGTs4HR6Yxyg0OtZ0BSlzuEG5rs-Q9/view?usp=sharing" rel="nofollow noopener">台灣同志熱線於2016年的職場現況調查</a>，第11至14頁)，因此部分企業主可能誤以為職場組成屬於LGBT+族群的成員可能性偏低或無。實際上，職場組成隨著性別議題的發酵與社會變革進程將會趨向多元化。<br>
+因此從企劃執行的遠程目標來看，企業主縱然對於職場性別平權毫無概念，終究還是會有需要面對這樣的法律問題。</li>
+<li>綜上所述，我們團隊提出本企劃將：
+<ul>
+<li>
+<p>對於<strong>願意職場組成多元化的企業</strong>，提供<strong>自我檢視</strong>與<strong>招募或維持職場組成多元化目標的解決方案</strong>。</p>
+</li>
+<li>
+<p>對於<strong>一般企業</strong>，提供<strong>因職場組成隱性、多元化而可能衍生法律爭議的預防措施</strong>。</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>最後，再次感謝您的提問，讓我們的企劃有機會可以從不同面向進行修正。<img src="//discuss.grants.g0v.tw/images/emoji/twitter/slightly_smiling_face.png?v=5" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:"><br>
+隨案附上本回應pdf檔案連結：<a href="https://drive.google.com/file/d/17ks86umkTFbRgk5lkxpvMC4n-RrEDyj0/view?usp=sharing" rel="nofollow noopener">點我檢視</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/839/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

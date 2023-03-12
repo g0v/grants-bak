@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>選舉黃頁 @ 2018 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1659'>
+      <a title="January 20, 2018  5:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/656/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/man_mechanic.png?v=5" title=":man_mechanic:" class="emoji" alt=":man_mechanic:"><img src="//discuss.grants.g0v.tw/images/emoji/twitter/woman_mechanic.png?v=5" title=":woman_mechanic:" class="emoji" alt=":woman_mechanic:"><img src="//discuss.grants.g0v.tw/images/emoji/twitter/man_mechanic.png?v=5" title=":man_mechanic:" class="emoji" alt=":man_mechanic:"><img src="//discuss.grants.g0v.tw/images/emoji/twitter/woman_mechanic.png?v=5" title=":woman_mechanic:" class="emoji" alt=":woman_mechanic:"></p>
+<p>「開發新介面」是否已有介面草圖可以參考？<br>
+「開發程式呈現與備份個別候選人透過臉書公開的資訊」是否已經有定義好 api schema 可以參考呢？</p>
+<p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/bowing_man.png?v=5" title=":bowing_man:" class="emoji" alt=":bowing_man:"> 建議在 Github repository 上設定 license 聲明，參考教學： <a href="https://help.github.com/articles/licensing-a-repository/" rel="nofollow noopener">https://help.github.com/articles/licensing-a-repository/</a></p>
+
+            <a data-link-to-post="1705" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/656/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1705'>
+      <a title="January 21, 2018  4:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/656/3">Jan &#39;18</a>
+        <a data-link-to-post="1659" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/656/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>LICENSE.txt 已經加入</p>
+<p>「開發新介面」 - 新介面目前並沒有草圖，主要是希望改善同名同姓所造成的混淆問題 (ex. <a href="http://k.olc.tw/elections/candidates/name/%E9%99%B3%E5%BF%97%E6%98%8E" rel="nofollow noopener">http://k.olc.tw/elections/candidates/name/陳志明</a> )</p>
+<p>「開發程式呈現與備份個別候選人透過臉書公開的資訊」 - 預期的作法是設定個別候選人的相關臉書粉絲頁後，透過背景程式定時撈取粉絲頁內容，然後放上候選人頁面進行呈現，所以主要是存取 facebook api 而非自行開發介面供外部存取</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1838'>
+      <a title="January 26, 2018  4:19am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/656/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>候選人的宣傳有幾個大問題。</p>
+<ol>
+<li>一定年紀以上的民眾多使用電視，網站對他們影響不大。</li>
+<li>若要使用網站，SEO要好，搜尋引擎才會找到，否則難以主動觸擊。</li>
+<li>若是使用網站搭配社群網路，可能會出現同溫層的效應，難以推廣。</li>
+<li>一般看起來，面對面的接觸比起網路資訊恐怕更有影響力。</li>
+</ol>
+<p>比較好奇的是，這個平台期待可以使用「共筆」或是類似維基百科的方式處理，但如果要好好運用，恐怕使用者的數量很重要。</p>
+<p>請問對於提昇使用者的方式有規劃嗎？</p>
+
+            <a data-link-to-post="1931" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/656/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1931'>
+      <a title="January 30, 2018  6:33am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/656/5">Jan &#39;18</a>
+        <a data-link-to-post="1838" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/656/4">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>這次的規劃主要是擴充內容去提高觸及，目前情況每日約為 200-300 人的瀏覽，主要就是來自搜尋引擎的引入，遇到特定議題時個別關鍵字帶來的流量會提高，接近選舉時才會有明顯的流量出現</p>
+<p>新候選人的網路宣傳大多集中在臉書，這次規劃就是希望帶入臉書資訊，藉此避免因為臉書的宣傳過度集中在同溫層無法延伸（除非透過廣告方式），讓內容可以被搜尋引擎檢索，提高宣傳的可能</p>
+<p>對比傳統方式的宣傳網路自然薄弱許多，特別是許多地方性的選舉，選舉黃頁過去存在的目的就不是取代傳統宣傳，而是希望有一個地方可以結構化記錄許多非官方的選舉資訊，讓有意願在選前做功課的朋友一個共同編輯的平台，目前網站上的大部分照片就是來自志願者主動上傳</p>
+<p>目前提昇使用者的方式大多是順著特定議題出現時運用標籤功能帶出特定類型候選人，像是時代力量剛推出的 2018 候選人<br>
+<a href="http://k.olc.tw/elections/candidates/tag/5a633b20-99b8-48c4-b8a2-795d0a8c0002" class="onebox" target="_blank" rel="nofollow noopener">http://k.olc.tw/elections/candidates/tag/5a633b20-99b8-48c4-b8a2-795d0a8c0002</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/656/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

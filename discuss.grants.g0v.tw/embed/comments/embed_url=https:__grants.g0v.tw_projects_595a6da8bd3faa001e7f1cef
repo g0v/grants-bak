@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>雲端農場 . 半農半X - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-1063'>
+      <a title="July 15, 2017 12:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>搜尋「屋頂農場」可以找到滿多類似的計劃，例如 <a href="http://organic-for-all.blogspot.tw/" rel="nofollow noopener">http://organic-for-all.blogspot.tw/</a> 或是 <a href="http://newspaper.epd.ntpc.gov.tw/index.php/2-3-epd-column/1273-10509" rel="nofollow noopener">http://newspaper.epd.ntpc.gov.tw/index.php/2-3-epd-column/1273-10509</a></p>
+<p>建議可以研究看看有哪些現有計劃或有心提供類似教學的人，看看能不能從建立平台的角度幫忙整合有閒置屋頂的人以及提供教學或經驗的人和有空有閒的人</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1133'>
+      <a title="July 17, 2017 12:58pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>我喜歡城市農業的想法，好奇提案人認為雲端或資訊系統對這個專案的必要性在哪裡？</p>
+
+            <a data-link-to-post="1226" class="post-replies button" href="/discuss.grants.g0v.tw/t/x/403/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1168'>
+      <a title="July 18, 2017  3:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>現行農業之所以為農業，是因為可以擁有穩定產能、穩定品質以滿足市場所需。</p>
+<p>我看到專案發起人認為可以「食物由自己生產或附近認識的人生產，或是來自網站有詳細的食物履歷的屋頂農場，吃得更安心，降低了食安問題。」可是，目前一般社會大眾連長相奇怪的蔬果都會感到疑惑而不敢購買，若是品質不穩定，相信大家也不會想要購買。我想請問一下，發起人如何應付這樣的狀況？</p>
+<p>更進一步說，屋頂農場看似容易，但屋頂代表距離城市很近，都市中充滿著各種汽機車排放的廢棄，種植出來的蔬果真的「安全」嗎？這該如何確認呢？</p>
+<p>我想了解，屋頂農場是否可以達到穩定產能、穩定品質以滿足市場，若不是考量現行市場，則該如何開拓新的市場？謝謝。</p>
+
+            <a data-link-to-post="1227" class="post-replies button" href="/discuss.grants.g0v.tw/t/x/403/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1226'>
+      <a title="July 21, 2017 10:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/5">Jul &#39;17</a>
+        <a data-link-to-post="1133" class="in-reply-to" href="/discuss.grants.g0v.tw/t/x/403/3">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/missing.link.hsing1/45/254_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank" class=''>missing.link.hsing1</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝 <a class="mention" href="/u/ronnywang">@ronnywang</a> 和 <a class="mention" href="/u/chihaoyo">@chihaoyo</a><br>
+目前是還沒看過有專門協助建置綠屋頂的平台，初期還是得花點力氣去找到第一批願意一起推動的使用者，目前有成立一個FB:goo.gl/x2D3c3 和 google groups:<a href="https://groups.google.com/forum/?hl=zh-TW#!forum/cloud-farmer-x" rel="nofollow noopener">https://groups.google.com/forum/?hl=zh-TW#!forum/cloud-farmer-x</a><br>
+希望先有一個討論和交流的平台空間，不過這是以農場擁有者的角度來建立的一個交流平台，如果要以種植作物的角度來建立的平台就需要一個專屬的平台，從種植日誌到植物的交易都需要平台來管理追蹤，即使很簡單的只是想要賣出家裡陽台種的一把青菜或是觀賞植物，如果沒有平台管理交易，共享經濟就不會發生，那要讓民眾開發自家閒置空間的意願就相對低。<br>
+所以對於初期以交流和分享經驗為主軸的平台，也很希望對企劃或行銷推廣有興趣的人可以來加入。</p>
+<p>目前有想到的交易行為有幾種：<br>
+1 小農以物易物模式：如果家裡陽台有幾顆蔬菜預計一週後要採收，農場主人就可以先在平台上上架產品，這通路平台也許不一定是要自己建立，也可透過和上下游，主婦聯盟，里仁的合作達到交易的目的。<br>
+2 大型農場，或集合小農對餐廳的契作模式：這裡的交易模式又更複雜，如果不是透過系統平台管理，就更難管理追蹤。<br>
+3 另外農場作物的交易不限於經濟作物，任何綠色植物都是可以納入管理追蹤的，因為不是每個屋頂或陽台都適合種需要大量陽光的經濟作物，但是一定也有高經濟價值的特有植物，可以找到適合的陽台或屋頂環境來種植。<br>
+這就比較像建國花市型態的園藝交易。<br>
+4 針對特殊保育類物種的復育，以分散式的方式協助植物基因庫的保存，這也是需要有完整的資料追蹤功能，以利學術單位進行研究。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1227'>
+      <a title="July 21, 2017 10:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/6">Jul &#39;17</a>
+        <a data-link-to-post="1168" class="in-reply-to" href="/discuss.grants.g0v.tw/t/x/403/4">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/missing.link.hsing1/45/254_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank" class=''>missing.link.hsing1</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝 <a class="mention" href="/u/billy3321">@billy3321</a>，<br>
+在空氣污染嚴重的都市種菜，有人會想到也會有污染問題，不過在都市屋頂建置大量綠地的功能之一也就是希望可以降低空氣污染，經濟作物的市場只是綠屋頂其中一塊，有一部紀錄片未來農夫 <a href="http://www.books.com.tw/products/D020063312" rel="nofollow noopener">http://www.books.com.tw/products/D020063312</a> 就是在報導新加坡的屋頂農場狀況，另外香港也有屋頂農場的發展 <a href="http://www.bbc.com/future/story/20170517-an-inside-view-of-hong-kongs-hidden-rooftop-farms%E3%80%82" rel="nofollow noopener">http://www.bbc.com/future/story/20170517-an-inside-view-of-hong-kongs-hidden-rooftop-farms。</a><br>
+我覺得如果以台灣來看，其實大家對夜市和路邊攤的食物接受度都很高，應該對屋頂種出來的菜也可以接受才對</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/x/403/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

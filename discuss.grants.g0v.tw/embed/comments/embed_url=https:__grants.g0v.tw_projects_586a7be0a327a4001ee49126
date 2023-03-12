@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Civil Archive - 即時資訊檔案庫 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/2">繼續討論</a>
+  <span class='replies'>13 個回覆</span>
+</header>
+
+    <article class='post' id='post-43'>
+      <a title="January  3, 2017  1:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/2">Jan &#39;17</a>
+        <a data-link-to-post="39" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/1">▶ system</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihchun/45/14_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank" class=''>chihchun</a>
+        </h3>
+        <p>其中一種可能的應用是山區路況回報。</p>
+<p>目前登山社群倡議<a href="https://docs.google.com/presentation/d/1OJxVGjoWK7MHG5VUlAf7yhbQLBoMrEfL6a4YYeprw/edit#slide=id.g197ad49ec6_0_230" rel="nofollow noopener">登山步道開放資料格式標準化</a>中，透過 Common Alerting Protocol 整合災害示警公開資料平台上來自多個機關的空間資料警戒提示，可以涵蓋大部分公部門的示警資料。</p>
+<p>但是登山者需要一個民間開放平台可以回報路況，例如「此處有虎頭蜂窩」、「水源已經耗竭」、「路線崩塌」、「安全繩索損傷」等，這些為山友樂意分享資訊。</p>
+<p>資訊將會包含</p>
+<ol>
+<li>文字說明</li>
+<li>照片紀錄</li>
+<li>空間資料 (經緯度)</li>
+</ol>
+<p>同時也將會需要讓使用者可以用經緯度查詢到相關事件。</p>
+<p>或許此提案可以考慮相關 API 界面，供其他社群使用。</p>
+
+            <a data-link-to-post="47" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-47'>
+      <a title="January  3, 2017  7:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/3">Jan &#39;17</a>
+        <a data-link-to-post="43" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/2">▶ chihchun</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>完全同意這些需求，災害跟環境警示資訊的確是我的初衷之一。</p>
+<p>已經更新提案包含 data point 的 metadata（空間資料等），以及輸出 CAP 的功能。搜尋可以以外部系統界接 CAP Feed 的方式實做。</p>
+<p>也已把登山社群加入合作對象中，希望有機會合作 XD</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-145'>
+      <a title="January  8, 2017  2:12pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>這專案太酷了!!! 看來連 圖片儲存 都不是問題.<br>
+也就是說 任何人只要 依照某個步驟操作後, 就可以成為一個儲存端點.</p>
+<p>metadata 類似 <a href="http://json-schema.org/" rel="nofollow noopener">http://json-schema.org/</a> 嗎?</p>
+
+            <a data-link-to-post="147" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-147'>
+      <a title="January  8, 2017  3:01pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/5">Jan &#39;17</a>
+        <a data-link-to-post="145" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/4">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>metadata 應該會參考 json-schema、<a>schema.org</a> 或是 OKI 的 <a href="http://specs.frictionlessdata.io/data-packages/" rel="nofollow noopener">Data Packages</a> 等標準來設計，以能跟各種開放資料標準互相銜接為目標。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-187'>
+      <a title="January 10, 2017  6:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>補上了簡易投影片，希望能更清楚的說明這個基礎建設專案的目的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-197'>
+      <a title="January 11, 2017 12:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>這個基礎建設太棒了！感覺國會的議事紀錄也能作為事件，用這個儲存。</p>
+<blockquote>
+<p>任何人都可發佈專屬的即時資料</p>
+</blockquote>
+<p>這個專案有想要處理資料正確性的驗證嗎？</p>
+
+            <a data-link-to-post="203" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-203'>
+      <a title="January 12, 2017 11:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/8">Jan &#39;17</a>
+        <a data-link-to-post="197" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/7">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>目前會提供發佈者的驗證：每個訊息都有 private key 簽章，可以驗證真的是由該發佈者所發出的。</p>
+<p>至於資料內容正確性的驗證，也許可以由其他系統彙整多個資料來源後，再來驗證資料內容是否正確？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-301'>
+      <a title="January 21, 2017  4:43am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/9">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>不曉得規劃預算40萬元，打算如何運用和分配呢？</p>
+
+            <a data-link-to-post="312" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-312'>
+      <a title="January 21, 2017 12:08pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/10">Jan &#39;17</a>
+        <a data-link-to-post="301" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/9">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>已補上較詳細的規劃，感謝提醒 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/smiley.png?v=5" title=":smiley:" class="emoji" alt=":smiley:"></p>
+<blockquote>
+<ul>
+<li>每週平均 16 小時開發，共 384 小時。</li>
+<li>維持服務、伺服器管理：約每週 8 小時，共 192 小時。</li>
+<li>剩下時間皆可用於與其他社群協作、介接資料、線上溝通等：至少每週 8 小時，共 192 小時。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>需 40 萬元經費用於：</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>設計：15 萬。介面，整體視覺，Logo… 等</li>
+<li>技術開發：20 萬。開發人力費用、伺服器、流量費用等。</li>
+<li>其他：5 萬。稅、交通、協作接洽雜支。</li>
+</ul>
+</blockquote>
+
+      </div>
+    </article>
+    <article class='post' id='post-496'>
+      <a title="January 31, 2017  6:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/11">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>總算把雜亂的投影片草稿整理過了，連結已經更新，投影片也開放任何人 comment。</p>
+<p>舊的草稿放在<a href="https://docs.google.com/presentation/d/1OzSa8b0XQ9D1zFHNtTL7SB3rzKK29gXMn2n66bGoOG4/edit?usp=sharing" rel="nofollow noopener">此</a> ，有需要還是可以參考～ <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-699'>
+      <a title="February  6, 2017  7:54am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/12">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/poga_po">@Poga_Po</a> 大大您好，我是<a href="https://grants.g0v.tw/projects/587c60722aee66001e902867" rel="nofollow noopener">政府資訊獵犬</a>的提案人，想在這兒請教以下問題：</p>
+<ol>
+<li>請問貴專案有要做資料格式的相關定義嗎? 還是是著重於建立大眾都能上傳資料的平台?</li>
+<li>貴平台有在蒐集空汙等即時資訊，想請問是否能與您共用資料的部分(供敝計畫中Bot的搜尋來源)?</li>
+</ol>
+<p>謝謝您提出這個好專案。</p>
+
+            <a data-link-to-post="711" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/12">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-711'>
+      <a title="February  6, 2017 12:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/13">Feb &#39;17</a>
+        <a data-link-to-post="699" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/12">▶ 111</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/poga_po/45/18_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Poga_Po' target="_blank" class=''>Poga_Po</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>hi  <a class="mention" href="/u/111">@111</a>,</p>
+<ol>
+<li>
+<p>系統核心會專注在最原始的 time series 資料格式（時間、key-value pairs、payload）的儲存。有特別需要的資料格式嗎？可以一起研究如何從原始資料自動輸出 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/smiley.png?v=5" title=":smiley:" class="emoji" alt=":smiley:"></p>
+</li>
+<li>
+<p>當然可以！所有檔案庫中的資訊都會有公開 API 讓其他系統整合這些即時資訊，所以各種利用方式都很歡迎～</p>
+</li>
+</ol>
+
+            <a data-link-to-post="722" class="post-replies button" href="/discuss.grants.g0v.tw/t/civil-archive/30/13">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-722'>
+      <a title="February  6, 2017  3:23pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/14">Feb &#39;17</a>
+        <a data-link-to-post="711" class="in-reply-to" href="/discuss.grants.g0v.tw/t/civil-archive/30/13">▶ Poga_Po</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/poga_po">@Poga_Po</a> 謝謝您<br>
+因為我們是要結合資料搜尋、自動回應，所以會在資料庫裡面需要插入各式各樣的分類標籤。<br>
+但是因為您會提供API，取用就十分方便，即時資訊查詢部分期待與您合作，以求省下重複作業的時間浪費。<br>
+若有幸能一起獲選，或後續能一起合作，希望能把整理的資料都弄成美麗的格式，方便後人使用:wink:<br>
+(我們也會做自動整理資料也XD，有機會跟您多學學:slight_smile:)</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/civil-archive/30/14">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

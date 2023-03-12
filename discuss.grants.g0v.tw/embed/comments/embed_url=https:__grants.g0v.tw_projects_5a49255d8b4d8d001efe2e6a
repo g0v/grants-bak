@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣植物辨識 app＋台灣植物影像資料庫 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/2">繼續討論</a>
+  <span class='replies'>16 個回覆</span>
+</header>
+
+    <article class='post' id='post-1618'>
+      <a title="January  8, 2018  1:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>請問目前預計將有建立多少種植物的資料庫以及將採用何種方式來建立機器學習模型? 這問題的出發點是, 台灣植物種類繁多, 具《臺灣植物誌》[1][2] 記載, 光維管束植物就有超過四千種,  要如何挑選並建立足夠目前常用的深度學習所需的大量資料, 可能會是個問題。</p>
+<p>[1] <a href="http://tai2.ntu.edu.tw/ebook.php?ebook=Fl.%20Taiwan%202nd" rel="nofollow noopener">http://tai2.ntu.edu.tw/ebook.php?ebook=Fl.%20Taiwan%202nd</a><br>
+[2] <a href="https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A4%8D%E7%89%A9%E8%AA%8C" rel="nofollow noopener">https://zh.wikipedia.org/wiki/臺灣植物誌</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1632'>
+      <a title="January 16, 2018  2:57pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>抱歉晚來回覆。</p>
+<p>我們已與荒野保護協會達成共識，會以大安森林公園的花卉為目標，大約在 50 種以上，準確數量需要再到現場詳細勘驗，預期也大約在這個數量級。</p>
+<p>關於建立機器學習模型的方式，將會運用深度學習：</p>
+<ul>
+<li>Data augmentation 方面會用 cropping, flipping, hue and brightness adjustments, whitening and normalization。</li>
+<li>模型方面會用 à trous convolutions，所有層都不會有 max pooling。</li>
+<li>Auxiliary loss 方面會用 Image stacking + odometry 資訊做 Simultaneous Localization And Mapping，Restricted Boltzmann Machines 做 image reconstruction。</li>
+</ul>
+<p>我們近日正在盡速修改提案，以便反映與荒野保護協會洽談的新進展。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1658'>
+      <a title="January 20, 2018  5:33am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>超實用專案耶!!!</p>
+<p>考不考慮把專案再簡化？ 成一個 library / SDK 供大家引用，可創造出更多可能，也易於專案驗收。<br>
+當然，也可以把這個 library / SDK 封裝成 app 作為引用的 demo 。</p>
+<p>類似概念： <a href="https://github.com/zxing/zxing" rel="nofollow noopener">https://github.com/zxing/zxing</a></p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/4">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1676'>
+      <a title="January 21, 2018  3:42am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/5">Jan &#39;18</a>
+        <a data-link-to-post="1658" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/4">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bear.prada' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bear.prada/45/413_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bear.prada' target="_blank" class='new-user'>bear.prada</a>
+        </h3>
+        <p>Hi <a class="mention" href="/u/yutin_liu">@YuTin_Liu</a> 謝謝你的建議，android這邊的專案會盡量依照Activity來切成不同模組，之後的成品會把各個我們的Activity的文件說明清楚intent裡所需要的參數以及return的參數。</p>
+<p>當然也會考慮把模組包成一個Fragment，這樣也比較好嵌入至別人既有的專案</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1682'>
+      <a title="January 21, 2018  7:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/6">Jan &#39;18</a>
+        <a data-link-to-post="1658" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/4">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>謝謝你的意見。考慮到使用者是針對一般大眾，做成完整可用的 app 會是第一要務。我在 iPhone app 這邊的開發，也會盡可能組織 app 架構，讓核心功能模組化，抽出作為 library 或是進一步包成方便給 CocoaPods 或 Carthage 等套件管理程式引用的格式，便不是難事。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1717'>
+      <a title="January 22, 2018  6:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kobe0308' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kobe0308/45/421_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kobe0308' target="_blank" class='new-user'>kobe0308</a>
+        </h3>
+        <p>剛好看到荒野新竹分會有個類似的計劃,提供給你們參考一下,應該是蠻有機會可以合作的.</p>
+<p>台灣食蟲植物棲地調查<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="http://sowhc.blogspot.com/favicon.ico" class="site-icon" width="16" height="16">
+      <a href="http://sowhc.blogspot.tw/2018/01/blog-post.html" target="_blank" rel="nofollow noopener">sowhc.blogspot.tw</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:107/85;"><img src="https://lh4.googleusercontent.com/proxy/hmwDk7ciAh6004TTGSk5syV2j04fpLcehS-kElryO4moL71L3OBSKsQj0JBjHqOrLyd71QhWIMwsBTPoeTeD_FK_ARHT7VRDSn8_7JqmcLhEwKN1W6D0UCGr-10U2ytG=w1200-h630-p-k-no-nu" class="thumbnail"></div>
+
+<h3><a href="http://sowhc.blogspot.tw/2018/01/blog-post.html" target="_blank" rel="nofollow noopener">台灣食蟲植物棲地調查</a></h3>
+
+<p> 　　目前台灣食蟲植物的相關研究資料相當欠缺，對於他們的分布位置所知甚少，而10餘種台灣本土食蟲植物中，有幾種已被列入保育等級，例如長葉茅膏菜的保育等級為瀕臨絕滅、長距挖耳草為嚴重瀕臨絕滅。          為了能夠瞭解食蟲植物目前在台灣的分布概況，作為外來保育工作的參考，邀...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+            <a data-link-to-post="1732" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/655/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1732'>
+      <a title="January 22, 2018 11:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/8">Jan &#39;18</a>
+        <a data-link-to-post="1717" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/7">▶ kobe0308</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>非常感謝你提供的資訊，這個題目還滿有意思的，台灣本土植物確實彌足珍貴哪。如果能有目前提案的執行成功經驗，未來擴展應用到這個題目應該滿有希望的！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1735'>
+      <a title="January 22, 2018  1:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/9">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kobe0308' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kobe0308/45/421_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kobe0308' target="_blank" class='new-user'>kobe0308</a>
+        </h3>
+        <p>想問一些關於資料集的問題:<br>
+根據計畫的內容"預估每種花卉蒐集 800 張影像，以 70 種花卉估算，總計需蒐集 56,000 張花卉影像。"<br>
+Q1: 你們預計把每一類800張影像擴充到幾張呢?<br>
+Q2: 影像檔案裡的EXIF資訊是作為影像前處理用嗎? 還是作為NN輸入特徵用呢?</p>
+<p>關於模型的問題:<br>
+"模型方面會用 à trous convolutions，所有層都不會有 max pooling"<br>
+Q3:這部分的考量點是因為要在手機執行的關係嗎? 還是其他原因呢? Transfer learning?</p>
+<p>關於App上執行的問題:<br>
+Q4:全部的Inference運算都是在手機端嗎? 還是分散式運算?(Phone + Cloud)<br>
+Q5:在iOS上使用Core ML Framework,那Android呢? (NN API? 若是如何解決版本破碎化的問題)</p>
+<p>關於Server的問題:<br>
+Google 雲端運算伺服器費用粗估：每個月 USD$310，約為每個月新台幣 9,100 元。<br>
+Q6:會用到哪些功能以及費用是如何評估的呢?</p>
+<p>因為你們的專案蠻有意思的 所以問題有點多 請多包涵 : )</p>
+
+            <a data-link-to-post="1763" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/655/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1739'>
+      <a title="January 22, 2018  2:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/10">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/purelyvivid' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/purelyvivid/45/427_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/purelyvivid' target="_blank" class='new-user'>purelyvivid</a>
+        </h3>
+        <p>聽說在植物分類學, 科級(Family)的分類幾乎都是以花形的差異來命名 (當然現在肯定會加上分子生物學資訊), 像是甘藷是旋花科, 就是依照花型, 所以用花型來分類是有學理依據的</p>
+<p>使用cifar-10先預作訓練雖然也是合理,但有考慮用flower dataset加進來訓練嗎? <a href="http://www.robots.ox.ac.uk/~vgg/data/flowers/" rel="nofollow noopener">http://www.robots.ox.ac.uk/~vgg/data/flowers/</a></p>
+<p>很看好你們的專案唷, 加油~~</p>
+
+            <a data-link-to-post="1744" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/655/10">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1744'>
+      <a title="January 23, 2018  1:19am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/11">Jan &#39;18</a>
+        <a data-link-to-post="1739" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/10">▶ purelyvivid</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/purelyvivid' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/purelyvivid/45/427_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/purelyvivid' target="_blank" class='new-user'>purelyvivid</a>
+        </h3>
+        <p>另外，假如一種植物只有20張，用one shot learning是否有機會呢？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1763'>
+      <a title="January 23, 2018  2:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/12">Jan &#39;18</a>
+        <a data-link-to-post="1735" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/9">▶ kobe0308</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi, 我在這裡一併統整團隊成員們的回覆：</p>
+<p>Q1: 你們預計把每一類 800 張影像擴充到幾張呢?<br>
+A1: 限於人力與時間，我們應該不會擴充。</p>
+<p>Q2: 影像檔案裡的 EXIF 資訊是作為影像前處理用嗎? 還是作為 NN 輸入特徵用呢?<br>
+A2: EXIF 的資訊會經過處理，但是原始資訊和處理過的都會作為 NN 的特徵。</p>
+<p>Q3: “模型方面會用 à trous convolutions，所有層都不會有 max pooling” —— 這部分的考量點是因為要在手機執行的關係嗎? 還是其他原因呢? Transfer learning?<br>
+A3: 能夠在手機上跑是一個避免模型參數過多的原因之一，但是主要的原因是想要優化 generalization。我們從神經系統知道 receptive field 必須要至少大到一定的程度辨識才會好，而在限制模型層數下加大 receptive field 的好方法之一是 à trous convolutions。</p>
+<p>Q4: 全部的 Inference 運算都是在手機端嗎? 還是分散式運算? (Phone + Cloud)<br>
+A4: 目前規劃都在手機端計算。</p>
+<p>Q5: 在 iOS 上使用 Core ML Framework，那 Android 呢? (NN API? 若是如何解決版本破碎化的問題)<br>
+A5: Android 端會採用 Tensorflow Lite，此方案同時也可以享受到 NN API 的好處。</p>
+<p>Q6: Google 雲端運算伺服器費用粗估：每個月 USD$310，約為每個月新台幣 9,100 元 —— 會用到哪些功能以及費用是如何評估的呢?<br>
+A6: 這是最陽春的估計，只用了不到 8GB 的 main memory 和一個 K80 GPU。我們預期可能會需要 P100 GPU，並且在做 hyperparameter sweeps 的時候使用更多的機器和加速器。</p>
+<p>關於植物分類學部分，這方面我們不是專家，粗淺所學得知，近代的系統分類學，的確會採用植物基因組，來計算親緣譜系關係，而傳統分類學上以特徵為分類依據，上至花序、下至解剖特徵，就已經包羅萬象，在本計畫中僅以影像和相關感測資訊，其實不足以納入所有特徵判斷。不過我們畢竟不是做植物分類的學術研究，而是希望將這些分類成果帶入民間應用，從地方區域的花卉辨識出發，應該是足夠的。</p>
+<p>Q: 使用 cifar-10 先預作訓練雖然也是合理，但有考慮用 flower dataset 加進來訓練嗎?<br>
+A: Flowers dataset 有大約 8000 張圖片分散在 100 種花上（但有些種類有多達 200 張，有些則遺憾地只有 40 張）。因為有些種類可能會跟我們有重複，所以使用它預作訓練應該會有幫助，謝謝提供這份資訊。</p>
+<p>Q: 假如一種植物只有 20 張，用 one shot learning 是否有機會呢？<br>
+A: 一般的共識是小資料適合 non-parametric 或是 Bayesian inference，我們現階段偏好 non-parametric 的方式，也就是把所有資料都掃一遍找出最像的，詳細來說可以參考 Koch, Siamese Neural Networks for One-shot Image Recognition。</p>
+<p>一個更難的問題是有些類別資料大，有些類別資料小，這時候牽涉到系統的 fairness 跟 bias，這還是個開放問題。不過總的來說，實務上處理這類資料大小的問題，最有效的解法是，在情況允許下從根源的資料來源下手。這也是本計畫提出的解決方案。</p>
+
+            <a data-link-to-post="1809" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/655/12">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1809'>
+      <a title="January 24, 2018  3:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/13">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/missing.link.hsing1/45/254_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank" class=''>missing.link.hsing1</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Ｈi, 公視目前有一個文化部的前瞻計畫在執行，關於影像辨識檢索，目前我們正在尋找有合作意願的開發者，不曉得是否有機會和你們聊聊。<br>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/document/d/1DIdUA0JglinQTw_pNRm-_A6UDNAQ8DDA84c6GzPefpI/edit" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/document/d/1DIdUA0JglinQTw_pNRm-_A6UDNAQ8DDA84c6GzPefpI/edit" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-docs-logo"></span></a>
+
+<h3><a href="https://docs.google.com/document/d/1DIdUA0JglinQTw_pNRm-_A6UDNAQ8DDA84c6GzPefpI/edit" target="_blank" rel="nofollow noopener">公視4K 影像檢索分享平台招標規範</a></h3>
+
+<p>公共電視 4K 影像檢索分享平台招標規範 計畫說明 計畫時程及預期違約金 預算數量 採購所含之系統項目 系統規格： 專案範疇 影像格式 聲音格式 低解影像格式 前台影像檢索操作介面 檢索功能 影像辨識功能 學習反饋功能 瀏覽功能 MetaData 維護 分享功能 下載功能 後台資料上傳及管理功能 帳戶管理 檔案上傳 基本資料欄位建立 手動建立 系統資動辨識建立 轉檔功能 MetaData 管理維護 部署方式 Capacity and Capability 開放原始碼 著作權與授權規範 程式碼...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>我本身是新竹荒野，對植物辨識也很有興趣，目前也在公視推動綠屋頂計畫，只是不曉得辨識植物和辨識一般影像是否可以結合，如果可以那就太好了。<br>
+<a href="https://docs.google.com/document/d/1Uf82RFPGRrrZ9XnI8AWRH2uxN8UNkA5m_8aSnDzT7BA/edit" rel="nofollow noopener">https://docs.google.com/document/d/1Uf82RFPGRrrZ9XnI8AWRH2uxN8UNkA5m_8aSnDzT7BA/edit</a></p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/13">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1946'>
+      <a title="February 25, 2018  2:55am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/14">Feb &#39;18</a>
+        <a data-link-to-post="1809" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/13">▶ missing.link.hsing1</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi，由於我們人力有限，現階段只能專注在這份提案，未來若有機會再聊聊合作的可能 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1985'>
+      <a title="September  5, 2018  2:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/15">Sep &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yang.tzuchen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yang.tzuchen/45/460_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yang.tzuchen' target="_blank" class='new-user'>yang.tzuchen</a>
+        </h3>
+        <p>您好，很高興看到台灣有此系統的相關服務建置，目前我在協助特生中心執行相關計畫，特生中心也非常有意願提供相關資料與協助，不知您是否有意願一同討論，請與我聯繫  謝謝</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2379'>
+      <a title="October  4, 2019  7:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/16">Oct &#39;19</a>
+        <a data-link-to-post="1809" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/655/13">▶ missing.link.hsing1</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>嗨 ! 我看到公視的屋頂綠化計畫文件</p>
+<p>關於相關綠屋頂政策，也可以考慮申請「田園城市」政策的補助機制 <a href="https://farmcity.taipei/city/m0/index.php" rel="nofollow noopener">https://farmcity.taipei/city/m0/index.php</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2410'>
+      <a title="January 30, 2020  2:08pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/17">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>(我非專案成員，僅協助補充相關連結供網友瀏覽參考)</p>
+<p>Smart Flower Atlas<br>
+powered by AiR(AI+AR)<br>
+智慧型植物辨識圖鑑 App<br>
+<a href="https://plant-tw.github.io/" class="onebox" target="_blank" rel="nofollow noopener">https://plant-tw.github.io/</a></p>
+<p>報導文章：【2018 g0v 獎助金】台灣首款植物辨識開源系統，AI 和 AR 協尋台灣特有種<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico" class="site-icon" width="16" height="16">
+      <a href="https://g0v.news/2018-g0v-%E7%8D%8E%E5%8A%A9%E9%87%91-%E5%8F%B0%E7%81%A3%E9%A6%96%E6%AC%BE%E6%A4%8D%E7%89%A9%E8%BE%A8%E8%AD%98%E9%96%8B%E6%BA%90%E7%B3%BB%E7%B5%B1-ai-%E5%92%8C-ar-%E5%8D%94%E5%B0%8B%E5%8F%B0%E7%81%A3%E7%89%B9%E6%9C%89%E7%A8%AE-83d0378c6b94" target="_blank" title="12:01PM - 29 November 2018" rel="nofollow noopener">Medium – 29 Nov 18</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:67/37;"><img src="https://miro.medium.com/max/1048/1*DabYXmn7VBUFsc3cKhSrlQ.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://g0v.news/2018-g0v-%E7%8D%8E%E5%8A%A9%E9%87%91-%E5%8F%B0%E7%81%A3%E9%A6%96%E6%AC%BE%E6%A4%8D%E7%89%A9%E8%BE%A8%E8%AD%98%E9%96%8B%E6%BA%90%E7%B3%BB%E7%B5%B1-ai-%E5%92%8C-ar-%E5%8D%94%E5%B0%8B%E5%8F%B0%E7%81%A3%E7%89%B9%E6%9C%89%E7%A8%AE-83d0378c6b94" target="_blank" rel="nofollow noopener">【2018 g0v 獎助金】台灣首款植物辨識開源系統，AI 和 AR 協尋台灣特有種</a></h3>
+
+<p>前瞻性的人工智慧影像辨識開源系統，結合前沿的 AI 與 AR 技術，開發大安森林公園花卉辨識圖鑑 App。</p>
+
+  <p><span class="label1">Reading time: 6 min read</span>
+    </p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/655/17">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

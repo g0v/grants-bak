@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Future Image - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-1232'>
+      <a title="July 21, 2017  4:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/future-image/483/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>使用 氣象數據 進行影像預測 的確很有創新思維！酷 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/heart_eyes.png?v=5" title=":heart_eyes:" class="emoji" alt=":heart_eyes:"></p>
+<p>幾個問題想問問，</p>
+<ol>
+<li>公開影像資料庫 所產生的高額流量費用，預計要如何解決？</li>
+<li>是如何驗證 / 發現，「預測影像」比起「氣象數據」更有助於登山或攝影愛好者，做出正確的判斷？這應該是個很有意思的故事。</li>
+</ol>
+<p>另，開放授權的部分屬於著作權類，推薦使用 <a href="https://creativecommons.org/licenses/" rel="nofollow noopener">https://creativecommons.org/licenses/</a> ，會更明確標示出使用規範喔 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/sparkler.png?v=5" title=":sparkler:" class="emoji" alt=":sparkler:"></p>
+
+            <a data-link-to-post="1241" class="post-replies button" href="/discuss.grants.g0v.tw/t/future-image/483/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1241'>
+      <a title="July 22, 2017  9:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/future-image/483/3">Jul &#39;17</a>
+        <a data-link-to-post="1232" class="in-reply-to" href="/discuss.grants.g0v.tw/t/future-image/483/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/foxpaw_sig' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/foxpaw_sig/45/302_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/foxpaw_sig' target="_blank" class=''>foxpaw_sig</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>1, 關於流量：<br>
+a. 圖片是每小時上傳一張，前期資料科學所需的圖片不需要太高解析度，因此可以減少流量。發展完之後的呈現才需要較高解析度，屆時才使用檔案較大的圖片。以此節省不必要的流量。<br>
+b. 目前我們團隊使用的是第一年免費的Google雲端服務，會盡快在這段緩衝期間評估流量，改良出比較好的做法。</p>
+<p>2, 如何驗證影像比起數據更能幫助不同類型的使用者？<br>
+人腦天生對圖像的感知相對於數據是更為直觀的，數個月前我們以問卷和訪談的方式進行了田野調查，調查發現現今大眾在給予相同預測時，對天氣描述卻不盡相同，如何能將天氣數據轉換為盡可能相同的認知，是我們想要努力的目標．天氣數據認知的精準度對於而攝影愛好者及登山群體來說是更為重要的，是專業度與安全性的基礎，因此我們希望將數據換一種方式，透過影像直觀的呈現，希望能降低數據內化的門檻，讓一般大眾與有精準需求的人群，用更簡易的方式獲取資訊．影像與數據並非對立，而是相互輔助的，影像為直觀資訊，不足的地方再輔以數據．<br>
+對於登山者而言，先以影像了解天氣概況，再搭配數據，如紫外線指數．日出日落時間預測．降雨機率等數據，提升登山安全度；搭配上傳平台，以登山者的群體力量，建構出各山脈的氣象地圖，以此補足政府釋出的公開資源，讓往後的登山者，不用再”參考“隔壁山脈的氣象數據，讓氣象在地化．</p>
+<p>非常感謝您的提問以及開放授權的建議，我們團隊會好好研究與改善。</p>
+
+            <a data-link-to-post="1537" class="post-replies button" href="/discuss.grants.g0v.tw/t/future-image/483/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1537'>
+      <a title="August  1, 2017  5:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/future-image/483/4">Aug &#39;17</a>
+        <a data-link-to-post="1241" class="in-reply-to" href="/discuss.grants.g0v.tw/t/future-image/483/3">▶ foxpaw_sig</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/foxpaw_sig' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/foxpaw_sig/45/302_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/foxpaw_sig' target="_blank" class=''>foxpaw_sig</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>新網址: <a href="http://mixtureq.tw/future/1" rel="nofollow noopener">MixtureQ.tw</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/future-image/483/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

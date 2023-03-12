@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>登山GPS學習APP - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-480'>
+      <a title="January 31, 2017  1:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kcwu/45/149_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kcwu' target="_blank" class=''>kcwu</a>
+        </h3>
+        <ol>
+<li>你提到這份提案是「代為提出」, 那預計執行者是誰?</li>
+<li>“APP” 是指哪個手機平台的 APP? 還是要做跨平台的 APP?</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-486'>
+      <a title="January 31, 2017  2:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mobilegpshiking/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank" class=''>mobilegpshiking</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>已依您的題出問題修改內容<br>
+刪除代為提出部分，以共同提案人取代之<br>
+並增加執行者的部分，以共同提案人分工執行計劃<br>
+APP預計以android與IOS兩個主要系統為主，內容部分已新增</p>
+<p>非常敢謝您的意見，希望您能繼續提出提案內容的問題<br>
+讓我們的提案能更加完善，我們正透過FB社群，持續修正提案問題。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-504'>
+      <a title="February  1, 2017  7:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒一下，依照本獎助金實施細則，提案人需為「居住於台灣或具台灣國籍之自然人」：<a href="http://bit.ly/2jTPrgA">http://bit.ly/2jTPrgA</a>（團隊報名請同時參考網站 QA 第一題）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-535'>
+      <a title="February  2, 2017  4:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/typebrook' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/typebrook/45/160_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/typebrook' target="_blank" class='new-user'>typebrook</a>
+        </h3>
+        <ol>
+<li>請問GitHub的Repo已經開設了嗎? 或是有整個計劃的Timeline?</li>
+<li>內文提到:</li>
+</ol>
+<blockquote>
+<p>Andoid APP：王天利 兄 (綠野遊蹤 作者)<br>
+綠野遊蹤簡化版本製作最終APP的成品</p>
+</blockquote>
+<pre><code>所以APP成品的目標，是簡化現有的綠野遊踨，並搭配適合初學者的UX和教學嗎?
+還是會再加入新的功能?</code></pre>
+
+            <a data-link-to-post="541" class="post-replies button" href="/discuss.grants.g0v.tw/t/gps-app/256/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-541'>
+      <a title="February  2, 2017  7:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/6">Feb &#39;17</a>
+        <a data-link-to-post="535" class="in-reply-to" href="/discuss.grants.g0v.tw/t/gps-app/256/5">▶ typebrook</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mobilegpshiking/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank" class=''>mobilegpshiking</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>1.目前尚未開設</p>
+<ol start="2">
+<li>
+</li>
+</ol>
+<p>目前 android系統上登山用APP依功能入門難度區分(有中文界面)<br>
+1.Locus maps pro (中高)<br>
+2.oruxmaps  (中高)<br>
+3.綠野遊蹤 (中低)<br>
+計畫目標是補足最低階層部分(年長及3C不熟悉者)<br>
+簡化操作目標<br>
+1.打開APP就能提供資訊(開起APP自動開啟定位功能)<br>
+2.無需任何安裝及設定(地圖會自動安裝並定期更新，GPS設定會以省電及可接受精穩度)</p>
+<p>教學部分目標<br>
+使用者能瞭解所提供之資訊內容<br>
+例如：地圖判讀(路徑)，遇險如何取得座標通報定位</p>
+<p>對於有進一步功能需求者，將會於APP上引導至現有APP<br>
+以免於追求功能過程中，造成APP過度複雜及教學內容過多，導致使用者失去耐心</p>
+<p>由於IOS目前無適合中高功能之APP(中文，且可讀取向量地圖APP，專門登山使用)<br>
+因此iOS計畫會先開發簡易教學版本，在以此版本增加功能，另出符合進階使用的的APP<br>
+以補足iOS目前缺乏之部分<br>
+若在開發期間，以有合適之APP，將改以引導之方式，同android系統方式處理</p>
+
+            <a data-link-to-post="636" class="post-replies button" href="/discuss.grants.g0v.tw/t/gps-app/256/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-636'>
+      <a title="February  5, 2017  3:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/7">Feb &#39;17</a>
+        <a data-link-to-post="541" class="in-reply-to" href="/discuss.grants.g0v.tw/t/gps-app/256/6">▶ mobilegpshiking</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mobilegpshiking/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mobilegpshiking' target="_blank" class=''>mobilegpshiking</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>以達回覆上限，以編輯舊內容回覆<br>
+有的，與Dija 合作也在未來的預想之中<br>
+但由於不確定性過高，及另需額外的資金<br>
+尚為與Dija作者也所接觸</p>
+<p>但預計想法如下<br>
+此地圖APP中，融入Dija功能<br>
+改以將記錄的軌跡，定時上傳<br>
+並於記錄時取得使用者同意<br>
+將上傳軌跡用於OSM編輯<br>
+(區分整理軌跡所記錄的資訊，如地點、名稱等及如何運用 尚有問題待克服)</p>
+<p>舉例<br>
+於手機上記錄的軌跡，迷路時可利用軌跡回到原路徑<br>
+記錄的軌跡每5分鐘透過網路嘗試上傳，(接續Dija功能)，以免過於耗電。</p>
+<p>使用者若以飛航模式登山<br>
+則可改用手動方式，於休息時或有收訊路段，上傳軌跡</p>
+<p>若無網路收訊，則回到Dija功能，以簡訊傳送座標<br>
+簡訊與軌跡若混合使用(有些路段無網路，有些有)<br>
+一個使用者，系統可建立在兩個儲存資訊<br>
+軌跡資料<br>
+簡訊資料<br>
+如此使用者失聯時，可整合兩者資料，判段使用者可能的所在位置。</p>
+<p>在取得使用者同意下，上傳的軌跡能直接被OSM使用<br>
+就能達成<br>
+OSM地圖-&gt;使用者-&gt;軌跡-&gt;OSM地圖</p>
+<p>以盡早減少迷路時對軌跡的依賴程度<br>
+註：<br>
+大多使用者無習慣登山前下載軌跡或部分路徑軌跡難以取得<br>
+造成使用者迷路時通常手機內僅有OSM地圖，而無正確的軌跡<br>
+透過編輯OSM地圖，可改善一定程度問題</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-732'>
+      <a title="February  7, 2017  4:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/8">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感覺這個提案跟 <a href="https://grants.g0v.tw/projects/58876f6d29941d001ebebecd" rel="nofollow noopener">Dija</a> 想達到的目的還滿接近的，雖然做的方向不同，可是好像也可以結合，不知道有沒有一起合作，減少重複的工作</p>
+
+            <a data-link-to-post="826" class="post-replies button" href="/discuss.grants.g0v.tw/t/gps-app/256/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-826'>
+      <a title="February  8, 2017  4:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/10">Feb &#39;17</a>
+        <a data-link-to-post="732" class="in-reply-to" href="/discuss.grants.g0v.tw/t/gps-app/256/8">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/timothy/45/155_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Timothy' target="_blank" class=''>Timothy</a>
+        </h3>
+        <p>Hi，我是此APP的合作夥伴。本APP開發方向與族群與Dija不同，Dija私以為比較偏專業登山者、喜愛登山民眾取向(登山等級好比中學生以上)，登大山、預計登山時間超過1天的行程等像麵包屑一樣的使用者輔助工具。</p>
+<p>我們的APP比較偏登山初學者、一般山區遊客族群以上(登山等級好比剛出生、幼幼班等，要把他們拉上小學生程度)，實際造成迷路型山難基本上都是這個族群，解決方案的面向不同。</p>
+<p>提供智慧型裝置輔助登山安全的教學，學會GPS定位、取得能快速下載小容量之不需網路也可查看的離線地圖(先依GPS定位優先取得所在位置的圖資確保能查看+透過自動排序下載取得全國圖資)，主動教導民眾預防迷路+被動急難時加速搜救(容易回報座標)，讓全民有普及化的科技輔助登山安全概念，建立山難預防勝於搶救的觀念。</p>
+<p>Dija的概念非常棒，如果在不影響本APP講求的小巧實用直覺的原則下，能與Dija合作甚至融合，相輔相成，那真的就太理想了。只要是能提昇山難安全的預防作為，我想是樂觀其成的，就如同我們的提案人所提倡的一樣。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/gps-app/256/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

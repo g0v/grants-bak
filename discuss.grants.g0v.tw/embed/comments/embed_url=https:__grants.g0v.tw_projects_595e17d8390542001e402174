@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>五村食物雲 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1171'>
+      <a title="July 18, 2017  3:58pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/410/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>這個概念很有意思，回收剩食並讓他人可以使用。可是這其中有些問題，最重要的是要保障所交易到的剩食品質仍有一定程度的保障。</p>
+<p>請問開發者，剩食的品質該如何保障呢？如何避免果菜市場降價求售時，已經是在販售品質比較低劣的食物，降低大家消費體驗，或甚至有食安風險？謝謝。</p>
+
+            <a data-link-to-post="1439" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/410/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1179'>
+      <a title="July 19, 2017 11:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/410/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>請問，如果媒合目標是果菜市場跟 NGO 組織的話，花時間做一個 app 的必要性是什麼呢？<br>
+另外請教你們手上有提供供餐服務的NGO組織列表嗎？</p>
+
+            <a data-link-to-post="1440" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/410/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1439'>
+      <a title="July 27, 2017  3:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/410/4">Jul &#39;17</a>
+        <a data-link-to-post="1171" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/410/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，感謝您的提問，作為一個中間的資訊提供者，如同airbnb的模式，要一一檢視掌握交易標的的品質的經營成本過高，只能透過互評機制，讓不佳的供應商或者購買者排序下降，另外，一般專業的供餐單位如餐廳、有送餐服務的NGO，都有相當的食安與食材辨識的能力，這也是我們的交易對象不選擇一般消費者的原因；一方便一般消費者較缺乏辨識能力、又有可能等待降價而侵蝕原本獲利、溝通成本也過高，在我們初步溝通之後，供應商不偏好將剩食銷售給一般消費者。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1440'>
+      <a title="July 27, 2017  3:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/410/5">Jul &#39;17</a>
+        <a data-link-to-post="1179" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/410/3">▶ hlb</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allenyu1789/45/127_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allenyu1789' target="_blank" class=''>allenyu1789</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，果菜市場的規模與品項都相當多，一般NGO組織的人力也較為缺乏，一個可以簡化交易流程、提供詳盡即時資訊的平台我們認為是必要的。由於團隊內有長期任職於NGO組織的成員，目前是有NGO組織列表的。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/410/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

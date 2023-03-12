@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Middle2 開放 PaaS 平台 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/2">繼續討論</a>
+  <span class='replies'>11 個回覆</span>
+</header>
+
+    <article class='post' id='post-55'>
+      <a title="January  5, 2017  5:04am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>可以以 non-geek 的角度簡單說明 Paas 是什麼，以及它的功能嗎？<br>
+對於 g0v 社群開發者與使用者來說，這個專案會提供什麼好處？</p>
+
+            <a data-link-to-post="172" class="post-replies button" href="/discuss.grants.g0v.tw/t/middle2-paas/29/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-172'>
+      <a title="January 10, 2017  2:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/3">Jan &#39;17</a>
+        <a data-link-to-post="55" class="in-reply-to" href="/discuss.grants.g0v.tw/t/middle2-paas/29/2">▶ ipa</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>我把介紹投影片前半部改成用情境說明取代原來的使用說明，大概的描述在現在 g0v 黑客松的現況，以及如果 middle2 能夠擴張到給大家使用時，能夠有什麼樣的改進!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-375'>
+      <a title="January 26, 2017  5:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>想要確認：</p>
+<ol>
+<li>經費預計如何分配和使用？可能說明在設計、開發、行銷的人力或其他方面的預算配置。</li>
+<li>成果哪些部分會用開源的方式釋出？</li>
+<li>驗收標準除了專案數量之外，是否有其他可以質化/量化的評估標準？至少不應該是隨便一個人去開 10 個沒人用的專案。</li>
+</ol>
+
+            <a data-link-to-post="655" class="post-replies button" href="/discuss.grants.g0v.tw/t/middle2-paas/29/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-578'>
+      <a title="February  3, 2017  8:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p>您好，因 3/6 有改獎助金執行細則，要請您修改提案，加上社群參與與開源元件的說明，謝謝！</p>
+<p>「提案需說明社群如何參與，以及產出的開源元件或文件（請參考<a href="https://hackmd.io/AwQwrAxsBM0KYFoDscCMAzBAWAHCRARqgJzEJjpwQDMAJkmFsXNUA===#%E8%AB%8B%E8%AA%AA%E6%98%8E%E5%B0%88%E6%A1%88%E7%B5%90%E6%9D%9F%E6%99%82%EF%BC%8C%E6%9C%83%E7%94%A2%E5%87%BA%E7%9A%84%E9%96%8B%E6%BA%90%E8%BB%9F%E9%AB%94%E5%A5%97%E4%BB%B6%E6%88%96%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E6%96%87%E4%BB%B6%EF%BC%88%E8%AB%8B%E6%A2%9D%E5%88%97%E5%80%8B%E5%88%A5%E5%85%83%E4%BB%B6%E7%9A%84%E8%BC%B8%E5%85%A5%E8%BC%B8%E5%87%BA%E6%88%96%E5%85%B6%E5%8A%9F%E8%83%BD%EF%BC%89%EF%BC%9F">範例</a>），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。」</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="/discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/203e1f320987a503a00e3ffc7f4c65d85db34c7b.png" class="site-icon" width="128" height="128">
+      <a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">g0v 公民科技創新獎助金</a>
+  </header>
+  <article class="onebox-body">
+    <img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c4e27f691e6af93fc306297d65a388aedadc1732.png" class="thumbnail onebox-avatar" width="128" height="128">
+
+<h3><a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">獎助金實施細則修正 - 決選機制說明：請提案人保留 3/6 時間</a></h3>
+
+<p>提案需說明社群如何參與，以及產出的開源元件或文件（請參考範例），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。 決選入圍機制說明：請各位提案者保留 2017/3/6 全天時間。3/1 入圍決選公布後，入圍者須提供 5 分鐘提案簡介影片，並於 3/6 與評選委員現場問答。 評選審查依據內容說明： 最終版本提案內容 提案者簡歷 「提案追問團」對於提案者針對其提問的回應或內容修改之評估     g0v 公民科技創新獎助金實施細則完整版 v0.3，任何問題歡迎連絡執行團隊：...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+
+            <a data-link-to-post="657" class="post-replies button" href="/discuss.grants.g0v.tw/t/middle2-paas/29/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-593'>
+      <a title="February  3, 2017  2:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/pellaeon' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/pellaeon/45/173_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/pellaeon' target="_blank" class='new-user'>pellaeon</a>
+        </h3>
+        <p>請問這個 project 和 <a href="http://flynn.io" rel="nofollow noopener">flynn.io</a> 比較的話特殊性在哪？需求上有何不同讓您需要開一個新的專案？</p>
+
+            <a data-link-to-post="659" class="post-replies button" href="/discuss.grants.g0v.tw/t/middle2-paas/29/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-599'>
+      <a title="February  4, 2017  8:19am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/7">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/login?redirect=/users/profile">https://grants.g0v.tw/login?redirect=/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-655'>
+      <a title="February  5, 2017 10:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/8">Feb &#39;17</a>
+        <a data-link-to-post="375" class="in-reply-to" href="/discuss.grants.g0v.tw/t/middle2-paas/29/4">▶ hlb</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <ol>
+<li>
+<p>已經於提案內容中補充經費預計使用方式。</p>
+</li>
+<li>
+<p>成果會分為程式碼部分和文件部分，程式碼部分現在已經使用 BSD Licnese 開放，文件部分預計以 CC0 開放授權，也已於提案內容中補充。</p>
+</li>
+<li>
+<p>KPI 的部分我有考慮過幾個指標，但並未找到適合的指標，例如 page view 或是存取次數指標的問題會在於好的服務 page view 不一定高，我自吹自擂一下 XD 我在基礎建設松就做 g0v search api，把 g0v 各種資料整合在一個 API 中 (<a href="http://api.search.g0v.io/" rel="nofollow noopener">http://api.search.g0v.io/</a>) ，這個在基礎松中大家都覺得有用，並也有前端工程師正規劃整合入 g0v 首頁中。這是個對 g0v 社群有用的服務，但是現在他一天的存取次數不到 20 次，因為他還未被整合進前端中，如果要把存取次數也整合進這個提案的指標中，變成在平台上使用的各專案的推廣跟進度推進也都變成我這平台的責任，這樣的 KPI 也太沉重。</p>
+</li>
+</ol>
+<p>另外 uptime 的指標不適合的地方在於這個提案目前較難以全職人力來因應緊急狀況，所以我無法保證 uptime 的指標，但因為我自己的服務都放在上面，我只能保證我會盡力維護 uptime 。</p>
+<p>所以結果能想到的指標也許是能夠幫助到的 g0v 專案數量是比較適合的。<br>
+現在沒人用的專案不代表他沒價值，middle2 的目標是希望雖然這專案目前沒人用，但是至少他可以一直處於被人能存取能瀏覽的狀態，如此一來，未來哪個有需要的人突然看到並發現，也許有一天他就變有用了了。(我自己本身也有些專案都是一開始自己做著好玩的，先把資料收集和呈現自動化完成並放著，結果過了一兩年後因為新聞事件契機結果突然使用人數增加，像是 關貿進出口資料 <a href="http://portal.g0v.ronny.tw" rel="nofollow noopener">portal.g0v.ronny.tw</a> 一樣，2013年11月做出來的，但是 2014年10月因為豬油事件造成使用人數增加)</p>
+<p>所以我認為以專案數做為指標至少是還有幫助的，不管在當下他有沒有用處。</p>
+<p>我也更新了指標的部分，加上了會在黑客松推廣的次數的指標，以便讓更多有需要的人可以使用到。</p>
+<p>若能想到其他適合的指標，希望也不吝能提供給我，謝謝!</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-657'>
+      <a title="February  5, 2017 10:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/9">Feb &#39;17</a>
+        <a data-link-to-post="578" class="in-reply-to" href="/discuss.grants.g0v.tw/t/middle2-paas/29/5">▶ clkao</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>多謝提醒，我已經將提案內容更新完成!<br>
+(未滿20字再碎碎念一下 XD 為了增加新的項目而要編輯時，各項目的順序好像也有嚴格要求，但是在編輯頁面因為原來範本已經被蓋掉了，結果我不知道新的項目順序要放哪，剛剛編輯時一直在調各項目順序，建議在缺項目的提示那邊，可以兩個作法選一個，比較簡單作法是把 “xxx is missing” 改成 "xxx is missing，範例可參考: <a href="http://foo.com/ooo" rel="nofollow noopener">http://foo.com/ooo</a> " 讓編輯者可以找到範例的 hackmd ，另一個作法是把 “xxx is missing” 改成 “xxx is missing ，請把他放在 ooo 後面”)<br>
+(上面這個需求已經 issue 開在 <a href="https://github.com/g0v/grantdash/issues/33" rel="nofollow noopener">https://github.com/g0v/grantdash/issues/33</a> XD)</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-659'>
+      <a title="February  5, 2017 11:16am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/10">Feb &#39;17</a>
+        <a data-link-to-post="593" class="in-reply-to" href="/discuss.grants.g0v.tw/t/middle2-paas/29/6">▶ pellaeon</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ronnywang/45/46_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ronnywang' target="_blank" class='staff'>ronnywang</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p><a href="http://flynn.io" rel="nofollow noopener">flynn.io</a> 剛查了一下，他是 2013 年 7 月開始的專案，而 middle2 目前程式碼放在 <a href="https://github.com/ronnywang/hisoku" rel="nofollow noopener">https://github.com/ronnywang/hisoku</a> ，是我從 2012 年 7 月就開始的專案。所以我比 flynn 還更早做 XD 在 2012 年時沒有什麼其他選擇，因此我選擇了自行開發一套 PaaS ，隨著我做了許多 g0v 相關的專案，也讓 middle2 的功能越來越完整，我也非常了解 middle2 的架構。</p>
+<p>因此在這次 grant ，我選擇的是使用這個我最熟悉，並且也已經有許多專案在上面穩定跑了好幾年的架構的。如果要改用 <a href="http://flynn.io" rel="nofollow noopener">flynn.io</a> 的話對我的成本會是更高的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-662'>
+      <a title="February  5, 2017  2:31pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/11">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hlb/45/74_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hlb' target="_blank" class=''>hlb</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>ronnywang,</p>
+<p>感謝補綴。</p>
+<p>如果指標訂成「改寫完畢後的 N 個月，有超過 M 個每月用量大於 X 的專案」這種形式如何？我想該用量只要略大於 g0v 核心族群用戶，在短期目標上就有意義。</p>
+<p>例如這 M 個 civic tech project 專案有任一個月超過若干 pv，代表這上面 host 的是有人在用的專案，而且 middle2 平台對於他們有幫助。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-969'>
+      <a title="March 20, 2017  8:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/12">Mar &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/claire18412/45/126_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/claire18412' target="_blank" class=''>claire18412</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>嗨~您好，以下是0306評選會議當天評審給的建議，Kick- off 當天有給您一份，再將內容附上，供您之後參考 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p>評審建議：</p>
+<blockquote>
+<ol>
+<li>可考慮如何解決公開薪資所造成的錨定效應，避免將勞工資歷、薪資與工時規格化所帶來的不良影響。會議中提案人表示相關資訊會在面試與工作經驗中討論，以詳細文字說明來避免這問題。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>關於爬資料是否會違法的問題，可以在更仔細的諮詢法律顧問。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol>
+<li>魚與熊掌不可兼得。有評審認為此平台若發展商業化，就難兼顧資訊的透明與公正性，向企業收費的模式雖可支撐長久經營所需的資金來源，但有受企業或廣告主控制言論發表的疑慮。或許可考慮NPO的方式經營？</li>
+</ol>
+</blockquote>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/middle2-paas/29/12">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

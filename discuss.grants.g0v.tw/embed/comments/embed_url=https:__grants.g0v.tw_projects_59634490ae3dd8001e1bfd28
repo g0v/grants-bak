@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>移轉訂價年報檢索系統 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-1039'>
+      <a title="July 11, 2017  1:54pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/420/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stufinite' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stufinite/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stufinite' target="_blank" class=''>stufinite</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好  我覺得這是一個相當有趣的提案<br>
+不過我並非會計領域<br>
+所以看了一下您的投影片<br>
+想請問一點<br>
+<em>文字探勘</em> 的技術是要用在哪裡?</p>
+<p>另外一點不相干的事情想詢問<br>
+我對您做的 <code>肆‧年課程檢索系統</code> 很感興趣<br>
+想請問大學課程的爬蟲是有公開的嗎?<br>
+能否提供github連結  感謝您</p>
+
+            <a data-link-to-post="1040" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/420/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1040'>
+      <a title="July 11, 2017  2:34pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/420/3">Jul &#39;17</a>
+        <a data-link-to-post="1039" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/420/2">▶ stufinite</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/jeremy4555' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/jeremy4555/45/263_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/jeremy4555' target="_blank" class=''>jeremy4555</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>我裡面應該沒有提到_文字探勘_這個詞彙0.0，我對這個詞彙的詳細定義也不是很熟，不過有用到文件檢索的技術，每一份年報當中都會有每一間公司的描述，而要比對公司與公司之間的相似性，會需要用到這個技術，不知道有沒有回答道您的問題?<br>
+會公開但還沒有整理好，我對你們的提案也滿有興趣的，我已經寄信給你們了，希望有機會一起討論或合作:))</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1041'>
+      <a title="July 12, 2017  3:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/420/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/davidtnfsh/45/261_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/davidtnfsh' target="_blank" class=''>davidtnfsh</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/jeremy4555">@jeremy4555</a> 喔喔那我理解了<br>
+所以你要用的套件感覺比較偏向<a href="https://radimrehurek.com/gensim/models/doc2vec.html" rel="nofollow noopener">doc2vec</a> ?<br>
+感覺是個蠻酷的應用</p>
+<p>我收到您的信了，感謝~  馬上回你</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/420/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

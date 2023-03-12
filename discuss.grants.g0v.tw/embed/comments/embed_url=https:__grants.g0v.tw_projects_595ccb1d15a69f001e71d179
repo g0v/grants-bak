@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>四分之一革命：把民主當飯吃 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>8 個回覆</span>
+</header>
+
+    <article class='post' id='post-1010'>
+      <a title="July  6, 2017 12:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/missing.link.hsing1/45/254_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/missing.link.hsing1' target="_blank" class=''>missing.link.hsing1</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>這個概念如果發揮到極致 是不是就有 scrum 的感覺</p>
+
+            <a data-link-to-post="1012" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/406/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1012'>
+      <a title="July  6, 2017  2:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/3">Jul &#39;17</a>
+        <a data-link-to-post="1010" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/406/2">▶ missing.link.hsing1</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tomleetw/45/256_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank" class=''>tomleetw</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>哈哈，真的，但我強調一季一次，因為公民有自己的工作要忙，一季一次，十分鐘就好。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1023'>
+      <a title="July  8, 2017  5:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好！不好意思我有個疑問（也許是我理解錯誤）。</p>
+<p>假設我是內湖區的選民，今年有 5 人參選立委最後 1 人當選，從介面 <a href="http://lettertodibert.blogspot.tw/2017/07/blog-post.html" rel="nofollow noopener">http://lettertodibert.blogspot.tw/2017/07/blog-post.html</a> 來看，有 n 個候選人可以讓我在每季投票。這 n 個人如何產生？（只有 1 人當選，如果不是我的選區 4年選民還是無計可施:face_with_head_bandage:）4年後， 1 位當選者可能會參與連任，另外 4位參選人也可能是新的面孔。</p>
+<p>所以這個方案可以解決「選前：選民健忘症（四年選一次，事情記不清！） 選後：選民無力感（無力譴責政客或支持政治家。） 」？？？<img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"></p>
+
+            <a data-link-to-post="1026" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/406/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1026'>
+      <a title="July  9, 2017 12:58pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/5">Jul &#39;17</a>
+        <a data-link-to-post="1023" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/406/4">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tomleetw/45/256_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank" class=''>tomleetw</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝，你的確點到四分之一革命的一個挑戰點：選舉後，四年後的候選人在哪裡？<br>
+我的想法是，如果一個政治人物要爭取四年後的位子，就要早一點跳出來表現，不要等到選前才跳出來批評。如果政治人物敢跳出來，我們改版就把他加進去。<br>
+不過，計畫的第一步想要做單純一點：從總統選舉開始，以政黨取向，政黨表現不好，總統也不會好。這個方法也會促使政黨好好表現，不要平時擺爛，等到選舉才開始做事。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1170'>
+      <a title="July 18, 2017  3:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>改革選民是很好的想法，但只有記錄過往投票記錄、投票原因並回頭檢視，或許不一定是好方法。</p>
+<p>一個政治人物上台以後違背承諾，有很多不同的可能。很多人認為是政治人物「墮落」了，但或許，也有可能是因為政治人物真正上去到那個位置，知道其中的艱難，才會做出不一樣的決定與作法。</p>
+<p>而，有些議題，如果選民並未投入時間精力去研究，直接以自己在報章雜誌上看到的報導作為印象，以作為投票基礎，恐怕也不是健康的事情。因此，如果要真的改變選民，或許除了記錄投票以外，幫助他們理解議題，或讓選民能有機會與政治人物對話，也是很重要的功能。</p>
+<p>這個提案有提到要治療「選民健忘症」，幫助選民能更健康的討論議題，但我在介面上似乎沒有看到這樣的地方與欄位。我想知道，這個專案該如何幫助選民彼此討論，不再短視近利呢？謝謝。</p>
+
+            <a data-link-to-post="1178" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/406/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1178'>
+      <a title="July 19, 2017  2:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/7">Jul &#39;17</a>
+        <a data-link-to-post="1170" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/406/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tomleetw/45/256_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank" class=''>tomleetw</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝提問。<br>
+我觀察到大多數的選民沒辦法了解政策議題，執行前公說公有理，婆說婆有理。比如員山仔分洪道，執行前一堆專家說不可能有效，執行後卻跌破專家眼鏡。<br>
+四分之一革命是請選民看政治人物做了什麼，有無達到設定的目標。<br>
+比如說，南向政策，政治人物可以制定季目標，第一季設辦事處，第二季連結當地政府的機構，等等。選民看政治人物是否達成季目標投季票，這樣公民就有參與感，政治人物有做事也可以馬上得到支持。</p>
+<p>治療選民健忘症部分，主要是先提供一個簡單的記事本，讓選民簡單紀錄每季的感想。以現階段而言，我觀察到更複雜的事，大部分選民也沒有時間心力去做了。這個工具不華麗，但要簡單到選民願意長期使用。</p>
+<p>建議您可以看一下投影片，有圖片表示比較清楚。<br>
+<a href="https://drive.google.com/file/d/0B4BFnEYKNVtWVHl0WHE0WHpwWms/view" class="onebox" target="_blank" rel="nofollow noopener">https://drive.google.com/file/d/0B4BFnEYKNVtWVHl0WHE0WHpwWms/view</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1274'>
+      <a title="July 24, 2017  5:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/8">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/lpang5' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/lpang5/45/314_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/lpang5' target="_blank" class='new-user'>lpang5</a>
+        </h3>
+        <p>我覺得想法非常有趣，我看完最擔心的是資訊對等的問題。似乎只有線上平台可以在在效益上與經濟上配合如此高密度的參與方式，但是現況而言數位平台尚未全面普及，而且受年齡、收入、教育程度影響，對科技和資訊的掌握有程度上的差異，想請問你有考慮過如何平抑這種潛在的不平等嗎？</p>
+
+            <a data-link-to-post="1471" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/406/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1471'>
+      <a title="July 28, 2017  3:50am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/9">Jul &#39;17</a>
+        <a data-link-to-post="1274" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/406/8">▶ lpang5</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tomleetw/45/256_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tomleetw' target="_blank" class=''>tomleetw</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝提問。<br>
+這個革命只需要一個簡單的網頁，每三個月可以上一次網路就可以實施，相信可以滿足台灣90%以上的人，一開始不能太複雜，這樣參與的人會很少。<br>
+它的特點就是單純依照自己的感受投季票與寫紀錄。不一定需要看很多資料，因為公民就活在政治裡。<br>
+比如一個很忙碌的勞工，沒時間看很複雜的政策資料，雖然政府保證增加勞工權利，但他還是拿不到加班費。他就投下反對的季票。如果有十萬個勞工投反對的季票，政府一定會以行動回應，不會像現在這樣，只是空談。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/406/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

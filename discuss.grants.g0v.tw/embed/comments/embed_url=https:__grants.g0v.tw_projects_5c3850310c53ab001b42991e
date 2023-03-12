@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>UAV飛不飛(OS UAVPlus+) - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-2110'>
+      <a title="January 11, 2019  7:56pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/890/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/gavin/45/238_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank" class=''>gavin</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <h2>skySentry.UAV Forecast 只是入門.<br>
+飛行需要的知識.google 助理大都查的到. (語音查)<br>
+專業飛手.需要的是,緊急操作技巧.才能在快出事故,減少和不出事。</h2>
+<h2>提案中提到的功能.如:<br>
+查禁限航區.各地方單位及國家公園(os:不想人民飛的都會是禁區:如礦區)官方會出app.及圖資.<br>
+現在用google助理都可查到,台灣機場海拔.加減都可得出可飛行高度.<br>
+各專業飛行器材都有內建,禁航區.台灣產的3年內也需按法規要求內建圖資。</h2>
+<h2>情境與使用動機 提到的類似外包概念.不可行.<br>
+原因:提到的都需高階的caa証照,且需要高額保險.飛機牌照跟法人註冊。<br>
+之後禁航區及各項專業應用限法人及公務。<br>
+不會有人去接外包的空拍。成本及申請也不會在出現 3000-8000這種有新手去接的外包。<br>
+例:外包農噴機業務.需農噴証照及法人.2020後青農和個人使用都不合法.2020前 需農委會發的農噴証照.<br>
+故發包功能建議修改。</h2>
+<h2>法規保險:每人掛掉/300W、每人重傷/150w  &lt;&lt; 沒保出事罰很重<br>
+聽到的公務單位都委外專業公司在拍了。<br>
+目前是一人就可空拍.未來空拍最少需2-3人。(飛手＋觀測員)</h2>
+<p>無人機飛行天氣因素風險<br>
+颱風前4-5級風都有人在飛了。(設備要夠好,操作要專業)<br>
+最大的風險在於下雨不能飛、沒太陽沒法拍。</p>
+<hr>
+<h2>有數據背景<br>
+建議寫無人機資料收集類的專案.<br>
+無人機飛行記錄收集類的工具和分析,這是市場及官方需要的。<br>
+由飛行記錄應用</h2>
+<p>以上供參考 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"> Gavin</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2116'>
+      <a title="January 12, 2019 12:17pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/890/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/disapear1997' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/disapear1997/45/495_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/disapear1997' target="_blank" class=''>disapear1997</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>的確這些資料網路上找的到，但是考量無人機的優勢是高機動性與快速便捷，以之前的經驗拍攝約1公頃的農田，飛行高度40m、飛行速度5m/s時間不到30分鐘，包含布設控制點，一個飛行任務到達拍攝區域可能1-2小時內就可以完成了，如果沒有整合的資訊、內建的APP沒有提供這些資訊其實還蠻量費時間，包含限航區、風速與太陽角度等資料。</p>
+<p>置於外包部分，我們所希望的是會只要會無人機的飛手都可以協助執行相關救災、勘災的任務，但對於資料有一定的要求，若不是專業飛手(甚至需要航空測量、GIS背景)很難制定符合需求的飛行計畫，因此這款手機APP主要想解決這件事情，尤其我們希望解決災損面的問題，我們有相關的分析經驗但苦無的飛手與合格的資料，我們希望藉由眾人之力解決這樣的問題。</p>
+<p>置於天氣風險要看不同的應用，我們首先要考量的一定是安全，第二就是資料可否使用，尤其糊掉的照片基本上是不能用的，4-5級的風基本上雖然可以飛，但是某些特定應用(尤其是地面高解析度影像)是不可飛。</p>
+<p>無人機基本上不能在有人的地方跟禁航區飛行。</p>
+
+            <a data-link-to-post="2127" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/890/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2127'>
+      <a title="January 13, 2019  2:13am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/890/4">Jan &#39;19</a>
+        <a data-link-to-post="2116" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/890/3">▶ disapear1997</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/gavin/45/238_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank" class=''>gavin</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>第一部份指的限航、風速…<br>
+CAA(民航局) 2019的証照都會考。基本技能。<br>
+提到的拍攝技功需要事前準備及執行時必備條件。<br>
+"費時"那可能連基本証照都會過不了。<br>
+建議CAA版的宣傳或是教學還沒有.<br>
+可上FAA網站看一下 107部份的教學和宣傳資料拍的部份大都在內。<br>
+<a href="https://www.faasafety.gov/" class="onebox" target="_blank" rel="nofollow noopener">https://www.faasafety.gov/</a></p>
+<p>第二部份說的救災.勘災.不是說一般人不行.<br>
+指的是未來有証照、保險的都是專業化公司或是專業化工作室.<br>
+專業飛手…不一定需要(航空測量、GIS背景)這不難.<br>
+參考一下.rtk軟體、ugcs、dronesar、pix4d.litchi<br>
+目前找不到飛手做類似的合作.那應用或是app做出來也找不到人的.<br>
+這些專業大大都在救災、測繪、無人機自製、飛友圈…社群中。</p>
+<p>第三部份 能不能拍出需求的影像及資料。是專業度問題<br>
+無人機不是不能在有人的地方飛(或是禁航區)<br>
+是自然人禁止、需公務或是法人申請才行。<br>
+(os:這是台灣才有的怪現象,各國是按証照。台灣是証照+公務或是法人)</p>
+<p>以上分享…提供參考.</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/890/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

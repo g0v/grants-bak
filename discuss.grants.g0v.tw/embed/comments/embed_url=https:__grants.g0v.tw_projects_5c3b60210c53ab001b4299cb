@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>U Tower無人機航管系統 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-2155'>
+      <a title="January 13, 2019  4:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/927/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/gavin/45/238_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/gavin' target="_blank" class=''>gavin</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>YA 有機會來炮 李大大 的東西…祝提案成功…飄走</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2166'>
+      <a title="January 14, 2019  3:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/927/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/denkeni/45/406_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/denkeni' target="_blank" class=''>denkeni</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>
+<p>本提案成品的適用地理區域，受限於 LoRa Gateway 的佈建與涵蓋範圍。是否考慮過其他無線方案作為備案，或是簡述一下目前已知的 LoRa Gateway 涵蓋範圍，以及未來推估範圍？</p>
+</li>
+<li>
+<p>本提案包含建構雲端系統的話，要請補入「本專案會產出的開源軟體套件」這一題。並建議簡述在整套使用流程中，哪些是提案之前已經完成的元件（譬如：SkySentry app）或商業元件，哪些是預計在本提案中要實作的開源元件。</p>
+</li>
+</ol>
+
+            <a data-link-to-post="2312" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/927/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2312'>
+      <a title="January 27, 2019  1:14am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/927/4">Jan &#39;19</a>
+        <a data-link-to-post="2166" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/927/3">▶ denkeni</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/aliasli' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/aliasli/45/530_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/aliasli' target="_blank" class='new-user'>aliasli</a>
+        </h3>
+        <ol>
+<li>本提案成品的適用地理區域，受限於 LoRa Gateway 的佈建與涵蓋範圍。是否考慮過其他無線方案作為備案，或是簡述一下目前已知的 LoRa Gateway 涵蓋範圍，以及未來推估範圍？</li>
+</ol>
+<p>LoRa Gateway於一般IoT應用時，受限於地形地物的屏障，無法涵蓋大範圍，但於本案之地對空應用，其傳輸距離因無障礙物遮蔽，因此可達30km以上，本案合作的亞太電信之LoRa佈建目前僅止於六都，但未來可以提供空中的全台涵蓋(全台僅需小於100個Gateway)，此外，整個UTM系統將會整合4G、XBee等無線通訊技術，資料將統一回傳至UTM系統資料庫，可以補足萬一LoRa涵蓋不足之狀況。</p>
+<p>2.本提案包含建構雲端系統的話，要請補入「本專案會產出的開源軟體套件」這一題。並建議簡述在整套使用流程中，哪些是提案之前已經完成的元件（譬如：SkySentry app）或商業元件，哪些是預計在本提案中要實作的開源元件。</p>
+<p>機載的LoRa自動回報硬體設備將採用開源程式方式開發(Arduino)，提供完整程式碼給有能力整合硬體之使用者，此外，資料回傳至LoRa Gateway後將採用MQTT方式傳輸至雲端資料庫，使用者可使用MQTT訂閱方式或本系統之開放資料庫API取得資料。<br>
+SkySentry系統是本團隊已完成之雲端監控平台，搭配本案開發的LoRa通訊技術(軟硬體)提供使用者以及主管機關即時監管無人機</p>
+<p>以上若有回覆不周全之處，還請denkeni兄不吝再次賜教，謝謝</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/927/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

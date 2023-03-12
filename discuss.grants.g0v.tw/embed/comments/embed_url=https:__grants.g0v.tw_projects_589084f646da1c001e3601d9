@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>可以不要再給我文字雲了嗎 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-529'>
+      <a title="February  2, 2017  3:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>結巴跟tm因為開源，的確是目前主流的文本分析工具，感謝你的提案，有機會提供不同的分析方式！有一個基本問題想請教，不曉得這套文本分析適用的中文，可以橫跨不同國家或地區嗎？（例如中國、香港、馬來西亞等）</p>
+
+            <a data-link-to-post="543" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/254/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-543'>
+      <a title="February  2, 2017  7:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/3">Feb &#39;17</a>
+        <a data-link-to-post="529" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/254/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/seantyh/45/161_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank" class='new-user'>seantyh</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您的建議，不同國家或地區的中文的確能整合進我們的專案。我們團隊對於處理「世界華語」(World Chineses) 有基本的前處理經驗。例如，前處理中最重要的一個步驟是「斷詞」，我們曾經比較過不同斷詞器的結果（包括北京清華大學的分詞器THULAC、香港的切詞器LIVAC，和臺大語言所的深度斷詞DeepSeg）。</p>
+<p>我們可以在實作上針對不同語料地區來源提供選擇界面，經過不同前處理之後，後續的處理工具即可一體適用。</p>
+
+            <a data-link-to-post="573" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/254/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-573'>
+      <a title="February  3, 2017  4:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/4">Feb &#39;17</a>
+        <a data-link-to-post="543" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/254/3">▶ seantyh</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>建議可以把回覆加進提案文字，讓更多人理解提案的可延伸性，謝謝！</p>
+
+            <a data-link-to-post="575" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/254/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-575'>
+      <a title="February  3, 2017  5:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/5">Feb &#39;17</a>
+        <a data-link-to-post="573" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/254/4">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/seantyh/45/161_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank" class='new-user'>seantyh</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感謝您的提醒。上述訊息已補充至「§ 這個計畫要解決什麼問題？」段落。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-640'>
+      <a title="February  5, 2017  6:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/koansin.tan/45/144_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/koansin.tan' target="_blank" class=''>koansin.tan</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>請問提案中講了一些「語詞的行為素描」相關的作法: 多語單位, 共現環境等, 是在計畫中都會進行實作的嗎? 在文中讀不出要實作的演算法有哪些</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-788'>
+      <a title="February  8, 2017  2:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/7">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/seantyh/45/161_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/seantyh' target="_blank" class='new-user'>seantyh</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>謝謝您提出的問題。是的，「語詞的行為速描」中的三大主軸：多語單位、共現環境、時間文類分布都是我們的實作標的。其中，共現環境在語言學/計算語言學裡面已經有成熟的作法（如計畫書所提的colligation, LSA, embeddings, etc.），多語單位和時間文類分布則是目前的當紅議題，我們團隊已有開發構想。希望藉此機會能將「語詞的行為速描」的概念與社群分享。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/254/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

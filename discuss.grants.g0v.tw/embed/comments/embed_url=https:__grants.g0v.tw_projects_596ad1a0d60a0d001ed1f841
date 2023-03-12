@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>論公策 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1301'>
+      <a title="July 25, 2017 10:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/457/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>目前公民參與有三堵牆：白目之牆，缺乏討論素養；無知之牆，不知道相應的資訊該哪裡找，以及資訊爆炸之牆：資訊過載，導致難以討論問題。</p>
+<p>請問該如何處理這三堵牆呢？謝謝。</p>
+
+            <a data-link-to-post="1441" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/457/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1332'>
+      <a title="July 25, 2017  2:31pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/457/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>一直很想要有好用的公共議論平台！不過，如果假設「公共議論就是要有夠多人才算公共、才有效」的話，好奇提案人是如何看待Facebook強大的吸引力，新建置的平台如何吸引使用者，等等的問題？</p>
+
+            <a data-link-to-post="1442" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/457/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1441'>
+      <a title="July 27, 2017  3:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/457/4">Jul &#39;17</a>
+        <a data-link-to-post="1301" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/457/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/littlepah' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/littlepah/45/192_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/littlepah' target="_blank" class=''>littlepah</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，感謝提問</p>
+<p>先回應無知之牆，這可分兩個層面說明，一是該議題之相關利害者根本不知道有此議題發展中，亦或是根本不知道該議題的相關利害者在哪，故此平臺針對議題或文章設計了「徵求功能」，由使用者填上該議題應有哪些相關利害者參與或該文章想看到哪些團體/個人回應，藉此資訊呈現再由使用者或站方主動尋求該意見，盡可能使討論意見多元；二是使用者不知道如何搜尋或檢索相應的資訊，而本平臺即是「專門」討論公共政策，故可藉由議題之類別、標籤及文章的屬性、立場等，系統且快速地檢索想要的資訊。</p>
+<p>接著白目之牆，完全防堵白目是不可能的，只能量力而為。本平臺討論議題先有文章後有留言，在具備發文門檻（一日發文限制等）及開放使用者對文章評分之機制下，可多少降低白目發文之比例，另留言部份則因整個平臺僅限定討論「政策」不討論「人」，較可減少白目洗版之意願。</p>
+<p>最後資訊爆炸之牆，本平臺於使用者設定討論議題時，即建議縮小討論議題邊界或範疇以聚焦討論並減少資訊量，如對於年金改革、能源、少子化等大議題，難以於單一討論頁面釐清，即建議拆分為數個小議題，或於初始議題討論中自然產生爭議點進一步成為議題，再藉由議題類別或標籤匯集成巨大議題。另亦藉由懶人包、參考資料之補充，期望達到資訊完整又不致使用者負擔之效果。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1442'>
+      <a title="July 27, 2017  3:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/457/5">Jul &#39;17</a>
+        <a data-link-to-post="1332" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/457/3">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/littlepah' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/littlepah/45/192_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/littlepah' target="_blank" class=''>littlepah</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>您好，感謝提問。</p>
+<p>其實最當初的提案初衷就是看到FB各專頁下民眾對於公共政策討論非常踴躍，但受限於FB本身架構設計，讓每一次的討論影響非常短暫，且對話難以聚焦並無法延續，故想建立此平臺。</p>
+<p>也是因為如此，本平臺應善用Facebook強大的吸引力來吸引使用者，具體作法為本平臺將針對熱門議題（如婚姻平權、年金改革、能源等）主動聯繫相關著名團體並與其合作，為其建立本平臺之官方帳號，使之成為該團體之宣傳管道之一，相對應的請該團體於FB專頁或官方網站，投放本平臺之議題連結，達成相輔相成之效益。此外，本平臺亦建立專頁，每日挑選熱門議題或文章方便訂閱使用者檢閱。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/457/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

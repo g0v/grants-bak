@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>營建法令隨手查 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1049'>
+      <a title="July 13, 2017  4:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/430/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mick761218' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mick761218/45/264_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mick761218' target="_blank" class='new-user'>mick761218</a>
+        </h3>
+        <p>這個頁面似乎有類似的構想，提供參考</p>
+<p>環境法令整合查詢<br>
+<a href="https://g0v.hackpad.tw/LGQjB0Lozmc" class="onebox" target="_blank" rel="nofollow noopener">https://g0v.hackpad.tw/LGQjB0Lozmc</a></p>
+
+            <a data-link-to-post="1245" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/430/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1131'>
+      <a title="July 17, 2017 10:58am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/430/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/z.zucci' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/z.zucci/45/278_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/z.zucci' target="_blank" class='new-user'>z.zucci</a>
+        </h3>
+        <p>想要詢問解釋函令跟法規整合進一步的細節，感覺這是比較麻煩處理卻又很重要的部份。因為法規整理很多人在做了 &lt;3</p>
+
+            <a data-link-to-post="1246" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/430/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1245'>
+      <a title="July 22, 2017  2:54pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/430/4">Jul &#39;17</a>
+        <a data-link-to-post="1049" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/430/2">▶ mick761218</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Liam' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/liam/45/304_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Liam' target="_blank" class='new-user'>Liam</a>
+        </h3>
+        <p>就我的認知，營建法令隨手查的目標客群是偏向建築設計事務所的從業人員，避免做出不符設計法規的設計；而環境法令整合查詢的目標客群，可能是上述從業人員的主管。確切的區別還要請在建築業打滾的Shih Soon回覆。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1246'>
+      <a title="July 22, 2017  2:59pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/430/5">Jul &#39;17</a>
+        <a data-link-to-post="1131" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/430/3">▶ z.zucci</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Liam' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/liam/45/304_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Liam' target="_blank" class='new-user'>Liam</a>
+        </h3>
+        <p>目前的規劃是在每一條有解釋函令的法規後面，附上可開啟相關函令視窗的按鈕。<br>
+若使用者對該法令不熟，想知道相關解釋函令，便可點擊該按鈕。<br>
+點擊後會開啟一modal dialog，內容呈現跟該條法規相關的函令。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/430/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

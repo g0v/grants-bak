@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>享食雲 foodsaving.world - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1225'>
+      <a title="July 21, 2017  9:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>提案內容好豐富，辛苦了！想確定幾件事：</p>
+<ol>
+<li>foodsharing.world 就是「享食雲」嗎？</li>
+<li>提案內容中有提到yunity.org會提供資源，支持foodsharing.world這個專案的開發，不過也在提案結尾處說明沒有其他資金支持這個專案。不知道是否方便說明yunity.org與這個專案的關係？</li>
+<li>提案內容中有提到團隊成員粗估十人，不知道是否方便說明團隊組成？</li>
+</ol>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/2">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1235'>
+      <a title="July 22, 2017  2:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/3">Jul &#39;17</a>
+        <a data-link-to-post="1225" class="in-reply-to" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/2">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stefanintaipei' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stefanintaipei/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stefanintaipei' target="_blank" class=''>stefanintaipei</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>Dear chihaoyo,<br>
+many thanks for your comments! I think your questions are really good and helpful!</p>
+<ol>
+<li>
+<p>foodsaving.world 就是「享食雲」! I personally decided to choose 「享食雲」 as chinese name for foodsaving.world project in Taiwan and use it for this application. I made this decision as with Foodsharing Taiwan we call our public fridges here in Taiwan 「享食站」， so the chinese name for a website to share food could be 「享食雲」.</p>
+</li>
+<li>
+<p><a href="http://Yunity.org" rel="nofollow noopener">Yunity.org</a> was initially a project to create a open source, money free, multisharing website. The project was initiated by some of the people who were involved in the devlopment of <a href="http://foodsharing.de" rel="nofollow noopener">foodsharing.de</a>. It finally turned out, that for various reasons it is very complicated and challenging to work on this idea, so that most of the contributors at present put their focus on other projects, such as developing foodsaving.world. Nevertheless the idea of yunity is still alive and will hopefully be realised in the future. At the moment <a href="http://yunity.org" rel="nofollow noopener">yunity.org</a> persits basically as a network made up of subprojects, connecting like-minded people all over the world. As far as I know there are no funds supporting <a href="http://yunity.org" rel="nofollow noopener">yunity.org</a> at present. The development of foodsaving.world is a independent subproject and there is no financial support from <a href="http://yunity.org" rel="nofollow noopener">yunity.org</a> to foodsaving.world. But as the intentions of both projects are to create connections and communities to prevent waste and raise awareness for a sustainable way of living, some of the contributors are involved in both projects. For coding at the moment the focus is on foodsharing.world, while the outcomings of the website might be interesting for the further development of <a href="http://yunity.org" rel="nofollow noopener">yunity.org</a> as well.</p>
+</li>
+<li>
+<p>As the project is completely open source it is very difficult for me to calculate how many people will finally be involved. People can basically join and leave whenever they want to and contribute as much as they want to. I calculate 10, because I expect that there will be 2 people from Foodsharing Taiwan, helping to promote the concept of foodsharing in Taiwan and 3-4 coders from Germany. In Taiwan I got quite a lot of people offering help with translating and coding, but it is very difficult to tell if they will really continuously be involved in this project from the beginning to the end, so I calculate their manpower with 4-5 people. I’m very confident that overall there will be at least 10 people continuously contributing to this project within the six month and the time after that.</p>
+</li>
+</ol>
+<p>I hope I was able to adequately answer your questions. I’m happy about any input and please don’t hesitate to share any further comments. Thank you.</p>
+
+            <a data-link-to-post="1335" class="post-replies button" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1238'>
+      <a title="July 22, 2017  4:58am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/5">Jul &#39;17</a>
+        <a data-link-to-post="1225" class="in-reply-to" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/2">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hugorain73' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hugorain73/45/301_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hugorain73' target="_blank" class='new-user'>hugorain73</a>
+        </h3>
+        <p>我是此提案的翻譯小幫手球球，在此協助回覆chihaoyo提出的問題。</p>
+<p>其實Yunity是一個由一些志同道合的團隊組成的社群/網站（無資金贊助），其中的Foodsaving團隊（約有3–4位國外coders(主要來自德國)）將是此g0v提案的主要貢獻者。另外將有2位參與者來自Foodsharing Taiwan（包括提案者Stefan Simon），剩下的4–5位則是我們希望透過g0v和其他宣傳所能吸引到的新人，共約10人。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1320'>
+      <a title="July 25, 2017  1:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我想了解一下，如果有消費者使用網站上分享的食物後發生食物中毒等等情形該怎麼辦？有事後究責，或是事前預防的機制嗎？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1335'>
+      <a title="July 25, 2017  2:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/7">Jul &#39;17</a>
+        <a data-link-to-post="1235" class="in-reply-to" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/3">▶ stefanintaipei</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>了解！關於第三點，也許也能跟其他長期參與開源軟體協作的社群成員交換意見，相信會有很多人有類似的經驗，也許能幫助專案core team的行程，讓開發更順利？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1380'>
+      <a title="July 26, 2017  3:59am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/8">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stefanintaipei' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stefanintaipei/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stefanintaipei' target="_blank" class=''>stefanintaipei</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/billy3321">@billy3321</a><br>
+Thanks for you comment.<br>
+Food safety and prevention of health issues are really important for this project. They are actually the crucial key when setting up new cooperations. Therefore we use a legal agreement between the food retailer and Foodsharing Taiwan to avoid any legal problems for the food retailers. We set up a legal agreement in accordance with taiwanese law, which was checked and accepted by our cooperating food retailers. It is in use already and works well so far. It basically gives guidelines on how to pick up the food, contains a legal disclaimer and explains that people picking up food on their own risk. To pick up food people need to have an ID, this ID they will just get after they signed the legal agreement and agreed on our terms and conditions. We do our best to ensure legal certainty for our partners and are highly aware of it’s importance!</p>
+<p><a class="mention" href="/u/chihaoyo">@chihaoyo</a><br>
+Thanks for you comment.<br>
+Networking and connecting like-minded people will be an important part of this project. We will talk to more people from open-source societies, share our experience with them and learn from them!</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/foodsaving-world/439/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

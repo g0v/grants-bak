@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>病床，床板水平移動 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-2055'>
+      <a title="January  5, 2019  5:32pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/859/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hello ss,</p>
+<p>感謝您關注病人移動這個問題，只是在提案中似乎沒有提到任何您所提出的方法。以下摘自獎助金首頁：</p>
+<blockquote>
+<p>開源（開放原始碼）是指將成果用開放授權的方式公開出來，讓其他人可以直接使用、改作、加入協作或發展出更新的版本。</p>
+</blockquote>
+<p>請問您針對「移動病人」是否有可以分享的解決方案呢？</p>
+<p>也想聽聽您的方案與移位滑板、移位機等各種移位輔具的不同。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2065'>
+      <a title="January  7, 2019  6:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/859/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hank' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hank/45/488_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hank' target="_blank" class=''>Hank</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝您的回覆</p>
+<p>我的方案跟市面上的移位輔具不同的地方在於，這是給[<strong>重度失能者</strong>]使用的，而且市面上販賣的移位輔具較大台且價格較貴，可能對於某些弱勢團體比較困難。</p>
+<p>所以我希望能做到簡單的更改就只要把床板做成可分離式的，下面再加裝軌道跟輪子就可以進行更換床，並且使用摺疊式病床進行移動，整體操作起來也比較方便，也可以讓照護員的負擔減少一點。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2081'>
+      <a title="January  8, 2019  3:53pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/859/5">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hank' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hank/45/488_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hank' target="_blank" class=''>Hank</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>這位先生我不認識你也不知道你是誰，但是可以請你說話不要這麼沒禮貌可以嗎，如果你覺得我的提案有甚麼問題，你可以用合理的方式來發表你的意見，而不是使用這種非常粗俗的言語來攻擊別人的想法，而且這樣只會讓人覺得你是個心智非常不成熟的人。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2086'>
+      <a title="January  9, 2019  6:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/859/6">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>請注意您的發言用詞，若再出現不尊重別人的用詞，我們會截圖留存並刪文。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/859/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

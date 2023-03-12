@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>政治獻金區塊鏈 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1180'>
+      <a title="July 19, 2017 12:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/469/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>據您所說，如區塊鏈具有無法單方面更改資料特性，該如何讓政黨不會輸入錯誤的資料導致無法更正？</li>
+<li>該如何讓此系統的資料讓人民可信？如果政黨在此系統輸入的資料與政黨向監察院申報的資料不符，如何防範？</li>
+<li>
+<a href="http://www.moi.gov.tw/dca/02people_005-1.aspx?sn=10" rel="nofollow noopener">內政部政黨名冊</a> 所列，我國目前有 321 個政黨，是否考慮限定有議員、立委席次的政黨</li>
+<li>如無政黨願意合作，是否有備案？</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1298'>
+      <a title="July 25, 2017 10:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/469/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>請問這個區塊鏈將會由誰維護？是集中管理，還是大眾協力？如果開放大眾協助加密，協助加密能得到的獎勵又是什麼？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1512'>
+      <a title="July 28, 2017  4:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/469/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stu41235njrmpru8' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stu41235njrmpru8/45/358_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stu41235njrmpru8' target="_blank" class=''>stu41235njrmpru8</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/twly.tw">@twly.tw</a>  您好，以下針對您的問題作回答！<br>
+1.區塊鏈上每個交易無法刪除，而我們將資料利用智能合約(Smart Contract)發送交易來更改資料，故若是輸入資料有誤，可以事後更正，但是這些更正的紀錄的交易都會留存無法刪除。</p>
+<p>2.區塊鍊上的資料是以政黨上傳的為主，程式實作團隊難以介入各政黨在財務上面的收支真實樣貌，同時監察院也並沒有釋出API。因此責信的部分將取決於政黨如何解釋區塊鍊上的資料，以及這些資料與監察院上公開的資料間的相關性。我們認為此計畫目標是在程式碼跟實際的介面上能夠取信於大眾，資料的真實性、正確性是政黨的責任。</p>
+<p>3.我們邀請政黨合作時，以有席次的政黨為主；工作里程碑的目標限定這些政黨。但本平台是開放性的，其他的政黨若有興趣也歡迎使用。</p>
+<p>4.已經有初步和政黨討論過，應該比較不需要擔心找不到合作對象。另外，本平台適用於需要開放資料的類似情況，其他組織如果需要開放資料稍微修改後也可以使用。<br>
+（本身程式碼開源，因此即若無政黨願意合作，對區塊鍊有技術的團隊也可以此計畫為基礎開發其他區塊鍊應用）<br>
+已經有初步和政黨討論過，應該比較不需要擔心找不到合作對象。另外，本身程式碼開源，因此即若無政黨願意合作，對區塊鍊有技術的團隊也可以此計畫為基礎開發其他區塊鍊應用。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1513'>
+      <a title="July 28, 2017  4:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/469/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stu41235njrmpru8' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stu41235njrmpru8/45/358_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stu41235njrmpru8' target="_blank" class=''>stu41235njrmpru8</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/billy3321">@billy3321</a>  您好，以下針對您的問題作回答！<br>
+依據兩種我們打算實作的方式：<br>
+(1) GCOIN 聯盟鏈<br>
+由於是聯盟鏈的關係，需要加入聯盟成員的節點才能幫忙維護，加入的節點可能有：政黨本身、我們（平台開發者）、監管機構、有興趣的民眾等等，加入的節點愈多資料就愈安全。<br>
+(2) Ethereum（以太坊）公有鏈<br>
+使用公有鍊的好處是全世界上萬個節點（Ethereum的礦工）都在幫我們維護資料的安全性，完全不需要煩惱加入節點數量太少。但相較之下，也需要付出一點成本，每一筆放上去的資料需要支付少許的以太幣做為手續費。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/469/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

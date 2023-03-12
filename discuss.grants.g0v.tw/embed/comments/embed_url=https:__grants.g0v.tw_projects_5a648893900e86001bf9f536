@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>凶宅視覺地圖 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1736'>
+      <a title="January 22, 2018  1:58pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/726/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>【可行性】<br>
+由於人工審核是重要的一環<br>
+請問此計畫對於這個部分的規劃為何？（包含人員編制，預算等等）</p>
+<p>另外，如何確定發表評分的人曾經為房客？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1864'>
+      <a title="January 26, 2018  2:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/726/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>這類評價蒐集網站都很可能會遇到有人提供假資料的狀況。請問是否有相關的驗證方式，或是有法律諮詢的對象？謝謝。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1923'>
+      <a title="January 29, 2018 11:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/726/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請注意資料是否齊全，以利後續評選流程：</p>
+<ol>
+<li>建議補充過去您與團隊成員曾執行過的專案或其他連結，並確認連結是有效的。</li>
+<li>若有其他團隊成員，建議補充說明團隊成員背景。</li>
+<li>請務必回應提案下方的提問，並修改至原本的提案中，很有可能就是評審想問的問題。尤其提案眾多領域分散，評審時間有限，評審會參酌提問問題與回答評分。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-1928'>
+      <a title="January 29, 2018  3:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/726/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/sorrow31812' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sorrow31812/45/415_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/sorrow31812' target="_blank" class=''>sorrow31812</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/hcchien">@hcchien</a> <a class="mention" href="/u/billy3321">@billy3321</a><br>
+您好，我們是<strong>就是惡屋</strong>，<br>
+在考量使用者體驗與資料過濾的技術可行性後，<br>
+我們發現人工審核機制容易有審核標準不一致的情況，<br>
+例如，判斷惡房東的標準或使用者是否為房客 ? 沒證據的文章要讓他發表嗎 ?<br>
+於是我們採用寬鬆認定的標準，並搭配評論檢舉系統，<br>
+讓使用者也能自行判斷資訊的真實性。<br>
+老實說要防止假資訊相當困難，若有房東被惡意攻擊的情況，<br>
+我們也會讓房東有適當的反擊方式。<br>
+我們打算分成以下階段處理 :</p>
+<pre><code>1. 事先篩選 :
+   使用第三方登入/註冊系統，限制使用者來源，
+   驗證碼防止機器人發佈垃圾訊息，
+   鼓勵使用者附上證據(租賃契約、判決書等)。
+
+2. 事後處理 :
+   為了防止可能出現的人身攻擊、無關證據照片，
+   採用檢舉機制，若經人檢舉，則才進行人工審核是否下架。
+   並將濫用平台的帳號停權。
+   (我們團隊會每天定時進行人工審核，僅刪除明顯違規之文章)
+   資訊真實性方面，會有評論系統可供使用者評價文章，
+   並使用推/噓機制增加留言的可靠度。</code></pre>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/726/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>入侵紅火蟻：原始 (Fire Ant: Primitive) - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-1798'>
+      <a title="January 24, 2018 10:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/725/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mimi78198/45/276_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mimi78198' target="_blank" class=''>mimi78198</a>
+            <span class='title'>2017 秋季獎助金追問人</span>
+        </h3>
+        <p>【籬清使用者需求】<br>
+嗨你好，想請問有關於呈現方式，你有提到這個案子會由遊戲方式呈現，包含<br>
+1)場景：容易發生火蟻危害之環境如校園、停車場、農地、機場等；<br>
+2)武器：介紹不同的防治方式與其特性及效用；<br>
+3)事件：火蟻入侵大事紀與過往發生點位。</p>
+<p>但上述似乎用視覺化專題的方式就可以達到目的，想了解遊戲的細節，為什麼想要用遊戲呈現？</p>
+
+            <a data-link-to-post="1880" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/725/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1880'>
+      <a title="January 27, 2018  6:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/725/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monster19850408/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/monster19850408' target="_blank" class=''>monster19850408</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <aside class="quote group-2018-applicants" data-post="3" data-topic="725" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/monster19850408/40/265_1.png" class="avatar"> monster19850408:</div>
+<blockquote>
+<p>感謝追問人提問。如追問人所說，2017年秋季提案時以資料蒐集及視覺化為導向。而2018年以遊戲呈現的主要原因，是想藉由此機會配合所修課程練習遊戲設計與開發，同時增加與使用者的互動。另外遊戲的特性也可以將使用者從原本受紅火蟻危害的群眾，更擴展至相對年輕之族群，以遊戲達到教育宣導的目的。</p>
+</blockquote>
+</aside>
+<p>感謝追問人提問。如追問人所說，2017年秋季提案時以資料蒐集及視覺化為導向。而2018年以遊戲呈現的主要原因，是想藉由此機會配合所修課程練習遊戲設計與開發，同時增加與使用者的互動。另外遊戲的特性也可以將使用者從原本受紅火蟻危害的群眾，更擴展至相對年輕之族群，以遊戲達到教育宣導的目的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1922'>
+      <a title="January 29, 2018 11:12am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/725/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，請確認提案內容填寫完成，以利後續評選流程。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/725/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

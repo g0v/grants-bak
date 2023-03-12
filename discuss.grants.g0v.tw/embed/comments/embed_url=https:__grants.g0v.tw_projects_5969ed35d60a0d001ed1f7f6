@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>YA0H: Yet Another g0v Hub - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1284'>
+      <a title="July 25, 2017  7:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>有沒有可能將其他討論文件納入 Dashboard 呢？現在是 GitHub 上多只有工程師去巡田水，有沒有辦法讓其他非工程師的人也方便跳坑撿坑呢？</p>
+
+            <a data-link-to-post="1474" class="post-replies button" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1285'>
+      <a title="July 25, 2017  7:57am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>在製作新的g0v hub之前，是否可以稍微分析一下過往g0v hub的問題，以及這個g0v hub如何改進呢？謝謝。</p>
+
+            <a data-link-to-post="1473" class="post-replies button" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1473'>
+      <a title="July 28, 2017  6:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/4">Jul &#39;17</a>
+        <a data-link-to-post="1285" class="in-reply-to" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/3">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/caasi' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/caasi/45/251_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/caasi' target="_blank" class=''>caasi</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>在「是否已有相似的專案，本計劃的差異與不可取代性為何？」一節中有提到過往的專案多半停滯，且以提供工具為主。</p>
+<p>這個計畫提供的是人–我自己。</p>
+<p>我並沒打算取代既有的工具，我會去用那些工具。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1474'>
+      <a title="July 28, 2017  6:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/5">Jul &#39;17</a>
+        <a data-link-to-post="1284" class="in-reply-to" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/2">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/caasi' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/caasi/45/251_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/caasi' target="_blank" class=''>caasi</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>有這樣的打算，目前希望 dashboard 裡可以把 GitHub issue 和 fb 討論、 logbot 連結整理在一起，這樣巡水田時可以有更多脈絡。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/ya0h-yet-another-g0v-hub/444/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Machine Sentencing 機器量刑 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/2">繼續討論</a>
+  <span class='replies'>12 個回覆</span>
+</header>
+
+    <article class='post' id='post-1134'>
+      <a title="July 17, 2017  1:20pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>我覺得這是一個很有意義的提案！因為台灣法律、中文自然語言處理兩項專業對這個專案非常重要，也因為提案內文中多處以「我們」作為主詞，想請問提案人現在的團隊的組成如何？是否有需要的專長？</p>
+
+            <a data-link-to-post="1142" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1140'>
+      <a title="July 17, 2017  2:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/stegben.benjamin' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/stegben.benjamin/45/280_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/stegben.benjamin' target="_blank" class='new-user'>stegben.benjamin</a>
+        </h3>
+        <p>相當有趣的提案，裡面提到的一些方法有頗具建設性。光是像法律專用斷詞器，就能夠輔助相當多未來的專案，只要是處理法律案件的文字處理都會有所助益。相當期待這個專案的成果。</p>
+
+            <a data-link-to-post="1143" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1142'>
+      <a title="July 17, 2017  2:49pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/4">Jul &#39;17</a>
+        <a data-link-to-post="1134" class="in-reply-to" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/2">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>你好，我是提案人育德，謝謝你的留言：）我們團隊目前有兩位工程背景的朋友、一位設計師、一位社群臉書的經營人以及多位在法律實務界、學術界的朋友參與專案中。為了補足NLP、ML等技術需要，我們計畫舉辦Kaggle資料科學的競賽，提供一部分的獎助金做為競賽獎金，敬邀世界上資料科學的高手共襄盛舉。預測最為精準的模型即可成為我們量刑系統的模型核心。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1143'>
+      <a title="July 17, 2017  2:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/5">Jul &#39;17</a>
+        <a data-link-to-post="1140" class="in-reply-to" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/3">▶ stegben.benjamin</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝你願意關注機器量刑專案，我們會持續努力中。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1169'>
+      <a title="July 18, 2017  3:48pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>開源的量刑系統確實是吸引人的主意，可是，這類的分析，都需要有大量的數據作為分析基礎。</p>
+<p>可是，台灣的問題是，司法系統長期沒有重視轉型正義，導致系統內的教育訓練重視書狀撰寫，較不重視證據認定與邏輯推論，以及過往的司法系統並未重視人權。這導致許多的判決引發爭議，並且受到垢病。</p>
+<p>在此狀況下，若是量刑系統的分析基礎為這些受到垢病的裁判，將可能會出現錯誤的結果，引導法官、律師與檢察官，將未來的判決導引回過往威權時代、不重視人權的結果。甚至，可能為不理解司法裁判的鄉民引用，作為攻擊與社會觀念不同之先進判決之用，導致法官不敢做出超越過往裁判品質的好見解。</p>
+<p>我想請教一下 <a class="mention" href="/u/blood858">@blood858</a> ，有沒有辦法應付這樣的狀況呢？</p>
+
+            <a data-link-to-post="1216" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1172'>
+      <a title="July 18, 2017  4:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/7">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/winder368' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/45/289_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/winder368' target="_blank" class='new-user'>winder368</a>
+        </h3>
+        <p>有幾個想法：</p>
+<ol>
+<li>系統是否能區別宣告刑與執行刑？當被告因複數行為構成數罪併罰時，法官除了就不同罪名分別宣告科刑，還需按照刑法第51條規定訂應執行刑，這部分是否也能納入分析？此外，此種情況時，法官通常不會在主文中定宣告刑，而是在會在附表中定宣告刑，此部分應予注意。</li>
+<li>是否能不限於毒品案件？</li>
+<li>是否能將刑法第57~73條關於刑之酌科及加減等事由納入分析？也就是說，那些情況較常獲得法官認定顯可憫恕而酌減或免除其刑？什麼情況罰金刑會被加重？</li>
+<li>是否能將刑法第47條累犯加重的情況納入分析，也就是說，法官在不同案件中加重的程度會跟那些因素有關係，是否能納入分析？</li>
+<li>是否能區分被告在系爭案件中裁決有罪答辯或無罪答辯？有罪答辯係偵查中認罪、審判中認罪？是否會影響量刑？</li>
+<li>是否能分析哪些因素會使法官宣告緩刑？宣告有期徒刑得易科罰金？</li>
+<li>是否能同步分析沒收？根據刑法第38-2條：「宣告前二條之沒收或追徵，有過苛之虞、欠缺刑法上之重要性、犯罪所得價值低微，或為維持受宣告人生活條件之必要者，得不宣告或酌減之。」，此部分也關係人民權益甚鉅，是否能同步分析？</li>
+<li>第37條第二項：「宣告一年以上有期徒刑，依犯罪之性質認為有褫奪公權之必要者，宣告一年以上十年以下褫奪公權。」褫奪公權的相關因素是否也能納入分析？</li>
+</ol>
+
+            <a data-link-to-post="1217" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1216'>
+      <a title="July 20, 2017  4:04pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/8">Jul &#39;17</a>
+        <a data-link-to-post="1169" class="in-reply-to" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>令人詬病的判決確實會訓練出不公正的預測模型，導致預測的結果存在許多爭議；而且台灣社會長期存在的冤獄案件，故事題材性不足，媒體因此習慣性地忽視，導致很難直接透過網路方式而得知有哪些案件是不公正的。但是判決的爭議與否與個人主觀意識與價值息息相關，難有一客觀要件去衡量判決的爭議程度為何。</p>
+<p>本量刑系統僅係一中性之量刑機器，主要是希冀在茫茫判決海中替使用者找到浮木，而對於搜尋結果的認定，仍是仰賴使用者的價值判斷。</p>
+<p>令人詬病的判決，確實會影響量刑系統的預測模型，然而判決是否公正屬於質性分析的範疇，以我們有限的人力難以一一檢視每一份判決。因此我們目前有兩種應付此狀況的方式：</p>
+<p>第一個方式是與冤獄平反協會、台灣人權促進會等組織合作，取得以確定平反的案件從訓練資料集中取出，使令人詬病的判決對系統的影響降至最低。</p>
+<p>第二個方式是以量化的角度作切入：在類似的案件中，我們假設大部分的判決都沒有爭議。假如有些判決的結果遠較嚴重或輕微於平均刑度的幾個標準差，我們就將這些判決予以標注，以提醒使用者注意。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1217'>
+      <a title="July 20, 2017  4:33pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/9">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>系統是否能區別宣告刑與執行刑？</p>
+</blockquote>
+</aside>
+<p>可以請您描述您想像中系統區別宣告刑與執行刑的方式嗎？</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>當被告因複數行為構成數罪併罰時，法官除了就不同罪名分別宣告科刑，還需按照刑法第51條規定訂應執行刑，這部分是否也能納入分析？此外，此種情況時，法官通常不會在主文中定宣告刑，而是在會在附表中定宣告刑，此部分應予注意。</p>
+</blockquote>
+</aside>
+<p>原則上數罪併罰會被納入機器學習模型當中以進行預測。感謝您的提醒，之前在做研究時確實有注意到若是數罪併罰情形，宣告刑會寫在附表中。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>是否能不限於毒品案件？</p>
+</blockquote>
+</aside>
+<p>由於犯罪的種類繁多、形態迥異，導致不同的犯罪案件，法官裁量刑度的因子並不一致。在六個月的時間之內要開發出一套能夠套用所有犯罪類型的機器學習模型並非容易的事，因此開發策略會偏向以毒品危害防制條例為一個出發點，先打造一個能夠準確預測毒品危害防制條例的量刑系統，再將系統修改並且擴大適用的刑事法範圍。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>是否能將刑法第57~73條關於刑之酌科及加減等事由納入分析？也就是說，那些情況較常獲得法官認定顯可憫恕而酌減或免除其刑？什麼情況罰金刑會被加重？</p>
+</blockquote>
+</aside>
+<p>我們建立的機器學習模型就是要利用大量的判決書去訓練；訓練完成後，當使用者輸入一份判決內容，模型會閱讀判決書並且擷取刑法第八章刑之酌科及加減等的量刑因子。</p>
+<p>量刑因子被擷取之後，我們會有第二個機器學習模型以預測量刑的結果。所以全部判決書的量刑因子都輸入至模型中，我們預計就能知道哪些情況法官會對犯罪者的刑度予以酌減，哪些情況罰金(一日罰金該折算一千元、兩千元還是三千元呢？)或是刑度會予以加重。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>是否能將刑法第47條累犯加重的情況納入分析，也就是說，法官在不同案件中加重的程度會跟那些因素有關係，是否能納入分析？</p>
+</blockquote>
+</aside>
+<p>累犯是量刑的重要因素，因此是機器學習模型必然會去抓取的特徵值。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>是否能分析哪些因素會使法官宣告緩刑？宣告有期徒刑得易科罰金？</p>
+</blockquote>
+</aside>
+<p>因為我們的機器學習模型能以量刑因子去推斷量刑的結果，所以量刑的結果會包含緩刑與易科罰金。因此是有辦法做到哪些因素會導致法官傾向宣告緩刑，或者是得易科罰金。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>是否能同步分析沒收？根據刑法第38-2條：「宣告前二條之沒收或追徵，有過苛之虞、欠缺刑法上之重要性、犯罪所得價值低微，或為維持受宣告人生活條件之必要者，得不宣告或酌減之。」，此部分也關係人民權益甚鉅，是否能同步分析？</p>
+</blockquote>
+</aside>
+<p>沒收新制於去年7月1日正式實施，且適用的範圍較舊制為大，更重要的是沒收不再是從刑，現在的法院可以直接宣判被告沒收，將被告與犯罪相關的財務直接沒收，對人民的權益有極大的影響；然而沒收一開始沒有在我們六個月的計畫內，因此這部分還需要您與其他朋友的建議。</p>
+<aside class="quote" data-post="7" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/winder368/40/289_1.png" class="avatar"> winder368:</div>
+<blockquote>
+<p>第37條第二項：「宣告一年以上有期徒刑，依犯罪之性質認為有褫奪公權之必要者，宣告一年以上十年以下褫奪公權。」褫奪公權的相關因素是否也能納入分析</p>
+</blockquote>
+</aside>
+<p>褫奪公權、追徵等從刑對人民權益影響甚鉅，的確需要納入分析的範圍之中，希望能與您再多有討論。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1354'>
+      <a title="July 25, 2017  5:13pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/10">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>請問台灣平均一年有關毒品的判決數量？可幫助評審判斷影響力</li>
+<li>如您提到的冤獄、為人詬病等案件可能影響此模型，判決是否有可能大幅度由法官或律師所影響？此專案的模型是否有法官或律師作為輸入的訓練資料？</li>
+<li>目前<a href="http://sen.judicial.gov.tw/pub_drug_s/attention.html" rel="nofollow noopener">司法院的量刑審酌事項參考表</a>已有公版提示，訓練產出的模型是否可再與此作交叉比較，例如某案都是從輕量刑的特徵但判刑卻重於平均，也許能有有趣發現甚至提供司法院回饋。</li>
+</ol>
+
+            <a data-link-to-post="1430" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/10">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1430'>
+      <a title="July 26, 2017  2:32pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/11">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <aside class="quote group-2017A-reviewers" data-post="10" data-topic="404" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>請問台灣平均一年有關毒品的判決數量？可幫助評審判斷影響力</p>
+</blockquote>
+</aside>
+<p>一個月大約有4000件，所以一年有48000左右。不過扣除裁定的部分，大約剩下一半。</p>
+<aside class="quote group-2017A-reviewers" data-post="10" data-topic="404" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>如您提到的冤獄、為人詬病等案件可能影響此模型，判決是否有可能大幅度由法官或律師所影響？</p>
+</blockquote>
+</aside>
+<p>無庸置疑，判決的預測模型與法官的決斷息息相關，而判決的公正與否難以用客觀事實衡量，我們量刑系統是以過去的實證做預測，是否能做出正確的判決還是仰賴司法工作者的努力。</p>
+<aside class="quote group-2017A-reviewers" data-post="10" data-topic="404" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>此專案的模型是否有法官或律師作為輸入的訓練資料？</p>
+</blockquote>
+</aside>
+<p>以法院判決書為主。</p>
+<aside class="quote group-2017A-reviewers" data-post="10" data-topic="404" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/40/97_1.png" class="avatar"> twly.tw:</div>
+<blockquote>
+<p>目前司法院的量刑審酌事項參考表已有公版提示，訓練產出的模型是否可再與此作交叉比較，例如某案都是從輕量刑的特徵但判刑卻重於平均，也許能有有趣發現甚至提供司法院回饋。</p>
+</blockquote>
+</aside>
+<p>民眾版的司法院量刑系統只有判決統計的結果，沒有判決的相關內容。因此我們無從使用訓練模型與司法院量刑系統的結果做比較。當然我們期望司法院量刑系統可以釋出更完善的功能，期望未來能夠互助合作的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1509'>
+      <a title="July 28, 2017  3:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/12">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/45/114_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shaldrem' target="_blank" class=''>shaldrem</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>你這個題目很有意思。</p>
+<p>ML上的一些小建議：<br>
+1.語意部分光靠結巴斷詞可能是不夠的，台灣的判決書跟文言文一樣，存在有更多語境和前後文的關係，你可以使用結巴為基礎，但上面必須再墊其他的NLP的方法。哎，不過中文就是這樣，訓練前的前製作業會很多。</p>
+<p>2.我看你是拿毒品案件出來做，我想分類跟必要的人工標記還是免不了的。一定會遇到一些離譜的判決和情境，就看你們是怎麼處理這塊的了？</p>
+<p>3.我建議你們還是要找一個會玩機器學習的人，辦比賽怎麼說都是求加分跟有點賭運氣的成分存在，你們還是要找到可以真正處理這塊的人。</p>
+<p>加油～加油～</p>
+
+            <a data-link-to-post="1515" class="post-replies button" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/12">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1515'>
+      <a title="July 29, 2017  1:16am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/13">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/blood858/45/281_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/blood858' target="_blank" class=''>blood858</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <aside class="quote group-2017A-applicants" data-post="12" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/40/114_1.png" class="avatar"> shaldrem:</div>
+<blockquote>
+<p>你這個題目很有意思。</p>
+</blockquote>
+</aside>
+<p>謝謝你的鼓勵:slight_smile:</p>
+<aside class="quote group-2017A-applicants" data-post="12" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/40/114_1.png" class="avatar"> shaldrem:</div>
+<blockquote>
+<p>1.語意部分光靠結巴斷詞可能是不夠的，台灣的判決書跟文言文一樣，存在有更多語境和前後文的關係，你可以使用結巴為基礎，但上面必須再墊其他的NLP的方法。哎，不過中文就是這樣，訓練前的前製作業會很多</p>
+</blockquote>
+</aside>
+<p>你說的沒有錯，所以我們會建立法律的詞庫去讓結巴斷詞能夠斷得更好。此外，有加載法律斷詞的結巴會以Open Source釋出，屆時會讓不少人受惠。但不諱言，都需要很多人力去處理。</p>
+<aside class="quote group-2017A-applicants" data-post="12" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/40/114_1.png" class="avatar"> shaldrem:</div>
+<blockquote>
+<p>2.我看你是拿毒品案件出來做，我想分類跟必要的人工標記還是免不了的。一定會遇到一些離譜的判決和情境，就看你們是怎麼處理這塊的了？</p>
+</blockquote>
+</aside>
+<p>『離譜的判決』其實非常主觀，我們沒有客觀的標準去說什麼是離譜的判決。我們能將冤案的判決去除，減少它們對量刑預測的影響；或者將同類案件作統計分析，將刑度遠高於或低於平均的案件特別標記出來。</p>
+<aside class="quote group-2017A-applicants" data-post="12" data-topic="404">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shaldrem/40/114_1.png" class="avatar"> shaldrem:</div>
+<blockquote>
+<p>3.我建議你們還是要找一個會玩機器學習的人，辦比賽怎麼說都是求加分跟有點賭運氣的成分存在，你們還是要找到可以真正處理這塊的人。</p>
+</blockquote>
+</aside>
+<p>其實我們自己有人會做，在系統開發的過程中我們也會不斷嘗試新的演算法與預測模型。但是我們覺得會有更多高手能夠做得更好，因此想要辦比賽吸引他們。假若您有興趣，竭誠歡迎您報名參加:slight_smile:</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/machine-sentencing/404/13">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

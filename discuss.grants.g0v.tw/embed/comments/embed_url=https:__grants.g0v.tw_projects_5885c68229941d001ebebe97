@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>別讓英文長鼻子，勞工政策我追蹤 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-393'>
+      <a title="January 26, 2017  1:53pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝提案，提案很有趣，會聯想到<a href="https://www.washingtonpost.com/graphics/politics/obama-promises/" rel="nofollow noopener">Washington post最近的作品</a>：追蹤歐巴馬八年執政，看他兩次競選承諾，實際上到底做了多少。</p>
+<p>回過頭來，關於這份提案，有幾個問題想追問：</p>
+<ol>
+<li>
+<p>從提案文字來看，平台目的看起來是希望完成相關報導。會考慮使用對象包含其他媒體同業嗎？在你們的想像中，其他媒體或公民會如何使用這個平台？</p>
+</li>
+<li>
+<p>網站上會打算包含工商總會等資方的評價嗎？（這問題的背後，是考量到這個平台能否被複製，假如把平台拿去追蹤其他政策，不同立場的利益團隊在平台上能否同時發聲？）</p>
+</li>
+</ol>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/2">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-505'>
+      <a title="February  1, 2017  7:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒一下，依照本獎助金實施細則，提案人需為「居住於台灣或具台灣國籍之自然人」：<a href="http://bit.ly/2jTPrgA">http://bit.ly/2jTPrgA</a>（團隊報名請同時參考本站首頁 FAQ 第一題）</p>
+
+            <a data-link-to-post="569" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/183/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-567'>
+      <a title="February  3, 2017  3:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/5">Feb &#39;17</a>
+        <a data-link-to-post="393" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/183/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twreporter/45/120_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank" class='new-user'>twreporter</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感謝提供資訊！針對您的問題，我們做以下回覆：</p>
+<ol>
+<li>
+<p>平台使用：<br>
+*媒體：媒體同業可引用平台上的勞團評價、民眾意見等訊息。<br>
+*公民：可以上來討論或發表個人意見，並針對不同政策進度評分；議題細節則由長期追蹤勞動議題的團體，發佈更詳細的評價。</p>
+</li>
+<li>
+<p>外界評價系統：<br>
+台灣長期以來少有空間讓勞動議題可以充分被思考討論，而建立平台的初衷之一也是希望能夠促進民眾對此議題的理解。<br>
+在意見呈現的平台上，不同聲音被同樣地放置在同一討論平台頁面，常常會被讀者等量接收。例如一則基於事實認真討論勞動權益的意見，跟一則非基於事實的意見，被讀者看見的機率是一樣的。因此若有非基於事實的意見，可能會對討論造成干擾。<br>
+在專案執行期間，我們會仔細思量各團體對勞動議題的專業分析能力，開放政策評價區域給對此議題有長期研究的團體發表意見。</p>
+</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-569'>
+      <a title="February  3, 2017  3:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/6">Feb &#39;17</a>
+        <a data-link-to-post="505" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/183/3">▶ ipa</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twreporter/45/120_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank" class='new-user'>twreporter</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>收到，已推派出一位提案人，感謝提醒！！！！！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-831'>
+      <a title="February  9, 2017  6:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/7">Feb &#39;17</a>
+        <a data-link-to-post="393" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/183/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twreporter/45/120_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twreporter' target="_blank" class='new-user'>twreporter</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>平台的原始碼之後是完全對群眾開放的，包含媒體同業或其他組織，可以套用到其他層級選舉和不同議題上。以下為預計開放的內容：</p>
+<p>＊ 蔡英文勞工政策追蹤呈現與管理系統</p>
+<p>前台勞工政策追蹤呈現頁面<br>
+後台管理介面<br>
+使用 Javascript (ReactJS) 進行開發<br>
+MIT License<br>
+＊ 後端 API</p>
+<p>使用者管理<br>
+資料庫串接<br>
+使用 GoLang 進行開發<br>
+MIT License</p>
+<p>上列內容將於專案開發任務完成後，全數公開於 報導者 Github</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/183/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

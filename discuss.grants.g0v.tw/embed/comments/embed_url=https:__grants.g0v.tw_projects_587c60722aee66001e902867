@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>政府資訊獵犬 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-250'>
+      <a title="January 18, 2017  2:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/changs' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/changs/45/90_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/changs' target="_blank" class='new-user'>changs</a>
+        </h3>
+        <p>想問要爬的政府部門及時資訊有哪些？可以納入立法院嗎？</p>
+
+            <a data-link-to-post="252" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/134/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-252'>
+      <a title="January 18, 2017  6:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/3">Jan &#39;17</a>
+        <a data-link-to-post="250" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/134/2">▶ changs</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>基本上我們的專案也會朝向「擴充性佳」方向編寫，也就是說，要新增一個訊息來源只需要新增一個小插件就好，這樣才能快速擴充。<br>
+至於第一階段要納入的部門主要就是五院(行政、立法、司法、考試、監察)優先，至於下屬部門可能過於繁雜，會以現行民眾使用量排序，陸續加入獵犬平台。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-680'>
+      <a title="February  6, 2017  2:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>訊息收集不知道是否看過另一個專案 <a href="https://grants.g0v.tw/projects/586a7be0a327a4001ee49126" rel="nofollow noopener">Civil Archive</a> ？如果可以共用資料收集的部份，應該可以減少不少工作</p>
+
+            <a data-link-to-post="698" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/134/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-698'>
+      <a title="February  6, 2017  7:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/5">Feb &#39;17</a>
+        <a data-link-to-post="680" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/134/4">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/hcchien">@hcchien</a> 有的，我們也有閱讀那份專案，<br>
+該專案目前的方向主要是即時資料(空汙等)，並且目前就專案尚無法確定資料庫架構<br>
+我們也是需要即時資料的部分，會優先請求使用該平台收集的資料(Don’t repeat yourself 我們也十分認同)。</p>
+<p>至於目前未能有重疊的部分，可能還是要自行爬取。<br>
+未來於黑客松討論時，可討論使用同一個資料庫架構，有利資訊整合。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-721'>
+      <a title="February  6, 2017  3:16pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/111' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/111/45/191_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/111' target="_blank" class=''>111</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>本專案很榮幸與 <a class="mention" href="/u/dragonhsiao">@DragonHsiao</a> 提案的<a href="https://grants.g0v.tw/projects/588b6972015368001e64a3f7" rel="nofollow noopener">鷹眼回聲 - Eag0v</a> 合併，以求產生更好的作品。</p>
+<p>提案內容已更新，在此留下該專案的問答紀錄<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="http://imgur.com/PgPAtUo.png" title="PgPAtUo.png" rel="nofollow noopener"><img src="http://imgur.com/PgPAtUo.png" alt="Image" width="300" height="500"></a></div>
+<p>若有問題歡迎大家指教，謝謝各位</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/134/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

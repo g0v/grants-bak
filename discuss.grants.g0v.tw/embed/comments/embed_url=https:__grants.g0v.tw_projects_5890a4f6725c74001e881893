@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>勞工救星：從就業資訊、法律協助到組織工會的一站式服務 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-515'>
+      <a title="February  1, 2017  2:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/265/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感謝提案，提案書中提到了許多該平台可以提供的功能，想請問妳認為該平台最重要的功能為何？如果只想解決一個問題，你認為該平台最該解決的問題是哪個？</p>
+
+            <a data-link-to-post="868" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/265/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-601'>
+      <a title="February  4, 2017  8:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/265/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/login?redirect=/users/profile">https://grants.g0v.tw/login?redirect=/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-868'>
+      <a title="February 10, 2017  9:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/265/4">Feb &#39;17</a>
+        <a data-link-to-post="515" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/265/2">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ray90209007' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ray90209007/45/208_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ray90209007' target="_blank" class='new-user'>ray90209007</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>你好，感謝提問。</p>
+<p>按照團隊對平台的構想，提案書裡提到的所有功能集合在一起，才是「一個」完整的服務。所以，要講平台「最重要的功能為何」，恐怕無法回答。不過，如果說之於整套服務的建構，其中最關鍵的節點，我會回答，是平台上的勞動法諮詢，以及由此衍生，線下協助處理勞資爭議與組織工會。</p>
+<p>老實說，近幾年，像我們構想的「勞工救星」這樣，希望推動勞動力市場資訊透明化的平台，為數並不在少。不過，根據我們觀察，這些平台，都碰到所能提供的服務內容有限，以及難以將流量變現的問題；因此，無法穩定、規模地經營。而相較市面上類似平台，「勞工救星」最大的優勢，是能夠由各勞團、工會支援，以非常低廉的人力成本，提供勞動力市場資訊查詢以外的服務。並且，由於台灣勞資力量嚴重失衡、勞方明顯弱勢，勞資爭議極多，協助勞工處理勞資爭議及組織工會，是一個規模穩定、龐大的市場。透過這項服務所收取的費用，足以回頭支撐網站運作，擴充平台上，勞動力市場資訊的品質及數量。</p>
+<p>所以，講到這裡，如果平台只想解決一個問題，那，會是使勞工不再原子化地面對雇主，善用網路媒介為組織工具，來提升工會組織率。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-913'>
+      <a title="February 13, 2017  1:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/265/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <aside class="quote" data-post="1" data-topic="265">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/system/40/16_1.png" class="avatar"> system:</div>
+<blockquote>
+<p>勞工救星：從就業資訊、法律支援到組織工會的一站式服務 - g0v 公民科技創新獎助金</p>
+</blockquote>
+</aside>
+<p>你好，也謝謝你的回答。</p>
+<p>會這樣提問的原因是因為敝人正好是個軟體工程師也關心勞動議題，閱讀此份提案書感到立意良好，但是每個功能雖然都是想協助勞工，但是方法不同。所以專案起頭時最好要先想一個整個專案裡面最重要的功能以及最需要解決的問題，並且針對這個功能盡量的實作完備，才不會落入每個想達成的功能都做了一些，但是卻沒有一個做的完備。</p>
+<p>我的建議是四項提案中，1 &gt; 2 &gt; 3&gt; 4 正好是實作上的順序，每項都可以以前項作為基礎逐漸擴充，所以可以把 1, 2 做好，等到完備後再繼續完成 3, 4。畢竟六個月的時間有限。</p>
+<p>注意：本人是提問人並不是審查評審。我的建議不見得會是評審的偏好。建議把以上意見作為一個軟體工程師的建議即可。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/265/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

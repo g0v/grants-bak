@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>請假事由 - 大家都看得懂的衛教網站 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1786'>
+      <a title="January 24, 2018  2:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><img src="//discuss.grants.g0v.tw/images/emoji/twitter/bowing_man.png?v=5" title=":bowing_man:" class="emoji" alt=":bowing_man:"> 希望提案者盡快補上相關說明喔！感謝</p>
+<p>另詢問此專案是否類似 wiki ？ 或者 萌典 的架構？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1837'>
+      <a title="January 26, 2018  3:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/weiou.19/45/443_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank" class=''>weiou.19</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>你好！ 感謝你的提問！<br>
+最近因為在住院中，所以資訊會慢慢地更新補上！</p>
+<p>關於專案的架構， <code>症知道了</code> 會比較像是美國梅約診所(mayo clinic) 的格式 (<a href="https://www.mayoclinic.org/diseases-conditions/delayed-ejaculation/symptoms-causes/syc-20371358" rel="nofollow noopener">(範例)</a>) ，雖然也是條目、條列式的架構，但還是與Wiki有些許的不同。</p>
+<p>關於內容，我有去看過維基百科中與疾病相關的條目，發現內含太多專有名詞，並且對於有症狀的人，沒有明確的建議，相較於 <code>症知道了</code> ，維基百科比較適合作為入門研究參考資料， <code>症知道了</code> 比較適合作為<code>台灣民眾</code>(內容在地化)在生活中應用。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1858'>
+      <a title="January 26, 2018  8:01am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>我覺得真的非常需要這樣的專案！</p>
+<p>目前維基百科上的醫學相關資料，大多是科學性地描述。例如之前朋友骨折，我上網查骨折，維基就是在介紹開放性骨折，有哪些地方會骨折，有哪些併發症。但我想知道的是，所以骨折若要開刀會住院幾天，不同地方的骨折或是到什麼程度需要休養多久，會需要多久回診一次，打鋼釘到底是什麼，會需要吃什麼藥嗎？之後安排復健要多久？結果這樣的資訊我必須翻了 Google 好幾個搜尋結果，找了好幾個醫院的網站才拼湊出來。</p>
+<p>不過我建議你們所編寫的內容，可以跟維基醫學翻譯小組合作：<br>
+<a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/Wiki_Seed_Of_Taiwan_Knowledge/WikiMed" class="onebox" target="_blank" rel="nofollow noopener">https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/Wiki_Seed_Of_Taiwan_Knowledge/WikiMed</a><br>
+有些他們不方便放進維基百科的（因為太過敘述性或是不適合百科的形式），可以放到你們這邊。你們這邊整理的各醫院、衛福部的衛教資訊，也能放到維基百科上。</p>
+<p>然後支持網站的 SEO 要做好，還有資料格式清乾淨（相關衛教資訊網址、常見的 tag ），讓其他人可以更好利用。也希望能夠有開放民眾補充的機制（送 patch），雖然最後可能還是要由專業人員確認無誤。</p>
+<p>覺得病後人生也可以參考，但現在貌似關站了。</p>
+<p>最後，我覺得「請假事由」這個名稱不太好 XD<br>
+好像沒辦法直接連結到「提供一般人生病時所需醫療資訊」的需求。</p>
+
+            <a data-link-to-post="1886" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/711/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1883'>
+      <a title="January 27, 2018  6:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/5">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>【重用性】<br>
+從描述上來看，搜尋目前看起來對於這個專案的影響很大<br>
+不知道技術上是否有比較完整的想法來增加搜尋結果的相關性？<br>
+以及這樣的實作討論也會影響未來可能元件的重用性</p>
+
+            <a data-link-to-post="1888" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/711/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1886'>
+      <a title="January 27, 2018  2:02pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/6">Jan &#39;18</a>
+        <a data-link-to-post="1858" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/711/4">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/weiou.19/45/443_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank" class=''>weiou.19</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>你好！ 感謝你的建議！<br>
+此專案的發想的確就是想要補足資訊搜尋困難與不夠易用的問題，並且希望在專案進行中找到更多願意加入的專業人員協助核對資訊準確性。</p>
+<p>目前已著手接洽維基小組，也在努力找到更多可以一起工作的團隊夥伴，感謝提供相關訊息！<br>
+（名稱已經改得更直覺啦！想知道究竟什麼疑難雜症，就來查「症 知道了」！）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1888'>
+      <a title="January 27, 2018  4:21pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/weiou.19/45/443_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/weiou.19' target="_blank" class=''>weiou.19</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝你的提問！<br>
+關於搜尋：</p>
+<ul>
+<li>預計會花功夫在關於「民眾就醫前／後查資料習慣」的UX上，以建立相關的關鍵字</li>
+<li>另外站外搜尋的部分只要能做的SEO優化都會去嘗試做</li>
+<li>站內的話，會嘗試使用Tag搜尋或是google:site 的搜尋看看效果如何</li>
+</ul>
+<p>(但重點應該還是會下功夫在「民眾就醫前／後查資料習慣的 UX調查，以及好好編輯每個條目的摘要)</p>
+<p>另外關於:</p>
+<aside class="quote group-2018-reviewers" data-post="5" data-topic="711" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt width="20" height="20" src="//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/40/104_1.png" class="avatar"> hcchien:</div>
+<blockquote>
+<p>以及這樣的實作討論也會影響未來可能元件的重用性</p>
+</blockquote>
+</aside>
+<p>請問這邊的「重用性」指的是「可重複使用性」嗎？<br>
+不太明白這句的意思？<br>
+是指什麼的重用？</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/711/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

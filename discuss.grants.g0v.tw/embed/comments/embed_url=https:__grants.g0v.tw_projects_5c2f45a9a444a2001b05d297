@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣當代藝術文化關係圖 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-2102'>
+      <a title="January 11, 2019  5:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/863/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/a2993697/45/431_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank" class=''>a2993697</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>真是讓人熱血的計畫，好的政府補助生態，對於好的計畫發展有絕大的重要性，政府補助是很穩健且目標純粹的資源，感覺這是一個可以跨不同部會使用的計畫。</p>
+<p>幾個部份提供參考</p>
+<p>1 藝文團體有哪幾種形式跟政府合作，這些形式的利弊為何(有些為了有利潤，有些為了有作品)，有沒有比重失衡的現象(若有，那就是政府補助過度側重某種形式)</p>
+<p>2 部份補助案、全額補助案、委營案、委託案之間的關系，通常補助案形成案的行政成本最低，有時候會形成過度的補助案，讓藝文工作者接了一堆案子還是沒有難以生存。</p>
+
+            <a data-link-to-post="2276" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/863/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2241'>
+      <a title="January 15, 2019  3:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/863/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/b95302239' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/b95302239/45/513_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/b95302239' target="_blank" class='new-user'>b95302239</a>
+        </h3>
+        <p>還有各縣市的文化基金會。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2276'>
+      <a title="January 17, 2019  7:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/863/4">Jan &#39;19</a>
+        <a data-link-to-post="2102" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/863/2">▶ a2993697</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/a2993697">@a2993697</a> 感謝追問與建議。</p>
+<p>我同意你所說的：網絡圖的概念可以運用在不同領域，嘗試描繪每個領域不同的生態。</p>
+<ol>
+<li>藝文團體於政府的合作模式也可以透過資料整理來歸結。</li>
+<li>這個點我沒有很了解，再麻煩你多說一點？</li>
+</ol>
+<p><a class="mention" href="/u/b95302239">@b95302239</a> 感謝提醒。如提案內容所述，<a href="https://g0v.hackmd.io/KZVmOtbFSx-IqLURtq4xVw#" rel="nofollow noopener">這裡</a>是我們簡單發想後列出的潛在資料來源，已經把「各縣市文化基金會」加入囉！</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/863/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Polis Bridge 城邦橋樑 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-2099'>
+      <a title="January 11, 2019  3:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/888/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/a2993697/45/431_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/a2993697' target="_blank" class=''>a2993697</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>作為選舉後，能有這樣的提案真的是非常振奮人心，<br>
+有幾個想法提供參考</p>
+<p>因為是平台，所以內容與使用者是最為關鍵的，TA是大學生，是什麼樣的大學生，動機與生活型態為何，在這樣的動機與生活型態是否有必然的原因要使用這樣的工具，使用平台的情境是否合理?</p>
+<p>初期從累積都想要突破同溫層感覺是很有效的策略，也許可以再延申，那中期可能是誰?</p>
+<p>現在在地沙龍、突破同溫層的對話，沒有普遍的發生，工具真的是關鍵嗎，會不會有其他的原因?</p>
+
+            <a data-link-to-post="2113" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/888/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2113'>
+      <a title="January 12, 2019  8:52am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/888/3">Jan &#39;19</a>
+        <a data-link-to-post="2099" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/888/2">▶ a2993697</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wellsonjain' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wellsonjain/45/493_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wellsonjain' target="_blank" class=''>wellsonjain</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>感謝你的提問，不過大學生應該是可能可能參與其中的參與者，當然也可能是發起者，不過以發起者來說，初期應該還是先以參加過 workshop 的成員，來作為種子，後續再從各地地方上找能夠合作承接的團體接續，感謝你的提問，我也做了一點修正。</p>
+<p>至於為甚麼突破同溫層的對話沒有被普偏的發生，老實說我也沒有答案，但是我的想法是，如果這項工具能讓這件事情發生的摩擦力變低，就起碼能增加很多實質對話</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2237'>
+      <a title="January 15, 2019 12:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/888/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hello Wellson,</p>
+<p>感謝您的提案，線下 workshop 與科技產品的結合，確實是一個非常值得嘗試的點。</p>
+<p>這裡想對「需求」面做個提問：</p>
+<p>民眾參與這類活動的動機，目前看起來似乎就是提案中「公投零分怕被統一」的人會比較有意願，請問這類人的同溫層之外，會有什麼樣參加的動機嗎？</p>
+<p>以 vTaiwan 與 join 平台為例，這些平台的線下討論，最後會成為形成政策的參考，因此會吸引利害關係人出席並且認真討論；RailsBridge 參與者也有強烈的學習與推廣的動機。這個專案想要吸引的是「同溫層之外」的人，請問要如何在產出沒有如政策般具體的狀況下，吸引到不同立場的人共同參與呢？</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/888/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

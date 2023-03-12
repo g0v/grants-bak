@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>實習透視鏡 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-302'>
+      <a title="January 21, 2017  4:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>提案很有趣，有三個問題想追問：</p>
+<ol>
+<li>預算50萬元是打算如何使用和分配呢？</li>
+<li>和現有的求職天眼通或<a href="https://ap2.ragic.com/twsalary/forms/1" rel="nofollow noopener">台灣薪資匿名分享網站Ragic</a>，在資訊呈現和平台架構上有什麼區別？</li>
+<li>最後，在過程中和專案結束後，有什麼成果能透過開源方式釋出嗎？</li>
+</ol>
+
+            <a data-link-to-post="367" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/42/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-367'>
+      <a title="January 24, 2017  8:18pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/3">Jan &#39;17</a>
+        <a data-link-to-post="302" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/42/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/miblue119/45/111_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank" class=''>miblue119</a>
+        </h3>
+        <p>silvashih 很謝謝你的提問</p>
+<p><strong>1.預算的規劃部份大致上如下：</strong><br>
+(1) 設計：20萬，相關議題懶人包、Logo、網站UX與視覺設計等。<br>
+(2)網站開發: 18萬，工程師架站費用、伺服器主機、備份資料庫、域名等。<br>
+(3)行銷、商業合作經費：6萬，廣告、SEO、社群經營，合作推廣活動等。<br>
+(4)雜費：6萬 10%競技競賽及機會中獎稅(5萬)、文書、交通等。<br>
+共計約新台幣 50萬元。</p>
+<p><strong>2.與求職天眼通以及 Ragic 的差異:</strong><br>
+從切入的內容來看，實習透視鏡主要在實習資訊透明，目前國內尚無網站著力此議題。<br>
+而求職天眼通與台灣薪資匿名分享網站 Ragic目前主要著力在正職工作的經驗透明。</p>
+<p>從呈現形式來看，實習透視鏡初版網站會和 Ragic比較相似，以表單羅列已搜集到之實習經驗（但我們會做得比他好看ＸＤ)，不同的是點擊單項後我們顯示的是統整過後的該公司實習頁面，而不是單項的個人回覆，公司頁面上會有統計的薪資與工時等資料，個人的經驗心得則會放在不同的tab裡，大家觀看完也能對經驗留下個人評論或是讚/噓，增加互動性並且促成資訊多元而免於單面 。</p>
+<p>我們有做了簡易的網站示意 prototype 可以直接上去玩玩可能比較清楚，也歡迎直接在上面給使用的comment： <a href="https://projects.invisionapp.com/share/429UFEMNE#/screens/212383397" rel="nofollow noopener">goo.gl/KtrcoA</a></p>
+<p>這是個基於眾力的透明實習資訊分享平台，資料的真實性將大大影響平台的公信度，所以如何驗證大家所分享的實習資訊一直是我們相當關心的一點。在新增新的匿名經驗時，相較 Ragic尚無驗證機制，送出資料時我們除了透過FB或Google帳號做第三方的登入驗證之外，後期更打算請使用者上傳實習證明文件以驗證身份。</p>
+<p>而求職天眼通目前是 chrome套件，也是尚無身份驗證機制，但他比較偏一個讓大家可以公開討論各家職缺的東西，跟我們分享自身實習經驗的定位有些差距（當然我們也是相當注重討論der），身份驗證的重要性感覺比較還好。而其網站部份還在開發所以暫時無法比較呈現的差異，不過他也是我們有在接洽的合作夥伴之一，也表明現階段只專注於正職工作，不會切到實習的領域。</p>
+<p><strong>3.成果開源方式：</strong></p>
+<ul>
+<li>
+<p>網站完整原始碼將公佈於實習透視鏡github，MIT License。</p>
+</li>
+<li>
+<p>所搜集之實習心得與資料除了在網站上呈現之外，也將以google sheet 方式完整公開。</p>
+</li>
+<li>
+<p>統整性之實習相關資訊將定期以懶人包或動畫方式釋出。</p>
+</li>
+</ul>
+<p>以上資訊也已同步更新到提案相對應的說明中了，謝謝你！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-384'>
+      <a title="January 26, 2017  9:30am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/4">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/users/profile">https://grants.g0v.tw/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-423'>
+      <a title="January 27, 2017  2:27pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/5">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/miblue119/45/111_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank" class=''>miblue119</a>
+        </h3>
+        <p>ipa ,<br>
+謝謝您的提醒，已把簡介部份補上了！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-431'>
+      <a title="January 28, 2017  8:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/miblue119/45/111_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/miblue119' target="_blank" class=''>miblue119</a>
+        </h3>
+        <p>在社群參與部份，我們做了些新增使我們在社群參與上更完全。<br>
+而這些啟發來自 <a href="https://grants.g0v.tw/projects/587206728798fb001e7324c2" rel="nofollow noopener">dipSpace 提案</a>，很謝謝他們！</p>
+<ul>
+<li>
+<p>平台開發協作方面：<br>
+1.線上協作：</p>
+<ul>
+<li>fb 社團內也會定期報告網站進度與新功能，大家對網站營運方面也可以直接在社團裡提問或建議。</li>
+<li>開設獨立對外slack domain，或是在 g0v  slack上開設專案討論 channel，以便大家直接跟我們對話，討論，與許願。</li>
+<li>github fork repository，由於完全靠我們自己的工程師來開發的話，其loading有點吃重，所以我們也將平台開發訴諸群眾的力量，在整體架構建置清楚之後，將開放各個開發上的 issue 讓有能力的大眾來一起解，對於個別困難，有重大意義或幫助的 issue ，若是成功被merge之後，我們也願意提供相對應的獎金，以激勵大家意願，當然這些 issue也包含使用者及開發者們所許願應該要加上的。</li>
+<li>我們也將直接開源實習資料與後端資料庫的api，讓有志之人可以直接串接開發自己的相關app或是服務，舉例來說，也許會是目前尚無再規劃內的ios 或是android app, 等，對於覺的有重大意義之的服務，我們也同樣提供激勵獎金。其運作方式參考 cafe nomad: <a href="https://cafenomad.tw/apps" rel="nofollow noopener">https://cafenomad.tw/apps</a>
+</li>
+</ul>
+<p>2.線下小型黑客松（預計6個月內舉辦 3次黑客松）：本著上述借助群眾力量互動開發的理念，我們也預計將定期舉辦小型的黑客松，徵招的方式主要會在自己的社團與各個開源社團宣傳，鼓勵所有想改善台灣實習環境的有志之士的參與，除了預設網站既定進度之外，也統合實現大家共同決定想要新增的功能，呈現介面甚至是獨立服務。</p>
+</li>
+</ul>
+
+      </div>
+    </article>
+    <article class='post' id='post-437'>
+      <a title="January 28, 2017  6:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/7">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/imbatteryesther' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/imbatteryesther/45/137_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/imbatteryesther' target="_blank" class='new-user'>imbatteryesther</a>
+        </h3>
+        <p>哈囉~~ 覺得你們的提案很實用也很有意義!!</p>
+<p>想從經驗發表者的立場來問一下關於網站與社團定位的部分。<br>
+因為你們提到說會有一個匿名問卷的分享、資訊放到網站，以及一個FB社團(基本上是半實名性質)的討論，不確定你們在FB社團裡希望發表者的發表與討論會是什麼樣的主題、什麼樣的形式? 這個"分享"跟"問卷分享"的區分與各自定位是什麼? 如果沒有明確的區分，預期是希望大家在社團分享更多經驗的話，會不會有人覺得已經寫了問卷又要社團po文分享很麻煩，可能直接想講的會在問卷幾乎都講過，就不會想再另外打一次? (而且實名敢分享的不一定比匿名多而坦率)</p>
+<p>剛剛想到社團的部分或許可以往三個方向發展<br>
+一個是你們有提到的，社團成員間的直接問答對話部分<br>
+一個是比較general的主題，例如面試注意事項等等的經驗談<br>
+那還有想到一個是由版主發起某種產業類型為主 / 某一個特定問題或議題的討論串，引一些問卷裡結果資料等，寫一小段的引導文字來拋磚引玉引導討論。舉例像是網路媒體實習的討論串；或是關於按件計酬的優缺點和其他想法的討論串，可能會有不同的產業、公司都是按件計酬的實習生分享案件計酬的好壞處之類，看有沒有可能在討論過程中描述的比原本自己填問卷更詳細？</p>
+<p>不過不知道要多少人和如何養成大家會看文的習慣後比較會運作得起來，這部分就需要社團的經營更多費心了</p>
+<p>一點簡單意見提供給你們，也希望看看其他人有沒有更多的想法，最重要還是希望你們能順利穩定的運作下去囉!! (當然也希望你們可以得到獎有資源~~~:)))</p>
+
+            <a data-link-to-post="470" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/42/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-470'>
+      <a title="January 31, 2017  9:55am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/8">Jan &#39;17</a>
+        <a data-link-to-post="437" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/42/7">▶ imbatteryesther</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mayacafe123' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mayacafe123/45/131_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mayacafe123' target="_blank" class='new-user'>mayacafe123</a>
+        </h3>
+        <p>Hi<br>
+你好，我也是這個專案的成員之一。<br>
+感謝你提了這麼棒的問題！簡單的來說，網站跟社團的定位可以理解為匿名的實習心得公佈欄與在看這個公佈欄的討論人群（具名）。<br>
+主要的實習經驗分享會是在網站上，而社團可以是針對某某經驗提出的討論與comment，當然你所提到的三個方向也都包含在內喔！<br>
+我們期望社團裡大概會充斥著這樣的討論串：<br>
+“請問有人面試過google的實習嗎？跪求前輩經驗分享”<br>
+“面試了十家海內外科技公司後，一點經驗分享…”<br>
+“做xxx的工作，只拿$$$，是正常的嗎？”<br>
+之類的，任何跟實習相關的話題我們都希望可以在社團裡經由大家的力量得到解答～<br>
+以上，希望有回答到你的疑問喔！<br>
+歡迎繼續討論，或是加入我們ＸＤ</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/42/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

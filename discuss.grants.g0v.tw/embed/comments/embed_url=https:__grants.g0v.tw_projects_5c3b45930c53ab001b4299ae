@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>我想要更多資訊儀表板 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/2">繼續討論</a>
+  <span class='replies'>11 個回覆</span>
+</header>
+
+    <article class='post' id='post-2191'>
+      <a title="January 15, 2019  2:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2250'>
+      <a title="January 15, 2019  5:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>專案介紹投影片的權限沒有開唷！</p>
+
+            <a data-link-to-post="2272" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/919/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2254'>
+      <a title="January 15, 2019  6:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/4">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/johnsonliang7/45/476_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/johnsonliang7' target="_blank" class=''>johnsonliang7</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hello 淑貞 &amp; 哲瑋</p>
+<p>感謝您們的提案！我也有在 data.gov.tw 上要過資料，不過我跟政府要 <a href="https://data.gov.tw/node/37640" rel="nofollow noopener">Ａ</a>，結果他們給的是 <a href="https://data.gov.tw/dataset/38262" rel="nofollow noopener">B</a>⋯⋯XD"</p>
+<p>我非常喜歡提案中從 data.gov.tw 拉資料出來進行分析，再用「資料小幫手」帳號以追問追蹤的方式把結果挹注回 data.gov.tw 的構想。不但跟資料開放平臺現有運作無縫接軌、相互合作提供價值，又有監督政府、責成其落實開放資料政策的成分，實在太有 g0v 的感覺了！</p>
+<p>以下是建議 / 問題：</p>
+<ol>
+<li>
+<p>（再用性）針對「本專案會產出的開源軟體套件或開放授權文件」的部分，處理後的政府開放資料回應（結構化資料）除了用來繪製儀表板，或許也可以作為開放資料釋出。程式方面，申請小幫手工具可以開源（雖然似乎很難移植到其他領域或其他國家，但是至少可以與大家一起 debug (?)）。</p>
+</li>
+<li>
+<p>（完成度）「機關回覆意見」的解讀與判斷在報告中似乎沒有提清楚具體是怎麼做的。是會由機器學習自動分類，還是會設計成由志工來標記回覆意見的方式呢？如果是後者，在專案結束後，要如何繼續擴充/更新呢？</p>
+</li>
+</ol>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/4">4 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2272'>
+      <a title="January 17, 2019  2:27am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/5">Jan &#39;19</a>
+        <a data-link-to-post="2250" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/919/3">▶ johnsonliang7</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shuchen.chang/45/515_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank" class=''>shuchen.chang</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>開權限囉 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/sweat_smile.png?v=5" title=":sweat_smile:" class="emoji" alt=":sweat_smile:"></p>
+<p>也在hackfoldr開了一個資料夾<br>
+<a href="https://beta.hackfoldr.org/opengovdata" class="onebox" target="_blank" rel="nofollow noopener">https://beta.hackfoldr.org/opengovdata</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2273'>
+      <a title="January 17, 2019  3:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/6">Jan &#39;19</a>
+        <a data-link-to-post="2254" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/919/4">▶ johnsonliang7</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shuchen.chang/45/515_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank" class=''>shuchen.chang</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>Hi, Johnson 你好!</p>
+<p>我也遇過要A給B，原來不只是我 XD</p>
+<p>初步希望能把小幫手開發成Chrome Extension，不知是否可行。</p>
+<p>處理後的政府開放資料回應作為開放資料釋出，以及申請小幫手工具開源，這些都是ok的喔，屆時歡迎一起 debug!!</p>
+<p>「機關回覆意見」解讀與判斷的形成，主要寫在解決方法第一、二點。規劃上是先把中央和地方「我想要更多」的回覆全部爬出來，或是向國發會申請。有了資料之後，一邊進行人工標注（挑一部分），看看能否找到政府駁回資料的常見原因，另一方面透過訪談、工作坊，邀請各領域經常申請資料者分享經驗，藉以形成解讀及建議。</p>
+<p>有關是否機器學習自動分類，或全數由人工標籤，包括日後新增者，我們想要聽聽專業意見，特別是前者。這個我沒經驗。目前我聽到可能需要一～二年的時間 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/sweat_smile.png?v=5" title=":sweat_smile:" class="emoji" alt=":sweat_smile:"></p>
+<p>後續擴充和更新，我個人希望繼續做，專案後期也期待能邀請國發會資訊管理處互動交流。</p>
+
+            <a data-link-to-post="2278" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/919/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2278'>
+      <a title="January 17, 2019 11:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/7">Jan &#39;19</a>
+        <a data-link-to-post="2273" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/919/6">▶ shuchen.chang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>我是要 A，過了段時間平台上真的有了 A，但也沒通知@@"</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2279'>
+      <a title="January 17, 2019 11:29am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/8">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>針對「解讀與判斷原則」，其中一種方式，舉辦【資料申請。大腸花】邀請跨領域的資料申請者，分享甘苦談，從中形成判斷原則</p>
+<p>近期類似活動：2018-10-31<br>
+vTaiwan 【把資料交出來！】跨部門資料運用線上諮詢會議</p>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/document/d/14J8Mf4aITpNqj4Zrgjb2eHks3a7RTZCU9-dlPXBzRnc/edit" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/document/d/14J8Mf4aITpNqj4Zrgjb2eHks3a7RTZCU9-dlPXBzRnc/edit" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-docs-logo"></span></a>
+
+<h3><a href="https://docs.google.com/document/d/14J8Mf4aITpNqj4Zrgjb2eHks3a7RTZCU9-dlPXBzRnc/edit" target="_blank" rel="nofollow noopener">2018-10-31 vTaiwan 【把資料交出來！】跨部門資料運用線上諮詢會議</a></h3>
+
+<p>影片 https://www.facebook.com/vtaiwan.tw/videos/192274775006375/  概要說明...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+
+            <a data-link-to-post="2287" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/919/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2287'>
+      <a title="January 18, 2019  5:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/9">Jan &#39;19</a>
+        <a data-link-to-post="2279" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/919/8">▶ classicdesign053</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shuchen.chang/45/515_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shuchen.chang' target="_blank" class=''>shuchen.chang</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>除了資料申請者，第一線處理民眾申請的公務員也可以是幫助建立判讀原則的貢獻者，無論同場或另外邀情，感覺都可以嘗試看看</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2306'>
+      <a title="January 25, 2019  2:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/10">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>團隊成員中的 york 已爬下中央平台的「我想要更多」1229筆申覆內容，csv 格式</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicon.ico" class="site-icon" width="16" height="16">
+      <a href="https://github.com/opengovdatatw/crawlers" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars0.githubusercontent.com/u/46855356?s=400&amp;v=4" class="thumbnail onebox-avatar" width="60" height="60">
+
+<h3><a href="https://github.com/opengovdatatw/crawlers" target="_blank" rel="nofollow noopener">opengovdatatw/crawlers</a></h3>
+
+<p>Crawlers on data.gov.tw/suggests. Contribute to opengovdatatw/crawlers development by creating an account on GitHub.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/f390c4effa3c2c5111ad52a06aacc2ae26eebccf.JPG" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/f390c4effa3c2c5111ad52a06aacc2ae26eebccf" title="000123.JPG"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/f390c4effa3c2c5111ad52a06aacc2ae26eebccf_1_295x500.JPG" alt="000123" width="295" height="500"></a></div>
+
+      </div>
+    </article>
+    <article class='post' id='post-2322'>
+      <a title="February  7, 2019  2:39pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/11">Feb &#39;19</a>
+        <a data-link-to-post="2254" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/919/4">▶ johnsonliang7</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>架構圖供參考<br>
+from 簡報檔案：<a href="https://reurl.cc/06Gk9" rel="nofollow noopener">https://reurl.cc/06Gk9</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/77c54b62a32bfea0213faefee38bea5117084480.jpg" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/77c54b62a32bfea0213faefee38bea5117084480" title="資料申請小幫手介紹 (5).jpg"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/77c54b62a32bfea0213faefee38bea5117084480_1_690x388.jpg" alt="%E8%B3%87%E6%96%99%E7%94%B3%E8%AB%8B%E5%B0%8F%E5%B9%AB%E6%89%8B%E4%BB%8B%E7%B4%B9%20(5)" width="690" height="388"></a></div>
+
+      </div>
+    </article>
+    <article class='post' id='post-2401'>
+      <a title="January  9, 2020  9:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/12">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/classicdesign053/45/411_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/classicdesign053' target="_blank" class=''>classicdesign053</a>
+        </h3>
+        <p>網站 (持續建置中)<br>
+<a href="https://dataopener.tw/" class="onebox" target="_blank" rel="nofollow noopener">https://dataopener.tw/</a></p>
+<p>Facebook Page<br>
+<a href="https://www.facebook.com/%E8%B3%87%E6%96%99%E7%94%B3%E8%AB%8B%E5%B0%8F%E5%B9%AB%E6%89%8B-2125769830846436/" class="onebox" target="_blank" rel="nofollow noopener">https://www.facebook.com/資料申請小幫手-2125769830846436/</a></p>
+<p>報導文章：老要不到政府開放資料？「資料申請小幫手」彙整資料與需求，申請更容易<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://futurecity.cw.com.tw/discuss.grants.g0v.tw/assets/images/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://futurecity.cw.com.tw/article/1071" target="_blank" rel="nofollow noopener">未來城市@天下</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:630/422;"><img src="https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201911/article-5dd512db6eebe.jpg" class="thumbnail"></div>
+
+<h3><a href="https://futurecity.cw.com.tw/article/1071" target="_blank" rel="nofollow noopener">g0v獎助金獲獎專案（三）｜老要不到政府開放資料？「資料申請小幫手」彙整資料與需求，申請更容易 - 未來城市@天下</a></h3>
+
+<p>民眾為研究、開發、監督公共事務，透過「我想要更多」向各級政府機關申請資料，常遭到政府機關駁回，也不清楚駁回的原因。為改善這個問題，「資料申請小幫手」團隊建立標記系統，透過人工分析彙整資料申請者的經驗及需求，協助官方改善申請後台，也提供民眾申請建議，希望有助提升申請成功率。</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/919/12">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

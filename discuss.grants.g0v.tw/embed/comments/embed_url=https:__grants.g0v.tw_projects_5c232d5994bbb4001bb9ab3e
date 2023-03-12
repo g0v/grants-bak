@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Hello 好鄰居 - 2019 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-2224'>
+      <a title="January 15, 2019  9:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/852/2">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>Hi，我看到這個專案的第一個反應是有那麼多用中文教越南語的 YouTube 影片需要用分詞器和篩選影片，一搜之下還不少。</p>
+<p>這邊的問題主要是詢問開源授權的部分，因你們說已經有個正在開發但不能公開連結的測試版，想請問新開發要開源出來的元件會有哪些，舊有的程式碼會不會開源？（開源也是有可商用的條款喔）</p>
+
+            <a data-link-to-post="2284" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/852/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2284'>
+      <a title="January 18, 2019  2:10am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/852/3">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shapable.ted' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shapable.ted/45/475_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shapable.ted' target="_blank" class=''>shapable.ted</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>您好，</p>
+<p>有字幕可供學習的影片其實真的不少。可先參考我經營的影片社團。</p>
+<p>這裡我目前每天都會釋放一則影片出來，而目前我人工蒐集到的已經有約 1500 部影片</p>
+<p>(真的蒐集的很辛苦，因為越文相對冷門，字幕和影片品質也非常稱差不齊)。</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/yz/r/KFyVIAWzntM.ico" class="site-icon" width="16" height="16">
+      <a href="https://www.facebook.com/groups/1890144617701783/?ref=bookmarks" target="_blank" rel="nofollow noopener">facebook.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-0/c58.0.200.200a/p200x200/47253197_10218068667690561_8313351552974716928_n.jpg?_nc_cat=100&amp;_nc_ht=scontent-nrt1-1.xx&amp;oh=36d0e6679ac162239a81f50de87e8e86&amp;oe=5CB9254C" class="thumbnail onebox-avatar" width="60" height="60">
+
+<h3><a href="https://www.facebook.com/groups/1890144617701783/?ref=bookmarks" target="_blank" rel="nofollow noopener">越南語學習影片交流站(Trạm trao đổi phim học tiếng Việt)</a></h3>
+
+<p>一個大家分享有字幕的越南語 youtube 影片的地方。
+
+看影片是學習一個語言最快的方式。希望這裡可以讓喜歡學習越南語的朋友們，一個互相交流的空間。
+
+交流的影片類型基本上不限(不過當然 18+, 血腥、暴力等的影片除外)，希望大家可以一起來發掘有字幕的 youtube 越文學習教材~  
+
+-----------------------------
+關於其他各類討論 與 廣告文
+
+基本上對於...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<br>
+第二個部分的元件及授權問題，請先參考以下連結的系統架構圖:
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/document/d/1fWEOtAc9W4ckHJ35T0zR6JLbWyjYtEwdc_ySqfLK0Nc/edit" target="_blank" rel="nofollow noopener">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/document/d/1fWEOtAc9W4ckHJ35T0zR6JLbWyjYtEwdc_ySqfLK0Nc/edit" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-docs-logo"></span></a>
+
+<h3><a href="https://docs.google.com/document/d/1fWEOtAc9W4ckHJ35T0zR6JLbWyjYtEwdc_ySqfLK0Nc/edit" target="_blank" rel="nofollow noopener">Hello 好鄰居:  系統設計文件</a></h3>
+
+<p>Hello 好鄰居 - 系統設計 系統架構圖   搜尋影片/影片眾包評鑑 步驟   UI 設計 Design 首頁  影片評鑑頁面  影片撥放   前後端與影片字幕搜尋引擎 前端使用技術: react.js or vue.js 後端使用技術: c# 搜尋引擎使用技術: java, elasticsearch  分詞器的選擇與驗收評比 基本原則: 使用現成的開源分詞系統為優先。 分詞詞條的來源 其他開源分詞器的詞庫 TOCFL 華語八千詞(翻譯越文) 文本分析後的高頻字 教學者的建議詞彙...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>這裡面提到的三個塊(前後端及搜尋引擎)內的功能，都是我原本系統的非商業核心功能，基本上都會開源</p>
+<p>而前端及搜尋引擎部分的程式碼會重新開發，非舊系統的 code(或許一些爬蟲可能沿用舊系統的既有程式碼)</p>
+<p>(舊系統的搜尋引擎是用 python 處理的，我發現有效率跟功能上的問題。前端則是要符合 g0v 的 mobile friendly &amp; 一些舊系統沒有的新實驗, 像是眾包評鑑功能，所以全部會重新開發)</p>
+<br>
+<p>最後您詢問的舊系統的程式碼開源問題，基本上後端大部分是既有系統的程式碼，但是基於商業競合及生存的問題，目前評估只適合開源上述架構圖內提及的部分。</p>
+<br>
+以上希望有清楚回答您的問題，如果還有什麼不清楚的，很歡迎詢問。
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/852/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

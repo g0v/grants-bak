@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>民眾家屬找殯葬服務平台3480喪事幫您找到適合生命禮儀業者 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/2">繼續討論</a>
+  <span class='replies'>11 個回覆</span>
+</header>
+
+    <article class='post' id='post-1024'>
+      <a title="July  8, 2017  6:02pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好!!! 此次提案是否是網站內的某個模組？是否針對模組詳細說明？<br>
+照片上傳與處理 是否已有 開源軟體套件 可供使用？</p>
+<p>Thanks.</p>
+
+            <a data-link-to-post="1069" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/412/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1030'>
+      <a title="July 10, 2017  3:49am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p>是否是假提案真廣告OAO (冒犯勿怪<br>
+感覺很多部分都是從範例直接抄下來不改<br>
+如g0v的公開的提案平台是否有相應的鑑別方式呢</p>
+
+            <a data-link-to-post="1070" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/412/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1069'>
+      <a title="July 15, 2017  2:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/4">Jul &#39;17</a>
+        <a data-link-to-post="1024" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/412/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/welluuu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/welluuu/45/270_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/welluuu' target="_blank" class='new-user'>welluuu</a>
+        </h3>
+        <p>應該不會有人一開頭就要人軟體,很奇怪吧~</p>
+
+            <a data-link-to-post="1222" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/412/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1070'>
+      <a title="July 15, 2017  2:07pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/5">Jul &#39;17</a>
+        <a data-link-to-post="1030" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/412/3">▶ Shadowwolf</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/welluuu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/welluuu/45/270_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/welluuu' target="_blank" class='new-user'>welluuu</a>
+        </h3>
+        <p>g0v是公平的平台,每個人都有公平的機會,您也可以參加.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1077'>
+      <a title="July 15, 2017  2:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/3480helpu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/3480helpu/45/271_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/3480helpu' target="_blank" class='new-user'>3480helpu</a>
+        </h3>
+        <p>謝謝大家的寶貴建議,我們團隊都會虛心受教,感恩<br>
+<a href="http://3480.com.tw" rel="nofollow noopener">3480.com.tw</a> 敬上</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1085'>
+      <a title="July 15, 2017  6:11pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/7">Jul &#39;17</a>
+        <a data-link-to-post="1017" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/412/1">▶ system</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wellwill110' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wellwill110/45/269_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wellwill110' target="_blank" class=''>wellwill110</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>g0v是一個眾人皆可使用平台,大家都可以表現自己的理念,如果表達理念是一種廣告,那全部參加者都在廣告了嗎?</p>
+
+            <a data-link-to-post="1098" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/412/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1098'>
+      <a title="July 16, 2017  8:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/8">Jul &#39;17</a>
+        <a data-link-to-post="1085" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/412/7">▶ wellwill110</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shadowwolf/45/262_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Shadowwolf' target="_blank" class=''>Shadowwolf</a>
+        </h3>
+        <p>你這麼一說也沒錯欸，大家都是廣告沒錯<br>
+抱歉是我把廣告定義歪了，我的錯OvO</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1123'>
+      <a title="July 16, 2017  5:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/9">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/i6le66' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/i6le66/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/i6le66' target="_blank" class='new-user'>i6le66</a>
+        </h3>
+        <p>創意，實用，<br>
+很像很多可搜尋，<br>
+很多做殯葬業朋友都有刊登，<br>
+免費比較好，</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1125'>
+      <a title="July 16, 2017  5:45pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/10">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/a212vcv' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/a212vcv/45/275_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/a212vcv' target="_blank" class='new-user'>a212vcv</a>
+        </h3>
+        <p>看過這平台很特別，是未來趨勢，社企，不賺錢，提供免費刊登，以人為本，又不是殯葬業，公正第三方。可以好好看看＾＾</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1222'>
+      <a title="July 21, 2017  3:22am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/11">Jul &#39;17</a>
+        <a data-link-to-post="1069" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/412/4">▶ welluuu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"> 針對原提問補充說明</p>
+<p>項目「請提供本計劃的示意圖或介面設計草圖 (請以連結方式提供圖片)」你提供了網站連結，<img src="//discuss.grants.g0v.tw/images/emoji/twitter/sunflower.png?v=5" title=":sunflower:" class="emoji" alt=":sunflower:"><strong>無法充分說明</strong>項目「請說明計畫期中的工作里程碑與驗收給付標準」提到要施工的內容。<br>
+可參考其他提案 （ ex. 浪愛協尋_寵物走失協尋APP 的 <a href="https://marvelapp.com/4d2b6di/screen/30425294" rel="nofollow noopener">https://marvelapp.com/4d2b6di/screen/30425294</a> ），這會讓評審充分了解你此次的計畫內容，且有助於「驗收給付標準」。</p>
+<p>另「請說明本專案會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）」提到的「圖片批次上傳，處理圖片大量批次上傳到伺服器端並強制授權。 Slideshow，網頁顯示圖片輪播。 IPFS 連線，處理 IPFS 分散式網路連線部分。 自動分類 AI，自動學習歸類照片與事件的人工智慧 Model」皆已有需多開源套件可供使用，是否有再開發的必要？或者是在現今開源套件中有所不足的部分？是否能夠補充說明？</p>
+<p>Thanks.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1379'>
+      <a title="July 26, 2017  3:47am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/12">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>好奇為什麼這個提案與「新媒體」這個主題相關？</p>
+<p>如果是特定產業的資訊工具，為什麼不是由該產業來支持這個專案？這個專案跟「開放政府」、「公民參與政治」等等的主題的關聯又在哪裡？</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/412/12">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

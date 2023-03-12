@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>infometro 資訊地鐵站 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1303'>
+      <a title="July 25, 2017 10:40am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/infometro/477/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>如果是tag的話，可以做到一篇文章同時屬於多個分類，請問這個專案能做到這個功能嗎？</p>
+
+            <a data-link-to-post="1407" class="post-replies button" href="/discuss.grants.g0v.tw/t/infometro/477/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1374'>
+      <a title="July 26, 2017  3:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/infometro/477/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有趣的專案，不過似乎沒有提到要怎麼評估你確實有解決原本的問題。</p>
+<p>也就說有沒有預估未來幾個月內的使用者人數，或者有沒有打算做 UX research 之類的。確保你的概念，也是大多人數需要的？</p>
+
+            <a data-link-to-post="1396" class="post-replies button" href="/discuss.grants.g0v.tw/t/infometro/477/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1396'>
+      <a title="July 26, 2017  6:21am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/infometro/477/5">Jul &#39;17</a>
+        <a data-link-to-post="1374" class="in-reply-to" href="/discuss.grants.g0v.tw/t/infometro/477/4">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mose286778' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mose286778/45/310_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mose286778' target="_blank" class=''>mose286778</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>了解，感謝提問，這部份的回答，我會補充在 "打算如何讓社群參與以及回饋意見？"裡</p>
+<p>這個專案運作的方式如下，會在這幾個月的運作過程裡 搜集使用者的意見 來得到意見和改善：</p>
+<ul>
+<li>
+<p>1、目前於5/31上線的BETA版，大約兩個月的經營結果，也搜集不少使用者的意見，大致也發現了一些共通的問題(比如說，版面設計、介面操作上的問題)，所以也是這次提案到期中里程碑前修改的重點。</p>
+</li>
+<li>
+<p>2、而到了期中里程碑前，列出的基本功能都建置完成後，會做一次性大量的曝光，在臉書各大資訊社群、PTT 相關群組，也會提播一點經費做GOOGLE 關鍵字廣告，因為這樣才能更精確的找到想使用的人(關鍵字：EVERNOTE、網路記事等)，預計曝光後，會做一次使用者的調查(包括：社群的意見回饋、分析GOOGLE GA轉換率)，這部份預計會在11月中會完成。</p>
+</li>
+<li>
+<p>3、而這次的曝光後，希望能搜集到更廣泛的意見，並能更精確的找出問題，會在期中初以後做積極的修正，在第一版RELEASE推出現，能讓這個產品的基本功能面是完整的。</p>
+</li>
+<li>
+<p>4、而發展社交功能，是本計畫期未一個重要的環節，這部份將以 RELEASE 基本功能為主，也會在期中完成後，搜集使用者見意，並著手開發社群功能。</p>
+</li>
+</ul>
+<p>而搜集使用者的意見，主要是透過 電子郵件、網路問卷調查，另外也會對個別使用者做深度訪談，這部份會主動邀請有興趣的使用者來參與。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1407'>
+      <a title="July 26, 2017  7:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/infometro/477/6">Jul &#39;17</a>
+        <a data-link-to-post="1303" class="in-reply-to" href="/discuss.grants.g0v.tw/t/infometro/477/2">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/mose286778' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/mose286778/45/310_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/mose286778' target="_blank" class=''>mose286778</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>可以，tag的話會另外在實做，是一項獨立機制，輸入資訊時可以用 #tag的方式 分類資訊，預計會置於左邊的介面裡。感謝提問，我漏掉了這個功能，會加入期中的成果裡。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/infometro/477/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

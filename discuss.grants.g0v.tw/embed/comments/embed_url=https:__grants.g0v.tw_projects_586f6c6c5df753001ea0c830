@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>國會調查兵團 - g0v 公民科技創新獎助金 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-224'>
+      <a title="January 15, 2017 11:53am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bathroom0213' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bathroom0213/45/68_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bathroom0213' target="_blank" class='new-user'>bathroom0213</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>我之前有注意一個團體叫公民監督國會聯盟，跟你想的差不多，你看過了嗎？有的話，你想想還能做什麼？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-229'>
+      <a title="January 16, 2017  2:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/3">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/member.hsu/45/70_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank" class='new-user'>member.hsu</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>公督盟做的主要是量化評分的評估。而我們想做的主要是「鼓勵協作」。也就是鼓勵大家親自下去看ivod並回報自己看到的影片。這也是我們後來把這個計畫從單純的google form回報的方式擴展成網站協作平台的原因。</p>
+<p>但任何一個營運過網站的人都知道，只有網站但沒有足量的內容是沒有用的。重要的是也必須要提供對一般民眾有意義的內容。而初期在公民協作習慣還沒有建立起來以前，我們選擇自己下去看ivod並且定期製作影片。從2015年開始到現在，我們已經累積達七百餘支的影片。每支影片都是由我們正職人員在立法院有開會的時候都看ivod剪輯出來的。</p>
+<p>每天要接收的訊息很多，每個人一天可能只有5~10分鐘可以關心國會，我們希望能持續長期透過固定人員每日監看，爬梳一天重要的質詢內容，篩選出值得關注的議題，剪輯成影片並撰寫容易理解的文案，讓更多人可以輕鬆地理解國會最近正在討論什麼。這部分是整個計畫中最吃編輯人力的部分。</p>
+<p>目前做國會監督的網站很多，但每個站主打的方向其實都有各自的差異。有的人喜歡用評分或客觀數據的方式了解國會，但也會有人喜歡用「直接看立委有哪些言行」的方式了解國會。我們認為用不同的方式呈現國會監督這件事，能夠幫助擴大參與國會監督的族群。</p>
+<p>公督盟做國會監督很久了，但是大部分的人其實還是不知道原來立法院有ivod可以看，而這件事情本身也需要被強力倡議。這也是我們做兵團計畫所希望推廣的環節之一。</p>
+<p>以下也是我們針對跟其他做國會監督服務差異的簡單比較：</p>
+<p><strong>國會調查兵團：</strong><br>
+以立委個人為單位，專注於建立立委影片、新聞、立院質詢的資料庫。讓使用者監督「單一立委」可以更方便搜尋。網站主要以立院質詢影片作為主打。</p>
+<p><strong>公督盟：</strong><br>
+以量化分數的方式評鑑，以整體質詢、法案提出率做評鑑。</p>
+<p><strong>國會無雙：</strong><br>
+著重於國會深度新聞報導，以文字新聞、直播互動為主。</p>
+<p><strong>立委出任務：</strong><br>
+立委針對特定議題質詢紀錄的資料圖表化，以圖文呈現為主。</p>
+<p><strong>立委投票指南：</strong><br>
+立委的法律提案、表決紀錄的整體彙整。以文字呈現為主。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-579'>
+      <a title="February  3, 2017  8:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/clkao/45/2_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/clkao' target="_blank" class='staff'>clkao</a>
+        </h3>
+        <p>您好，因 3/6 有改獎助金執行細則，要請您修改提案，加上社群參與與開源元件的說明，謝謝！</p>
+<p>「提案需說明社群如何參與，以及產出的開源元件或文件（請參考<a href="https://hackmd.io/AwQwrAxsBM0KYFoDscCMAzBAWAHCRARqgJzEJjpwQDMAJkmFsXNUA===#%E8%AB%8B%E8%AA%AA%E6%98%8E%E5%B0%88%E6%A1%88%E7%B5%90%E6%9D%9F%E6%99%82%EF%BC%8C%E6%9C%83%E7%94%A2%E5%87%BA%E7%9A%84%E9%96%8B%E6%BA%90%E8%BB%9F%E9%AB%94%E5%A5%97%E4%BB%B6%E6%88%96%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E6%96%87%E4%BB%B6%EF%BC%88%E8%AB%8B%E6%A2%9D%E5%88%97%E5%80%8B%E5%88%A5%E5%85%83%E4%BB%B6%E7%9A%84%E8%BC%B8%E5%85%A5%E8%BC%B8%E5%87%BA%E6%88%96%E5%85%B6%E5%8A%9F%E8%83%BD%EF%BC%89%EF%BC%9F">範例</a>），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。」</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="/discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/203e1f320987a503a00e3ffc7f4c65d85db34c7b.png" class="site-icon" width="128" height="128">
+      <a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">g0v 公民科技創新獎助金</a>
+  </header>
+  <article class="onebox-body">
+    <img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/c4e27f691e6af93fc306297d65a388aedadc1732.png" class="thumbnail onebox-avatar" width="128" height="128">
+
+<h3><a href="/discuss.grants.g0v.tw/t/3-6/167" target="_blank" rel="nofollow noopener">獎助金實施細則修正 - 決選機制說明：請提案人保留 3/6 時間</a></h3>
+
+<p>提案需說明社群如何參與，以及產出的開源元件或文件（請參考範例），煩請各位已提案的朋友，編輯自己的提案，加上對應的段落。 決選入圍機制說明：請各位提案者保留 2017/3/6 全天時間。3/1 入圍決選公布後，入圍者須提供 5 分鐘提案簡介影片，並於 3/6 與評選委員現場問答。 評選審查依據內容說明： 最終版本提案內容 提案者簡歷 「提案追問團」對於提案者針對其提問的回應或內容修改之評估     g0v 公民科技創新獎助金實施細則完整版 v0.3，任何問題歡迎連絡執行團隊：...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+
+            <a data-link-to-post="651" class="post-replies button" href="/discuss.grants.g0v.tw/t/g0v/45/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-596'>
+      <a title="February  3, 2017  3:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>相關工作是否和沃草有一些重疊？</li>
+<li>產出網站功能是否可以有更具體描述？</li>
+</ol>
+
+            <a data-link-to-post="654" class="post-replies button" href="/discuss.grants.g0v.tw/t/g0v/45/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-600'>
+      <a title="February  4, 2017  8:21am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/6">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ipa/45/12_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ipa' target="_blank" class='staff'>ipa</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>提醒補充提案人簡介內容頁，讓大家與評審更了解你的履歷與背景：<a href="https://grants.g0v.tw/login?redirect=/users/profile">https://grants.g0v.tw/login?redirect=/users/profile</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-651'>
+      <a title="February  5, 2017 10:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/7">Feb &#39;17</a>
+        <a data-link-to-post="579" class="in-reply-to" href="/discuss.grants.g0v.tw/t/g0v/45/4">▶ clkao</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/member.hsu/45/70_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank" class='new-user'>member.hsu</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>收到，目前已經將內容補上加上社群參與與開源元件的說明，感謝提醒！<br>
+另外已補上提案人簡介，想詢問一下提案人簡介內容頁可以允許使用 markdown 做簡易的格式編輯嗎？因為剛剛試了一下發現好像沒有用@@</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-654'>
+      <a title="February  5, 2017 10:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/8">Feb &#39;17</a>
+        <a data-link-to-post="596" class="in-reply-to" href="/discuss.grants.g0v.tw/t/g0v/45/5">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/member.hsu/45/70_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/member.hsu' target="_blank" class='new-user'>member.hsu</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好，感謝您的提問，說明如下。</p>
+<p>1.相關工作是否和沃草有一些重疊？<br>
+以產出「國會影片」的角度來說，是的，這部分是有部分重複。<br>
+但由於立委一共有113席，而立院主要審議議案的委員會一共分為八個。實際上只靠沃草一間公司，並無法做到全方位的監督，他們實際上每次開會也只能同時盯2個委員會。因此即使「剪輯國會影片」的工作看起來有重複，但我們產出的「內容」實際上重複率卻不高。就產出「國會影片」這部分，我們更期待的是有更多人一起投入，這樣對監督立委的打擊面才能擴大，而不是只有明星立委被看得比較多，而比較沒有新聞點的立委則永遠只能靠衝突才能取得曝光機會。</p>
+<p>我們與沃草的另外一個差異是我們產出內容的主要目的，是推廣公民協作。也就是任何人都可以剪輯國會影片，而他們的影片都可以回報到我們的網站。所以網站上針對這部分的回報機制與網站的設計，都是以個別立委為中心。</p>
+<p>散落在網路上的影片，逐字稿有很多，特別是這個會期進入大直播時代，連民視也一起進來做類似的事情。但隨著時間過去，如果沒有特別一邊彙整在一個網站上，一般民眾即使到了選舉也很難靠google就去找到這個立委四年以來的所有表現。國會調查兵團網站希望成為立委表現的wiki，並且主要針對「影片」，提供民眾除了公督盟量化，或沃草專業報導外，另外一個了解國會及監督國會的方式。</p>
+<p>2.產出網站功能是否可以有更具體描述？<br>
+本次計畫工程部分主要會花9成的時間在做網站改版上。新增功能的部分約占1成，主要是希望將影片導入評分的機制。讓一般使用者可以針對每個回報內容進行評分。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/g0v/45/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

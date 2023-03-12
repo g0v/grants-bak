@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>鞋謝你，共享鞋計畫 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-411'>
+      <a title="January 26, 2017  7:05pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>你好!! 這是一個很棒的 idea <img src="//discuss.grants.g0v.tw/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"> 且已開始行動</p>
+<p>請問 衣服及鞋子的配套（自動配對？）及要完成串接金物流，此部分是否已與工程團隊討論過可在 6個月內完工？</p>
+<p>另外 溫馨提醒 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/gift.png?v=5" title=":gift:" class="emoji" alt=":gift:"> 「開源（開放原始碼）是指將成果用開放授權的方式公開出來，讓其他人可以直接使用、改作、加入協作或發展出更新的版本。好處是過程透明、更容易協作，成果共享。」</p>
+
+            <a data-link-to-post="422" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/194/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-422'>
+      <a title="January 27, 2017  9:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/3">Jan &#39;17</a>
+        <a data-link-to-post="411" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/194/2">▶ YuTin_Liu</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tony120480' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tony120480/45/136_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tony120480' target="_blank" class='new-user'>tony120480</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好 :<br>
+目前衣服及鞋子的方式不算是自動配套，是由消費者上傳自己衣服的照片，再以滑動的方式做挑選.<br>
+目前規劃是將區塊分成上下兩塊，消費者可以上傳自己衣服的照片在上塊A，店內適合自己尺寸(假設消費者的尺寸為鞋長25)為下塊B，藉由滑動自己的衣服，和滑動目前屬於店內可以出租鞋子的部分，做一個手動配對適合的款式.  畢竟每個人的喜愛樣式不同，若需做到自動配對需要再更後端以cookies的方式紀錄消費者配對嗜好，這部分就無法在半年內完成.</p>
+<p>金物流的方式可以串接綠界(目前也有帳號)，藉由線上刷卡服務再由物流中心寄出. 回收方式目前規劃是隨包裹附贈歸還袋，由小七直接退回做回收. 因此金物流的方式可以再六個月內完成</p>
+<p>若有問題歡迎再提出^^</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-765'>
+      <a title="February  7, 2017  8:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>記得到個人頁面補上個人介紹，讓評審更認識你喔</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-856'>
+      <a title="February 10, 2017  2:56am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有趣的專案，不過租鞋最大的考量可能會是衛生，這部分怎麼處理？<br>
+另外看不出來實體店面跟網站的區別，也就是為什麼是要先有實體店面？<br>
+實體店面的建置只需要 10 萬嗎？<br>
+然後前三個月有機會能夠促成租鞋媒合的可能性嗎？<br>
+網站和實體店面不能並行嗎？<br>
+不好意思，我的問題有點多。</p>
+
+            <a data-link-to-post="949" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/194/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-949'>
+      <a title="February 16, 2017  7:41am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/6">Feb &#39;17</a>
+        <a data-link-to-post="856" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/194/5">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tony120480' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tony120480/45/136_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tony120480' target="_blank" class='new-user'>tony120480</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好 :<br>
+目前鞋子租用後，都會安排一次送洗.<br>
+已跟消費者實際接觸，確實都會對衛生產生疑慮，但知道每次租借後都會送洗後就安心很多.<br>
+因此目前送洗的方式是可行的.</p>
+<p>十萬會用於租房子和實體店面的設計和擺設.<br>
+當然實體店面的金額是可大可小的，但目前因考量到後續的線上配對作業，因此這部分會以十萬做基礎店面的建設為主.<br>
+鞋子促成媒合我想是有機會的，因為若是有實體店面架設，可以以品牌的通路曝光作為一個談判的方式.  讓品牌不用耗費額外的成本，只需提供鞋子，就可以在高雄有一個實體分店通路. 這部分來講對品牌會是很有利的<br>
+網路和實體店面一定是並行，實體店面會比較偏向主題館的存在，了解鞋子，愛上鞋子.<br>
+藉著O2O的方式做推廣，而租鞋的流程和功能面都會在線上完成作業.</p>
+<p>不好意思有點慢回復了，因為沒接到信件告知有人留言，希望這些答案有回答到你.<br>
+若是有不清楚的地方可以在提問喔!</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/194/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

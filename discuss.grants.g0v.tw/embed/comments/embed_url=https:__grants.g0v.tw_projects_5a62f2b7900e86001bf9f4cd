@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>太平腎世 – 全方位慢性腎病資訊平台 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-1822'>
+      <a title="January 25, 2018  3:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/704/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/silvashih/45/79_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/silvashih' target="_blank" class=''>silvashih</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有意義的平台，謝謝提案！【影響力】</p>
+<ol>
+<li>
+<p>是否打算把腎臟學會的評鑑成果一起在網頁上呈現？</p>
+</li>
+<li>
+<p>除了跟學會、洗腎中心合作，不曉得有沒有打算和<a href="http://www.capd.org.tw/" rel="nofollow noopener">腎友協會</a>合作？該網站已有很多衛教資訊（還有臉書社團），而且過去也有走訪洗腎中心評核的實務經驗。</p>
+</li>
+<li>
+<p>期中和期末檢驗中，除了網站的功能之外，有沒有考慮增加使用人數等user端的評估？</p>
+</li>
+<li>
+<p>提案中寫到，打算建立後台還有病患管理系統，前提都是要和洗腎中心/診所談合作。但中心和診所遍佈全台，不曉得有沒有打算先在哪個縣市、甚至更小的行政單位開始做起？（或是哪家連鎖醫院作為你們專案的試點？）</p>
+</li>
+</ol>
+
+            <a data-link-to-post="1829" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/704/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1829'>
+      <a title="January 25, 2018  8:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/704/3">Jan &#39;18</a>
+        <a data-link-to-post="1822" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/704/2">▶ silvashih</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/m0820820' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/m0820820/45/442_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/m0820820' target="_blank" class=''>m0820820</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝您的建議，針對您的幾項問題，我們的回覆如下:</p>
+<ol>
+<li>
+<p>我們有預計將腎臟學會的評鑑結果在網頁上呈現，方便我們的使用者觀看相關資料。這部分我們會增加至原本的提案內容中，方便評估本案時可以了解更加清楚。</p>
+</li>
+<li>
+<p>非常感謝您的建議，我們會嘗試與腎友協會合作，相信這個計劃會對彼此都有很大的幫助。</p>
+</li>
+<li>
+<p>目前的提案尚未加入使用者端部分的評估，我們會新增成為檢驗的項目之一。</p>
+</li>
+<li>
+<p>目前預計在北中南三大地區，挑選數家我們較熟識，也有意願前期參與此計畫的洗腎中心合作，作為病患管理後台前期試點的地區。</p>
+</li>
+</ol>
+<p>感謝您的提問跟建議，我們會整理後，加入原本提案的內容，謝謝。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/704/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

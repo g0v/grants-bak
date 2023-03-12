@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>Dija - 雲端登山麵包屑 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-731'>
+      <a title="February  7, 2017  4:08am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/dija/191/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>感覺這個提案跟 <a href="https://grants.g0v.tw/projects/58908c3046da1c001e3601e7" rel="nofollow noopener">預防登山迷途</a> 想達到的目的還滿接近的，雖然做的方向不同，可是好像也可以結合，不知道有沒有一起合作，減少重複的工作</p>
+
+            <a data-link-to-post="768" class="post-replies button" href="/discuss.grants.g0v.tw/t/dija/191/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-751'>
+      <a title="February  7, 2017  7:20am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/dija/191/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>提醒可以去個人頁面添加個人介紹，讓評審更了解你。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-768'>
+      <a title="February  7, 2017 10:00am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/dija/191/4">Feb &#39;17</a>
+        <a data-link-to-post="731" class="in-reply-to" href="/discuss.grants.g0v.tw/t/dija/191/2">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/cedric.shih' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/cedric.shih/45/201_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/cedric.shih' target="_blank" class='new-user'>cedric.shih</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>後來才看到「預防登山迷途」的提案，所以也沒有機會討論一起合作的部份。「預防登山迷途」感覺上是同時顧及雙平台或希望以 iOS 為主，但目前評估 Dija 的「雲端麵包屑」概念是無法實現在 iOS 上面，因為 iOS 禁止 App 收發簡訊，更不用提要做到「傳送失敗存入佇列，等待取得訊號後自動重送」的功能。如果要做到這樣的機制，也許得要跟蘋果原廠或電信商合作？</p>
+<p>目前的 Dija 也實作了以簡訊查詢及訂閱天氣預報的功能，高山的天氣預報變動很大，有時前一天說晴天，隔一天就變下雨。然而這部份以簡訊為基礎的天氣預報功能在 iOS 上也有實作的困難。</p>
+<p>另外原先有計畫在 iOS 上做出留守人專用的 App，可以收推播跟查航跡，但後來比較傾向與 LINE 整合，用最新發表的 Messaging API 來實現留守機器人。使用流程大致上會是：</p>
+<ol>
+<li>登山者在 LINE 裡把 Dija 機器人跟留守人拉進同一群組，同時也可以在群組裡討論。</li>
+<li>登山者上山後，只要雲端收到航點座標，就會透過 Dija 機器人把登山者的位置資訊傳送到群組中。</li>
+<li>留守人也可以透過訊息指令，例如「今天的航跡」，讓 Dija 機器人回報航跡資訊或連結。</li>
+</ol>
+<p>台灣用 LINE 的人很多，這樣會比在每個平台去寫 APP 有效率很多。</p>
+<p>「預防登山迷途」要做的東西比較像是要做出入門版的「綠野遊蹤」(Android) 跟「登山客」(iOS) 來降低手機輔助登山的學習門檻，其實也是個不錯的方向，至少可以統整界面，不用像<a href="https://udn.com/news/story/7088/2265645?from=udn-catelistnews_ch2" rel="nofollow noopener">這樣</a>還要分系統寫操作說明。</p>
+<p>如果把兩個案子目標整合的話，以我這邊的想法大概是要多在 iOS 上實作一個沒有「雲端麵包屑」功能的 Dija App，但因為我沒有太多的 iOS 開發經驗，如果從頭學起的話，實在沒有太大的信心可以在6個月內有成果 (以 Dija 的 Android 開發心路歷程來看)。因此這部份可能會要採用外包的方式，甚至是先試著去授權「登山客」原始碼作為開發基礎。如此一來，Dija 可能沒有太多經費可以投入在長期的雲端後台維運。因此若要整合的話，需要與「預防登山迷途」討論資源分配的問題，否則期中期末成果可能會開天窗…</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/dija/191/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

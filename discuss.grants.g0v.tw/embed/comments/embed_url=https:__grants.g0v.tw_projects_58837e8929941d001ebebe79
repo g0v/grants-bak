@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>IDS開放網路再造漢字 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>5 個回覆</span>
+</header>
+
+    <article class='post' id='post-750'>
+      <a title="February  7, 2017  7:16am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，可以補上吳守禮《國臺對照活用辭典》現代數位化專案的專案連結嗎？謝謝。</p>
+
+            <a data-link-to-post="773" class="post-replies button" href="/discuss.grants.g0v.tw/t/ids/175/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-773'>
+      <a title="February  7, 2017  1:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/3">Feb &#39;17</a>
+        <a data-link-to-post="750" class="in-reply-to" href="/discuss.grants.g0v.tw/t/ids/175/2">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shoichi.chou' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shoichi.chou/45/109_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shoichi.chou' target="_blank" class='new-user'>shoichi.chou</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>您好，已經在內文中補上，有維基協會的計畫頁面也有hackpad的版本。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-829'>
+      <a title="February  9, 2017  3:23am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很棒的專案，不過美國維基媒體基金會那邊會有機會申請補助嗎？<br>
+因為提到之前是用零碎的時間，但每週 10 小時，是說會找一天完整的 10 小時來做這個專案，<br>
+還是一樣一天花 2~3 小時，一週共 10 小時。<br>
+就是拿到補助以後，會如何讓你花更多時間，這邊描述得更清楚一點比較好。</p>
+
+            <a data-link-to-post="946" class="post-replies button" href="/discuss.grants.g0v.tw/t/ids/175/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-946'>
+      <a title="February 15, 2017  9:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/5">Feb &#39;17</a>
+        <a data-link-to-post="829" class="in-reply-to" href="/discuss.grants.g0v.tw/t/ids/175/4">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/shoichi.chou' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/shoichi.chou/45/109_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/shoichi.chou' target="_blank" class='new-user'>shoichi.chou</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>抱歉晚回答了，關於維基媒體基金會的補助申請，目前比較著重於社群經營的，而工程團隊的補助，比較沒有。</p>
+<p>我如果拿到補助的話，會是一週撥一天完整的10小時。以前是零零碎碎，一個星期零碎投入總共加起來只有2~3 小時，而其他時間要在現實生活中的工作奔波。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-2091'>
+      <a title="January  9, 2019  4:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/6">Jan &#39;19</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bongbonggun' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bongbonggun/45/491_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bongbonggun' target="_blank" class='new-user'>bongbonggun</a>
+        </h3>
+        <p>支持！<br>
+本身對漢字感興趣，而目前公司也是做電子書搜尋引擎的。<br>
+有些典籍數位化時，會有缺字的情形。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/ids/175/6">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

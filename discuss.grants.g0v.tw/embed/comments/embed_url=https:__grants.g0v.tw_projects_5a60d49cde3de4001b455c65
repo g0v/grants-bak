@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>巨人的肩膀 - 跨平台影音策展工具 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>9 個回覆</span>
+</header>
+
+    <article class='post' id='post-1770'>
+      <a title="January 23, 2018  2:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>「購買（好看的）網頁字型」++</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1772'>
+      <a title="January 23, 2018  2:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>【完整度】如果我使用《巨人的肩膀》做了一個播放清單，是否有線性播放以外的選項？</p>
+
+            <a data-link-to-post="1823" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/692/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1773'>
+      <a title="January 23, 2018  2:37pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/4">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihaoyo/45/60_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihaoyo' target="_blank" class=''>chihaoyo</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>【完整度】請問「導播模式」是什麼意思？</p>
+
+            <a data-link-to-post="1825" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/692/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1823'>
+      <a title="January 25, 2018  3:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/5">Jan &#39;18</a>
+        <a data-link-to-post="1772" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/692/3">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yehchicken' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yehchicken/45/441_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yehchicken' target="_blank" class='new-user'>yehchicken</a>
+        </h3>
+        <p>您好，我是共同提案人Jason，本次我們專案設定的主要目標為優先完成「跨影音平台的播放清單」的功能，至於「隨機播放」或其他非線性的播放功能，將會與工程師討論視進度或難易度來規劃，但感謝您的建議，我們會記錄起來的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1825'>
+      <a title="January 25, 2018  3:37am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/6">Jan &#39;18</a>
+        <a data-link-to-post="1773" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/692/4">▶ chihaoyo</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yehchicken' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yehchicken/45/441_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yehchicken' target="_blank" class='new-user'>yehchicken</a>
+        </h3>
+        <p>導播模式是類似電視台導播，在畫面上可同時觀看多個影片的功能，例如Youtube首頁的影片grid，而我們是將grid放大到三至四等份頁寬，期望設計成各個grid內都能直接播放，如同導播在觀看各個畫面。</p>
+<p>會發想此功能，是希望將在同一場合中各個公民的直播連結編入清單，便能在同一頁面同時播放觀看各個角度的直播實況。雖然此功能頗耗電腦效能，但這是我們期待能替不久的將來所設定的規格。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1853'>
+      <a title="January 26, 2018  7:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/7">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>覺得這個功能很好！但是由於我非專業，不太能夠想像要怎麼在一個平台上播跨平台的影音，想請問有沒有手畫的 mockup 之類的可以參考？</p>
+
+            <a data-link-to-post="1875" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/692/7">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1875'>
+      <a title="January 26, 2018  5:30pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/8">Jan &#39;18</a>
+        <a data-link-to-post="1853" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/692/7">▶ ael</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/charlieworld2008/45/219_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank" class=''>charlieworld2008</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝提問！</p>
+<ul>
+<li>
+<p>實作方法我可以簡單說明一下，</p>
+<p>如果要在同一個平台(網頁) 播放跨影音平台：</p>
+<ol>
+<li>
+<p>首先使用者貼上網址時，要知道他是哪個平台的影片 (各種網址、短網址判斷)</p>
+</li>
+<li>
+<ul>
+<li>找一個可以支援跨平台播放的影片播放器套件</li>
+<li>或是實作一個高效能可以替換各種影片平台播放器的方式</li>
+</ul>
+</li>
+<li>
+<p>播放清單的資料(連結) 跟影片播放器連動</p>
+</li>
+</ol>
+<p>腦中目前規劃的，大概是朝向這樣的做法</p>
+</li>
+<li>
+<p>關於 mockup 的部分會盡快補上</p>
+<p>不過視覺介面上應該看不出來是個<code>跨平台播放清單</code>，因為我們就是目標希望讓使用者在編輯跨平台影音的時候感覺是整合在一起的<br>
+(但會<code>優雅</code>得標註出處平台、影片標題還有作者等影片資訊)</p>
+</li>
+</ul>
+<p>( <a class="mention" href="/u/yehchicken">@yehchicken</a> 投影片呢！～～～  敲碗 ）</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1910'>
+      <a title="January 29, 2018  8:26am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/9">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>您好，今天 23:59 將關閉修改提案功能，建議把「待補」的部分補齊，以利後續評選流程。</p>
+
+            <a data-link-to-post="1929" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/692/9">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1929'>
+      <a title="January 29, 2018  3:15pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/10">Jan &#39;18</a>
+        <a data-link-to-post="1910" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/692/9">▶ bess</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/charlieworld2008/45/219_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/charlieworld2008' target="_blank" class=''>charlieworld2008</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>感謝提醒！ Orz</p>
+<p>整理PPT，花了點時間，剩餘資料皆補件完畢</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/692/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

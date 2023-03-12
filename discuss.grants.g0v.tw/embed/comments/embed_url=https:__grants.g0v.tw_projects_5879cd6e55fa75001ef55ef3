@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>紫豹在哪裡 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-216'>
+      <a title="January 14, 2017  9:24am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/2">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/tonytonyjan' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tonytonyjan/45/63_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/tonytonyjan' target="_blank" class='new-user'>tonytonyjan</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a href="http://env.childgrowth.info/air/" rel="nofollow noopener">http://env.childgrowth.info/air/</a> ？</p>
+
+            <a class="post-replies button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/2">2 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-218'>
+      <a title="January 14, 2017  3:15pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/3">Jan &#39;17</a>
+        <a data-link-to-post="216" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/122/2">▶ tonytonyjan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>相關的還有 <a href="http://airmap.g0v.asper.tw/" rel="nofollow noopener">http://airmap.g0v.asper.tw/</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-220'>
+      <a title="January 14, 2017  4:03pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/4">Jan &#39;17</a>
+        <a data-link-to-post="216" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/122/2">▶ tonytonyjan</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/aga3134/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank" class='new-user'>aga3134</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>感謝大家分享的資訊~<br>
+g0v跟airbox的即時空汙地圖就是這個專案想法的發源地。</p>
+<p>我之前沒看過tony分享的網站。<br>
+網站的六角網格設計很漂亮，但一些資料的限制使它不適合拿來分析空汙源。例如：</p>
+<p>(1) 空間解析度不夠：環保署測站的數量太少，無法有效表示空汙的分佈狀況。在取樣不足的情況下使用內插顯示，容易產生誤導。</p>
+<p>(2) 時間解析度不夠：環保署測站一小時更新一次，以3m/s的輕風來看，一小時就可以跑10公里，足以從市區跑到郊區，無法有效定位。</p>
+<p>(3) 只疊合行政區邊界，沒有顯示地圖細節：空汙源位置比較可能從某種設施產生，如發電廠、工廠、道路等，疊合地圖細節可以讓人快速找出可疑設施，行政邊界無此功用。</p>
+<p>(4) 沒有長時間的統計資訊，所以無法以縮時巨觀的方式觀察一天之中什麼時候汙染最多、一年之中什麼時候汙染最重。</p>
+<p>(5)只能連續播放前24小時的空汙資料，無法隨選隨播。</p>
+<p>當然我不是說這個專案能夠解決所有問題，<br>
+但我會盡力讓空汙源分析變得更方便、更有效率。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-296'>
+      <a title="January 20, 2017 11:40pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/5">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/SW_Kuan-Ta_Chen' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/sw_kuan-ta_chen/45/107_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/SW_Kuan-Ta_Chen' target="_blank" class=''>SW_Kuan-Ta_Chen</a>
+        </h3>
+        <p>can you compare your proposal with <a href="https://sites.google.com/site/need4goodair/home" rel="nofollow noopener">https://sites.google.com/site/need4goodair/home</a> ?  他們也是以抓出污染源為最終目的。</p>
+
+            <a data-link-to-post="335" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/122/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-328'>
+      <a title="January 22, 2017  3:18am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/6">Jan &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hcchien/45/104_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hcchien' target="_blank" class=''>hcchien</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>如果要知道污染源，應該還要比對空氣指紋。了解每個地方空氣的組成成分比較容易知道走向。而且除了方向之外，是否還要考慮地形？例如南投一直被認為應該是空污較少的地方，但經常因為地形而形成高 aqi 指數。</p>
+<p>另外，不同 airbox 跟其他測量值是不是可以合併計算，或是會有誤差問題？</p>
+<p>還有移動污染源怎麼併入計算？只看 google 交通流量統計？</p>
+
+            <a data-link-to-post="336" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/122/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-335'>
+      <a title="January 22, 2017  3:19pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/7">Jan &#39;17</a>
+        <a data-link-to-post="296" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/122/5">▶ SW_Kuan-Ta_Chen</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/aga3134/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank" class='new-user'>aga3134</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>我本來是打算直接用LASS提供的資料來研究，但是試了他們查詢歷史資料的api，發現他們server不理我，才決定自幹的。<br>
+這專案本質上就是LASS專案的延續，LASS比較著重即時資料呈現，我想做的是則歷史資料分析。<br>
+大家最終目的都是希望台灣能有好空氣，之後一定會有機會合作的。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-336'>
+      <a title="January 22, 2017  3:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/8">Jan &#39;17</a>
+        <a data-link-to-post="328" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/122/6">▶ hcchien</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/aga3134/45/65_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/aga3134' target="_blank" class='new-user'>aga3134</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>目前我蒐集得到的資料是沒有空氣組成分析的，<br>
+要做的話可能就要跟LASS合作另一個硬體專案了。</p>
+<p>空汙擴散的方向最直接就是受風向影響，而風向則受地形影響很大，<br>
+所以我認為只要風向資料夠密集，就能間接看出地形的影響。<br>
+不過我現在蒐集的風向資料是氣象局的開放資料，全台有三百多個站，<br>
+這樣不知道夠不夠密集就是。</p>
+<p>目前我蒐集的空汙資料，airbox佔了8、9成，所以基本上可以說是以airbox資料在分析的。<br>
+至於其他測站的測量值跟airbox會不會有誤差問題，<br>
+以我在airbox即時空汙地圖看到的狀況是，<br>
+確實會有一點差距。</p>
+<p>移動汙染源的話，因為google交通流量也是即時資料，歷史資料好像也沒api可以抓，<br>
+所以我會拿交通部的交通資料庫來用 <a href="http://tisvcloud.freeway.gov.tw/history/" rel="nofollow noopener">http://tisvcloud.freeway.gov.tw/history/</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/122/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

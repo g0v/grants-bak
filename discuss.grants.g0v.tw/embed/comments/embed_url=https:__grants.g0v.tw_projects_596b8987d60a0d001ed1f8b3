@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>世界眼中的台灣 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>6 個回覆</span>
+</header>
+
+    <article class='post' id='post-1145'>
+      <a title="July 17, 2017  3:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsiao-a/45/282_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank" class=''>Hsiao-a</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有趣的想法！ 想請你多分享一下你目標中的演算法會怎樣篩選新聞呢？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1166'>
+      <a title="July 18, 2017  3:36pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/doggyeh0622/45/291_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank" class=''>doggyeh0622</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝你的提問！目前新聞來源最直接的有兩種</p>
+<ol>
+<li>
+<p>Facebook<br>
+使用這個連結可以直接在FB上搜尋跟台灣有關的新聞，把taiwan換成其他字就可以搜其他新聞，這樣就可直接取得 發佈時間 跟 分享次數，請參考下圖。<br>
+<a href="https://www.facebook.com/search/str/taiwan/links-keyword/stories-news-pivot" rel="nofollow noopener">https://www.facebook.com/search/str/taiwan/links-keyword/stories-news-pivot</a><br>
+<img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/5b15f7a710c01e2eac2de8ea75fbee777c1b1e11.png" width="465" height="500"></p>
+</li>
+<li>
+<p>Google Search<br>
+為了避免來源過於集中，也會使用Google Search，只搜尋News並filter時間，至於文章的重要性，有工具可以偵測每個連結在整個網路上出現幾次。</p>
+</li>
+</ol>
+<p>此專案的第一步會先以文章的熱門程度來做為評分的依據，隨著我們分析爬回來的資料，會再研究如何調整算法，因為有可能某篇冷門新聞也是很重要的，要實際看到數據之後再調整評分的依據。</p>
+<p>另外我們搜集到的新聞會先用Natural Language Processing library 來算文章的相似程度，同樣主題的文章只選一篇，以避免我們選到兩篇幾乎一樣的新聞。這其實會衍生出另一個有趣的想法，對於一個熱門主題，我們可以從各大媒體(ex: CNN, BBC, NewsAsia, …)各選一篇來比較，看各方的論調是否一致，但這功能不會在第一階段釋出。</p>
+<p>還請多提供意見，有討論才能激發更多想法，謝謝！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1219'>
+      <a title="July 21, 2017  2:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>很酷的 任務！<br>
+從需求「台灣媒體把事件描述成值得慶祝，國際地位上升，然而國際媒體很明顯地就說川普只是在消費台灣，作為與大陸談判的籌碼」來看，<br>
+似乎最需要的是「語意分析」，分析出新聞文章是 正方 / 正反 意見，或者說 A 看法有幾篇， B 看法有幾篇… 等，關於此技術類似「同樣主題的文章只選一篇」，是否可以簡單描述一下，預計如何實踐？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1240'>
+      <a title="July 22, 2017  8:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/doggyeh0622/45/291_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank" class=''>doggyeh0622</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>好問題！</p>
+<p>先從「同樣主題的文章只選一篇」開始，算文章相似度會用 <a href="http://radimrehurek.com/gensim/index.html" rel="nofollow noopener">gensim</a>，它是非常好用的topic modeling library，把一堆文章丟給它之後，可以建立一個文集，接著看哪些詞重複出現在哪幾篇文章，就可以計算出每篇文章的相似程度。這<a href="https://www.oreilly.com/learning/how-do-i-compare-document-similarity-using-python" rel="nofollow noopener">網頁</a>有簡單的demo跟sample code，能非常快瞭解它的基本原理。</p>
+<p>「語意分析」你說的沒錯，主要是先看正方/反方意見，<a href="https://www.ibm.com/watson/developercloud/alchemy-language/api/v1/?python#sentiment" rel="nofollow noopener">這邊</a>有文章sentiment分析的例子，能看出是positive/negative，<a href="https://www.ibm.com/watson/developercloud/alchemy-language/api/v1/?python#emotion_analysis" rel="nofollow noopener">這個</a>則是emotion analysis。至於要做到A看法幾篇、B看法幾篇，若我們搜集到大量同主體的文章但正反、情緒不同時，就有需要特別針對這事件分析，目前看來這部份多少會需要人腦介入，主要是先用機器幫我們分析過濾大量的文章，這細節我們會在實作過程中不斷改進。<br>
+當然如果來源是Facebook的話，表情按讚(笑臉、生氣、愛心…)也可以成為依據之一。</p>
+<p>希望有回答到你的問題，謝謝！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1292'>
+      <a title="July 25, 2017 10:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>目前有一個「<a href="https://sentinel.tw/" rel="nofollow noopener">台灣守望</a>」的網站，有在撰寫對台灣的評論，並以英文對世界公開。我想了解一下，案主如何看這個網站呢？以及，篩選新聞報導的標準？是否會收錄好的評論？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1436'>
+      <a title="July 26, 2017  4:04pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/7">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/doggyeh0622/45/291_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/doggyeh0622' target="_blank" class=''>doggyeh0622</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝你的提問！看過這網誌以後發現上面的確有許多好文，然而這專案的初衷在於引進外面各界的看法，閱讀此網誌的同時還是感受到以台灣為中心在撰寫文章，因此在專案初期還是先排除此類網誌，會再根據文章篩選情況做調整。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/484/7">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

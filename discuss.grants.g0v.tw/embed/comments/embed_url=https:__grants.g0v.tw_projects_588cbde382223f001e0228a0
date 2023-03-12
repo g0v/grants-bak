@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>限時麵包，剩食美好 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-809'>
+      <a title="February  8, 2017  9:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/223/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ael' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ael/45/234_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ael' target="_blank" class=''>ael</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>hi，可以補上過去開源專案的連結嗎？這樣可以讓評審更知道你們團隊過去的成果</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-844'>
+      <a title="February  9, 2017  5:29pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/223/3">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/welovecombat2016' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/welovecombat2016/45/215_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/welovecombat2016' target="_blank" class='new-user'>welovecombat2016</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>哈囉 ael, 目前已先補上部份成員的過往open data 食品藥品競賽)及目前有一個open data比賽,不知能不能open source 會再詢問主辦單位,若可,會再open source 及2/28後補寄的方式,後續如果還有詢問到及補上的資訊會再更新,thanks.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-884'>
+      <a title="February 10, 2017  4:46pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/223/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>專案說明的部分有點看不太懂，所以是這則新聞作為出發點，還是你們已經談好跟衛生局還有糕餅業合作？</p>
+<p>流程那邊可能需要做一張圖會比較好理解，所以你們不管物流，然後剩食單位也只教他們產生 QRCode，而這個 App 真正的目標是食物銀行之類的單位。</p>
+<p>可能還是要預估一下會碰到那些問題，預計怎麼解決，例如沒有單位願意配合，因為增加一道 SOP 太麻煩，或者是食物銀行本身也有開發自己的系統。</p>
+<p>第一階段驗收可能確定找到幾間剩食單位和食物銀行合作也要列入評估才好喔。</p>
+
+            <a data-link-to-post="933" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/223/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-933'>
+      <a title="February 13, 2017 12:47pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/223/5">Feb &#39;17</a>
+        <a data-link-to-post="884" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/223/4">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/welovecombat2016' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/welovecombat2016/45/215_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/welovecombat2016' target="_blank" class='new-user'>welovecombat2016</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p>哈囉Yhsiang，有列出此提案<br>
+剩食打包，助人溫飽 更新及回答如下：</p>
+<p>一.這則新聞作為出發點，還是你們已經談好跟衛生局還有糕餅業合作?<br>
+回答：從二月中至開始進行專案的一週後若初步未果（會列出記載），第三週會以NGO朋友及備援名單的餐飲業者來提供，同時間會另找尋更多單位及店家，為規格訪談及APP開發製作，第一階段至少有一個NGO單位（若無政府單位）及食品店家，友人經營食品業也是納入評估食物提供單位之一。</p>
+<p>二.例如沒有單位願意配合 ?<br>
+回答：會以一NGO及食品業者備援。</p>
+<p>三.所以你們不管物流?<br>
+回答：此APP 為食品履歷，可記載了來源資訊及窗口同配車資訊（即收集的窗口，窗口分送後隨車的APP在分送後可選填分送完成，即來源跟分派都記載，同時會有一台樹莓ROS試驗收集過程資訊（溫度或路徑等IOT擇一）</p>
+<p>流程圖會在訪談前及二月中起會另詢尋願意配合單位後有架構各有一版，目前也會持續在將提案及NGO及食物對象再增加更多一點，無論有提案有無入圍皆會把這支APP完成，謝謝您的提問。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/223/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

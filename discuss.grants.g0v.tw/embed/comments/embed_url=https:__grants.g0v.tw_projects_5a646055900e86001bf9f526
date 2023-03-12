@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣路更平 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>9 個回覆</span>
+</header>
+
+    <article class='post' id='post-1699'>
+      <a title="January 21, 2018  2:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好：<br>
+很有趣的想法<br>
+【可行性】<br>
+因可行性在評審評選標準中，想請問不同車種、不同車流狀況、甚至不同駕駛習慣造成的誤差該如何消除，例如車流雍塞時三軸感測必有較大起伏等。</p>
+
+            <a data-link-to-post="1723" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/723/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1712'>
+      <a title="January 22, 2018  2:35am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/3">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/ntuaha' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/ntuaha/45/419_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/ntuaha' target="_blank" class='new-user'>ntuaha</a>
+        </h3>
+        <p>您好，<br>
+之前也有做過類似的研究，只是那時候還沒有rasberry PI 那麼好的東西，那時候是只有用手機，就會有電源與感測器精度無法提升的問題，現在或許是一個很好的時機點可以再把這些拿出來再利用?<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://www.google.com/images/icons/product/sites-16.ico" class="site-icon" width="32" height="32">
+      <a href="https://sites.google.com/site/cclljj/publications" target="_blank" rel="nofollow noopener">sites.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://sites.google.com/site/cclljj/_/rsrc/1505443581640/publications/icon_doi.gif.1379465078954.gif" class="thumbnail onebox-full-image" width="40" height="16">
+
+<h3><a href="https://sites.google.com/site/cclljj/publications" target="_blank" rel="nofollow noopener">Publications - IIS-NRL</a></h3>
+
+<p>Personal homepage</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>Cheng-Yu Lin, Ling-Jyh Chen, Ying-Yu Chen, and Wang-Chien Lee. A Comfort Measuring System for Public Transportation Systems Using Participatory Phone Sensing. International Workshop on Sensing for App Phones (PhoneSense’10, in conjunction with ACM SenSys’10), Zurich, Switzerland, 2010.</p>
+<p><a href="http://sensorlab.cs.dartmouth.edu/phonesense/papers/Lin-Comfort.pdf" class="onebox" target="_blank" rel="nofollow noopener">http://sensorlab.cs.dartmouth.edu/phonesense/papers/Lin-Comfort.pdf</a></p>
+<p>想請問是否有興趣參考交流呢？</p>
+
+            <a data-link-to-post="1725" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/723/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1723'>
+      <a title="January 22, 2018  7:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/4">Jan &#39;18</a>
+        <a data-link-to-post="1699" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/723/2">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/haurperng/45/450_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank" class=''>haurperng</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，感謝您的提問，<br>
+關於您所說的多項變因，在提案文件中未細談，我會再補充進去。</p>
+<p>由於資料來源為手機或是機上盒等小型感測器，<br>
+使用者的行為很容易左右收到的數據，可靠度即變為非常重要的問題，<br>
+必須設定一些過濾條件來濾除我們認為不可靠的資料，<br>
+比方說三軸的大幅度轉換、過大的peak、車速變化等，<br>
+因此機車壓車壓來壓去的、塞車停停走走的、急剎甩尾的這些資料都會直接被濾除，<br>
+當然過濾門檻設定的高會影響資料收集的效益，<br>
+但目前認為可靠度高的資訊才是我們想要收到的資訊。<br>
+Haur</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1725'>
+      <a title="January 22, 2018  7:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/5">Jan &#39;18</a>
+        <a data-link-to-post="1712" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/723/3">▶ ntuaha</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/haurperng/45/450_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank" class=''>haurperng</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，感謝您提供的資訊，<br>
+之前在survey相關研究時即有拜讀過您的大作，<br>
+目前我們還尚未評估三軸感測器精度問題，<br>
+因為想要偵測的非微小變量，<br>
+一般便宜的感測器或手機上的似乎已經可達到需求，<br>
+而電源仍需仰賴車上的固定電源才能完成長期監測。<br>
+後續若有執行上細節問題，還請先進多多指教，謝謝。<br>
+Haur</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1863'>
+      <a title="January 26, 2018  2:32pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/6">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>除了不同車種外，車上的載重，也可能會影響晃動的幅度。</p>
+<p>請問是否有設計校準的機制，以便感測器確認當前的狀況，並調整偵測的靈敏度呢？</p>
+
+            <a data-link-to-post="1912" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/723/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1912'>
+      <a title="January 29, 2018  9:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/7">Jan &#39;18</a>
+        <a data-link-to-post="1863" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/723/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/haurperng/45/450_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank" class=''>haurperng</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，感謝您的提問，<br>
+有考慮車輛校準的問題，但目前尚無好的解決方法，</p>
+<p>在不影響使用便利性上，應無法要求使用者去做特定的校準流程，<br>
+如果以既有資料作為校準原則，<br>
+即當使用者路過某些已有資料的路段時即進行校準，<br>
+但先決條件是既有資料大量可靠且一致，<br>
+不然也無法決定是誰需要被校準，<br>
+而兩者間有什麼變因也無從得知，<br>
+因此校準的公式該如何決定還是個問題，<br>
+嗯…我認為成效應該不大，所以老實說我們還沒有好的解決方案。</p>
+<p>在這個階段我們期望建構出的平台，<br>
+會先以我們自己跑的資料當做相對可靠的成果，<br>
+輔以使用者提供的資訊，<br>
+若一個路段有數個使用者的資料是一致時才會被認定可靠並報導，<br>
+如同前述，<br>
+"過濾門檻設定的高會影響資料收集的效益，但目前認為可靠度高的資訊才是我們想要收到的資訊。"<br>
+Haur</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1990'>
+      <a title="September  7, 2018  4:44pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/8">Sep &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/qmtw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/qmtw/45/461_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/qmtw' target="_blank" class='new-user'>qmtw</a>
+        </h3>
+        <p>這問題之前我也研究過，目前我已經主持縣市政府路平專案7年以上，有問題可以找我討論!</p>
+
+            <a data-link-to-post="1995" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/723/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1995'>
+      <a title="September 21, 2018 10:48am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/9">Sep &#39;18</a>
+        <a data-link-to-post="1990" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/723/8">▶ qmtw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/haurperng/45/450_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/haurperng' target="_blank" class=''>haurperng</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>您好，<br>
+剛有一些初步成果正需要先進指教，<br>
+不知怎麼方便與您請教討論，<br>
+可以約個時間去拜訪您聊聊嗎?<br>
+我的mail是haurperng@gmail.com，<br>
+再麻煩您與我聯絡謝謝<br>
+Haur</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1996'>
+      <a title="September 22, 2018  3:05am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/10">Sep &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/qmtw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/qmtw/45/461_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/qmtw' target="_blank" class='new-user'>qmtw</a>
+        </h3>
+        <p>已回覆，請注意您的EMAIL!</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/723/10">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

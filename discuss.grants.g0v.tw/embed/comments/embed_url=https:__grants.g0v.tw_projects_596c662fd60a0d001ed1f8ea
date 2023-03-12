@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣企業集團母子公司關係與環境社會責任 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/2">繼續討論</a>
+  <span class='replies'>10 個回覆</span>
+</header>
+
+    <article class='post' id='post-1185'>
+      <a title="July 19, 2017  3:54pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>
+<p>因此提案頗為複雜龐大較難理解，請問是否能提供示意圖，例如：<a href="http://mops.twse.com.tw/nas/t10img/13012012.pdf" rel="nofollow noopener">台塑的海外關係企業組織圖pdf</a> 預計將如何呈現？</p>
+</li>
+<li>
+<p><a href="http://mops.twse.com.tw" rel="nofollow noopener">公開資訊觀測站中</a>的關係企業組織圖，網頁中註明了自102年度起免申報，請問該如何補足 2013 年後的資料異動以確保資料的正確性？</p>
+</li>
+<li>
+<p>以下部分建議可將資料蒐集的程式或文件、系統網站的程式碼列入，以利其他人作相關利用。</p>
+</li>
+</ol>
+<blockquote>
+<p>請說明本專案會產出的開源軟體套件或開放授權文件（請條列個別元件的輸入輸出或其功能）：<br>
+產出的API將會放在github 中供大家存取使用：</p>
+<ol>
+<li>以集團為主的 JSON 樹狀檔案，一個集團一個檔案，檔名以集團ID命名，如果有500大集團，就有500個檔案。</li>
+<li>集團的子母階層 CSV 檔案，可能欄位是 根階層ID（母集團）、父階層ID（上一個關係企業）、企業ID、企業名稱、企業統編、企業股票代號… 等。</li>
+<li>集團清單 CSV 檔，可能欄位是 集團名稱、集團ID、集團統編、集團基本資料 … 等。</li>
+</ol>
+</blockquote>
+
+            <a data-link-to-post="1526" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/491/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1192'>
+      <a title="July 20, 2017  7:59am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/panda' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/panda/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/panda' target="_blank" class='new-user'>panda</a>
+        </h3>
+        <p>覺得可以參考國外這個網站，裡面不只有企業，還有政商人物的資料庫和視覺化工具，<a href="https://littlesis.org/" rel="nofollow noopener">https://littlesis.org/</a></p>
+
+            <a data-link-to-post="1528" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/491/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1194'>
+      <a title="July 20, 2017  8:11am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/panda' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/panda/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/panda' target="_blank" class='new-user'>panda</a>
+        </h3>
+        <p>補充 g0v 後勤中心這篇貼文以及留言的相關資訊：<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/yV/r/hzMapiNYYpW.ico" class="site-icon" width="16" height="16">
+      <a href="https://www.facebook.com/groups/g0v.general/permalink/976491209093952/" target="_blank" rel="nofollow noopener">facebook.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p200x200/17021680_10155117224379038_1575450733862428088_n.jpg?oh=8490e9e8e187a3a6aa96c62ec282b557&amp;oe=5AFB22F8" class="thumbnail onebox-avatar" width="200" height="200">
+
+<h3><a href="https://www.facebook.com/groups/g0v.general/permalink/976491209093952/" target="_blank" rel="nofollow noopener">Che Wei Liu</a></h3>
+
+<p>遙望 gxv
+http://hackfoldr.org/gxv</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+
+            <a data-link-to-post="1530" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/491/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1248'>
+      <a title="July 22, 2017  5:09pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yucj' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yucj/45/305_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yucj' target="_blank" class='new-user'>yucj</a>
+        </h3>
+        <ul>
+<li>公開資訊觀測站的公司資料，會僅限於上市櫃公司嗎？</li>
+<li>呈現方式和內容或許可以參考目前查詢公司集團資料常用的付費資料庫：<br>
+<a href="https://www.credit.com.tw/creditonline/Info/OnlineDB04_2.aspx" rel="nofollow noopener">https://www.credit.com.tw/creditonline/Info/OnlineDB04_2.aspx</a>
+</li>
+</ul>
+<blockquote>
+<p>資料庫內容包含：結構圖、組織圖、家族關聯圖、核心人物資料、財務趨勢圖、經營績效圖。近三年各項指標排名、10項指標排名、總排名。各相關分子企業之沿革背景、海外關係、發展趨勢及近五年財務資料。</p>
+</blockquote>
+
+            <a data-link-to-post="1529" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/491/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1286'>
+      <a title="July 25, 2017  8:03am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>這邊有一些前人的奮鬥方向，建議參考。</p>
+<p><a href="http://weichengliou.github.io/blog/category/tai-wan-gong-si-guan-xi-tu.html" class="onebox" target="_blank" rel="nofollow noopener">http://weichengliou.github.io/blog/category/tai-wan-gong-si-guan-xi-tu.html</a></p>
+<p>另外，他們也有找到方式分辨同名同姓的人，這應該也是一個重點。</p>
+
+            <a data-link-to-post="1531" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/491/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1526'>
+      <a title="July 29, 2017  3:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/8">Jul &#39;17</a>
+        <a data-link-to-post="1185" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/491/2">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/verano1018/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank" class=''>verano1018</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>1.針對第一點，請參考我們在介面設計草圖欄位補上的集團關係樹狀示意圖。</p>
+<p>2.我們抓取不是關係企業組織圖，而是公開資訊觀測站中xbrl的企業母子公司表，然後清理為social network格式檔案，如果需要視覺化，再將social network送入相關應用程式製圖。</p>
+<p>3.本專案將會將相關檔案以開源方式以api輸出並放置於Github，形式上以一個年份、一個集團為一個檔案。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1528'>
+      <a title="July 29, 2017  3:35pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/10">Jul &#39;17</a>
+        <a data-link-to-post="1192" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/491/3">▶ panda</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/verano1018/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank" class=''>verano1018</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>台灣目前的資料要做到歐美政商關係圖基礎資料還不夠，是未來需要慢慢從本專案的計畫去累積的，包括政治獻金數位化及資料內容加強、董監事背景資料等等。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1529'>
+      <a title="July 29, 2017  3:38pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/11">Jul &#39;17</a>
+        <a data-link-to-post="1248" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/491/5">▶ yucj</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/verano1018/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank" class=''>verano1018</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>1.我們目前確實希望是以上市櫃公司作為原則範疇，但明確的範疇邊界，可能還會經過幾份相關資料的比對，再來作出確認。<br>
+2.謝謝，中華徵信所的資料確實也是我們希望參考的資料庫之一。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1530'>
+      <a title="July 29, 2017  3:39pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/12">Jul &#39;17</a>
+        <a data-link-to-post="1194" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/491/4">▶ panda</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/verano1018/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank" class=''>verano1018</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>感謝提供相關資訊，我們也會作為往後執行的參考。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1531'>
+      <a title="July 29, 2017  3:41pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/13">Jul &#39;17</a>
+        <a data-link-to-post="1286" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/491/6">▶ billy3321</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/verano1018/45/265_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/verano1018' target="_blank" class=''>verano1018</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝提供相關資訊，我們會作為未來進一步分析的參考。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/491/13">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

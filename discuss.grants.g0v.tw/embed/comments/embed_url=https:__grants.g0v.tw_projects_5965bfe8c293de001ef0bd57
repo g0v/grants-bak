@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台灣電視新聞分析 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>3 個回覆</span>
+</header>
+
+    <article class='post' id='post-1243'>
+      <a title="July 22, 2017  1:52pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/427/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/s2631502' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/s2631502/45/303_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/s2631502' target="_blank" class='new-user'>s2631502</a>
+        </h3>
+        <p>可以參考「<a href="http://www.books.com.tw/products/0010726024" rel="nofollow noopener">超級預測：洞悉思考的藝術與科學，在不確定的世界預見未來優勢</a>」<br>
+簡言之，希望能夠回頭檢查新聞播報正確性。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1326'>
+      <a title="July 25, 2017  2:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/427/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>電腦對於新聞報導的分析僅能做到分類，但新聞媒體最重要的問題應該是在品質與邏輯之上。對於品質與邏輯，有解決的方式嗎？</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1522'>
+      <a title="July 29, 2017 10:34am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/427/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/louielu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/louielu/45/342_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/louielu' target="_blank" class=''>louielu</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/s2631502">@s2631502</a> <a class="mention" href="/u/billy3321">@billy3321</a> 有關報導正確性、品質、邏輯正確性，會透過別的方式驗證。</p>
+<p>最主要的問題是，電視台並不會有播報時間的列表可以讓其他人檢閱 (例如 6:00 第一則新聞 6:05 第二則新聞)，透過這個專案希望可以整理出這些資料來。</p>
+<p>而報導正確性的問題，電視台會整理出新聞內容放置於網路上：</p>
+<ul>
+<li>SET: <a href="http://www.setn.com/" rel="nofollow noopener">http://www.setn.com/</a>
+</li>
+<li>TVBS: <a href="http://news.tvbs.com.tw/" rel="nofollow noopener">http://news.tvbs.com.tw/</a>
+</li>
+</ul>
+<p>可以透過 pynayzr 的文字資料比對後，tag 出相對應的網路新聞文章，再透過這些文章來分析其邏輯與品質。</p>
+<p>當然這部分還要再去驗證，電視台文字資料以及播放是否有差別。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/427/4">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

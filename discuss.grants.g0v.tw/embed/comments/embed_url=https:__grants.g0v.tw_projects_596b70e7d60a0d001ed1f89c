@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>浪愛協尋_寵物走失協尋APP - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>2 個回覆</span>
+</header>
+
+    <article class='post' id='post-1221'>
+      <a title="July 21, 2017  3:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/--app/479/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yutin_liu/45/11_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/YuTin_Liu' target="_blank" class=''>YuTin_Liu</a>
+            <span class='title'>2019 獎助金提案人</span>
+        </h3>
+        <p>對於你的熱情表示肯定 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thumbsup.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"></p>
+<p>剛好前些日子有朋友的毛小孩走丟，情境也就如你所說「沿街發送傳單、海報，並且於網路上各大走失協尋網站及臉書社群上發送走失協尋消息」，最後因為一間 便利商店的通報才順利找回，狗兒大概是因為連日的大雨才到便利商店求助。</p>
+<p>我在想也許這樣的 App 對於失主，大概只是多了一個可以張貼的地方。他不會放棄任何機會，所以情境依舊是「「沿街發送傳單、海報，並且於網路上各大走失協尋網站及臉書社群上發送走失協尋消息」+ 張貼在 App。</p>
+<p>也許我們可以思考一些其他的解決方案，當時我們討論出來的方式是「在毛小孩的項圈上寫上大大的電話號碼」，從此處延伸留下大大的 QRCode / LINE … 如何讓路人更容易的 / 沒有門檻的聯繫上失主，可以是一種倡議，也可以是一種項圈的製作計劃。 以上供你參考 <img src="//discuss.grants.g0v.tw/images/emoji/twitter/thinking.png?v=5" title=":thinking:" class="emoji" alt=":thinking:"></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1272'>
+      <a title="July 24, 2017  3:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/--app/479/3">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/wf-sx' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/wf-sx/45/438_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/wf-sx' target="_blank" class='new-user'>wf-sx</a>
+        </h3>
+        <p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://www.niusnews.com/favicon.ico" class="site-icon" width="16" height="16">
+      <a href="https://www.niusnews.com/=P1lvrnn0" target="_blank" rel="nofollow noopener">妞新聞 niusnews</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:560/392;"><img src="http://www.niusnews.com/upload/posts/po3_43966_1460379838.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.niusnews.com/=P1lvrnn0" target="_blank" rel="nofollow noopener">整個城市動起來幫你找走失毛孩！成功率超高的寵物協尋App  | 手機小姐 | 妞新聞 niusnews</a></h3>
+
+<p>任何擁有寵物的人最害怕發生的幾件事之一，絕對有「寵物走失」！一發生這樣的意外，除了主人被排山倒海的自責、難過淹沒，更擔心沒有野外生活能力  App、寵物、走失、協尋、互助</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<a href="http://www.finddog.net/zh-tw/index.html" class="onebox" target="_blank" rel="nofollow noopener">http://www.finddog.net/zh-tw/index.html</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/--app/479/3">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

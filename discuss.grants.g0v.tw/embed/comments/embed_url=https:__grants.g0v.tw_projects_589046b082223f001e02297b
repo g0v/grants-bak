@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>山難救援系統 - 2017 春季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-840'>
+      <a title="February  9, 2017  4:50pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/2">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yhsiang/45/80_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yhsiang' target="_blank" class=''>yhsiang</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>可能要請你把計畫補完，目前比較想知道前期想達成的 MVP 模式是怎樣？<br>
+有沒有預想到可能會有那些困難，會怎麼解決這些困難點？</p>
+
+            <a data-link-to-post="846" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/247/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-846'>
+      <a title="February  9, 2017  6:02pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/3">Feb &#39;17</a>
+        <a data-link-to-post="840" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/247/2">▶ yhsiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tygher/45/216_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank" class='new-user'>Tygher</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/yhsiang">@yhsiang</a><br>
+補完了，尚請您指教<br>
+有些遲了抱歉</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-869'>
+      <a title="February 10, 2017 10:15am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/4">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chihchun/45/14_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chihchun' target="_blank" class=''>chihchun</a>
+        </h3>
+        <ol>
+<li>請問提案中的理論值是否在山區做過 field trial?</li>
+<li>如果做過測試，請問選用什麼樣的 Bandwidth (BW), Spreading factor (SF) and Coding Rate (CR)，以及對應的耗電量損耗？</li>
+<li>根據上述的測試，實際距離多遠需要搭建一組 Gateway?</li>
+<li>請問 LoRaWAN 的 uplink 想要使用何種協定？所需電量損耗？</li>
+<li>熱門且危險山區往往是自然保留區、國家森林公園區域，是否研究過 LoRa Gateawy 建制的環境評估限制？ (包含建制用地取得、電源來源、環境衝擊)</li>
+<li>雛型的成本預算如考量戶外應用場景所需的硬體條件，這個費用不太合理，是否可以拆解試算各元件與外殼等成本？</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-878'>
+      <a title="February 10, 2017  2:51pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/5">Feb &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/yurenju/45/21_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/yurenju' target="_blank" class=''>yurenju</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>你好， <a class="mention" href="/u/chihchun">@chihchun</a> 提的問題我也有興趣瞭解，建議回答並且適度補充於提案中。</p>
+<p>另外也想請教是否可以以實際的山區作為例子，說明以範例山區來說，需要部署多少設備，而每個設備的雛形成本與量產成本的估算。</p>
+<p>謝謝。</p>
+
+            <a data-link-to-post="888" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/247/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-888'>
+      <a title="February 10, 2017  7:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/6">Feb &#39;17</a>
+        <a data-link-to-post="878" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/247/5">▶ yurenju</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/tygher/45/216_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Tygher' target="_blank" class='new-user'>Tygher</a>
+            <span class='title'>2017 春季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/chihchun">@chihchun</a> <a class="mention" href="/u/yurenju">@yurenju</a></p>
+<ol>
+<li>山區未有，市區有</li>
+<li>CR=2 BW=250 SF=12，耗電未測，僅測時間、sensitivity(約6xx ms, -13x dBm)，尚未極精密的測試</li>
+<li>市區4~6KM，定位密度需求可能須減半。</li>
+<li>Not LoRaWAN, just LoRa I think (Broadcast + P2P)</li>
+<li>成品小，供電自主，申請後可簡易安裝(treetop, 涼亭, 岩壁etc)，環境衝擊盡量求小，基本上人類活動造成的影響遠大於本裝置。</li>
+<li>LoRa chipset + 底板其實也沒有說特別便宜(約1200~1500)，另硬體估計包含頻段檢測用儀器，以10KM<em>10KM</em>5KM 約50~80台+客戶端，量產粗估1000元含電源+保護盒，再加上客戶端，約10W以上。</li>
+</ol>
+
+      </div>
+    </article>
+    <article class='post' id='post-2408'>
+      <a title="January 18, 2020  6:30pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/8">Jan &#39;20</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/duke.huang.wp' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/duke.huang.wp/45/556_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/duke.huang.wp' target="_blank" class='new-user'>duke.huang.wp</a>
+        </h3>
+        <p>大家好</p>
+<p>當初於「LostSAR-搜救2017AUTUMN」 (Gavin Chang)<br>
+<a href="https://www.facebook.com/groups/101397120502155/" class="onebox" target="_blank" rel="nofollow noopener">https://www.facebook.com/groups/101397120502155/</a><br>
+中看到所提出「利用無人機與物連網幫助登山搜救」，<br>
+讓我產生啟法非常大的啟發，<br>
+「如果那些山難者能有個比手機更可靠的定位+通訊裝置」，<br>
+是否能夠阻止這些悲劇的發生呢…?<br>
+於是我將這個想法付諸於實驗中，<br>
+所產生了這個研究:「基於LoRa通訊架構之登山追蹤器-設計與實作」<br>
+之後在研究過程中因故無法取得無人機的設備，<br>
+但是卻再蒐集資料過程發現，Tygher跟我的想法非常的類似，<br>
+只是我最初始以為無人機作為搜救裝置為目標。</p>
+<p>這邊簡述一下我的研究成果即是:<br>
+「利用LoRa形成P2P的物聯網網路，於山區中對登山者進行定位+通訊」</p>
+<p>實驗結果個人認為非常樂觀，<br>
+LoRa於433Mhz發射30W下可於山間進行<br>
+1~3KM(地形空曠可達4KM)左右進行通訊距離，</p>
+<p>詳細的研究成果簡報我將放置於下方:<br>
+<a href="https://drive.google.com/open?id=1onckeIuS-epiSgMt5aGhmSH_mBblq7XY" class="onebox" target="_blank" rel="nofollow noopener">https://drive.google.com/open?id=1onckeIuS-epiSgMt5aGhmSH_mBblq7XY</a></p>
+<p>我的心得:</p>
+<p>LoRa真的是非常成本低廉易於佈建的的物聯網網路，<br>
+我認為它對一些山難救援有相當大的幫助，<br>
+這邊感謝 Gavin 和Tygher所提出的構思，<br>
+當下騎著機車去路測設備的時候相當開心，<br>
+對我來說不論是「LostSAR-(開源搜救應用)」或是「Mt. Live 山域即刻救援」<br>
+都相當具有公益性質，雖然距離完全實用還有一段距離，<br>
+希望我的研究成果能夠對大家能有所幫助，</p>
+<p>祝 2020年 大家能夠平安順心 (*^_^)/</p>
+
+            <a data-link-to-post="2452" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/247/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-2452'>
+      <a title="October 10, 2020  3:38am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/9">Oct &#39;20</a>
+        <a data-link-to-post="2408" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/247/8">▶ duke.huang.wp</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/allen54a0' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/allen54a0/45/169_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/allen54a0' target="_blank" class='new-user'>allen54a0</a>
+        </h3>
+        <p>哥您好，</p>
+<p>我對您的研究感到敬佩，也想進一步跟您請教技術問題，不知道如何聯繫。<br>
+<a href="mailto:allen54a0@gmail.com">allen54a0@gmail.com</a></p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/247/9">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>台美國會觀測站 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>4 個回覆</span>
+</header>
+
+    <article class='post' id='post-1146'>
+      <a title="July 17, 2017  3:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/436/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsiao-a/45/282_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/Hsiao-a' target="_blank" class=''>Hsiao-a</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>很有意義的計畫！<br>
+因為美國公民科技社群也相當發達，這類國會動態觀測的科技應該頗成熟，不知道貴團隊有沒有研究過什麼開源模組可以再利用？</p>
+<p>另外 <a href="https://www.countable.us/" rel="nofollow noopener">Countable</a> 雖是營利組織但做得頗不錯可以參考看看！</p>
+
+            <a data-link-to-post="1154" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/436/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1154'>
+      <a title="July 18, 2017  4:28am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/436/3">Jul &#39;17</a>
+        <a data-link-to-post="1146" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/436/2">▶ Hsiao-a</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hsuyachieh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsuyachieh/45/267_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hsuyachieh' target="_blank" class=''>hsuyachieh</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>有的，其實我們已經有調查過現在幾個有名的open congress API，幾乎都是daily update，像是<a href="https://www.govtrack.us/developers" rel="nofollow noopener">GovTrack</a>、<a href="https://sunlightlabs.github.io/congress/" rel="nofollow noopener">Sunlight Foundation</a>、<a href="https://projects.propublica.org/api-docs/congress-api/" rel="nofollow noopener">ProPublica</a>。這些都能很即時地提供動態觀測訊息。甚至其實美國政府這幾年也乾脆自己主動提供<a href="https://www.gpo.gov/fdsys/bulkdata" rel="nofollow noopener">這些資訊</a>。</p>
+<p>然而，這個專案最大的挑戰其實是historical data。上面提到的三個API，其中GovTrack跟Sunlight Foundation的服務已經確定要在這一兩個月停止了。而剩下的ProPublica，雖然目前看來會繼續maitain，但許多歷史資料都不齊全，法案部分只有近20年。</p>
+<p>一些知名的國會觀測網站像<a href="https://www.congress.gov" rel="nofollow noopener">congress.gov</a>，後台的資料來源都是從一個叫Thomas的系統來的。它應該可以算是目前最豐富的國會資料系統，但已經在去年關閉。而剛剛提到的GovTrack是目前還活著的Thomas archive（可是它也要關了…）。目前我們的工程師們正在全力把台灣相關的法案、投票紀錄等資料搜集下來。</p>
+<p>我們專案的規劃的確也有參考Countable的模式，在長程目標的公民參與部分，我們希望能夠可以提供一個非常直接、有效率平台讓使用者能夠直接從關注的法案、投票、議員等直接採取實際行動。屆時，我們將會積極扮演中間溝通橋樑的角色，讓台灣公民的聲音能確實傳遞到美國國會。</p>
+<p>但以現階段來說，我們會先期許台美國會觀測站能做到提供即時、正確以及完整的美國國會資訊，以及相關的趨勢/歷史分析。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1182'>
+      <a title="July 19, 2017  2:10pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/436/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>bills 是否考慮分為翻譯部分和群眾參與部分，讓翻譯歸翻譯，標籤歸標籤，也就可讓大家來下標籤和投票，例如 <a href="https://vote.ly.g0v.tw/vote/08-06-YS-19-019/" rel="nofollow noopener">立委投票指南某一表決</a>
+</li>
+<li>目前的資料是否有辦法找到 votes 裡相對應的 bills</li>
+<li>續上，有標籤及表決資料後，可整理每一位議員的立場，例如：<a href="https://vote.ly.g0v.tw/legislator/voter_sp/716/8/" rel="nofollow noopener">林郁方的表決立場</a>
+</li>
+<li>其中提到公開媒體曝光的新聞內容（NLP），可能需要先定義有哪些媒體，畢竟公開媒體數量太多</li>
+<li>開源軟體套件或開放授權文件部分可能需要再條列的更完整，並和以下兩部分再統一調整，讓內容趨近一致：</li>
+</ol>
+<ul>
+<li>你預計用什麼方式解決此問題？</li>
+<li>請說明計畫期中的工作里程碑與驗收給付標準</li>
+</ul>
+<p>已有雛型觀看很棒</p>
+
+            <a data-link-to-post="1257" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/436/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1257'>
+      <a title="July 23, 2017  7:44am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/436/5">Jul &#39;17</a>
+        <a data-link-to-post="1182" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/436/4">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/hsuyachieh' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/hsuyachieh/45/267_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/hsuyachieh' target="_blank" class=''>hsuyachieh</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <blockquote>
+<p>bills 是否考慮分為翻譯部分和群眾參與部分，讓翻譯歸翻譯，標籤歸標籤，也就可讓大家來下標籤和投票，例如 立委投票指南某一表決</p>
+</blockquote>
+<p>中文化翻譯會由我們團隊相關領域背景（美國政治博士）的專業人士翻譯。標籤的話，我們原本沒想到這塊，但這會是一個很棒的群眾參與idea。目前我們規劃在各主要頁面下有留言區可供大家討論發表意見，但我也會把你提議的標籤跟投票和團隊討論。</p>
+<blockquote>
+<p>目前的資料是否有辦法找到 votes 裡相對應的 bills</p>
+</blockquote>
+<p>可以的，某個法案的相關投票記錄，這些資料都會呈現。</p>
+<blockquote>
+<p>續上，有標籤及表決資料後，可整理每一位議員的立場，例如：林郁方的表決立場</p>
+</blockquote>
+<p>這會是我們在議員頁面上的一個重要資料呈現。透過該議員的投票記錄，我們可以知道該議員的立場如何，甚至也可以比對該議員在台灣相關法案的投票上，是否有和所屬政黨出現不一樣的投票行為。</p>
+<blockquote>
+<p>其中提到公開媒體曝光的新聞內容（NLP），可能需要先定義有哪些媒體，畢竟公開媒體數量太多</p>
+</blockquote>
+<p>我們想過這個問題，公開媒體資訊的收集可以是一個很複雜的問題，因為你同時要處理媒體立場、政黨立場、議員立場三個維度。但考量專案的性質，我想像是「決定某個媒體的調性」這類問題不會是我們首要的目標。目前的做法會是選定一個媒體（像是New York Times他們有提供<a href="https://developer.nytimes.com/" rel="nofollow noopener">API</a>）去做分析，這樣至少媒體立場跟政黨立場的變數可以控制，因為通常一家媒體對某個政黨的立場是一致。</p>
+<blockquote>
+<p>開源軟體套件或開放授權文件部分可能需要再條列的更完整，並和以下兩部分再統一調整，讓內容趨近一致：</p>
+</blockquote>
+<p>「開源軟體套件或開放授權文件」那部分我們這幾天會再跟工程師討論確定最後的產出以及其授權，謝謝你注意到這部分的不足。針對另外兩個問題，其實在「你預計用什麼方式解決此問題」，我是把這個專案的短期、中期、長期目標都寫進去了。但是在「請說明計畫期中的工作里程碑與驗收給付標準」裡面，在實際地衡量目前專案的人力以及考量6個月的開發時間之後，其實大概只能完成這個專案的短期規劃。然而，短期規劃中的功能以及設計，已經是這整個網站最核心主要的內容了。所以我想這個可能是讓你覺得不一致的部分，特此說明。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/436/5">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

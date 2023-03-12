@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>登革熱風險線上預警系統 - 2017 秋季 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+  <span class='replies'>7 個回覆</span>
+</header>
+
+    <article class='post' id='post-1183'>
+      <a title="July 19, 2017  3:00pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/2">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>不好意思，個人動機中的<a href="HTTPS://LINK.SPRINGER.COM/ARTICLE/10.1007/S00477-016-1328-1" rel="nofollow noopener">文獻參考連結</a>無效</p>
+<blockquote>
+<p>文獻參考：<a href="HTTPS://LINK.SPRINGER.COM/ARTICLE/10.1007/S00477-016-1328-1" rel="nofollow noopener">HTTPS://LINK.SPRINGER.COM/ARTICLE/10.1007/S00477-016-1328-1</a></p>
+</blockquote>
+
+            <a data-link-to-post="1190" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/475/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1190'>
+      <a title="July 20, 2017  7:32am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/3">Jul &#39;17</a>
+        <a data-link-to-post="1183" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/475/2">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chl0108/45/294_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank" class=''>chl0108</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p>謝謝提醒～已經將<a href="https://goo.gl/ULvfkz" rel="nofollow noopener">文獻參考連結</a>修正了！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1262'>
+      <a title="July 24, 2017  3:46am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/4">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/kiang/45/312_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/kiang' target="_blank" class=''>kiang</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>比較好奇的是，雖然有統計模型，但證明統計模型有效的部份有點薄弱，依照這個預警系統去分配防疫資源對比目前基於第一線人員經驗分配的方式看不出明顯差異</p>
+<p>目前第一線比較依賴的是布氏指數( <a href="http://kiang.github.io/TainanDengueMap/mosindex/" rel="nofollow noopener">http://kiang.github.io/TainanDengueMap/mosindex/</a> )</p>
+
+            <a data-link-to-post="1364" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/475/4">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1291'>
+      <a title="July 25, 2017  9:40am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/5">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <ol>
+<li>統計模型的資料來源是否會有該區域的特性，導致應用困難，例如高雄的資料難以套用在其他縣市？</li>
+<li>續上，如需分區域建模，該以什麼為指標劃分區域？如何為登革熱發病數量不足的區域建模？</li>
+</ol>
+
+            <a data-link-to-post="1368" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/475/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1294'>
+      <a title="July 25, 2017 10:25am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/6">Jul &#39;17</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/billy3321/45/214_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/billy3321' target="_blank" class=''>billy3321</a>
+            <span class='title'>2019 獎助金追問人</span>
+        </h3>
+        <p>請問，是否有採訪相關學者，了解模型是否妥當呢？謝謝。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1364'>
+      <a title="July 26, 2017  1:39am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/7">Jul &#39;17</a>
+        <a data-link-to-post="1262" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/475/4">▶ kiang</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chl0108/45/294_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank" class=''>chl0108</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/kiang">@kiang</a>  謝謝您的意見。本提案的想法為此經由資料與統計模型所建構的預警系統，所提供的是登革熱相對風險的<strong>潛勢</strong>，因為本提案可依據過去的氣象條件去<strong>預測未來1~2週</strong>的登革熱相對風險，而目前藉由防疫單位第一線人員經驗或布氏指數所表現出的示登革熱當時刻下的疫情資訊，這其中所訴求的目標還是有所不同。<br>
+誠如您所說，目前的防疫工作是建立在第一線防疫人員所調查的當地疫情資訊，如病媒蚊數量等，可以想見的是若要全面性調查需要花費大量人力與資源，而此提案的想法即為在登革熱疫情尚未大爆發前，若能由過去資料快速的判斷出相對風險較高的發生區域，不僅能提供防疫工作參考，也希望能改變過往一般民眾因為沒有任何疫情的預前資訊，較為被動的自主防疫工作，如清理住家附近孳生源等。<br>
+另外，也如提案中所提到，此統計模型目前核心是以氣象變數為主，並加上其他時空間變數，是一個非常彈性的架構，若未來需要加入其他重要的登革熱指標，是可以隨時強化本提案模型！</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1368'>
+      <a title="July 26, 2017  2:06am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/8">Jul &#39;17</a>
+        <a data-link-to-post="1291" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/475/5">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/chl0108/45/294_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/chl0108' target="_blank" class=''>chl0108</a>
+            <span class='title'>2017 秋季提案人</span>
+        </h3>
+        <p><a class="mention" href="/u/twly.tw">@twly.tw</a> 如您所說的，登革熱發生是具有其空間特性的，而不同空間彼此也可能會互相影響，目前此模型是利用地理統計方法以及空間的隨機過程來處理，詳細方法可以<a href="https://goo.gl/ULvfkz" rel="nofollow noopener">參考文獻</a>，區域特性是有將其納入考慮的。<br>
+本提案的目前想法是依據疾管署對登革熱全臺所做的分區相對應的製作地圖，在分析建模時，所用的資料並沒有分區界限的限制，以模型所設定的範圍去選取資料，例如若要預測台南市南區的相對風險，由於是位於台南市與高雄市交界，統計模型的選取範圍若有涵蓋高雄市北部區域，是會將資料納入預測中的，並不會因為行政區域邊界而影響。<br>
+北部區域由於登革熱往年發生的案例較少，資料相對於南部區域是非常稀少的，在本提案中的統計模型是依然可以建立進行預測，但成效可能需要進一步評估。</p>
+<p><a class="mention" href="/u/billy3321">@billy3321</a> 本研究模型的理論基礎已經有發表成文章了，作者皆是有相關經驗的學者，也有針對登革熱的特性以及疾病傳播的問屜，與不同學者討論過，但是就只是一篇文章，提案人希望此預警系統不單單只是成為在學術上傳閱的文章，應該實際的成為對於社會有貢獻的工具!</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/475/8">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>

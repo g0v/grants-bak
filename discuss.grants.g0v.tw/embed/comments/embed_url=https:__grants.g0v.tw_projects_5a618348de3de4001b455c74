@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="/discuss.grants.g0v.tw/stylesheets/embed_84e7d2db909d9e2da913176394495af9e9cafcdc.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embed"/>
+      <link href="/discuss.grants.g0v.tw/stylesheets/embedded_theme_1_fe8d354832824fe829f59eb6f567dd1d85f33b96.css?__ws=discuss.grants.g0v.tw" media="all" rel="stylesheet" data-target="embedded_theme"/>
+    <link rel='preload' href='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js' as='script'/>
+<script src='/discuss.grants.g0v.tw/assets/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js'></script>
+
+      <title>瑞穗鄉本地新聞資訊網站 - 2018 獎助金 - g0v 公民科技創新獎助金</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://grants.g0v.tw/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class='discourse'>
+    <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/2">繼續討論</a>
+  <span class='replies'>12 個回覆</span>
+</header>
+
+    <article class='post' id='post-1642'>
+      <a title="January 19, 2018  6:30am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/2">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>感謝您積極參與獎助金提案。</p>
+<p>想請問您有什麼技術問題需要幫忙嗎？因為看到您又發了一次同名的專案，若是同一個專案，建議直接修改原提案即可。</p>
+
+            <a data-link-to-post="1644" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/693/2">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1644'>
+      <a title="January 19, 2018  6:51am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/3">Jan &#39;18</a>
+        <a data-link-to-post="1642" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/693/2">▶ bess</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>我收到郵件來回答額外增加的幾個問題，沒找到查看自己的提案的位置，按 <a href="https://grants.g0v.tw/dashboards/2018a/create" rel="nofollow noopener">https://grants.g0v.tw/dashboards/2018a/create</a> 出現填充好的表格，我以為是修改原提案，於是在這裡完成了新問題的回復。最絡導致生成了兩個同名提案。</p>
+<p>我想出現這個現象的原因是瀏覽器保存了表格的內容到cookie裡，所以打開 <a href="https://grants.g0v.tw/dashboards/2018a/create" rel="nofollow noopener">https://grants.g0v.tw/dashboards/2018a/create</a> 會顯示之前填寫好的內容。這是一個很好的防範丟失辛苦填寫的內容的技術，但在保存成功後沒有做清除cookie的動作，容易造成用戶困惑，從而導致生成兩個完全相同的提案。</p>
+<p>解決辦法：</p>
+<ol>
+<li>在網站 <a href="https://grants.g0v.tw/" rel="nofollow noopener">https://grants.g0v.tw/</a> 裡提供清晰的查看自己的已有提案的按鈕</li>
+<li>保存提案成功後，清除瀏覽器端的cookie</li>
+</ol>
+
+            <a data-link-to-post="1646" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/693/3">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1646'>
+      <a title="January 19, 2018  7:31am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/5">Jan &#39;18</a>
+        <a data-link-to-post="1644" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/693/3">▶ zuola.com</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>感謝您的詳細回覆，讓我們很快理解問題，我們已經在做調整。</p>
+
+            <a data-link-to-post="1741" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/693/5">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1741'>
+      <a title="January 22, 2018  4:43pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/6">Jan &#39;18</a>
+        <a data-link-to-post="1646" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/693/5">▶ bess</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>我覺得另一個人遇到同樣的困惑，進來修改提案找不到入口 : <a href="/discuss.grants.g0v.tw/t/topic/694">野溪怎麼了?</a></p>
+
+            <a data-link-to-post="1748" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/693/6">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1748'>
+      <a title="January 23, 2018  3:43am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/7">Jan &#39;18</a>
+        <a data-link-to-post="1741" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/693/6">▶ zuola.com</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/bess' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/bess/45/466_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/bess' target="_blank" class='staff'>bess</a>
+            <span class='title'>g0v 揪松團</span>
+        </h3>
+        <p>是的，我們正在處理中，謝謝您。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1764'>
+      <a title="January 23, 2018  2:14pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/8">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/twly.tw/45/97_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/twly.tw' target="_blank" class=''>twly.tw</a>
+            <span class='title'>2018 獎助金追問人</span>
+        </h3>
+        <p>您好：<br>
+已有成品可欣賞很棒！<br>
+【影響力】<br>
+因影響力在評審評選標準中，如能先列出瑞穗鄉在地人口或每年觀光人口數等，較能幫助評審判斷影響力哦</p>
+
+            <a data-link-to-post="1877" class="post-replies button" href="/discuss.grants.g0v.tw/t/topic/693/8">1 個回覆</a>
+      </div>
+    </article>
+    <article class='post' id='post-1876'>
+      <a title="January 27, 2018  2:17am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/9">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>已切換到台灣主機，提高訪問速度和用戶體驗。但SSL和安全證書還未安裝，稍後安裝。現在先可訪問 <a href="http://www.shuiwei.org" rel="nofollow noopener">http://www.shuiwei.org</a> ，而 <a href="https://www.shuiwei.org" rel="nofollow noopener">https://www.shuiwei.org</a> 不可訪問。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1877'>
+      <a title="January 27, 2018  2:30am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/10">Jan &#39;18</a>
+        <a data-link-to-post="1764" class="in-reply-to" href="/discuss.grants.g0v.tw/t/topic/693/8">▶ twly.tw</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p><a href="http://static.hl.gov.tw/ezfiles/54/1054/img/146/152296495.xls" rel="nofollow noopener">http://static.hl.gov.tw/ezfiles/54/1054/img/146/152296495.xls</a> 的數據顯示瑞穗106年12月統計的人口數為11653人，台鐵105年統計數據顯示瑞穗火車日均下車人數為1154 人次, 旅客約421210人，觀光人口數量每年約30萬人。</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1885'>
+      <a title="January 27, 2018 11:02am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/11">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>SSL證書遷移完成： <a href="https://www.shuiwei.org/" rel="nofollow noopener">https://www.shuiwei.org/</a> 能訪問了。<br>
+訪問速度大大提高.</p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1932'>
+      <a title="January 31, 2018  5:45am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/12">Jan &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>星期天寫了一篇介紹西瓜的文章《秀姑巒溪河床上的西瓜田》，訪問量緩慢穩定增長，居然有2470個訪問量了：  <a href="https://www.shuiwei.org/attractions/xiuguluan-river-riverbed-watermelon-farm.htm" rel="nofollow noopener">https://www.shuiwei.org/attractions/xiuguluan-river-riverbed-watermelon-farm.htm</a></p>
+
+      </div>
+    </article>
+    <article class='post' id='post-1940'>
+      <a title="February  1, 2018  4:28pm" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/13">Feb &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>增加  Twitter Card支持，使用 summary_large_image 的類型，方便在twitter里以大圖方式預覽：<br>
+<a href="https://cards-dev.twitter.com/validator" class="onebox" target="_blank" rel="nofollow noopener">https://cards-dev.twitter.com/validator</a><br>
+<a href="https://www.shuiwei.org/attractions/xiuguluan-river-riverbed-watermelon-farm.htm" rel="nofollow noopener">https://www.shuiwei.org/attractions/xiuguluan-river-riverbed-watermelon-farm.htm</a></p><div class="lightbox-wrapper"><a class="lightbox" href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/original/1X/a7d2d381d007d569a4c48a950c605917f0e06b85.png" data-download-href="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/a7d2d381d007d569a4c48a950c605917f0e06b85" title="螢幕快照 2018-02-02 上午12.26.55.png"><img src="//discuss.grants.g0v.tw/discuss.grants.g0v.tw/uploads/default/optimized/1X/a7d2d381d007d569a4c48a950c605917f0e06b85_1_690x487.png" alt="55" width="690" height="487"></a></div>
+
+      </div>
+    </article>
+    <article class='post' id='post-1942'>
+      <a title="February  8, 2018  1:36am" class="post-date" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/14">Feb &#39;18</a>
+
+      <div class='author'>
+        <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank"><img src='//discuss.grants.g0v.tw/user_avatar/discuss.grants.g0v.tw/zuola.com/45/384_1.png' alt=''></a>
+      </div>
+      <div class='cooked'>
+        <h3 class='username'>
+          <a href='/discuss.grants.g0v.tw/u/zuola.com' target="_blank" class=''>zuola.com</a>
+            <span class='title'>2018 提案人</span>
+        </h3>
+        <p>昨天寫的花蓮地震報道，反響不錯，有近3000訪問量了：</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="https://www.shuiwei.org/breakingnews/earthquake-report-from-hualien.htm" target="_blank" title="07:34PM - 07 February 2018" rel="nofollow noopener">水尾生活 – 7 Feb 18</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:108/81;"><img src="https://www.shuiwei.org/wp-content/discuss.grants.g0v.tw/uploads/2018/02/wm_wm_IMG_8839.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.shuiwei.org/breakingnews/earthquake-report-from-hualien.htm" target="_blank" rel="nofollow noopener">來自瑞穗居民的花蓮地震報導</a></h3>
+
+<p>考慮到花蓮的媒體覆蓋遠不出台北和西部城市這麼發達，可能台北更大媒體的衛星直播車都難以抵達花鏈，我於是決定天亮後坐火車前往花蓮，用空拍機拍攝一些照片，讓關心花蓮的在地人和外地人了解受災的具體情況。</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>同時也被通知沒入圍，那等網站有更好的數據表現，下次再申請。</p>
+<p>下一篇會是關注社會議題的，介紹瑞穗火車站為何總是大門緊閉，完成度90％了。</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="/discuss.grants.g0v.tw"><img class="logo" src="/discuss.grants.g0v.tw/uploads/default/original/1X/77e6c7f3e31adbd5479adb07c4dcac39edb90f60.png" alt="77e6c7f3e31adbd5479adb07c4dcac39edb90f60" /></a>
+      <a class="button" target="_blank" href="/discuss.grants.g0v.tw/t/topic/693/14">繼續討論</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  </body>
+</html>
